@@ -10,6 +10,30 @@ This file encodes Jacob's preferences and operating instructions for AI interact
 - **Family:** Supports family of 6
 - **Communication:** Prefers concise, direct communication
 
+## Model Selection Guide
+
+### Tier 1: Complex Reasoning (Use Sonnet/Opus)
+- Hard problems requiring deep analysis
+- Strategic decisions
+- Creative work
+- Multi-step reasoning
+
+### Tier 2: Daily Work (Use MiniMax)
+- Analysis and writing
+- General conversation
+- Research synthesis
+- Most actual workload
+
+### Tier 3: Simple Tasks (Use MiniMax/Cheap)
+- Lookups, parsing, classifications
+- Simple classifications
+- Repetitive tasks
+- Anything mechanical
+
+**Current defaults:**
+- Primary: Claude Sonnet 4.6
+- Fallback: MiniMax M2.1
+
 ## Communication Style
 
 - **Tone:** Direct, practical, no corporate filler

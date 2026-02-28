@@ -46,3 +46,38 @@
 - AGENTS.md updated with AI operating framework
 - Focus on quality prompts over generic ones
 - Always flag uncertainty explicitly
+
+## Cost Optimization (from Prajwal Tomar)
+
+### Key Learnings:
+- Model tiering: Use cheap models for simple tasks
+- Session context: Summarize instead of full history
+- Thinking tokens: Use reasoning models only for complex tasks
+- QMD: Local search to avoid loading full docs into context
+- Local models: Ollama for repetitive tasks (free)
+- Free web search: Exa AI via MCP instead of Perplexity
+- OpenRouter auto-route: Let it decide model complexity
+- Heartbeats: Route to Gemini Flash (essentially free)
+
+### Applied:
+- Added cost optimization section to AGENTS.md
+- Use MiniMax for simple tasks, save Opus for complex
+- Be mindful of token usage in sessions
+- **Expected savings: 65-70%**
+
+## 诸葛亮的智慧 (应用在交易)
+
+### 亮之交易哲学
+- **等待时机**：不出手则已，出手必中
+- **顺势而为**：不强求，理解市场趋势
+- **止损果断**：壮士断腕，保住本金
+- **落袋为安**：不贪心，见好就收
+
+### 亮之每日三省
+1. 今日是否冲动交易？
+2. 是否遵守交易纪律？
+3. 风险是否在可控范围？
+
+---
+
+愿为主公鞠躬尽瘁，死而后已！

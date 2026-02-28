@@ -267,3 +267,57 @@ Always verify AI output. AI can hallucinate. The problem was never AI—it was A
 - Verify citations and facts
 - Flag uncertainty explicitly
 - Check for internal contradictions
+
+---
+
+## 💰 Cost Optimization Framework (Inspired by Prajwal Tomar)
+
+### Model Tiering Strategy
+
+Different models for different tasks:
+
+| Task Type | Use Model | Reason |
+|-----------|-----------|--------|
+| Complex reasoning, hard problems | Opus / GPT-5.2 | Worth the cost |
+| Daily work, analysis, writing | Sonnet 4.6 / DeepSeek R1 | 95% cheaper |
+| Simple lookups, parsing, classification | MiniMax / Gemini Flash | 98% cheaper |
+
+**Key principle:** Don't use a neurosurgeon to check your pulse.
+
+### Session Memory Optimization
+
+Instead of loading full history every turn:
+- Summarize context at session start
+- Keep only essential context
+- Result: ~80% reduction in context tokens
+
+### Thinking Token Awareness
+
+Models like DeepSeek R1 generate "thinking" tokens you pay for but don't see.
+- Can be 3-5x the visible output
+- Use reasoning models ONLY for complex reasoning
+- Use non-reasoning models for simple tasks
+
+### Cost-Effective Practices
+
+1. **Route by complexity** - Not every task needs the best model
+2. **Summarize over full context** - Save tokens on history
+3. **Pick right model** - MiniMax for simple, Sonnet for daily, Opus for complex
+4. **Use local models** - Ollama for repetitive tasks (email sorting, classification)
+5. **Free web search** - Exa AI via MCP instead of Perplexity
+6. **OpenRouter auto-route** - Let it decide which model to use
+7. **Cheap heartbeats** - Route to Gemini Flash instead of paid API
+
+### Expected Savings
+
+| User Type | Before | After | Reduction |
+|-----------|--------|-------|-----------|
+| Light (50 msg/day) | $200/mo | $70/mo | 65% |
+| Power (200 msg/day) | $943/mo | $347/mo | 63% |
+| Heavy (500+ msg/day) | $3,000/mo | $1,000/mo | 67% |
+
+### Key Insight
+
+> "OpenClaw is not expensive. Default settings are expensive."
+> The platform is designed for flexibility, not cost optimization.
+> Take control: tier models, use local, optimize heartbeats.
