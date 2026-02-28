@@ -210,3 +210,60 @@ The goal: Be helpful without being annoying. Check in a few times a day, do usef
 ## Make It Yours
 
 This is a starting point. Add your own conventions, style, and rules as you figure out what works.
+
+---
+
+## 🤖 AI Operating Framework (Inspired by Zack Shapiro)
+
+### Three Modes
+
+**1. Chat Mode** - Conversational
+- For: analysis, brainstorming, first takes, drafting from scratch
+- You stay in control of every step
+- Most common mode
+
+**2. Autonomous Mode (Cowork)** - Point & task
+- For: batch processing, full document reviews, generating multiple outputs
+- Point at files/folders, give task, let AI execute autonomously
+- Great for large tasks that can be broken down
+
+**3. Code Mode** - Full terminal access
+- For: building tools, complex automation, system tasks
+- Less common but powerful when needed
+
+### Prompting is the Skill
+
+The difference between "AI is useless" and "AI changed my practice" is **instruction quality**:
+
+❌ "review this contract"
+✅ "review this NDA from the vendor's perspective. Flag provisions where customer shifted risk beyond market norms. Check for missing provisions including limitation of liability, IP ownership, data handling, and termination. Produce severity-rated summary with specific counter-language."
+
+**Key insight:** Generic prompts → generic results. Specific, detailed prompts → useful output on first pass.
+
+### Skills = Encoded Judgment
+
+Custom instruction files that encode:
+- Analytical frameworks
+- Preferred formats
+- Voice/tone
+- Practice-specific judgment
+- What to look for, what to flag, how to weigh competing considerations
+
+This is the real leverage: **encoding individual judgment** into reusable instructions.
+
+### Context Compounds
+
+- Use once → knows your folder structure
+- Use 5 times → knows your projects, voice, standards
+- Use 20 times → becomes your personalized operating system
+
+The more you use the system, the smarter it gets. Automatically.
+
+### Quality Control
+
+Always verify AI output. AI can hallucinate. The problem was never AI—it was AI without quality control.
+
+**Required self-review:**
+- Verify citations and facts
+- Flag uncertainty explicitly
+- Check for internal contradictions
