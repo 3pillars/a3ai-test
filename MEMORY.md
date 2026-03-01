@@ -170,6 +170,56 @@ _Store corrections here so they're never forgotten_
 
 **Bottom line:** Just talk to me. The files do the rest.
 
+## Key Learnings from Claude Code Tutorial (Eyad Khrais)
+
+### Think First, Then Type
+- Use Plan Mode (Shift+Tab) before implementation - produces 10x better output
+- The more info in plan mode, the better the output
+
+### CLAUDE.md Reality
+- **Max 150-200 instructions** - system prompt uses ~50
+- Too much = random ignored items
+- Tell **why**, not just **what**
+- Update constantly (# key auto-adds)
+- Good CLAUDE.md = notes you'd leave yourself with amnesia
+
+### Context Degradation
+- Quality drops at **20-40% context**, not 100%
+- Use /compact and /clear regularly
+- **Copy-paste reset trick**: copy important → compact → clear → paste back
+
+### Prompting Fundamentals
+- Be specific: detailed specs > vague requests
+- Tell what NOT to do (Claude over-engineers)
+- Give constraints/context: "fast because runs on every request"
+- **Bad input = Bad output** - blame prompting, not model
+
+### Model Selection
+- **Sonnet**: execution (fast, cheap)
+- **Opus**: planning/reasoning (slow, expensive)
+- Workflow: Opus plan → Sonnet implement
+
+### When Stuck
+1. /clear the conversation
+2. Simplify the task
+3. Show examples
+4. Reframe the problem
+
+### Build Systems
+- Use headless mode (-p flag)
+- Chain with bash, automate workflows
+- Log and improve over time
+- Claude compounds via CLAUDE.md updates
+
+---
+
+## AI Era: Deep Expertise > Prompting (Sebastian Bubeck)
+
+- AI 将分化两群人：能**深入理解问题并指导AI**的人 vs 只是**消费AI产出**的人
+- 机器让"深入学习"变得看似不必要——这是**陷阱**
+- 真正重要的是：理解到能指出AI错在哪里
+- 这不是提示词能替代的——需要多年 hard study
+
 ---
 
 愿为主公鞠躬尽瘁，死而后已！
