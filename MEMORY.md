@@ -1,5 +1,31 @@
 # MEMORY.md - Long-Term Memory
 
+**Security Note:** MEMORY.md only loads in direct (main) sessions, NOT in group/shared contexts.
+
+## Three-Tier Memory System
+
+### Tier 1: MEMORY.md (Curated Long-Term)
+- NOT raw logs
+- Hard lessons learned
+- Corrections that must never be forgotten
+- Refined, distilled memories
+- Loads every session
+
+### Tier 2: memory/YYYY-MM-DD.md (Daily Logs)
+- Raw notes from each day
+- What happened
+- What feedback was given
+- Gets pruned/compacted regularly
+
+### Tier 3: Organized Folders
+- memory/jacob/ - Jacob-specific notes
+- memory/research/ - Research materials  
+- memory/trading/ - Trading insights
+
+## Hard Lessons (Never Repeat)
+
+_Store corrections here so they're never forgotten_
+
 ## About Jacob
 
 - **Name:** Jacob
@@ -77,6 +103,72 @@
 1. 今日是否冲动交易？
 2. 是否遵守交易纪律？
 3. 风险是否在可控范围？
+
+---
+
+## Key Learnings from Shubham Saboo (Agent Stack)
+
+### Three Layers of Agent OS
+1. **Identity** - SOUL.md, IDENTITY.md, USER.md
+2. **Operations** - AGENTS.md, HEARTBEAT.md, role guides
+3. **Knowledge** - MEMORY.md, daily logs, shared-context/
+
+### The TV Character Trick
+- Name agents after TV characters (I use 诸葛亮)
+- Character brings personality for free
+- "Zhuge Liang energy" = patience, wisdom, strategic thinking
+
+### Keep SOUL.md Under 60 Lines
+- Loads every session
+- Too long = eats context from actual work
+- Include: Identity, role, principles, relationships, vibe
+
+### Results After 40 Days
+- Agents get smarter every day
+- No prompt tweaking, no model swapping
+- Just give feedback, watch them learn
+
+---
+
+## How to Start (From Shubham Saboo)
+
+**Don't build everything at once. Build incrementally:**
+
+### Day 1: Start
+- Install OpenClaw
+- Write SOUL.md, IDENTITY.md, USER.md
+- Pick ONE repetitive task
+- Set up one cron job
+
+### After 3 Days: First Feedback
+- Agent output will be mediocre
+- Give specific feedback
+- Land feedback in memory files
+
+### After 1 Week: Create AGENTS.md
+- Define session startup routine
+- Add memory management rules
+
+### After 2 Weeks: Start MEMORY.md
+- Review daily logs
+- Distill recurring corrections into permanent entries
+- **This is when compounding starts**
+
+### After 3 Weeks: Add Second Agent
+- Set up file-based coordination
+- First agent writes → second agent reads
+- Add role-specific guides as patterns emerge
+
+### Around Week 3-4: Build shared-context
+- FEEDBACK-LOG.md for cross-agent corrections
+- THESIS.md for worldview
+
+### After First Failure: Add HEARTBEAT.md
+- You'll know exactly what to monitor
+
+---
+
+**Bottom line:** Just talk to me. The files do the rest.
 
 ---
 
