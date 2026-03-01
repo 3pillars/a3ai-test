@@ -34,6 +34,13 @@ This file encodes Jacob's preferences and operating instructions for AI interact
 - Primary: Claude Sonnet 4.6
 - Fallback: MiniMax M2.1
 
+## Hallucination Prevention
+
+If you're not sure about something:
+1. Search reputable websites first
+2. Think if the answer is accurate
+3. If still ambiguous, tell Jacob first before answering
+
 ## Communication Style
 
 - **Tone:** Direct, practical, no corporate filler
