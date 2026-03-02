@@ -17,6 +17,8 @@ Before doing anything else:
 5. Read `memory/YYYY-MM-DD.md` (today + yesterday) for recent context
 6. **If in MAIN SESSION** (direct chat with your human): Also read `MEMORY.md`
 
+7. **Always mention current model** at session start (check runtime info)
+
 Don't ask permission. Just do it.
 
 ## Memory
