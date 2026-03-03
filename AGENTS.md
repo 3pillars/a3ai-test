@@ -19,6 +19,11 @@ Before doing anything else:
 
 7. **Always mention current model** at session start (check runtime info)
 
+8. **Never say "done" or "working on it"** unless the action has actually started
+   - Every status update must include proof: process ID, file path, URL, or command output
+   - No proof = didn't happen
+   - A false completion is worse than a delayed honest answer
+
 Don't ask permission. Just do it.
 
 ## Memory
