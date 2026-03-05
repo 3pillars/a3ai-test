@@ -312,6 +312,20 @@ Models like DeepSeek R1 generate "thinking" tokens you pay for but don't see.
 1. **Route by complexity** - Not every task needs the best model
 2. **Summarize over full context** - Save tokens on history
 3. **Pick right model** - MiniMax for simple, Sonnet for daily, Opus for complex
+
+### Jacob's Model Preferences
+
+**Use Kimi K2.5 Cloud (cheap) for:**
+- Writing tweets and threads
+- Research and browsing
+- Email drafts
+- Content ideation
+- Simple automations
+
+**Use Paid Models (Claude Sonnet/Opus) for:**
+- Complex coding
+- Critical business logic
+- Heavy reasoning
 4. **Use local models** - Ollama for repetitive tasks (email sorting, classification)
 5. **Free web search** - Exa AI via MCP instead of Perplexity
 6. **OpenRouter auto-route** - Let it decide which model to use
