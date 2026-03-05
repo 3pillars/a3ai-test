@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Dr Adrian Ma Office//Appointment//EN
+BEGIN:VEVENT
+UID:dr-ma-appointment-20260311
+DTSTAMP:20260305T190000Z
+DTSTART:20260311T224500Z
+DTEND:20260311T231500Z
+SUMMARY:Dr Adrian Ma - Appointment Confirmation (Chen, Xiujuan)
+DESCRIPTION:Appointment scheduled on Wednesday 03/11/2026 at 2:45 PM.\n\nPlease confirm no later than Friday.\n\nPer Dr. Ma: Bring face mask, list of medications, and insurance card.\n\nCall 408-729-3388 with questions.
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR
