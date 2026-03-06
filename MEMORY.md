@@ -50,6 +50,14 @@ _Store corrections here so they're never forgotten_
 ## Notes
 
 - Need to ask: exchange usage, trading capital, risk tolerance, existing bots/strategies
+- WhatsApp gateway has recurring status 428 disconnect issues (auth/token expiry?) — monitor
+
+## Geopolitical Framework (March 2026)
+
+- US-Iran war active as of early March 2026 — actively affecting markets
+- Oil spiked 11% on Iran conflict; BTC/crypto down ~4-5% in risk-off selloff
+- Iran strategy: asymmetric cost-imposition, 30-year time horizon vs US 4-year cycle
+- Jacob engages seriously with geopolitics — give substantive analysis, not summaries
 
 ## Tech/AI Interests
 
