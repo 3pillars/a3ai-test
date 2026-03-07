@@ -58,6 +58,23 @@ _Store corrections here so they're never forgotten_
 - Oil spiked 11% on Iran conflict; BTC/crypto down ~4-5% in risk-off selloff
 - Iran strategy: asymmetric cost-imposition, 30-year time horizon vs US 4-year cycle
 - Jacob engages seriously with geopolitics — give substantive analysis, not summaries
+- Jacob thinks critically and wants pushback, not just confirmation
+- Key structural risks: US debt spiral, stagflation trap, Fed cornered, jobs softening
+- 2026 base case: stagflation, S&P -10 to -20%, oil $100-130, BTC floor ~$60-70k
+
+## About Jacob's Family
+
+- Has school-age kids at Homestead High School (South Lake Tahoe area)
+- At least one child in 9th grade, possibly one in 10th-11th grade
+- Parent Information Night event added: March 11, 2026
+
+## Jacob's Interests & Patterns
+
+- Geopolitics: Iran, Middle East, US economy, systemic corruption
+- Trading: crypto (BTC, ETH, SOL, DCR), macro-driven approach
+- Products/entrepreneurship: interested in MVP building (reminder set Mar 9)
+- Requests Chinese translations when content is substantive/important
+- Engages with long-form video/podcast content and wants analysis
 
 ## Tech/AI Interests
 
