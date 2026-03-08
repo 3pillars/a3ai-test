@@ -1,0 +1,36 @@
+{
+  "last_audit": "2026-03-08T09:00:00-08:00",
+  "summary": {
+    "critical": 0,
+    "warn": 2,
+    "info": 1
+  },
+  "warnings": [
+    {
+      "id": "gateway.trusted_proxies_missing",
+      "title": "Reverse proxy headers are not trusted",
+      "details": "gateway.bind is loopback and gateway.trustedProxies is empty."
+    },
+    {
+      "id": "plugins.tools_reachable_permissive_policy",
+      "title": "Extension plugin tools may be reachable under permissive tool policy",
+      "details": "Enabled extension plugins: voice-call. Permissive tool policy context: default."
+    }
+  ],
+  "config_warnings": [
+    {
+      "id": "plugins.entries.voice-call",
+      "title": "Duplicate plugin id: voice-call",
+      "details": "Later plugin may be overridden (/Users/changjieyang/.openclaw/extensions/voice-call/index.ts)"
+    }
+  ],
+  "info": {
+    "open_groups": 0,
+    "allowlist_groups": 2,
+    "elevated_tools": true,
+    "webhooks": false,
+    "internal_hooks": true,
+    "browser_control": true,
+    "trust_model": "personal assistant"
+  }
+}
