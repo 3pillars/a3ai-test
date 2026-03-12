@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  background-color: #0a0a0f;
+  color: #ffffff;
+  min-height: 100vh;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #12121a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1e1e2e;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2a2a3e;
+}
+
+/* Gradient text utility */
+.gradient-text {
+  background: linear-gradient(135deg, #00d4aa 0%, #00b894 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Card glow effect */
+.card-glow {
+  box-shadow: 0 0 40px rgba(0, 212, 170, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.card-glow:hover {
+  box-shadow: 0 0 60px rgba(0, 212, 170, 0.15);
+}
+
+/* Button styles */
+.btn-primary {
+  @apply bg-cyan-accent text-dark-bg font-semibold px-6 py-3 rounded-lg transition-all duration-200;
+}
+
+.btn-primary:hover {
+  @apply bg-cyan-accent-hover transform -translate-y-0.5;
+  box-shadow: 0 4px 20px rgba(0, 212, 170, 0.4);
+}
+
+.btn-secondary {
+  @apply bg-dark-card border border-dark-border text-white font-medium px-6 py-3 rounded-lg transition-all duration-200;
+}
+
+.btn-secondary:hover {
+  @apply border-cyan-accent text-cyan-accent;
+}
+
+/* Input styles */
+.input-field {
+  @apply bg-dark-card border border-dark-border rounded-lg px-4 py-3 text-white placeholder-gray-500 focus:outline-none focus:border-cyan-accent transition-colors;
+}
