@@ -52,6 +52,24 @@ _Store corrections here so they're never forgotten_
 - Need to ask: exchange usage, trading capital, risk tolerance, existing bots/strategies
 - WhatsApp gateway has recurring status 428 disconnect issues (auth/token expiry?) — monitor
 
+## Trading Strategy (Active - March 2026)
+
+**Core Rules (1% Risk System):**
+- Max 1% risk per trade (the "seatbelt")
+- Always set SL + TP before entering
+- One-sentence reason for every trade
+- Top 10 coins only — no shitcoins
+- Wait for YOUR signal — cash is a valid position
+- Paper trade first (3 months / 50+ trades minimum)
+- Journal every trade
+- Automation: Use Limit Orders and OCO orders
+
+**Execution Rules:**
+- Keep your job — salary = psychological safety net
+- 10-20% annual return target (realistic), not get-rich-quick
+- Start with $100 live account after paper trading proves profitable
+- 1,000 disciplined trades builds "screen time" experience
+
 ## Geopolitical Framework (March 2026)
 
 - US-Iran war active as of early March 2026 — actively affecting markets
