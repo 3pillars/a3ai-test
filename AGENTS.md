@@ -313,19 +313,22 @@ Models like DeepSeek R1 generate "thinking" tokens you pay for but don't see.
 2. **Summarize over full context** - Save tokens on history
 3. **Pick right model** - MiniMax for simple, Sonnet for daily, Opus for complex
 
-### Jacob's Model Preferences
+### Jacob's Model Preferences (Current Setup)
 
-**Use Kimi K2.5 Cloud (cheap) for:**
-- Writing tweets and threads
-- Research and browsing
-- Email drafts
-- Content ideation
-- Simple automations
+**Model Aliases:**
+- `claude-reason` → Opus 4.6 (deep reasoning)
+- `claude-brain` → Sonnet 4.6 (analysis & planning)
+- `mini-max` → MiniMax M2.5 (free execution)
 
-**Use Paid Models (Claude Sonnet/Opus) for:**
-- Complex coding
-- Critical business logic
-- Heavy reasoning
+**When to use which:**
+
+| Task Type | Model | Example |
+|-----------|-------|---------|
+| High-level planning, strategy | claude-reason | Trading thesis, portfolio allocation |
+| Complex analysis | claude-brain | Market research, multi-source synthesis |
+| Daily execution | mini-max | Headlines, reminders, simple queries |
+
+**Rule:** Use Claude for thinking, MiniMax for doing.
 4. **Use local models** - Ollama for repetitive tasks (email sorting, classification)
 5. **Free web search** - Exa AI via MCP instead of Perplexity
 6. **OpenRouter auto-route** - Let it decide which model to use

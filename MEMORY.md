@@ -50,7 +50,8 @@ _Store corrections here so they're never forgotten_
 ## Notes
 
 - Need to ask: exchange usage, trading capital, risk tolerance, existing bots/strategies
-- WhatsApp gateway has recurring status 428 disconnect issues (auth/token expiry?) — monitor
+- WhatsApp gateway has recurring status 428 disconnect issues (auth/token expiry?) — use Telegram as primary
+- Model tiering: claude-reason (Opus) for strategy, claude-brain (Sonnet) for analysis, mini-max (free) for execution
 
 ## Trading Strategy (Active - March 2026)
 
