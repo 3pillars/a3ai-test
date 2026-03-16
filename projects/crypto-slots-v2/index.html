@@ -46,7 +46,7 @@ h1{color:var(--gold);text-shadow:0 0 20px var(--gold);font-size:1.8rem;margin-bo
 </style>
 </head>
 <body>
-<button class="paytable-btn" onclick="showPT()">PAYOUTS</button>
+<button class="paytable-btn" onclick="togglePT()">PAYOUTS</button>
 <button class="sound-btn" id="sndBtn" onclick="toggleSnd()">🔊</button>
 
 <h1>🎰 VEGAS GOLD 🎰</h1>
@@ -70,9 +70,9 @@ h1{color:var(--gold);text-shadow:0 0 20px var(--gold);font-size:1.8rem;margin-bo
 
 <div class="controls">
 <div class="bet-row">
-<button class="bet-btn" id="betDown" onclick="adjBet(-1)">−</button>
+<button class="bet-btn" onclick="adjBet(-1)">−</button>
 <div class="bet-amt" id="betAmt">$0.90</div>
-<button class="bet-btn" id="betUp" onclick="adjBet(1)">+</button>
+<button class="bet-btn" onclick="adjBet(1)">+</button>
 </div>
 <button class="spin-btn" id="spinBtn" onclick="doSpin()">SPIN</button>
 </div>
@@ -89,22 +89,16 @@ h1{color:var(--gold);text-shadow:0 0 20px var(--gold);font-size:1.8rem;margin-bo
 <div class="pt-row"><span>4 🔔</span><span>20x</span></div>
 <div class="pt-row"><span>3 🔔</span><span>4x</span></div>
 <div class="pt-row"><span>3 🎁</span><span style="color:var(--pink)">FREE SPINS</span></div>
-<button onclick="showPT()">CLOSE</button>
+<button onclick="togglePT()">CLOSE</button>
 </div>
 
 <script>
 var SYMS = ['🎰','💎','🔔','7️⃣','🍒','🍋','🍇','🎁'];
 var PAY = {'🎰':{5:500,4:50,3:10},'💎':{5:250,4:25,3:5},'🔔':{5:100,4:20,3:4},'7️⃣':{5:75,4:15,3:3},'🍒':{5:50,4:10,3:2},'🍋':{5:25,4:5,3:1},'🍇':{5:15,3:1}};
 var BETS = [0.09,0.45,0.90,1.80,4.50,9.00];
-
 var bal = 1000, bet = 2, spin = false, snd = true, free = 0, lastWin = 0, ctx = null;
 
-function init() {
-    console.log('Init...');
-    render();
-    update();
-    document.body.onclick = initAudio;
-}
+function init() { render(); update(); document.body.onclick = initAudio; }
 
 function initAudio() {
     if (!ctx) ctx = new (window.AudioContext || window.webkitAudioContext)();
@@ -114,14 +108,7 @@ function initAudio() {
 
 function play(f, d, v) {
     if (!ctx || !snd) return;
-    try {
-        var o = ctx.createOscillator(), g = ctx.createGain();
-        o.frequency.value = f;
-        g.gain.setValueAtTime(v || 0.1, ctx.currentTime);
-        g.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + d);
-        o.connect(g); g.connect(ctx.destination);
-        o.start(); o.stop(ctx.currentTime + d);
-    } catch(e) { console.log('Audio:', e); }
+    try { var o = ctx.createOscillator(), g = ctx.createGain(); o.frequency.value = f; g.gain.setValueAtTime(v||0.1, ctx.currentTime); g.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + d); o.connect(g); g.connect(ctx.destination); o.start(); o.stop(ctx.currentTime + d); } catch(e) {}
 }
 
 function sClick() { play(600, 0.02, 0.1); play(900, 0.01, 0.05); }
@@ -134,7 +121,7 @@ function sBonus() { [400,600,800,1000].forEach(function(f,i){setTimeout(function
 
 function toggleSnd() { snd = !snd; document.getElementById('sndBtn').textContent = snd?'🔊':'🔇'; }
 
-function rand() { return SYMS[Math.floor(Math.random() * (SYMS.length - 1))]; }
+function rand() { return SYMS[Math.floor(Math.random() * SYMS.length)]; }
 
 function render() {
     for (var r = 0; r < 3; r++) {
@@ -151,49 +138,25 @@ function update() {
     document.getElementById('betAmt').textContent = '$' + BETS[bet].toFixed(2);
     document.getElementById('win').textContent = '$' + lastWin;
     var btn = document.getElementById('spinBtn');
-    if (free > 0) {
-        btn.textContent = 'FREE(' + free + ')';
-        btn.style.background = 'linear-gradient(#0a0,#080)';
-    } else {
-        btn.textContent = 'SPIN';
-        btn.style.background = '';
-    }
+    if (free > 0) { btn.textContent = 'FREE(' + free + ')'; btn.style.background = 'linear-gradient(#0a0,#080)'; }
+    else { btn.textContent = 'SPIN'; btn.style.background = ''; }
 }
 
-function adjBet(d) {
-    initAudio();
-    sClick();
-    bet = Math.max(0, Math.min(BETS.length - 1, bet + d));
-    update();
-}
-
-function showPT() { document.getElementById('paytable').classList.toggle('show'); }
+function adjBet(d) { initAudio(); sClick(); bet = Math.max(0, Math.min(BETS.length - 1, bet + d)); update(); }
+function togglePT() { document.getElementById('paytable').classList.toggle('show'); }
 
 function doSpin() {
     if (spin) return;
     initAudio();
-    
     var betAmt = BETS[bet];
-    
-    if (free > 0) {
-        free--;
-        sWin();
-    } else {
-        if (bal < betAmt) { alert('Insufficient balance!'); return; }
-        sClick();
-        bal -= betAmt;
-    }
-    
+    if (free > 0) { free--; sWin(); }
+    else { if (bal < betAmt) { alert('Insufficient balance!'); return; } sClick(); bal -= betAmt; }
     spin = true;
     document.getElementById('spinBtn').disabled = true;
     document.querySelectorAll('.sym').forEach(function(s){s.classList.remove('win')});
-    
     var res = [];
-    for (var r = 0; r < 3; r++) {
-        setTimeout((function(ri){return function(){spinReel(ri, res)}}(r)), r * 200);
-    }
-    
-    setTimeout(function(){checkWin(res)}, 3 * 200 + 300);
+    for (var r = 0; r < 3; r++) { setTimeout(function(ri){spinReel(ri, res);}, r * 200, r); }
+    setTimeout(function(){checkWin(res);}, 3 * 200 + 300);
 }
 
 function spinReel(r, res) {
@@ -217,54 +180,27 @@ function spinReel(r, res) {
 
 function checkWin(res) {
     if (res.length < 3) return;
-    
-    var betAmt = BETS[bet];
-    var winAmt = 0;
-    
-    // Scatter
+    var betAmt = BETS[bet], winAmt = 0;
     var scat = res.filter(function(r){return r === '🎁'}).length;
-    if (scat >= 3) {
-        free += scat * 5;
-        sBonus();
-    }
-    
-    // All 3 same
+    if (scat >= 3) { free += scat * 5; sBonus(); }
     if (res[0] === res[1] && res[1] === res[2]) {
         var s = res[0];
         if (PAY[s] && PAY[s][5]) {
             winAmt = PAY[s][5] * betAmt;
-            for (var r = 0; r < 3; r++) {
-                var el = document.getElementById('r' + r);
-                el.querySelectorAll('.sym')[2].classList.add('win');
-            }
+            for (var r = 0; r < 3; r++) document.getElementById('r' + r).querySelectorAll('.sym')[2].classList.add('win');
         }
-    }
-    // 2 same
-    else if (res[0] === res[1] || res[1] === res[2]) {
+    } else if (res[0] === res[1] || res[1] === res[2]) {
         var s = res[1];
-        if (PAY[s] && PAY[s][3]) {
-            winAmt = PAY[s][3] * betAmt;
-            document.getElementById('r1').querySelectorAll('.sym')[2].classList.add('win');
-        }
+        if (PAY[s] && PAY[s][3]) { winAmt = PAY[s][3] * betAmt; document.getElementById('r1').querySelectorAll('.sym')[2].classList.add('win'); }
     }
-    
     if (winAmt > 0) {
         if (free === 0) bal += winAmt;
         lastWin = winAmt;
         update();
-        
-        if (winAmt >= betAmt * 20) {
-            sJack();
-            showWin('💎 JACKPOT! $' + winAmt.toFixed(2));
-        } else if (winAmt >= betAmt * 5) {
-            sBig();
-            showWin('WIN $' + winAmt.toFixed(2));
-        } else {
-            sWin();
-            showWin('+$' + winAmt.toFixed(2));
-        }
+        if (winAmt >= betAmt * 20) { sJack(); showWin('💎 JACKPOT! $' + winAmt.toFixed(2)); }
+        else if (winAmt >= betAmt * 5) { sBig(); showWin('WIN $' + winAmt.toFixed(2)); }
+        else { sWin(); showWin('+$' + winAmt.toFixed(2)); }
     }
-    
     spin = false;
     document.getElementById('spinBtn').disabled = false;
     update();
