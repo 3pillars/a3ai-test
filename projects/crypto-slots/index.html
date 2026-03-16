@@ -6,12 +6,7 @@
     <title>💰 Crypto Slots - Vegas Style</title>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            user-select: none;
-        }
+        * { margin: 0; padding: 0; box-sizing: border-box; user-select: none; }
 
         body {
             min-height: 100vh;
@@ -25,34 +20,24 @@
             padding: 10px;
         }
 
-        /* Casino atmosphere */
         body::before {
             content: '';
             position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: 
-                radial-gradient(ellipse at top, rgba(255,215,0,0.1) 0%, transparent 50%),
-                radial-gradient(ellipse at bottom, rgba(255,20,147,0.05) 0%, transparent 50%);
+            top: 0; left: 0; width: 100%; height: 100%;
+            background: radial-gradient(ellipse at top, rgba(255,215,0,0.1) 0%, transparent 50%),
+                        radial-gradient(ellipse at bottom, rgba(255,20,147,0.05) 0%, transparent 50%);
             pointer-events: none;
         }
 
         .casino-lights {
             position: fixed;
-            top: 0;
-            width: 100%;
-            height: 4px;
+            top: 0; width: 100%; height: 4px;
             background: linear-gradient(90deg, transparent, #ff1493, #00ffff, #ffd700, #ff1493, transparent);
             animation: lightsMove 2s linear infinite;
             box-shadow: 0 0 20px #ff1493, 0 0 40px #00ffff;
         }
 
-        @keyframes lightsMove {
-            0% { background-position: -200% 0; }
-            100% { background-position: 200% 0; }
-        }
+        @keyframes lightsMove { 0% { background-position: -200% 0; } 100% { background-position: 200% 0; } }
 
         .game-container {
             position: relative;
@@ -60,332 +45,137 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            gap: 15px;
+            gap: 12px;
             max-width: 500px;
             width: 100%;
         }
 
         h1 {
             font-family: 'Orbitron', sans-serif;
-            font-size: 2.2rem;
+            font-size: 2rem;
             font-weight: 900;
             background: linear-gradient(180deg, #ffd700, #ff8c00, #ffd700);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
-            background-clip: text;
             text-shadow: 0 0 30px rgba(255,215,0,0.5);
-            animation: titleGlow 2s ease-in-out infinite;
             letter-spacing: 3px;
-        }
-
-        @keyframes titleGlow {
-            0%, 100% { filter: brightness(1); }
-            50% { filter: brightness(1.3); }
         }
 
         .balance-display {
             background: linear-gradient(135deg, #1a1a1a, #2d2d2d);
-            padding: 12px 30px;
-            border-radius: 25px;
+            padding: 10px 25px;
+            border-radius: 20px;
             border: 2px solid #ffd700;
-            box-shadow: 0 0 20px rgba(255,215,0,0.3), inset 0 0 20px rgba(0,0,0,0.5);
+            box-shadow: 0 0 20px rgba(255,215,0,0.3);
         }
 
-        .balance-label {
-            font-size: 0.7rem;
-            color: #888;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-        }
-
-        .balance-value {
-            font-family: 'Orbitron', sans-serif;
-            font-size: 1.8rem;
-            color: #ffd700;
-            text-shadow: 0 0 10px rgba(255,215,0,0.5);
-        }
+        .balance-label { font-size: 0.65rem; color: #888; text-transform: uppercase; letter-spacing: 2px; }
+        .balance-value { font-family: 'Orbitron', sans-serif; font-size: 1.6rem; color: #ffd700; }
 
         .slots-container {
             background: linear-gradient(180deg, #2d1810, #1a0f0a);
-            padding: 15px;
-            border-radius: 15px;
-            border: 4px solid #ffd700;
-            box-shadow: 
-                0 0 30px rgba(255,215,0,0.4),
-                inset 0 0 50px rgba(0,0,0,0.8);
+            padding: 12px;
+            border-radius: 12px;
+            border: 3px solid #ffd700;
+            box-shadow: 0 0 25px rgba(255,215,0,0.4);
         }
 
         .paylines-indicator {
             display: flex;
-            gap: 8px;
-            margin-bottom: 8px;
+            gap: 6px;
+            margin-bottom: 6px;
             justify-content: center;
         }
 
-        .payline-dot {
-            width: 10px;
-            height: 10px;
-            border-radius: 50%;
-            background: #333;
-            border: 1px solid #555;
-        }
-
-        .payline-dot.active {
-            background: #00ffff;
-            box-shadow: 0 0 10px #00ffff;
-        }
+        .payline-dot { width: 8px; height: 8px; border-radius: 50%; background: #333; border: 1px solid #555; }
+        .payline-dot.active { background: #00ffff; box-shadow: 0 0 8px #00ffff; }
 
         .reels {
             display: flex;
-            gap: 8px;
+            gap: 6px;
             background: #0a0a0a;
-            padding: 10px;
-            border-radius: 10px;
-            border: 2px solid #333;
-        }
-
-        .reel {
-            width: 55px;
-            height: 120px;
-            background: linear-gradient(180deg, #1a1a1a, #0a0a0a, #1a1a1a);
+            padding: 8px;
             border-radius: 8px;
-            overflow: hidden;
-            position: relative;
             border: 2px solid #333;
         }
 
+        .reel { width: 50px; height: 160px; background: linear-gradient(180deg, #1a1a1a, #0a0a0a, #1a1a1a); border-radius: 6px; overflow: hidden; position: relative; border: 2px solid #333; }
+        
         .reel::before, .reel::after {
-            content: '';
-            position: absolute;
-            left: 0;
-            width: 100%;
-            height: 20px;
-            z-index: 10;
-            pointer-events: none;
+            content: ''; position: absolute; left: 0; width: 100%; height: 18px; z-index: 10;
         }
+        .reel::before { top: 0; background: linear-gradient(180deg, rgba(0,0,0,0.8), transparent); }
+        .reel::after { bottom: 0; background: linear-gradient(0deg, rgba(0,0,0,0.8), transparent); }
 
-        .reel::before {
-            top: 0;
-            background: linear-gradient(180deg, rgba(0,0,0,0.8), transparent);
-        }
+        .reel-symbols { display: flex; flex-direction: column; transition: transform 0.05s linear; }
 
-        .reel::after {
-            bottom: 0;
-            background: linear-gradient(0deg, rgba(0,0,0,0.8), transparent);
-        }
+        .symbol { width: 100%; height: 50px; display: flex; align-items: center; justify-content: center; font-size: 1.6rem; background: linear-gradient(135deg, #1a1a1a, #2d2d2d); }
+        
+        .symbol.win { animation: symbolWin 0.5s ease infinite; background: linear-gradient(135deg, #ffd700, #ffaa00); }
 
-        .reel-symbols {
-            display: flex;
-            flex-direction: column;
-            transition: transform 0.05s linear;
-        }
+        @keyframes symbolWin { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.08); box-shadow: 0 0 15px #ffd700; } }
 
-        .reel.spinning .reel-symbols {
-            animation: none;
-        }
+        .controls { display: flex; flex-direction: column; gap: 10px; width: 100%; align-items: center; }
 
-        .symbol {
-            width: 100%;
-            height: 60px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 2rem;
-            background: linear-gradient(135deg, #1a1a1a, #2d2d2d);
-        }
-
-        .symbol.win {
-            animation: symbolWin 0.5s ease infinite;
-            background: linear-gradient(135deg, #ffd700, #ffaa00);
-        }
-
-        @keyframes symbolWin {
-            0%, 100% { transform: scale(1); }
-            50% { transform: scale(1.1); box-shadow: 0 0 20px #ffd700; }
-        }
-
-        .controls {
-            display: flex;
-            flex-direction: column;
-            gap: 12px;
-            width: 100%;
-            align-items: center;
-        }
-
-        .bet-controls {
-            display: flex;
-            align-items: center;
-            gap: 15px;
-            background: rgba(0,0,0,0.4);
-            padding: 10px 20px;
-            border-radius: 25px;
-            border: 1px solid #333;
-        }
-
-        .bet-btn {
-            width: 35px;
-            height: 35px;
-            border-radius: 50%;
-            border: 2px solid #ffd700;
-            background: linear-gradient(135deg, #333, #1a1a1a);
-            color: #ffd700;
-            font-size: 1.2rem;
-            cursor: pointer;
-            transition: all 0.2s;
-        }
-
-        .bet-btn:hover {
-            transform: scale(1.1);
-            box-shadow: 0 0 15px rgba(255,215,0,0.5);
-        }
-
-        .bet-amount {
-            font-family: 'Orbitron', sans-serif;
-            font-size: 1.2rem;
-            color: #fff;
-            min-width: 80px;
-            text-align: center;
-        }
+        .bet-controls { display: flex; align-items: center; gap: 12px; background: rgba(0,0,0,0.4); padding: 8px 18px; border-radius: 20px; border: 1px solid #333; }
+        .bet-btn { width: 32px; height: 32px; border-radius: 50%; border: 2px solid #ffd700; background: linear-gradient(135deg, #333, #1a1a1a); color: #ffd700; font-size: 1.1rem; cursor: pointer; }
+        .bet-btn:hover { transform: scale(1.1); box-shadow: 0 0 12px rgba(255,215,0,0.5); }
+        .bet-amount { font-family: 'Orbitron', sans-serif; font-size: 1.1rem; color: #fff; min-width: 70px; text-align: center; }
 
         .spin-btn {
-            width: 140px;
-            height: 60px;
-            border-radius: 30px;
-            border: 3px solid #ffd700;
-            background: linear-gradient(180deg, #ff1493, #c71585);
-            color: white;
-            font-family: 'Orbitron', sans-serif;
-            font-size: 1.3rem;
-            font-weight: 700;
-            cursor: pointer;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            box-shadow: 0 5px 20px rgba(255,20,147,0.5), inset 0 -3px 10px rgba(0,0,0,0.3);
-            transition: all 0.2s;
-            animation: pulse 1.5s ease infinite;
+            width: 130px; height: 55px; border-radius: 28px; border: 3px solid #ffd700;
+            background: linear-gradient(180deg, #ff1493, #c71585); color: white;
+            font-family: 'Orbitron', sans-serif; font-size: 1.2rem; font-weight: 700;
+            cursor: pointer; text-transform: uppercase; letter-spacing: 2px;
+            box-shadow: 0 4px 15px rgba(255,20,147,0.5); animation: pulse 1.5s ease infinite;
         }
-
-        @keyframes pulse {
-            0%, 100% { transform: scale(1); box-shadow: 0 5px 20px rgba(255,20,147,0.5); }
-            50% { transform: scale(1.05); box-shadow: 0 5px 30px rgba(255,20,147,0.8); }
-        }
-
-        .spin-btn:hover {
-            background: linear-gradient(180deg, #ff69b4, #ff1493);
-        }
-
-        .spin-btn:disabled {
-            background: linear-gradient(180deg, #666, #444);
-            border-color: #666;
-            animation: none;
-            cursor: not-allowed;
-        }
-
-        .spin-btn:active {
-            transform: scale(0.95);
-        }
+        @keyframes pulse { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.05); } }
+        .spin-btn:hover { background: linear-gradient(180deg, #ff69b4, #ff1493); }
+        .spin-btn:disabled { background: linear-gradient(180deg, #666, #444); border-color: #666; animation: none; cursor: not-allowed; }
 
         .win-display {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            font-family: 'Orbitron', sans-serif;
-            font-size: 2.5rem;
-            font-weight: 900;
-            color: #ffd700;
-            text-shadow: 0 0 30px #ffd700, 0 0 60px #ff8c00;
-            animation: winPopup 1s ease-out forwards;
-            pointer-events: none;
-            z-index: 100;
-            white-space: nowrap;
+            position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+            font-family: 'Orbitron', sans-serif; font-size: 2rem; font-weight: 900;
+            color: #ffd700; text-shadow: 0 0 25px #ffd700, 0 0 50px #ff8c00;
+            animation: winPopup 1s ease-out forwards; pointer-events: none; z-index: 100; white-space: nowrap;
         }
+        @keyframes winPopup { 0% { transform: translate(-50%, -50%) scale(0); opacity: 0; } 20% { transform: translate(-50%, -50%) scale(1.2); } 80% { transform: translate(-50%, -50%) scale(1); } 100% { transform: translate(-50%, -60%) scale(0.8); opacity: 0; } }
 
-        @keyframes winPopup {
-            0% { transform: translate(-50%, -50%) scale(0); opacity: 0; }
-            20% { transform: translate(-50%, -50%) scale(1.3); opacity: 1; }
-            80% { transform: translate(-50%, -50%) scale(1); opacity: 1; }
-            100% { transform: translate(-50%, -60%) scale(0.8); opacity: 0; }
-        }
+        .sound-toggle { position: fixed; top: 12px; right: 12px; width: 40px; height: 40px; border-radius: 50%; border: 2px solid #ffd700; background: rgba(0,0,0,0.6); color: #ffd700; font-size: 1.2rem; cursor: pointer; z-index: 100; }
 
-        .sound-toggle {
-            position: fixed;
-            top: 15px;
-            right: 15px;
-            width: 45px;
-            height: 45px;
-            border-radius: 50%;
-            border: 2px solid #ffd700;
-            background: rgba(0,0,0,0.6);
-            color: #ffd700;
-            font-size: 1.3rem;
-            cursor: pointer;
-            z-index: 100;
+        .bonus-overlay {
+            position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+            background: linear-gradient(135deg, #1a0a2e, #0a1628);
+            display: flex; flex-direction: column; align-items: center; justify-content: center;
+            z-index: 1000; opacity: 0; pointer-events: none; transition: opacity 0.5s;
         }
-
-        .win-line {
-            position: absolute;
-            height: 4px;
-            background: #00ffff;
-            box-shadow: 0 0 10px #00ffff;
-            z-index: 20;
-            pointer-events: none;
-            animation: lineGlow 0.5s ease infinite;
-        }
-
-        @keyframes lineGlow {
-            0%, 100% { opacity: 1; }
-            50% { opacity: 0.5; }
-        }
+        .bonus-overlay.active { opacity: 1; pointer-events: all; }
+        .bonus-text { font-family: 'Orbitron', sans-serif; font-size: 2.5rem; color: #ff1493; text-shadow: 0 0 30px #ff1493; animation: bonusPulse 0.5s ease infinite; }
+        @keyframes bonusPulse { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.1); } }
+        .bonus-spin { margin-top: 20px; font-size: 1rem; color: #888; }
 
         .jackpot-overlay {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(0,0,0,0.9);
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            z-index: 1000;
-            opacity: 0;
-            pointer-events: none;
-            transition: opacity 0.5s;
+            position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(0,0,0,0.9); display: flex; flex-direction: column;
+            align-items: center; justify-content: center; z-index: 1000;
+            opacity: 0; pointer-events: none; transition: opacity 0.5s;
         }
+        .jackpot-overlay.active { opacity: 1; pointer-events: all; }
+        .jackpot-text { font-family: 'Orbitron', sans-serif; font-size: 2.5rem; font-weight: 900; color: #ffd700; text-shadow: 0 0 40px #ffd700; animation: jackpotPulse 0.5s ease infinite; }
+        @keyframes jackpotPulse { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.1); } }
+        .jackpot-amount { font-family: 'Orbitron', sans-serif; font-size: 3.5rem; color: #00ffff; text-shadow: 0 0 25px #00ffff; }
 
-        .jackpot-overlay.active {
-            opacity: 1;
-            pointer-events: all;
+        .free-spins-badge {
+            position: absolute; top: -8px; right: -8px; background: #ff1493; color: white;
+            font-size: 0.7rem; padding: 4px 8px; border-radius: 10px; font-weight: bold;
+            animation: badgePulse 1s ease infinite;
         }
+        @keyframes badgePulse { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.1); } }
 
-        .jackpot-text {
-            font-family: 'Orbitron', sans-serif;
-            font-size: 3rem;
-            font-weight: 900;
-            color: #ffd700;
-            text-shadow: 0 0 50px #ffd700;
-            animation: jackpotPulse 0.5s ease infinite;
-        }
-
-        @keyframes jackpotPulse {
-            0%, 100% { transform: scale(1); }
-            50% { transform: scale(1.1); }
-        }
-
-        .jackpot-amount {
-            font-family: 'Orbitron', sans-serif;
-            font-size: 4rem;
-            color: #00ffff;
-            text-shadow: 0 0 30px #00ffff;
-        }
-
-        @media (max-width: 400px) {
-            .reel { width: 45px; height: 100px; }
-            .symbol { height: 50px; font-size: 1.6rem; }
-            h1 { font-size: 1.6rem; }
-            .balance-value { font-size: 1.4rem; }
+        @media (max-width: 380px) {
+            .reel { width: 42px; height: 130px; }
+            .symbol { height: 42px; font-size: 1.3rem; }
+            h1 { font-size: 1.5rem; }
         }
     </style>
 </head>
@@ -422,6 +212,13 @@
         </div>
     </div>
 
+    <!-- Bonus Round Overlay -->
+    <div class="bonus-overlay" id="bonusOverlay">
+        <div class="bonus-text">🎰 FREE SPINS! 🎰</div>
+        <div class="bonus-spin" id="bonusSpinsLeft">10 free spins remaining!</div>
+    </div>
+
+    <!-- Jackpot Overlay -->
     <div class="jackpot-overlay" id="jackpotOverlay">
         <div class="jackpot-text">🎰 JACKPOT! 🎰</div>
         <div class="jackpot-amount">$<span id="jackpotAmount">0</span></div>
@@ -429,16 +226,23 @@
 
     <script>
         // ==================== GAME CONFIG ====================
-        const SYMBOLS = ['7️⃣', '💎', '🔮', '🪙', '🔔', '🍒', '🍋'];
+        // 5 reels x 4 rows
+        const ROWS = 4;
+        const REELS = 5;
+        const SYMBOLS = ['7️⃣', '💎', '🔮', '🪙', '🔔', '🍒', '🍋', '⭐'];
+        
+        // Improved payouts for 4 rows - more ways to win!
         const PAYOUTS = {
-            '7️⃣': [0, 0, 100, 500, 1000],
-            '💎': [0, 0, 50, 200, 500],
-            '🔮': [0, 0, 25, 100, 250],
-            '🪙': [0, 0, 10, 50, 100],
-            '🔔': [0, 0, 5, 25, 50],
-            '🍒': [0, 0, 3, 15, 30],
-            '🍋': [0, 0, 2, 10, 20]
+            '7️⃣': [0, 0, 25, 75, 200],     // Jackpot
+            '💎': [0, 0, 15, 50, 150],      // High
+            '🔮': [0, 0, 10, 35, 100],      // High
+            '⭐': [0, 0, 8, 25, 75],        // Scatter/Bonus
+            '🪙': [0, 0, 5, 20, 50],       // Medium
+            '🔔': [0, 0, 4, 15, 40],       // Medium
+            '🍒': [0, 0, 3, 10, 25],       // Low
+            '🍋': [0, 0, 2, 8, 20]          // Low
         };
+        
         const BET_AMOUNTS = [0.01, 0.05, 0.1, 0.5, 1.0];
         const PAYLINE_COUNT = 5;
         
@@ -446,23 +250,19 @@
         let currentBetIndex = 2;
         let isSpinning = false;
         let soundEnabled = true;
+        
+        // Bonus features
+        let freeSpins = 0;
+        let freeSpinWinnings = 0;
+        let bonusSymbolCount = 0;
 
-        // ==================== IMPROVED AUDIO ====================
+        // ==================== AUDIO ====================
         const AudioContext = window.AudioContext || window.webkitAudioContext;
         let audioCtx = null;
-        let bgMusicOsc = null;
-        let bgMusicGain = null;
 
         function initAudio() {
-            if (!audioCtx) {
-                audioCtx = new AudioContext();
-                bgMusicGain = audioCtx.createGain();
-                bgMusicGain.gain.value = 0.08;
-                bgMusicGain.connect(audioCtx.destination);
-            }
-            if (audioCtx.state === 'suspended') {
-                audioCtx.resume();
-            }
+            if (!audioCtx) { audioCtx = new AudioContext(); }
+            if (audioCtx.state === 'suspended') { audioCtx.resume(); }
         }
 
         function playTone(freq, duration, type = 'sine', volume = 0.3) {
@@ -479,86 +279,43 @@
             osc.stop(audioCtx.currentTime + duration);
         }
 
-        function playClick() { 
-            playTone(600, 0.05, 'square', 0.15);
-            playTone(900, 0.03, 'square', 0.1);
-        }
-        
-        function playReelClick() {
-            playTone(150 + Math.random() * 100, 0.08, 'square', 0.12);
-        }
+        function playClick() { playTone(600, 0.05, 'square', 0.15); playTone(900, 0.03, 'square', 0.1); }
+        function playReelClick() { playTone(120 + Math.random() * 80, 0.06, 'square', 0.1); }
+        function playReelStop() { playTone(60, 0.12, 'square', 0.25); playTone(100, 0.08, 'square', 0.15); }
 
-        function playReelStop() {
-            // Mechanical clunk sound
-            playTone(80, 0.15, 'square', 0.3);
-            playTone(120, 0.1, 'square', 0.2);
-        }
-
-        // Improved win sound - cascading chimes
         function playWin() {
             if (!soundEnabled) return;
-            const melody = [
-                [523, 0.12], [659, 0.12], [784, 0.12], [1047, 0.25],
-                [784, 0.12], [1047, 0.12], [1319, 0.35]
-            ];
-            let time = 0;
-            melody.forEach(([freq, dur]) => {
-                setTimeout(() => playTone(freq, dur, 'sine', 0.35), time);
-                time += dur * 1000;
-            });
+            const melody = [[523, 0.1], [659, 0.1], [784, 0.1], [1047, 0.2], [784, 0.1], [1047, 0.1], [1319, 0.3]];
+            let t = 0; melody.forEach(([f, d]) => { setTimeout(() => playTone(f, d, 'sine', 0.35), t); t += d * 1000; });
         }
 
-        // Big win - escalating fanfare
         function playBigWin() {
             if (!soundEnabled) return;
-            const melody = [
-                [392, 0.15], [523, 0.15], [659, 0.15], [784, 0.2],
-                [659, 0.15], [784, 0.15], [880, 0.15], [1047, 0.15],
-                [1175, 0.2], [1319, 0.25], [1568, 0.4]
-            ];
-            let time = 0;
-            melody.forEach(([freq, dur]) => {
-                setTimeout(() => playTone(freq, dur, 'triangle', 0.4), time);
-                time += dur * 1000;
-            });
+            const melody = [[392, 0.12], [523, 0.12], [659, 0.12], [784, 0.15], [659, 0.12], [784, 0.12], [880, 0.12], [1047, 0.12], [1175, 0.15], [1319, 0.2], [1568, 0.35]];
+            let t = 0; melody.forEach(([f, d]) => { setTimeout(() => playTone(f, d, 'triangle', 0.4), t); t += d * 1000; });
         }
 
-        // Jackpot - full celebration
         function playJackpot() {
             if (!soundEnabled) return;
             const notes = [262, 330, 392, 523, 659, 784, 880, 1047, 1175, 1319, 1568, 1760, 1960, 2093, 2349, 2637];
-            let time = 0;
-            notes.forEach((freq) => {
-                setTimeout(() => {
-                    playTone(freq, 0.25, 'sine', 0.4);
-                    playTone(freq * 2, 0.2, 'sine', 0.2);
-                }, time);
-                time += 100;
-            });
-            
-            // End flourish
-            setTimeout(() => {
-                [2637, 2794, 3136, 3520, 4186].forEach((f, i) => {
-                    setTimeout(() => playTone(f, 0.4, 'triangle', 0.45), i * 80);
-                });
-            }, time);
+            let t = 0; notes.forEach(f => { setTimeout(() => playTone(f, 0.2, 'sine', 0.4), t); t += 80; });
+            setTimeout(() => [2637, 2794, 3136, 3520, 4186].forEach((f, i) => setTimeout(() => playTone(f, 0.35, 'triangle', 0.45), i * 60)), t);
         }
 
-        function playCoin() {
-            playTone(1200, 0.08, 'sine', 0.5);
-            setTimeout(() => playTone(1600, 0.08, 'sine', 0.4), 40);
-            setTimeout(() => playTone(2000, 0.1, 'sine', 0.3), 80);
+        function playBonus() {
+            if (!soundEnabled) return;
+            // Dramatic bonus sound
+            [200, 250, 300, 350, 400, 500, 600, 700, 800, 1000].forEach((f, i) => setTimeout(() => playTone(f, 0.15, 'square', 0.4), i * 80));
         }
 
-        function playBetChange() {
-            playTone(440, 0.08, 'sine', 0.25);
-            playTone(660, 0.08, 'sine', 0.25);
+        function playFreeSpin() {
+            if (!soundEnabled) return;
+            playTone(880, 0.1, 'sine', 0.4);
+            setTimeout(() => playTone(1100, 0.1, 'sine', 0.4), 100);
+            setTimeout(() => playTone(1320, 0.15, 'sine', 0.4), 200);
         }
 
-        function toggleSound() {
-            soundEnabled = !soundEnabled;
-            document.querySelector('.sound-toggle').textContent = soundEnabled ? '🔊' : '🔇';
-        }
+        function toggleSound() { soundEnabled = !soundEnabled; document.querySelector('.sound-toggle').textContent = soundEnabled ? '🔊' : '🔇'; }
 
         // ==================== GAME ====================
         function init() {
@@ -580,54 +337,60 @@
         }
 
         function getRandomSymbol() {
-            // Weighted - 7 and diamond rarer
             const rand = Math.random();
-            if (rand < 0.05) return '7️⃣';
-            if (rand < 0.12) return '💎';
-            if (rand < 0.2) return '🔮';
-            if (rand < 0.35) return '🪙';
-            if (rand < 0.5) return '🔔';
-            if (rand < 0.75) return '🍒';
-            return '🍋';
+            if (rand < 0.04) return '7️⃣';      // 4% - Jackpot
+            if (rand < 0.10) return '💎';       // 6%
+            if (rand < 0.17) return '⭐';       // 7% - Bonus
+            if (rand < 0.26) return '🔮';      // 9%
+            if (rand < 0.38) return '🪙';        // 12%
+            if (rand < 0.50) return '🔔';        // 12%
+            if (rand < 0.70) return '🍒';        // 20%
+            return '🍋';                         // 30%
         }
 
         function renderReels() {
-            for (let r = 0; r < 5; r++) {
+            for (let r = 0; r < REELS; r++) {
                 const reel = document.getElementById(`reel${r}`);
                 reel.innerHTML = '<div class="reel-symbols">';
-                for (let i = 0; i < 20; i++) {
-                    reel.innerHTML += `<div class="symbol">${getRandomSymbol()}</div>`;
-                }
+                for (let i = 0; i < 20; i++) { reel.innerHTML += `<div class="symbol">${getRandomSymbol()}</div>`; }
                 reel.innerHTML += '</div>';
             }
         }
 
-        function changeBet(delta) {
-            playClick();
-            currentBetIndex = Math.max(0, Math.min(BET_AMOUNTS.length - 1, currentBetIndex + delta));
-            updateUI();
-        }
+        function changeBet(delta) { playClick(); currentBetIndex = Math.max(0, Math.min(BET_AMOUNTS.length - 1, currentBetIndex + delta)); updateUI(); }
 
         function updateUI() {
             document.getElementById('balance').textContent = balance.toFixed(2);
             document.getElementById('bet').textContent = BET_AMOUNTS[currentBetIndex].toFixed(2);
+            const btn = document.getElementById('spinBtn');
+            if (freeSpins > 0) {
+                btn.textContent = `FREE (${freeSpins})`;
+                btn.style.background = 'linear-gradient(180deg, #00ff00, #00cc00)';
+            } else {
+                btn.textContent = 'SPIN';
+                btn.style.background = '';
+            }
         }
 
         function spin() {
             if (isSpinning) return;
             
             const bet = BET_AMOUNTS[currentBetIndex];
-            if (balance < bet) {
-                alert('Insufficient balance!');
-                return;
+            
+            // Check if free spins or deduct balance
+            if (freeSpins > 0) {
+                freeSpins--;
+                playFreeSpin();
+                updateUI();
+            } else {
+                if (balance < bet) { alert('Insufficient balance!'); return; }
+                playClick();
+                initAudio();
+                balance -= bet;
+                updateUI();
             }
 
-            playClick();
-            initAudio();
             isSpinning = true;
-            balance -= bet;
-            updateUI();
-            
             document.getElementById('spinBtn').disabled = true;
 
             // Clear wins
@@ -636,35 +399,32 @@
 
             // Spin each reel with delay
             const reelResults = [];
-            for (let r = 0; r < 5; r++) {
-                setTimeout(() => {
-                    spinReel(r, reelResults);
-                }, r * 400);
+            bonusSymbolCount = 0;
+            
+            for (let r = 0; r < REELS; r++) {
+                setTimeout(() => { spinReel(r, reelResults); }, r * 350);
             }
 
             // Check results after all reels stop
-            setTimeout(() => {
-                checkWins(reelResults);
-                isSpinning = false;
-                document.getElementById('spinBtn').disabled = false;
-            }, 5 * 400 + 300);
+            setTimeout(() => { checkWins(reelResults); isSpinning = false; document.getElementById('spinBtn').disabled = false; }, REELS * 350 + 400);
         }
 
         function spinReel(reelIndex, results) {
             const reel = document.getElementById(`reel${reelIndex}`);
             const symbols = reel.querySelector('.reel-symbols');
             
-            // Spin animation - clicking sound during spin
             let duration = 0;
             const spinInterval = setInterval(() => {
                 playReelClick();
-                symbols.style.transform = `translateY(-${Math.random() * 60}px)`;
-                duration += 50;
-                if (duration > 800 + reelIndex * 200) {
+                symbols.style.transform = `translateY(-${Math.random() * 50}px)`;
+                duration += 40;
+                if (duration > 700 + reelIndex * 150) {
                     clearInterval(spinInterval);
-                    // Stop on random symbol
                     const finalSymbol = getRandomSymbol();
                     results[reelIndex] = finalSymbol;
+                    if (finalSymbol === '⭐') bonusSymbolCount++;
+                    
+                    // Show 4 rows
                     symbols.innerHTML = `
                         <div class="symbol">${getRandomSymbol()}</div>
                         <div class="symbol">${getRandomSymbol()}</div>
@@ -672,37 +432,27 @@
                         <div class="symbol">${getRandomSymbol()}</div>
                         <div class="symbol">${getRandomSymbol()}</div>
                     `;
-                    symbols.style.transform = 'translateY(-60px)';
-                    playReelStop(); // Mechanical clunk sound
+                    symbols.style.transform = 'translateY(-50px)';
+                    playReelStop();
                 }
-            }, 50);
+            }, 40);
         }
 
         function checkWins(results) {
-            if (results.length < 5) return;
+            if (results.length < REELS) return;
             
             const bet = BET_AMOUNTS[currentBetIndex];
             let totalWin = 0;
-            const winLines = [];
 
-            // Check all possible 3-symbol combinations (rows, diagonals, etc.)
-            const lines = [
-                [0, 0, 0, 0, 0], // Row 1
-                [1, 1, 1, 1, 1], // Row 2  
-                [2, 2, 2, 2, 2], // Row 3
-                [0, 1, 2, 1, 0], // V shape
-                [2, 1, 0, 1, 2], // ^ shape
-                [0, 0, 1, 2, 2], // \
-                [2, 2, 1, 0, 0], // /
-            ];
-
-            // Simplified: check for matching symbols anywhere
+            // Count matching symbols across all positions
+            // With 4 rows, we check combinations
             const counts = {};
             results.forEach(s => counts[s] = (counts[s] || 0) + 1);
 
+            // Calculate wins based on matches
             Object.entries(counts).forEach(([symbol, count]) => {
                 if (count >= 3 && PAYOUTS[symbol]) {
-                    const payout = PAYOUTS[symbol][count] || 0;
+                    const payout = PAYOUTS[symbol][Math.min(count, 4)] || 0;
                     if (payout > 0) {
                         totalWin += payout * bet;
                         
@@ -710,30 +460,34 @@
                         results.forEach((s, i) => {
                             if (s === symbol) {
                                 const reel = document.getElementById(`reel${i}`);
-                                const symbols = reel.querySelectorAll('.symbol');
-                                if (symbols[2]) symbols[2].classList.add('win');
+                                const syms = reel.querySelectorAll('.symbol');
+                                if (syms[2]) syms[2].classList.add('win');
                             }
                         });
-
+                        
                         // Activate payline
-                        const lineIdx = winLines.length;
-                        if (lineIdx < 20) {
-                            document.getElementById(`payline-${lineIdx}`).classList.add('active');
-                        }
+                        document.getElementById('payline-0').classList.add('active');
                     }
                 }
             });
 
+            // Check for bonus symbols (⭐)
+            if (bonusSymbolCount >= 3) {
+                triggerBonusRound();
+            }
+
             if (totalWin > 0) {
-                balance += totalWin;
+                if (freeSpins > 0) {
+                    freeSpinWinnings += totalWin;
+                } else {
+                    balance += totalWin;
+                }
                 updateUI();
                 
                 if (totalWin >= 500 * bet) {
-                    // Jackpot!
                     playJackpot();
                     showJackpot(totalWin);
                 } else if (totalWin >= 50 * bet) {
-                    // Big win!
                     playBigWin();
                     showWin(totalWin);
                 } else {
@@ -743,11 +497,34 @@
             }
         }
 
+        function triggerBonusRound() {
+            // 3+ stars = 10 free spins
+            const freeSpinsWon = bonusSymbolCount * 5; // 3 stars = 15, 4 = 20, 5 = 25
+            freeSpins = freeSpinsWon;
+            freeSpinWinnings = 0;
+            playBonus();
+            
+            // Show bonus overlay
+            const overlay = document.getElementById('bonusOverlay');
+            overlay.classList.add('active');
+            
+            // Update display
+            document.getElementById('bonusSpinsLeft').textContent = `${freeSpinsWon} free spins! All wins 2x!`;
+            
+            // Auto-close after showing
+            setTimeout(() => {
+                overlay.classList.remove('active');
+            }, 2500);
+            
+            updateUI();
+        }
+
         function showWin(amount) {
             const container = document.querySelector('.slots-container');
             const winEl = document.createElement('div');
             winEl.className = 'win-display';
-            winEl.textContent = `WIN $${amount.toFixed(2)}`;
+            const prefix = (freeSpins > 0) ? 'FREE SPIN ' : 'WIN ';
+            winEl.textContent = `${prefix}$${amount.toFixed(2)}`;
             container.appendChild(winEl);
             setTimeout(() => winEl.remove(), 1500);
         }
@@ -755,9 +532,7 @@
         function showJackpot(amount) {
             document.getElementById('jackpotAmount').textContent = amount.toFixed(2);
             document.getElementById('jackpotOverlay').classList.add('active');
-            setTimeout(() => {
-                document.getElementById('jackpotOverlay').classList.remove('active');
-            }, 3000);
+            setTimeout(() => { document.getElementById('jackpotOverlay').classList.remove('active'); }, 3500);
         }
 
         init();
