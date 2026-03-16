@@ -340,6 +340,9 @@
                 <span class="stat-label">Moves</span>
                 <span class="stat-value moves-value" id="moves">20</span>
             </div>
+            <div class="stat">
+                <button class="sound-btn" onclick="toggleSound()" style="background: rgba(255,255,255,0.1); border: none; border-radius: 8px; padding: 8px 12px; cursor: pointer; font-size: 1.2rem;">🔊</button>
+            </div>
         </div>
 
         <div class="grid-container">
@@ -465,6 +468,7 @@
             grid[row1][col1] = grid[row2][col2];
             grid[row2][col2] = temp;
             
+            playSwap();
             renderGrid();
             
             // Check for matches
@@ -525,6 +529,9 @@
                 if (combo > 1) {
                     matchScore *= combo;
                     showComboText(combo);
+                    playCombo();
+                } else {
+                    playMatch();
                 }
                 
                 score += matchScore;
@@ -656,11 +663,13 @@
         }
 
         function showLevelComplete() {
+            playLevelUp();
             document.getElementById('levelScore').textContent = score;
             document.getElementById('levelPopup').classList.add('active');
         }
 
         function showGameOver() {
+            playGameOver();
             document.getElementById('finalScore').textContent = score;
             document.getElementById('gameOverPopup').classList.add('active');
         }
@@ -697,8 +706,118 @@
             return new Promise(resolve => setTimeout(resolve, ms));
         }
 
+        // ==================== SOUND SYSTEM ====================
+        const AudioContext = window.AudioContext || window.webkitAudioContext;
+        let audioCtx = null;
+        let bgMusicPlaying = false;
+        let bgGain = null;
+        let soundEnabled = true;
+
+        function toggleSound() {
+            soundEnabled = !soundEnabled;
+            document.querySelector('.sound-btn').textContent = soundEnabled ? '🔊' : '🔇';
+            if (soundEnabled && audioCtx) {
+                playBgMusic();
+            } else {
+                stopBgMusic();
+            }
+        }
+
+        function initAudio() {
+            if (!audioCtx) {
+                audioCtx = new AudioContext();
+                bgGain = audioCtx.createGain();
+                bgGain.gain.value = 0.3;
+                bgGain.connect(audioCtx.destination);
+            }
+            if (audioCtx.state === 'suspended') {
+                audioCtx.resume();
+            }
+        }
+
+        function playTone(freq, duration, type = 'sine', volume = 0.5) {
+            if (!audioCtx || !soundEnabled) return;
+            const osc = audioCtx.createOscillator();
+            const gain = audioCtx.createGain();
+            osc.type = type;
+            osc.frequency.value = freq;
+            gain.gain.setValueAtTime(volume, audioCtx.currentTime);
+            gain.gain.exponentialRampToValueAtTime(0.01, audioCtx.currentTime + duration);
+            osc.connect(gain);
+            gain.connect(audioCtx.destination);
+            osc.start();
+            osc.stop(audioCtx.currentTime + duration);
+        }
+
+        function playSwap() {
+            playTone(440, 0.1, 'sine', 0.3);
+            setTimeout(() => playTone(550, 0.1, 'sine', 0.3), 50);
+        }
+
+        function playMatch() {
+            playTone(523, 0.15, 'sine', 0.4);
+            setTimeout(() => playTone(659, 0.15, 'sine', 0.4), 80);
+            setTimeout(() => playTone(784, 0.2, 'sine', 0.4), 160);
+        }
+
+        function playCombo() {
+            const notes = [523, 659, 784, 1047];
+            notes.forEach((n, i) => {
+                setTimeout(() => playTone(n, 0.15, 'sine', 0.5), i * 80);
+            });
+        }
+
+        function playLevelUp() {
+            const notes = [523, 659, 784, 1047, 1319, 1568];
+            notes.forEach((n, i) => {
+                setTimeout(() => playTone(n, 0.2, 'sine', 0.5), i * 100);
+            });
+        }
+
+        function playGameOver() {
+            const notes = [392, 349, 330, 294, 262];
+            notes.forEach((n, i) => {
+                setTimeout(() => playTone(n, 0.3, 'sawtooth', 0.3), i * 200);
+            });
+        }
+
+        // Background music
+        function playBgMusic() {
+            if (!audioCtx || bgMusicPlaying || !soundEnabled) return;
+            bgMusicPlaying = true;
+            
+            const melody = [261, 293, 329, 349, 392, 349, 329, 293];
+            let noteIndex = 0;
+            
+            function playNote() {
+                if (!bgMusicPlaying) return;
+                const osc = audioCtx.createOscillator();
+                const gain = audioCtx.createGain();
+                osc.type = 'sine';
+                osc.frequency.value = melody[noteIndex];
+                gain.gain.setValueAtTime(0.1, audioCtx.currentTime);
+                gain.gain.exponentialRampToValueAtTime(0.01, audioCtx.currentTime + 0.4);
+                osc.connect(gain);
+                gain.connect(bgGain);
+                osc.start();
+                osc.stop(audioCtx.currentTime + 0.4);
+                noteIndex = (noteIndex + 1) % melody.length;
+                setTimeout(playNote, 400);
+            }
+            playNote();
+        }
+
+        function stopBgMusic() {
+            bgMusicPlaying = false;
+        }
+
+        // Click anywhere to start audio (browser requirement)
+        document.addEventListener('click', initAudio, { once: true });
+        document.addEventListener('touchstart', initAudio, { once: true });
+
         // Initialize game
         init();
+        playBgMusic();
     </script>
 </body>
 </html>
