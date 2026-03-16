@@ -338,14 +338,14 @@
 
         function getRandomSymbol() {
             const rand = Math.random();
-            if (rand < 0.04) return '7️⃣';      // 4% - Jackpot
-            if (rand < 0.10) return '💎';       // 6%
-            if (rand < 0.17) return '⭐';       // 7% - Bonus
-            if (rand < 0.26) return '🔮';      // 9%
-            if (rand < 0.38) return '🪙';        // 12%
-            if (rand < 0.50) return '🔔';        // 12%
-            if (rand < 0.70) return '🍒';        // 20%
-            return '🍋';                         // 30%
+            if (rand < 0.03) return '7️⃣';      // 3% - Jackpot
+            if (rand < 0.08) return '💎';       // 5%
+            if (rand < 0.14) return '⭐';       // 6% - Bonus (increased!)
+            if (rand < 0.22) return '🔮';      // 8%
+            if (rand < 0.34) return '🪙';        // 12%
+            if (rand < 0.46) return '🔔';        // 12%
+            if (rand < 0.66) return '🍒';        // 20%
+            return '🍋';                         // 34%
         }
 
         function renderReels() {
