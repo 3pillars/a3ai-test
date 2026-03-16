@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Crush - Match-3</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+            background: linear-gradient(135deg, #0d0d1a 0%, #1a1a2e 50%, #16213e 100%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Rajdhani', sans-serif;
+            overflow: hidden;
+        }
+
+        /* Blockchain background pattern */
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: 
+                radial-gradient(circle at 20% 80%, rgba(120, 80, 255, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 80% 20%, rgba(255, 180, 0, 0.08) 0%, transparent 50%),
+                radial-gradient(circle at 50% 50%, rgba(0, 255, 200, 0.05) 0%, transparent 30%);
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        .game-container {
+            position: relative;
+            z-index: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+
+        h1 {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 3rem;
+            font-weight: 900;
+            background: linear-gradient(90deg, #f7931a, #627eea, #14f195, #f7931a);
+            background-size: 300% 100%;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            animation: shimmer 3s linear infinite;
+            text-shadow: 0 0 30px rgba(247, 147, 26, 0.5);
+            letter-spacing: 4px;
+        }
+
+        @keyframes shimmer {
+            0% { background-position: 0% 50%; }
+            100% { background-position: 300% 50%; }
+        }
+
+        .header {
+            display: flex;
+            gap: 40px;
+            padding: 15px 40px;
+            background: rgba(0, 0, 0, 0.4);
+            border-radius: 15px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+        }
+
+        .stat {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .stat-label {
+            font-size: 0.8rem;
+            color: rgba(255, 255, 255, 0.6);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .stat-value {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 1.8rem;
+            font-weight: 700;
+        }
+
+        .score-value { color: #14f195; }
+        .moves-value { color: #ff6b6b; }
+        .level-value { color: #f7931a; }
+
+        .grid-container {
+            position: relative;
+            padding: 15px;
+            background: rgba(0, 0, 0, 0.5);
+            border-radius: 20px;
+            border: 2px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(8, 60px);
+            grid-template-rows: repeat(8, 60px);
+            gap: 5px;
+        }
+
+        .cell {
+            width: 60px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: transform 0.15s ease, filter 0.15s ease;
+            border-radius: 12px;
+            background: rgba(255, 255, 255, 0.03);
+        }
+
+        .cell:hover {
+            transform: scale(1.08);
+            filter: brightness(1.2);
+        }
+
+        .cell.selected {
+            transform: scale(1.1);
+            box-shadow: 0 0 20px currentColor;
+        }
+
+        .cell.matched {
+            animation: matchPop 0.3s ease forwards;
+        }
+
+        @keyframes matchPop {
+            0% { transform: scale(1); opacity: 1; }
+            50% { transform: scale(1.3); opacity: 0.8; }
+            100% { transform: scale(0); opacity: 0; }
+        }
+
+        .cell.falling {
+            animation: fallIn 0.3s ease;
+        }
+
+        @keyframes fallIn {
+            0% { transform: translateY(-60px); opacity: 0; }
+            100% { transform: translateY(0); opacity: 1; }
+        }
+
+        .coin {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            font-weight: bold;
+            box-shadow: 
+                inset 0 -3px 6px rgba(0, 0, 0, 0.4),
+                inset 0 3px 6px rgba(255, 255, 255, 0.3),
+                0 4px 15px rgba(0, 0, 0, 0.3);
+            transition: transform 0.2s ease;
+        }
+
+        .cell:hover .coin {
+            transform: scale(1.05);
+        }
+
+        .coin-btc { 
+            background: linear-gradient(145deg, #f7931a, #e87a00);
+            color: #fff;
+            text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+        }
+        .coin-eth { 
+            background: linear-gradient(145deg, #627eea, #4a5fd4);
+            color: #fff;
+        }
+        .coin-sol { 
+            background: linear-gradient(145deg, #9945ff, #14f195);
+            color: #fff;
+        }
+        .coin-doge { 
+            background: linear-gradient(145deg, #c2a633, #ba9c28);
+            color: #fff;
+        }
+        .coin-bnb { 
+            background: linear-gradient(145deg, #f3ba2f, #d9a52a);
+            color: #fff;
+        }
+
+        .coin.rocket::after {
+            content: '🚀';
+            position: absolute;
+            font-size: 1rem;
+        }
+
+        .coin.bomb::after {
+            content: '💣';
+            position: absolute;
+            font-size: 1rem;
+        }
+
+        .combo-text {
+            position: absolute;
+            font-family: 'Orbitron', sans-serif;
+            font-size: 2rem;
+            font-weight: 900;
+            color: #14f195;
+            text-shadow: 0 0 20px #14f195;
+            animation: comboFloat 1s ease forwards;
+            pointer-events: none;
+            z-index: 100;
+        }
+
+        @keyframes comboFloat {
+            0% { transform: translateY(0) scale(0.5); opacity: 0; }
+            50% { transform: translateY(-30px) scale(1.2); opacity: 1; }
+            100% { transform: translateY(-60px) scale(1); opacity: 0; }
+        }
+
+        .popup {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 1000;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.3s ease;
+        }
+
+        .popup.active {
+            opacity: 1;
+            pointer-events: all;
+        }
+
+        .popup-content {
+            background: linear-gradient(135deg, #1a1a2e, #16213e);
+            padding: 40px 60px;
+            border-radius: 20px;
+            text-align: center;
+            border: 2px solid rgba(255, 255, 255, 0.1);
+            transform: scale(0.8);
+            transition: transform 0.3s ease;
+        }
+
+        .popup.active .popup-content {
+            transform: scale(1);
+        }
+
+        .popup h2 {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: #14f195;
+        }
+
+        .popup .score {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 3rem;
+            color: #f7931a;
+            margin-bottom: 20px;
+        }
+
+        .popup button {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 1rem;
+            padding: 15px 40px;
+            background: linear-gradient(135deg, #627eea, #9945ff);
+            color: white;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .popup button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 30px rgba(98, 126, 234, 0.5);
+        }
+
+        .powerup-indicator {
+            position: absolute;
+            top: -10px;
+            right: -10px;
+            font-size: 1.2rem;
+        }
+
+        @media (max-width: 600px) {
+            .grid {
+                grid-template-columns: repeat(8, 40px);
+                grid-template-rows: repeat(8, 40px);
+                gap: 3px;
+            }
+            .cell {
+                width: 40px;
+                height: 40px;
+            }
+            .coin {
+                width: 35px;
+                height: 35px;
+                font-size: 1rem;
+            }
+            h1 {
+                font-size: 1.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="game-container">
+        <h1>CRUSH</h1>
+        
+        <div class="header">
+            <div class="stat">
+                <span class="stat-label">Score</span>
+                <span class="stat-value score-value" id="score">0</span>
+            </div>
+            <div class="stat">
+                <span class="stat-label">Level</span>
+                <span class="stat-value level-value" id="level">1</span>
+            </div>
+            <div class="stat">
+                <span class="stat-label">Moves</span>
+                <span class="stat-value moves-value" id="moves">20</span>
+            </div>
+        </div>
+
+        <div class="grid-container">
+            <div class="grid" id="grid"></div>
+        </div>
+    </div>
+
+    <div class="popup" id="levelPopup">
+        <div class="popup-content">
+            <h2>🎉 Level Complete!</h2>
+            <div class="score" id="levelScore">500</div>
+            <button onclick="nextLevel()">Next Level →</button>
+        </div>
+    </div>
+
+    <div class="popup" id="gameOverPopup">
+        <div class="popup-content">
+            <h2>💀 Game Over</h2>
+            <div class="score" id="finalScore">0</div>
+            <button onclick="restartGame()">Play Again</button>
+        </div>
+    </div>
+
+    <script>
+        const COINS = ['btc', 'eth', 'sol', 'doge', 'bnb'];
+        const COIN_SYMBOLS = {
+            btc: '₿',
+            eth: 'Ξ',
+            sol: '◎',
+            doge: 'Ð',
+            bnb: 'B'
+        };
+
+        const GRID_SIZE = 8;
+        let grid = [];
+        let selectedCell = null;
+        let score = 0;
+        let moves = 20;
+        let level = 1;
+        let targetScore = 500;
+        let isAnimating = false;
+
+        function init() {
+            createGrid();
+            renderGrid();
+            updateUI();
+        }
+
+        function createGrid() {
+            grid = [];
+            for (let row = 0; row < GRID_SIZE; row++) {
+                grid[row] = [];
+                for (let col = 0; col < GRID_SIZE; col++) {
+                    grid[row][col] = getRandomCoin();
+                }
+            }
+            // Remove initial matches
+            while (hasMatches()) {
+                removeMatches();
+                fillGrid();
+            }
+        }
+
+        function getRandomCoin() {
+            return COINS[Math.floor(Math.random() * COINS.length)];
+        }
+
+        function renderGrid() {
+            const gridEl = document.getElementById('grid');
+            gridEl.innerHTML = '';
+            
+            for (let row = 0; row < GRID_SIZE; row++) {
+                for (let col = 0; col < GRID_SIZE; col++) {
+                    const cell = document.createElement('div');
+                    cell.className = 'cell';
+                    cell.dataset.row = row;
+                    cell.dataset.col = col;
+                    
+                    if (grid[row][col]) {
+                        const coin = document.createElement('div');
+                        coin.className = `coin coin-${grid[row][col]}`;
+                        coin.textContent = COIN_SYMBOLS[grid[row][col]];
+                        cell.appendChild(coin);
+                    }
+                    
+                    cell.addEventListener('click', () => handleCellClick(row, col));
+                    gridEl.appendChild(cell);
+                }
+            }
+        }
+
+        function handleCellClick(row, col) {
+            if (isAnimating) return;
+            
+            const clickedCell = document.querySelector(`[data-row="${row}"][data-col="${col}"]`);
+            
+            if (!selectedCell) {
+                selectedCell = { row, col };
+                clickedCell.classList.add('selected');
+            } else {
+                const prevCell = document.querySelector(`[data-row="${selectedCell.row}"][data-col="${selectedCell.col}"]`);
+                prevCell.classList.remove('selected');
+                
+                const isAdjacent = 
+                    (Math.abs(selectedCell.row - row) === 1 && selectedCell.col === col) ||
+                    (Math.abs(selectedCell.col - col) === 1 && selectedCell.row === row);
+                
+                if (isAdjacent) {
+                    swapCoins(selectedCell.row, selectedCell.col, row, col);
+                }
+                
+                selectedCell = null;
+            }
+        }
+
+        async function swapCoins(row1, col1, row2, col2) {
+            isAnimating = true;
+            moves--;
+            updateUI();
+            
+            // Swap in grid
+            const temp = grid[row1][col1];
+            grid[row1][col1] = grid[row2][col2];
+            grid[row2][col2] = temp;
+            
+            renderGrid();
+            
+            // Check for matches
+            await sleep(200);
+            
+            if (!hasMatches()) {
+                // Swap back if no match
+                grid[row2][col2] = grid[row1][col1];
+                grid[row1][col1] = temp;
+                renderGrid();
+            } else {
+                await processMatches();
+            }
+            
+            isAnimating = false;
+            checkGameState();
+        }
+
+        function hasMatches() {
+            // Check rows
+            for (let row = 0; row < GRID_SIZE; row++) {
+                for (let col = 0; col < GRID_SIZE - 2; col++) {
+                    if (grid[row][col] && 
+                        grid[row][col] === grid[row][col + 1] && 
+                        grid[row][col] === grid[row][col + 2]) {
+                        return true;
+                    }
+                }
+            }
+            // Check columns
+            for (let row = 0; row < GRID_SIZE - 2; row++) {
+                for (let col = 0; col < GRID_SIZE; col++) {
+                    if (grid[row][col] && 
+                        grid[row][col] === grid[row + 1][col] && 
+                        grid[row][col] === grid[row + 2][col]) {
+                        return true;
+                    }
+                }
+            }
+            return false;
+        }
+
+        async function processMatches() {
+            let combo = 0;
+            
+            while (hasMatches()) {
+                combo++;
+                const matches = findAllMatches();
+                
+                // Calculate score
+                let matchScore = 0;
+                matches.forEach(({ row, col, length, type }) => {
+                    if (length >= 5) matchScore += 50;
+                    else if (length >= 4) matchScore += 25;
+                    else matchScore += 10;
+                });
+                
+                if (combo > 1) {
+                    matchScore *= combo;
+                    showComboText(combo);
+                }
+                
+                score += matchScore;
+                
+                // Animate matches
+                matches.forEach(({ row, col }) => {
+                    const cell = document.querySelector(`[data-row="${row}"][data-col="${col}"]`);
+                    if (cell) cell.classList.add('matched');
+                });
+                
+                await sleep(300);
+                
+                // Remove matched coins
+                removeMatches();
+                renderGrid();
+                
+                await sleep(200);
+                
+                // Fill gaps
+                fillGrid();
+                renderGrid();
+                
+                await sleep(300);
+            }
+            
+            updateUI();
+        }
+
+        function findAllMatches() {
+            const matches = [];
+            const matched = Array(GRID_SIZE).fill(null).map(() => Array(GRID_SIZE).fill(false));
+            
+            // Check rows
+            for (let row = 0; row < GRID_SIZE; row++) {
+                let col = 0;
+                while (col < GRID_SIZE) {
+                    const coin = grid[row][col];
+                    if (!coin) { col++; continue; }
+                    
+                    let matchLength = 1;
+                    while (col + matchLength < GRID_SIZE && grid[row][col + matchLength] === coin) {
+                        matchLength++;
+                    }
+                    
+                    if (matchLength >= 3) {
+                        for (let i = 0; i < matchLength; i++) {
+                            if (!matched[row][col + i]) {
+                                matches.push({ row, col: col + i, length: matchLength, type: 'row' });
+                                matched[row][col + i] = true;
+                            }
+                        }
+                    }
+                    col += matchLength;
+                }
+            }
+            
+            // Check columns
+            for (let col = 0; col < GRID_SIZE; col++) {
+                let row = 0;
+                while (row < GRID_SIZE) {
+                    const coin = grid[row][col];
+                    if (!coin) { row++; continue; }
+                    
+                    let matchLength = 1;
+                    while (row + matchLength < GRID_SIZE && grid[row + matchLength][col] === coin) {
+                        matchLength++;
+                    }
+                    
+                    if (matchLength >= 3) {
+                        for (let i = 0; i < matchLength; i++) {
+                            if (!matched[row + i][col]) {
+                                matches.push({ row: row + i, col, length: matchLength, type: 'col' });
+                                matched[row + i][col] = true;
+                            }
+                        }
+                    }
+                    row += matchLength;
+                }
+            }
+            
+            return matches;
+        }
+
+        function removeMatches() {
+            const matches = findAllMatches();
+            matches.forEach(({ row, col }) => {
+                grid[row][col] = null;
+            });
+        }
+
+        function fillGrid() {
+            // Fill from top
+            for (let col = 0; col < GRID_SIZE; col++) {
+                let emptyRow = GRID_SIZE - 1;
+                for (let row = GRID_SIZE - 1; row >= 0; row--) {
+                    if (grid[row][col]) {
+                        grid[emptyRow][col] = grid[row][col];
+                        if (emptyRow !== row) grid[row][col] = null;
+                        emptyRow--;
+                    }
+                }
+                // Fill remaining with new coins
+                while (emptyRow >= 0) {
+                    grid[emptyRow][col] = getRandomCoin();
+                    emptyRow--;
+                }
+            }
+        }
+
+        function showComboText(combo) {
+            const container = document.querySelector('.grid-container');
+            const text = document.createElement('div');
+            text.className = 'combo-text';
+            text.textContent = `${combo}x COMBO!`;
+            text.style.left = '50%';
+            text.style.top = '50%';
+            text.style.transform = 'translate(-50%, -50%)';
+            container.appendChild(text);
+            
+            setTimeout(() => text.remove(), 1000);
+        }
+
+        function checkGameState() {
+            if (score >= targetScore) {
+                showLevelComplete();
+            } else if (moves <= 0) {
+                showGameOver();
+            }
+        }
+
+        function showLevelComplete() {
+            document.getElementById('levelScore').textContent = score;
+            document.getElementById('levelPopup').classList.add('active');
+        }
+
+        function showGameOver() {
+            document.getElementById('finalScore').textContent = score;
+            document.getElementById('gameOverPopup').classList.add('active');
+        }
+
+        function nextLevel() {
+            document.getElementById('levelPopup').classList.remove('active');
+            level++;
+            targetScore = Math.floor(targetScore * 1.5);
+            moves = 20 - Math.min(level - 1, 5);
+            score = 0;
+            createGrid();
+            renderGrid();
+            updateUI();
+        }
+
+        function restartGame() {
+            document.getElementById('gameOverPopup').classList.remove('active');
+            level = 1;
+            targetScore = 500;
+            moves = 20;
+            score = 0;
+            createGrid();
+            renderGrid();
+            updateUI();
+        }
+
+        function updateUI() {
+            document.getElementById('score').textContent = score;
+            document.getElementById('moves').textContent = moves;
+            document.getElementById('level').textContent = level;
+        }
+
+        function sleep(ms) {
+            return new Promise(resolve => setTimeout(resolve, ms));
+        }
+
+        // Initialize game
+        init();
+    </script>
+</body>
+</html>
