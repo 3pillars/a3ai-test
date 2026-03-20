@@ -54,6 +54,16 @@ Capture what matters. Decisions, context, things to remember. Skip the secrets u
 - When you make a mistake → document it so future-you doesn't repeat it
 - **Text > Brain** 📝
 
+### 🔄 Compaction Flush (Pre-Compression Save)
+
+**BEFORE** the context window gets compressed/summarized:
+
+1. **Force-write** current session to `memory/YYYY-MM-DD.md`
+2. Include: key decisions, important info, user preferences, anything worth keeping
+3. Only AFTER writing to file, allow compaction to proceed
+
+This ensures nothing is lost when the context window resets.
+
 ## Safety
 
 - Don't exfiltrate private data. Ever.
