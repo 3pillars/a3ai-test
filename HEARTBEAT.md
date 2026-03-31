@@ -1,16 +1,11 @@
 # HEARTBEAT.md
 
-# Keep this file empty (or with only comments) to skip heartbeat API calls.
+<!-- Keep tiny. OpenClaw skips heartbeat if only headers/blank lines. -->
 
-# Add tasks below when you want the agent to check something periodically.
+## Status Checks (no file writes needed)
 
-## Session Auto-Save (Every ~30 min)
-
-Every heartbeat cycle:
-1. Check if today's `memory/YYYY-MM-DD.md` exists
-2. If missing, create it
-3. Append a session summary:
-   - Topics discussed
-   - Key decisions/actions
-   - Any user preferences mentioned
-   - Files created/modified
+- Andy at Science Camp March 30 - April 3 (Day 2+)
+- BTC ~$66-68K; Fear & Greed Index at 8 (extreme fear)
+- US-Iran war week 5: Strait of Hormuz blocked, gas ~$4/gallon
+- If something needs Jacob's attention → send alert
+- Otherwise → reply HEARTBEAT_OK
