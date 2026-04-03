@@ -1,103 +1,114 @@
-# Weekly Research Findings — March 27, 2026
+# Weekly Research Findings — April 3, 2026
 
 ## 1. Quantitative Finance / Trading / Monte Carlo Simulation
 
-**Key Trends:**
-- AI-driven Monte Carlo simulations are now mainstream for credit risk, regulatory compliance (Basel III), and options pricing
-- ML + Monte Carlo fusion improving predictive accuracy for dynamic markets
-- Multi-Level Monte Carlo (MLMC) solving computational cost issues
-- Quantum Monte Carlo emerging as future of options pricing (quadratic speed-up potential)
-- Stress-testing trading setups with AI-assisted backtesting is now standard practice
-- **Actionable:** Monte Carlo is reliable for risk assessment but not precise stock price prediction for "fat tail" events
+**Key Insight:** Monte Carlo simulation remains essential for quant trading — particularly for stress-testing strategies, calculating Value at Risk (VaR), and portfolio optimization. AI is making these tools accessible to retail traders.
+
+**Applications:**
+- Backtesting robustness: Randomize trade sequences to detect overfitted strategies
+- Risk management: Simulate extreme scenarios before deploying capital
+- Portfolio optimization: Model thousands of asset allocation scenarios
+- Option pricing: Value complex derivatives with no closed-form solution
+
+**Trend:** AI + no-code tools are democratizing quant finance. Watch for hybrid ML-Monte Carlo frameworks improving convergence speed.
 
 ---
 
 ## 2. AI Agents / LLMs
 
-**Key Trends:**
-- 2026 = year AI agents go from pilots to PRODUCTION in enterprises
-- Personal AI agents arriving — multi-step task automation (booking, scheduling, ordering)
-- "Agent-as-a-Service" economy emerging — token-based billing
-- Deep Research Agents transforming finance/healthcare intelligence work
-- Top models: GPT-5, Gemini 3, Claude 4, Llama 4 — all with 200K+ context, native multimodality
-- Shift from general LLMs → specialized vertical LLMs + small language models (SLMs)
-- $500B+ hyperscale capex in 2026 for AI infrastructure
-- Key risk: ~33% of enterprise AI agent projects expected to fail without proper governance
-- RLVR (Reinforcement Learning with Verifiable Rewards) gaining traction
+**Key Insight:** We're in the "Agentic Era" — AI systems now plan, use tools, and execute tasks autonomously. This is moving from chatbot to digital coworker.
+
+**What's New (2026):**
+- GPT-5.2, Claude, Gemini, DeepSeek lead the LLM race
+- Context windows up to 200k+ tokens
+- Multimodal (text, image, audio, video) now standard
+- "Physical AI" emerging — agents coordinating robots/warehouse systems
+- $6T+ global IT spending on AI in 2026
+
+**Enterprise Adoption:** Documented time savings in customer service, finance, ops, security. Moving beyond pilots to production.
+
+**Risks:** Security governance, multi-agent orchestration failures, observability challenges.
 
 ---
 
 ## 3. Bitcoin / Crypto Market Analysis
 
-**Current State (March 27, 2026):**
-- BTC price ~$70,770 (March recovery after 2-month decline)
-- Trading range: $60K–$75K consolidation
-- Key resistance: $71,300 → $72,600–$75,000
-- Key support: $67,500 → $64,000 → $60K (critical)
-- Bear flag pattern suggesting potential 39% drop (caution warranted)
-- Hidden bearish RSI divergence favoring downside despite bounces
+**Current Status (as of April 3, 2026):**
+- BTC price: ~$66,500
+- Sentiment: "Extreme Fear" (Fear & Greed Index: 12)
+- March returned to green — first positive month since September
 
-**Institutional Activity:**
-- $2B+ ETF inflows in late Feb-mid March supported recovery
-- BUT: $171M single-day ETF outflow (March 26) — momentum waning
-- FTX $2.2B creditor distributions expected by March 31 → potential supply overhang
+**Technical Picture — MIXED:**
+- Bearish: Bear flag on 3-day chart, falling moving averages, whale selling, price below EMA50
+- Bullish: Weekly timeframe still constructive, retested bear flag lower boundary successfully
 
-**Macro Headwinds:**
-- Fed signaling only 1 rate cut in 2026 (hawkish)
-- Higher global interest rates reducing risk asset appeal
-- Geopolitical tensions (US-Iran conflict)
+**Key Levels to Watch:**
+- Resistance: $70,500 → $72,000-$75,000 (mid-April target)
+- Support: $66,000-$67,500 → $60,000-$61,500 (critical floor)
 
-**Long-term Outlook:**
-- Wide 2026 range: $90K–$120K (bull case)
-- Ultra-bull: $136K–$500K if Bitcoin establishes as "digital gold"
-- Bear case: potential dip to $50K before next rally
+**Bull Case:** Break above $72,600 = "smoking gun" for $80,000+. JPMorgan structural target $240,000-$266,000 long-term.
+
+**Bear Case:** Fail to hold $60K-$61.5K → $57K, possibly $52.6K.
+
+**Catalysts in April:**
+- FOMC rate decision + Trump press conference (late April) — key for risk assets
+- Clarity Act draft — regulatory framework details
+- US DOL rule allowing 401(k) crypto allocation — potential structural demand
+- Geopolitical tensions (Iran conflict, Russia fuel export ban) → elevated oil prices
+
+**Institutional Flow:** $1.13B net inflows into BTC spot ETFs in March, but momentum weakening into April. MicroStrategy keeps accumulating.
+
+**Historical Note:** April averages +33.4% for BTC historically — but Jan/Feb 2026 defied seasonal patterns.
 
 ---
 
 ## 4. Economy Outlook / Investment Strategy
 
-**Global Economy:**
-- Global growth: 3.0–3.3% in 2026
-- US growth: 2.2–2.6% (mid-2% range)
-- Core inflation: declining toward 2.6% by year-end
-- Fed: near neutral, likely 1 rate cut in 2026 (~100bps over 12 months)
-- Labor market: resilient but moderating
+**Global Economy 2026:**
+- Global GDP growth: 2.8%-3.3%
+- US outperformance: ~2.2% GDP growth expected
+- Inflation: Slow to decline, may hit 3.5%-4% near-term due to energy prices
+- Fed: Delaying cuts, possibly until 2027
+- Labor market: Slowing, unemployment ~4.4%
 
-**Key Risks:**
-- US national debt hitting 101% of GDP
-- Tariff/inflation spikes possible
-- Market bubble concerns (AI concentration)
-- AI disrupting labor market
+**Recession Risk:**
+- Goldman Sachs: 30% probability in next 12 months
+- Moody's: 49% probability within next year
+- Key triggers: Geopolitical oil shock, persistent inflation forcing more tightening, AI bubble reevaluation
 
-**Investment Strategy (Morgan Stanley, Vanguard, Goldman):**
-- **Diversification is critical** — mega-cap concentration is risky
-- Global equities over US-only exposure
-- Increase EM and small-cap exposure
-- Value + dividend stocks back in favor
-- Quality stocks (strong earnings, low variability, good cash flow)
-- Fixed income: high-quality bonds as ballast, government bonds for risk-off
-- Key themes: AI diffusion, energy (AI power demand), multipolar world, societal shifts
-- Alternative investments for qualified investors (hedge funds, infrastructure)
+**Investment Strategy:**
+- Equities: Stay overweight but diversify globally. Prepare for lower index returns vs 2025. Consider small-caps and emerging markets. AI remains high-conviction but diversify.
+- Fixed Income: Quality bonds as portfolio ballast. Munis attractive tax-adjusted. EM debt for income.
+- Alternatives: Worth considering for qualified investors.
+- Cash: Deploy selectively.
+- Themes: Technology diffusion, future of energy, multipolar world, societal shifts.
 
 ---
 
-## Key Takeaways for Jacob's Goals ($5K/month passive income from trading)
+## Actionable Takeaways for Jacob
 
-1. **Crypto caution:** BTC in consolidation with bearish signals — $60K support is critical. Don't over-allocate. FTX distributions creating near-term supply pressure.
+### Opportunities:
+1. **AI Agents as Productivity Multiplier** — Consider how autonomous AI could automate parts of your trading research or business operations. The ROI is documented in enterprise settings.
 
-2. **AI opportunity:** This is THE theme. Consider AI-adjacent investments (not just crypto) — infrastructure, energy, adoption plays. But avoid AI stock concentration risk.
+2. **Bitcoin Strategic Position** — $60K-$67K is a historically significant zone. If you're a BTC holder, this is a decision zone, not a panic zone. Long-term targets ($170K-$240K) remain intact structurally per JPMorgan.
 
-3. **Diversification:** Global EM/small-cap exposure recommended over US mega-cap only. This reduces single-market risk for family portfolio.
+3. **Monte Carlo for Your Trading** — If you're running any systematic strategies, use MC simulation to stress-test drawdown scenarios before they happen. This is now accessible to retail via platforms like Composer.trade, Interactive Brokers.
 
-4. **Fixed income for stability:** Government bonds + quality bonds as portfolio ballast given uncertain macro.
+4. **Diversification Rebalancing** — With US equities at risk of underperformance, consider global diversification, quality fixed income, and alternatives.
 
-5. **Monte Carlo for risk management:** If using trading strategies, use AI+Monte Carlo for backtesting — but don't rely on it for black swan prediction.
+### Risks to Avoid:
+1. **Don't Rely on Seasonal Patterns** — BTC's Jan/Feb 2026 defied historical averages. Don't bet on April seasonality.
 
-6. **Watch Fed:** Only 1 rate cut expected — rate-sensitive assets may struggle. Cash/short-term bonds remain attractive.
+2. **Geopolitical Oil Shock** — Iran conflict + Russia fuel bans could spike energy prices → inflation rebound → harder for Fed to cut → pressure on risk assets. Keep dry powder.
 
-7. **Dollar-cost averaging** into crypto rather than lump sum given volatility.
+3. **AI Bubble Reevaluation** — If AI spending fails to deliver promised returns, tech sector could correct sharply. Don't be 100% overweight AI.
 
-8. **Energy theme:** AI infrastructure driving massive power demand — energy sector may be underappreciated play.
+4. **Whale Activity Warning** — Increased large-holder selling detected. Could indicate distribution before a correction.
+
+5. **Recession Tail Risk** — 30-49% recession probability is not trivial. Maintain liquidity and avoid over-leveraging.
+
+### Bottom Line:
+Remain constructive on crypto long-term but manageable position size. The $60K level is critical — treat it as your mental stop or re-evaluation point. Focus on portfolio resilience over aggressive deployment until macro clarity emerges post-FOMC (late April).
 
 ---
-*Research compiled: March 27, 2026*
+*Generated: April 3, 2026 — Weekly Research Scan*
