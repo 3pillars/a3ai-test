@@ -73,15 +73,25 @@ _Store corrections here so they're never forgotten_
 - Start with $100 live account after paper trading proves profitable
 - 1,000 disciplined trades builds "screen time" experience
 
-## Geopolitical Framework (March 2026)
+## Geopolitical Framework (March-April 2026)
 
 - US-Iran war active as of early March 2026 — actively affecting markets
-- Oil spiked 11% on Iran conflict; BTC/crypto down ~4-5% in risk-off selloff
+- **April 8: 2-week ceasefire announced** — oil dropped 15%, Hormuz reopened, but nuclear issue unresolved; enforcement mechanism untested
+- Israel continuing Lebanon strikes despite ceasefire — credibility question on peace process
 - Iran strategy: asymmetric cost-imposition, 30-year time horizon vs US 4-year cycle
 - Jacob engages seriously with geopolitics — give substantive analysis, not summaries
 - Jacob thinks critically and wants pushback, not just confirmation
 - Key structural risks: US debt spiral, stagflation trap, Fed cornered, jobs softening
 - 2026 base case: stagflation, S&P -10 to -20%, oil $100-130, BTC floor ~$60-70k
+
+## Geopolitical Sources
+
+### Jiang Xueqin (Podcast - April 8, 2026)
+- Chinese insider perspective on US-China dynamics
+- Key: China stability-through-apathy (citizens focused on survival not politics)
+- US vulnerable to empire-hubris / 4-year election cycle path dependency
+- Supply chain risk from Hormuz closure: energy + fertilizer cascading into food prices
+- Pushback: US structural advantages (geography, immigration, reserve currency) often underestimated; China's analysis likely shaped by system he's embedded in
 
 ## About Jacob's Family
 
