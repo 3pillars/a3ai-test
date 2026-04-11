@@ -2,10 +2,12 @@
 
 ## Status Checks (no file writes needed)
 
-- US-Iran: Fragile 2-week ceasefire (Apr 7-8); Trump accuses Iran of violating by blocking Hormuz again; Israel striking Lebanon (250+ dead in one day); JD Vance in Islamabad negotiating; Iran demanding enrichment rights
-- BTC: ~$71,600 (+0.5%), tightest range in 18 days; Fear & Greed at 16 (extreme fear, historically reversal signal); 63% chance breaks $75k this month
-- Iran imposing ~$1/barrel crypto toll on Hormuz transit (~21M/day BTC demand signal)
-- Gas pump prices significantly lower post-Hormuz reopening (was $4+, now dropping)
-- CLARITY Act draft expected mid-April; FOMC rate decision end of April
+- US-Iran: Peace talks underway in Islamabad (JD Vance leading US delegation); Iran demanding Hormuz control + ceasefire in Lebanon as preconditions; Trump optimistic but warns military action if talks fail; ceasefire (Apr 8) remains fragile
+- Russia-Ukraine: Orthodox Easter 36-hour ceasefire Apr 11-12 (4pm start); Ukraine response unclear
+- Lebanon: Israeli operations against Hezbollah ongoing; Iran threatening to walk if attacks persist
+- BTC: ~$73,000 (+10% this week); Fear & Greed likely still in extreme fear zone; analysts targeting $80K
+- SEC "Regulation Crypto Assets" framework unveiled — two-tier safe harbor; BTC/ETH/SOL/XRP reclassified as "Digital Commodities" under CFTC; CLARITY Act heading to Senate Banking Committee
+- FOMC rate decision: April 29-30
+- Artemis II crew returns to Earth (splashdown off San Diego)
 - If something needs Jacob's attention → send alert
 - Otherwise → reply HEARTBEAT_OK
