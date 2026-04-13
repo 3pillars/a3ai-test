@@ -2,10 +2,13 @@
 
 ## Status Checks (no file writes needed)
 
-- US-Iran: Peace talks underway in Islamabad (JD Vance leading US delegation); Iran demanding Hormuz control + ceasefire in Lebanon as preconditions; Trump optimistic but warns military action if talks fail; ceasefire (Apr 8) remains fragile
-- Russia-Ukraine: Orthodox Easter 36-hour ceasefire Apr 11-12 (4pm start); Ukraine response unclear
-- Lebanon: Israeli operations against Hezbollah ongoing; Iran threatening to walk if attacks persist
-- BTC: ~$73,000 (+10% this week); Fear & Greed likely still in extreme fear zone; analysts targeting $80K
+- US-Iran: Peace talks in Islamabad (JD Vance leading US delegation) BROKEN DOWN; Iran demanding Hormuz control + ceasefire in Lebanon as preconditions; BTC dropped from $73k to $71k on risk-off; Trump warns military action if talks fail
+- Russia-Ukraine: Orthodox Easter ceasefire expired 4pm today; "special military operation" resumed; both sides accused of ~2,000+ violations during truce
+- Lebanon: Israeli operations against Hezbollah ongoing; ceasefire (Apr 8) remains fragile
+- BTC: ~$71,000 (fell from $73k after US-Iran talks broke down); still in $60-80k alert range
+- SEC "Regulation Crypto Assets" framework unveiled — two-tier safe harbor; BTC/ETH/SOL/XRP reclassified as "Digital Commodities" under CFTC; CLARITY Act heading to Senate Banking Committee
+- FOMC rate decision: April 29-30 (14 days)
+- Artemis II crew returns to Earth (splashdown off San Diego)
 - SEC "Regulation Crypto Assets" framework unveiled — two-tier safe harbor; BTC/ETH/SOL/XRP reclassified as "Digital Commodities" under CFTC; CLARITY Act heading to Senate Banking Committee
 - FOMC rate decision: April 29-30
 - Artemis II crew returns to Earth (splashdown off San Diego)
