@@ -2,11 +2,13 @@
 
 ## Status Checks (no file writes needed)
 
-- US-Iran: Ceasefire holding but fragile (expires Apr 22); Israel-Lebanon 10-day truce in effect, Hormuz open for commercial traffic; Third round of Islamabad talks ongoing; Trump says "very close" to deal; Iran claims agreed to hand over enriched uranium stockpile (unconfirmed); Naval blockade of Iranian ports still active — Iran threatens retaliation; Khamenei confirmed dead (Feb 28 airstrikes), succession unclear
+- US-Iran: CRISIS ESCALATING — Iran CLOSED Strait of Hormuz (demands US end port blockade before reopening); Iranian gunboats attacked cargo ships; Trump declares "will not be blackmailed"; Iran denies talks, calls US demands "maximalist"; oil/gas spike risk globally; prior ceasefire info now stale/broken — verify current status
+- Israel-Lebanon: 10-day truce reportedly in effect — verify
+- Islamabad talks: third round ongoing — may be affected by Hormuz crisis
 - Russia-Ukraine: Orthodox Easter ceasefire expired; "special military operation" resumed; deadliest Russian attacks in months (17+ killed in Odessa Apr 17); EU approving €90B loan to Ukraine; Germany sending $4B air defense; UK pledging 120,000 drones
-- BTC: ~$74-75K consolidating; testing $75K resistance; institutional demand strong (Morgan Stanley ETF live, Goldman filing); whale accumulation at 21.3% supply (highest since Feb); negative funding rates 46 days running; close above $75.5K targets $80K+
-- SEC: Granted conditional exemptions for crypto trading interfaces (Apr 13); "Regulation Crypto Assets" framework still in play
-- FOMC rate decision: April 29-30 (12 days)
-- Artemis II crew: Already returned (splashdown Apr 10, San Diego) — HEARTBEAT had stale info
+- BTC: ~$75,600; bearish flag pattern warning, potential drop to $68k; institutional activity dominant (BlackRock IBIT, CME); whale accumulation high; close above $75.5K targets $80K+
+- SEC: Eliminated $25k minimum for pattern day traders — retail can now day-trade BTC with ~$2k margin (significant rule change)
+- FOMC rate decision: April 29-30 (11 days)
+- North Korea: Launched multiple ballistic missiles — UN warned of "very serious" nuclear advancements
 - If something needs Jacob's attention → send alert
 - Otherwise → reply HEARTBEAT_OK
