@@ -29,11 +29,21 @@ _Store corrections here so they're never forgotten_
 ## About Jacob
 
 - **Name:** Jacob
-- **Location:** South Lake Tahoe (96150)
+- **Location:** Cupertino, CA (school district: Cupertino)
 - **Family:** Solo entrepreneur supporting a family of 6
 - **Business:** Crypto and market trading/investing
 - **Goal:** Automate trading to generate $5,000/month passive income
-- **Weather:** Gets snow alerts during winter storms
+- **Weather:** South Lake Tahoe is a vacation property (not primary residence)
+
+## Jacob's Kids
+
+### Andy (2e child — twice-exceptional)
+- **Age:** 9 years old
+- **Grade:** 4th grade, Cupertino school district
+- **Diagnosis:** Severe autism, non-verbal, cannot write (fine motor impaired)
+- **Math ability (April 2026):** Solving Putnam, IMO, stoichiometry, quantum mechanics — no training. "Internal computing only" — communicates via "curve lines" after solving
+- **Highest priority:** AAC/communication system (Proloquo2Go or Dynavox) — communication barrier may be hiding even more capability
+- **Detailed profile:** `memory/andy-2e-profile.md`
 
 ## Key Context
 

@@ -37,4 +37,18 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 
 ---
 
-Add whatever helps you do your job. This is your cheat sheet.
+## Model Configuration
+
+**Runtime:** MiniMax-M2.7 (minimax-portal) — only model available in this setup
+
+**Tiering strategy:**
+- MiniMax-M2.7: Heartbeats, routine checks, quick queries (free/fast)
+- Spawn Claude/Opus subagent: Complex reasoning, strategy, deep analysis
+
+**When to spawn a subagent:**
+- Trading strategy / portfolio analysis
+- Geopolitical deep-dives
+- Code building / reviewing large files
+- Anything requiring sustained reasoning
+
+**How:** `sessions_spawn(task="...", runtime="subagent", model="claude-3-5-sonnet")`

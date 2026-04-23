@@ -1,13 +1,17 @@
 # Andy's Profile — Twice-Exceptional (2e) Support Structure
 
-**Last updated:** 2026-03-31 (from Jacob's message)
+**Last updated:** 2026-04-23 (Jacob confirmed details)
 
 ## Core Profile
-- **Age:** 9 (born ~March 2016-2017)
+- **Age:** 9 years old
 - **Name:** Andy
-- **Non-verbal** (autism spectrum — likely)
-- **Math prodigy:** Solves AMC 8-10 level problems intuitively, no procedural steps, just "curve lines"
-- "Curve lines" = visual-spatial mathematical intuition — he sees the pattern/solution directly
+- **School:** 4th grade, Cupertino school district
+- **Diagnosis:** Severe autism (diagnosed early)
+- **Communication:** Non-verbal, AAC-dependent
+- **Motor:** Difficulty with writing and fine motor skills — physically cannot write out solutions
+- **Math prodigy:** Solves Putnam-level, IMO-level, stoichiometry, and quantum mechanics problems — ALL without prior exposure or training
+- **How he works:** "Curve lines" = communicates answers via drawing; internal computing happens entirely in his head — he cannot write, only draw after-the-fact
+- **Remark:** Jacob says Andy "solved them without any hint or steps on the whiteboard, internal computing was the only thing he needed" — the whiteboard drawings are post-hoc communication, not work shown
 
 ## Key Priority Areas
 
@@ -33,11 +37,11 @@
 - Therapist specializing in autistic giftedness (essential, not optional)
 - Find parent community of other 2e autistic families
 
-### 5. South Lake Tahoe Context
-- Geographically somewhat isolated
-- Online math communities (AoPS forums)
-- Remote mentorship via video
-- Annual specialized programs with online options
+### 5. Cupertino Context
+- In Cupertino school district (4th grade)
+- Access to strong gifted/talent programs in district
+- AoPS Beast Academy online community recommended
+- Ross Program, PROMYS, EPGY (Stanford) — Bay Area options
 
 ## Open Questions (from Jacob)
 - Does Andy currently have an AAC/communication system?
