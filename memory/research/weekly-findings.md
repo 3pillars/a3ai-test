@@ -1,120 +1,81 @@
 # Weekly Research Findings
-**Week of April 17, 2026**
-
-## 1. Quantitative Finance / Trading / Monte Carlo Simulation
-
-**Key Developments:**
-- Monte Carlo simulations now integrate with ML models (Random Forest, LSTM, SVM) for enhanced forecasting and risk assessment
-- Critical use case: overcoming "sequence risk" in backtesting - reshuffling trade orders to validate if strategy success is genuine or luck
-- Regime-switching Monte Carlo incorporates different market regimes for more realistic equity paths
-- Cloud computing advancements making real-time option pricing more practical
-- LSMC (Least Squares Monte Carlo) gaining traction for American put options with early exercise features
-
-**Implications for Trading:**
-- Monte Carlo validation is essential before deploying real capital - prevents overfitting to specific historical sequences
-- Risk management now uses VaR and CVaR with thousands of simulated market scenarios
-- Algorithmic strategy optimization now tested across bull, bear, and sideways markets simultaneously
+**Week of April 24, 2026**
 
 ---
 
-## 2. AI Agents / LLMs
+## 📊 Quantitative Finance / Trading / Monte Carlo
 
-**Key Developments:**
-- **Agentic AI mainstream**: 50% of enterprises using GenAI will deploy autonomous agents by 2027 (Deloitte)
-- **Vertical LLMs outperforming**: Specialized models trained on domain data beating general-purpose models in specific tasks
-- **Multimodal everywhere**: Models now handle text, images, audio, video natively
-- **Reasoning models**: RLVR-trained models gaining importance for high-stakes environments
-- **Hybrid deployments**: Local/on-premise AI gaining traction for IP protection and compliance
+### Key Developments
+1. **ORE 15th Release (LSEG)** - Open-Source Risk Engine continues strengthening open-source innovation in risk management
+2. **15+ Global Banks Exploring Quantum Technologies (2026)** - Major banks investing in quantum computing for finance applications
+3. **Quant Finance Skills Report (MEXC)** - Industry shift toward practical skills: mathematics, coding, and what firms actually test for
+4. **Monte Carlo Mean Reversion Heatmap (LuxAlgo/TradingView)** - New technical indicator combining Monte Carlo simulation with mean reversion analysis
 
-**Practical Applications:**
-- AI agents now plan, act, and reflect - moving beyond chatbots to execution layers
-- Enterprise focus shifting from pilots to production-grade systems
-- Multi-agent orchestration for complex task automation emerging
+### Insight
+Quantum computing adoption accelerating in banking sector. Monte Carlo applications continue evolving with new technical analysis tools combining probabilistic modeling with traditional indicators.
 
 ---
 
-## 3. Bitcoin / Crypto Market Analysis (April 17, 2026)
+## 🤖 AI Agents / LLMs
 
-**Current Status:**
-- BTC at ~$74,694, battling critical resistance at $75,000-$75,500
-- Market cap ~$1.51 trillion
-- Two-month consolidation between $62,000-$75,000
+### Key Developments
+1. **Amazon: Why CPUs Matter for Agentic AI** - CPUs becoming crucial for running AI agents efficiently
+2. **NVIDIA NeMo Agent Toolkit** - Docker-based model runner configuration for enterprise AI agent deployment
+3. **Data Leak Prevention for AI** - New security solutions emerging specifically for AI data vulnerabilities
+4. **Classiq: Quantum AI Agents for Enterprise** - Expert-level quantum AI agents entering enterprise applications
+5. **MIT Research: Helping AI Agents Search Better** - Improving LLM search capabilities for AI agent performance
 
-**Bullish Signals:**
-- BlackRock alone captured $935M in Q1 ETF inflows (50% market share)
-- Morgan Stanley launched spot Bitcoin ETF (MSBT)
-- Whales (1,000-10,000 BTC) holding 21.3% of supply - highest since Feb 2026
-- Deutsche Börse invested $200M in Kraken
-- Post-halving supply shock expected to peak in April 2026
-- "Bottom signal": Negative funding rates for 46 consecutive days (similar to 2022 winter bottom)
-- Tim Draper predicts $250K in 18 months; Standard Chartered targets $100K
-
-**Key Resistance/Support:**
-- Resistance: $75,000-$75,500 → breakout target $80,000-$90,000+
-- Support: $70,000-$72,000
-- Consolidation between $70K-$75.5K for several weeks would be constructive
-
-**Macro Factors:**
-- Fed rate stance is #1 variable
-- Bitcoin showing inverted correlation with Global Easing Breadth Index - now a *leading* macro indicator
-- U.S.-Iran ceasefire weakened oil → supports risk-on environment
+### Insight
+AI agent infrastructure maturing rapidly. CPU efficiency, security (data leaks), and enterprise deployment tools are hot areas. Quantum-AI convergence beginning in enterprise space.
 
 ---
 
-## 4. Economy Outlook / Investment Strategy (2026)
+## ₿ Bitcoin / Crypto Market Analysis
 
-**Global Economy:**
-- Global growth: 2.8%-3.3%
-- US growth: 2.2%-2.6% (rebound from earlier weakness)
-- US inflation: Gradual decline to 2.7% in 2026, targeting 2% by 2030
-- Fed rate cuts expected: Policy rate to 3%-3.25% by end of 2026
-- AI investment = primary growth driver
+### Key Developments
+1. **Bitcoin ETF Inflows: $2B in 8 Days** - Massive institutional inflows driving rally to ~$78K
+2. **BTC Dominance at 60.66%** - Highest level, effectively "burying altseason hopes" for 2026
+3. **Three Signs BTC Has Bottomed** (Cryptonews) - Technical analysis suggesting local bottom formation
+4. **Michael Saylor: "Bitcoin Winter is Over"** - Strategy CEO maintaining bullish stance
+5. **BNY Mellon Examines Bitcoin & ETFs** - Oldest US bank ($59T AUM) studying crypto exposure
+6. **ARK Invest: Record Number of Bitcoin Accumulation** - Long-term holder confidence high
+7. **Geopolitical Factor: Strait of Hormuz Blockades** - Affecting crypto flows, DOGE outperforming
+8. **USDC Exchange Reserves >$7.5B** - "Disbelief phase" as institutional money positions
+9. **Metaplanet Issues $50M 0% Bonds to Buy BTC** - Corporate treasury strategy continuing
+10. **Short-term Holders Selling** - ETF inflows being absorbed by profit-taking
 
-**Investment Strategy Recommendations:**
+### Technical Levels to Watch
+- **$80K resistance** - Key breakout level
+- **$75K-$78K current range** - Consolidation zone
+- **Short-term holder cost basis** - Selling pressure zone
 
-**Equities:**
-- Overweight with global diversification
-- Opportunities broadening beyond mega-cap (small-cap, emerging markets)
-- Focus areas: AI infrastructure, global defense, small-cap biotech (M&A potential)
-
-**Fixed Income:**
-- Ballast and stability role
-- Munis: attractive tax-adjusted returns
-- Corporate bonds: consistent income, reduced portfolio risk
-- Rate cuts = favorable for locking in yields
-
-**Alternatives (for qualified investors):**
-- Private credit
-- Infrastructure (electrification, reshoring themes)
-
-**Risk Management:**
-- Diversify across asset classes, geographies, sectors
-- Hedges: gold, JPY, EUR, inflation-linked instruments
-- Consider building larger cash position tactically
-
-**Key Risks to Monitor:**
-- Geopolitical tensions
-- Trade uncertainties
-- Elevated public debt
-- "Hot valuations" in some segments
+### Insight
+Strong institutional momentum. ETF inflows ($2B/8 days) are primary driver. BTC dominance at multi-year highs crushes altseason hopes. Geopolitical risks (Middle East) creating volatility but also safe-haven narrative. Current environment favors BTC over alts.
 
 ---
 
-## Actionable Takeaways for Family Wealth
+## 🏦 Economy / Investment Strategy
 
-1. **BTC position**: Stay the course - structural support at $62K-$65K, current consolidation is healthy. Watch $75.5K close for breakout confirmation.
+### Key Macro Themes
+1. **Intel Stock +22%** - US government sitting on $26.5B gain from Intel stake
+2. **Japan Inflation Rising** - Adding to global macro jitters
+3. **Prediction Market Legal Battle** - Wisconsin suing Kalshi, Coinbase, Polymarket, Robinhood, Crypto.com
+4. **India E-Rupee + BRICS CBDC** - Digital currency developments advancing
+5. **Morgan Stanley Positioning as Stablecoin Reserve Manager** - Major bank embracing stablecoin infrastructure
+6. **US Military Running Bitcoin Node** - Strategic view of BTC as power projection vs China
+7. **DeFi Institutional Appeal Curb** - JPMorgan cites persistent security flaws
 
-2. **AI exposure**: Increase via infrastructure (not just tech stocks) - data centers, power, semiconductors
-
-3. **Fixed income ladder**: With Fed cuts coming, lock in yields now in quality bonds/munis
-
-4. **Diversification**: Don't over-concentrate in US equities - emerging markets and small-caps offer better value
-
-5. **Monte Carlo mindset**: For any trading strategy - validate with Monte Carlo simulation before scaling capital
-
-6. **Cash position**: Consider 5-10% tactical cash as buffer against volatility
-
-7. **Avoid**: Crypto yield farming platforms (counterparty risk), over-leveraged positions, hot IPOs
+### Insight
+Institutional crypto adoption accelerating (Morgan Stanley, BNY Mellon). However security/regulatory issues remain. Macro headwinds from inflation and geopolitical tensions (Iran war jitters). Nation-state adoption narrative building.
 
 ---
-*Generated: April 17, 2026*
+
+## 🎯 Action Items / Watchlist
+- [ ] Monitor BTC是否能突破 $80K (key resistance)
+- [ ] Watch for altcoin capitulation as BTC dominance continues rising
+- [ ] Track AI agent infrastructure plays (CPU, security, deployment tools)
+- [ ] Quantum computing + finance convergence accelerating - potential opportunities
+- [ ] Watch Morgan Stanley stablecoin reserve manager role - institutional legitimacy play
+
+---
+*Generated: 2026-04-24 08:05 AM PST*
