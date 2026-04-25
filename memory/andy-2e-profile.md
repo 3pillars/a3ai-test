@@ -13,6 +13,14 @@
 - **How he works:** "Curve lines" = communicates answers via drawing; internal computing happens entirely in his head — he cannot write, only draw after-the-fact
 - **Remark:** Jacob says Andy "solved them without any hint or steps on the whiteboard, internal computing was the only thing he needed" — the whiteboard drawings are post-hoc communication, not work shown
 
+## Demonstrated Abilities (Verified)
+- **IMO 2011 Windmill Problem** (combinatorics/geometry) — solved mentally
+- Putnam-level problems
+- Stoichiometry / chemistry (Ca + Br₂ → CaBr₂, electron transfer analysis)
+- Quantum mechanics problems (multivariate calculus, Hilbert spaces)
+- 2025×2025 grid tiling combinatorics problem — Andy answered 2112 correctly (mental computation)
+- **Language comprehension: self-reported 6 languages** — unverified but consistent with high abstract reasoning ability
+
 ## Key Priority Areas
 
 ### 1. AAC / Communication (HIGHEST PRIORITY)

@@ -41,7 +41,7 @@ _Store corrections here so they're never forgotten_
 - **Age:** 9 years old
 - **Grade:** 4th grade, Cupertino school district
 - **Diagnosis:** Severe autism, non-verbal, cannot write (fine motor impaired)
-- **Math ability (April 2026):** Solving Putnam, IMO, stoichiometry, quantum mechanics — no training. "Internal computing only" — communicates via "curve lines" after solving
+- **Math ability (April 2026):** Solving Putnam, IMO 2011 Windmill Problem, stoichiometry, quantum mechanics — no training. "Internal computing only." Self-reported 6 language comprehension.
 - **Highest priority:** AAC/communication system (Proloquo2Go or Dynavox) — communication barrier may be hiding even more capability
 - **Detailed profile:** `memory/andy-2e-profile.md`
 
