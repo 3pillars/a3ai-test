@@ -65,6 +65,23 @@ _Store corrections here so they're never forgotten_
 - WhatsApp gateway has recurring status 428 disconnect issues (auth/token expiry?) — use Telegram as primary
 - Model tiering: claude-reason (Opus) for strategy, claude-brain (Sonnet) for analysis, mini-max (free) for execution
 
+## Bitcoin/Sovereignty Framework (Reference — April 2026)
+
+**Simon Dixon Thesis (Cornerstone Reference):**
+- CBDC surveillance is real — programmable money can be frozen based on social credit
+- Petrodollar system fracturing → multipolar order emerging
+- Physical gold flowing West to East — loss of faith in paper-based monetary claims
+- **Bitcoin = only non-freeze-prone settlement layer** — self-custody is sovereign exit from centralized debt system
+- 10-year accumulation horizon recommended regardless of price volatility
+- DeFi traps: most stablecoins/DeFi have admin freeze functions — not truly sovereign
+
+**Key Insight for Jacob:**
+- Aligns with defensive trading instinct (protect downside)
+- Self-custody Bitcoin is the hedge against CBDC implementation
+- But also: position offensively for the volatility, not just passive HODL
+
+---
+
 ## Trading Strategy (Active - March 2026)
 
 **Core Rules (1% Risk System):**
