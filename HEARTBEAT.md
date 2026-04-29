@@ -9,7 +9,7 @@
 - Russia-Ukraine: Easter ceasefire expired; deadliest attacks in months; EU approving €90B loan to Ukraine
 - North Korea: Opened museum for troops killed fighting for Russia in Ukraine; Russia-NK cooperation deepening
 - BTC: ~$76K; $80K resistance; oil spike + Iran stalemate = headwind
-- **FOMC rate decision: TOMORROW-WEDNESDAY (April 29-30)**
+- **🚨 FOMC RATE DECISION: TODAY-WEDNESDAY (April 29-30) — Powell's likely last meeting**
 - SEC: Eliminated $25k minimum for pattern day traders — retail can day-trade BTC with ~$2k margin
 - OpenAI: Missed revenue & user targets ahead of IPO; Musk v Altman trial underway
 - China blocked Meta's Manus acquisition — US-China tech tensions escalating
