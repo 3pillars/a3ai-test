@@ -21,7 +21,38 @@
 - 2025×2025 grid tiling combinatorics problem — Andy answered 2112 correctly (mental computation)
 - **Language comprehension: self-reported 6 languages** — unverified but consistent with high abstract reasoning ability
 
-## Key Priority Areas
+## Expert Perspectives on Autism
+
+### Simon Baron-Cohen (Cambridge Professor)
+Key concepts from his research:
+- **Autism = Disability + Difference** — not a disease, combination of challenges AND specific cognitive strengths
+- **Systemizing** — the drive to analyze/build systems based on lawful regularities; pattern recognition is a CORE strength, not a symptom
+- **Autism as extreme male pattern** — systemizing > empathizing; biological (genetics + prenatal hormones)
+- **Neurodiversity** — autistic people often fall outside protection of basic human rights (employment, education, health support)
+- **Accommodating strengths** — ask the individual what they need; adjust sensory environment; level the playing field
+
+**Implication for Andy:** His math gift IS his systemizing at extreme levels. The "disability" (nonverbal, motor) doesn't diminish the "difference" (pattern recognition, invariants, logical structures). Accommodations should focus on communication access (AAC) + environment (sensory-friendly), not on trying to make him "normal."
+
+---
+
+## Motor Regulation (Hyperactivity)
+
+**Challenge:** Andy runs constantly — hard to control pace, always moving.
+
+**Why it happens:** Running = sensory-seeking behavior (primarily vestibular/proprioceptive input). His body is "demanding" this input. Punishment doesn't fix it.
+
+**Strategies:**
+1. **Pre-schedule movement** — before quiet tasks, give 15 min of running/bouncing
+2. **Heavy work** — push/pull heavy objects (bucket, backpack,箱子) — has calming effect
+3. **Vestibular input** — if he tolerates it: swings, slow spinning, theracycle
+4. **Trampoline** — most effective home intervention
+5. **Create "run zone"** — clear path in house/yard, make rules clear: not banned, just redirected
+6. **Use AAC** — teach him to say "I need to run" or "I need heavy"
+7. **Track triggers** — what context makes it worse? (transitions, stress, overstimulation)
+
+**Professional support:** Occupational Therapy (OT) with sensory integration focus. SI-OT trained therapist can design a "sensory diet" tailored to Andy's needs.
+
+**If ongoing issues:** Evaluate for ADHD comorbidity. Medication can help when environment + movement strategies aren't enough — discuss with developmental pediatrician.
 
 ### 1. AAC / Communication (HIGHEST PRIORITY)
 - Does Andy have an AAC system? (Tobi Dynavox, Proloquo2Go, picture exchange, sign language?)
