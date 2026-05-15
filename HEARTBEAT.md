@@ -2,15 +2,16 @@
 
 ## Status Checks (no file writes needed)
 
-- **US-Iran: Deal NOT done yet** — "Closest ever" but Iran reply still pending. 48hr window. Terms: Hormuz reopening + blockade lifted, 12yr nuclear moratorium, sanctions removed, frozen funds released. Trump issued bomb threat if no deal.
-- **BTC: ~$79.7K** — Dipped back into your $60K-$80K alert range. Was $81K yesterday, now $79.7K. Watching $80K as support.
-- **FOMC: Done** — Powell's last press conference was April 29, not May 6 as originally noted. May 6 was operational readiness test only.
-- **Oil: ~$100** — Dropped from $115 to ~$97 on US-Iran deal hopes (Hormuz reopening). Still elevated due to uncertainty. Brent at $97, WTI ~$91.
-- Russia-Ukraine: Easter ceasefire expired, deadliest attacks in months, EU approving €90B loan
-- North Korea: Russia-NK cooperation deepening
-- SEC: Eliminated $25k minimum for pattern day traders
-- OpenAI: Musk v Altman trial underway
-- Supreme Court: Voids Louisiana majority-Black district — boosts Republicans
-- Spain-NATO: Pentagon leaked email floats suspending Spain over Iran war non-support. Sánchez dismisses. Ongoing.
+- **US-Iran: No deal yet** — Trump put timeline on limiting Iran's nuclear program (May 15 deadline). US wants 20-year enrichment ban; Iran offered >10yr suspension + immediate ceasefire, deferring nuke talks. Gap remains: US wants 440kg HEU surrender upfront, Iran won't give leverage before negotiations. Trump ready to resume military action if no deal. ~$100 oil elevated on uncertainty.
+- **BTC: ~$80-81K** — Solid at $80K support, bouncing between $79K-$81K range. Good stability in your alert zone.
+- **FOMC: Done** — Powell's last press conference was April 29. Warsh took over as Fed Chair.
+- **Russia-Ukraine: Easter ceasefire expired**, deadliest attacks in months, EU approving €90B loan
+- **North Korea:** Russia-NK cooperation deepening
+- **SEC:** Eliminated $25k minimum for pattern day traders
+- **OpenAI:** Musk v Altman trial underway
+- **Supreme Court:** Voids Louisiana majority-Black district — boosts Republicans
+- **Spain-NATO:** Pentagon leaked email floats suspending Spain over Iran war non-support. Sánchez dismisses. Ongoing.
+- **DExit:** $3T+ corporate exodus from Delaware ongoing. Tesla case finally dismissed by VP Chancellor David (Apr 13) after Scrabble tile random assignment drama.
+- **Bitcoin Dumping Grounds:** Michael Saylor's Strategy accumulating more BTC
 - If something needs Jacob's attention → send alert
 - Otherwise → reply HEARTBEAT_OK
