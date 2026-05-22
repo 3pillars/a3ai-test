@@ -13,5 +13,10 @@
 - **Spain-NATO:** Pentagon leaked email floats suspending Spain over Iran war non-support. Sánchez dismisses. Ongoing.
 - **DExit:** $3T+ corporate exodus from Delaware ongoing. Tesla case finally dismissed by VP Chancellor David (Apr 13) after Scrabble tile random assignment drama.
 - **Bitcoin Dumping Grounds:** Michael Saylor's Strategy accumulating more BTC
-- If something needs Jacob's attention → send alert
-- Otherwise → reply HEARTBEAT_OK
+## Market Monitoring
+
+- **Hunter's Melt-up Alert (July-End 2026):**
+  - Watch for: Extreme optimism, AI hype, "this time different" narratives, all in sentiment
+  - Key triggers: VIX <15, Fear & Greed at Extreme Greed, AAII bull-bear spread at extremes
+  - When market hits euphoria → alert Jacob immediately
+  - Alert file: `memory/market-euphoria-alert.md`
