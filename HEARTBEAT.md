@@ -20,3 +20,9 @@
   - Key triggers: VIX <15, Fear & Greed at Extreme Greed, AAII bull-bear spread at extremes
   - When market hits euphoria → alert Jacob immediately
   - Alert file: `memory/market-euphoria-alert.md`
+
+## Skills Maintenance
+
+- **Monthly review:** Check skills in `memory/skills-review-*.md` for updates needed
+- **After major learnings:** Update relevant skill immediately
+- **Skills updated today (May 28):** trading-research, crypto-price-alert, ai-project-template
