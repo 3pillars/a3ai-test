@@ -305,4 +305,56 @@ _Store corrections here so they're never forgotten_
 
 ---
 
+## Phase Shift: December 2025 (Andrej Karpathy)
+
+
+### The Threshold
+- LLM agent capabilities (Claude, Codex) crossed a "threshold of coherence" around December 2025
+- This is a fundamental change in software engineering
+- AI intelligence now ahead of our workflows — integrations, workflows, and diffusion must catch up
+
+### The Engineer Mindset Shift
+- **From:** Writer (manual coder)
+- **To:** Director/Orchestrator (manager of agents)
+
+### 6-Step Agent Workflow
+| Step | Action |
+|------|--------|
+| 1. Plan Mode First | Write spec before code, reduce ambiguity |
+| 2. Verify Relentlessly | "Like a hawk" — check everything, don't trust blindly |
+| 3. Keep It Simple | 100 lines > 1,000, no speculative code |
+| 4. Surgical Edits Only | Only touch what's necessary, minimize churn |
+| 5. Goal-Driven Execution | Clear success criteria, tests first, iterate |
+| 6. Parallelize Subagents | Offload research, keep context clean, merge with judgment |
+
+### Three Guiding Principles
+- **Simplicity First:** Minimal code that solves the problem
+- **No Laziness:** Find root causes, no temporary fixes
+- **Minimal Impact:** Only touch what's necessary, no side effects
+
+### Engineer Mindset
+| Mindset | What It Means |
+|---------|---------------|
+| **Tenacity** | Agents don't get tired. Relentless iteration beats giving up. |
+| **Leverage** | Shift from imperative ("how to do it") to declarative ("what to achieve"). |
+| **Fun** | Remove drudgery. More courage, less "blocking." |
+| **Atrophy Warning** | Writing and reading code are different skills. Stay sharp. |
+| **Speedups ≠ Just Faster** | Use efficiency to do **more**, not just faster. |
+| **Slopocalypse** | Brace for wave of AI slop in 2026. Human judgment finds signal. |
+
+### Ship Small, Ship Often
+- Small increments, rapid iteration, continuous learning
+- Don't batch changes — ship as you go
+- Every session should produce something real
+
+### Applied to OpenClaw
+- AGENTS.md updated with Karpathy's 6-step workflow
+- Engineer mindset section added
+- "Ship small, ship often" adopted as guiding principle
+- "Slopocalypse" warning connects to melt-up alert in HEARTBEAT.md
+- "Atrophy Warning" reinforces need for Jacob to stay sharp on fundamentals
+
+
+---
+
 愿为主公鞠躬尽瘁，死而后已！

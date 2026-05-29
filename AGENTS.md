@@ -289,6 +289,149 @@ Always verify AI output. AI can hallucinate. The problem was never AI—it was A
 
 ---
 
+## 🤖 AI Operating Framework (Inspired by Zack Shapiro + Andrej Karpathy)
+
+### The Phase Shift (December 2025)
+
+
+> LLM agent capabilities crossed a "threshold of coherence" in late 2025. This is a fundamental shift — agents can now execute coherent multi-step workflows. The bottleneck is no longer AI intelligence — it's our workflows and integration patterns.
+
+
+**The engineer mindset shift:**
+- **From:** Writer (manual coder)
+- **To:** Director/Orchestrator (manager of agents)
+
+### Three Modes
+
+**1. Chat Mode** - Conversational
+- For: analysis, brainstorming, first takes, drafting from scratch
+- You stay in control of every step
+- Most common mode
+
+**2. Autonomous Mode (Cowork)** - Point & task
+- For: batch processing, full document reviews, generating multiple outputs
+- Point at files/folders, give task, let AI execute autonomously
+- Great for large tasks that can be broken down
+
+**3. Code Mode** - Full terminal access
+- For: building tools, complex automation, system tasks
+- Less common but powerful when needed
+
+### Agent Workflow (6 Steps from Karpathy)
+
+
+**1. Plan Mode First**
+- Use plan mode for any non-trivial task
+- Write detailed specs before writing code
+- Reduce ambiguity before acting
+- Use lightweight inline plan for smaller tasks
+
+**2. Verify Relentlessly**
+- Monitor agent output "like a hawk"
+- Check assumptions, edge cases, tradeoffs
+- Run tests, review diffs, verify correctness
+- Do not blindly accept output — stay in the loop
+
+**3. Keep It Simple**
+- Avoid overengineering, bloated abstractions
+- Prefer 100 lines over 1,000
+- Clean up dead code and "cruft"
+- Always ask: "Is there a simpler way?"
+
+
+**4. Surgical Edits Only**
+- Change only what's necessary
+- Don't touch unrelated code or comments
+- Don't "improve" things that aren't broken
+- Minimize side effects and churn
+
+**5. Goal-Driven Execution**
+- Provide clear success criteria
+- Write tests first, then make them pass
+- Integrate tools into the loop
+- Let agent iterate until goal is met
+
+**6. Parallelize with Subagents**
+- Offload research, exploration, analysis to subagents
+- Keep primary context clean
+- Assign one task per subagent for maximum focus
+- Merge results back using human judgment
+
+
+### Three Guiding Principles
+
+
+| Principle | Meaning |
+|-----------|--------|
+| **Simplicity First** | Minimal code that solves the problem. Nothing speculative. |
+| **No Laziness** | Find root causes. No temporary fixes. Senior developer standards. |
+| **Minimal Impact** | Only touch what's necessary. No side effects. No new bugs. |
+
+
+### Prompting is the Skill
+
+The difference between "AI is useless" and "AI changed my practice" is **instruction quality**:
+
+
+❌ "review this contract"
+✅ "review this NDA from the vendor's perspective. Flag provisions where customer shifted risk beyond market norms. Check for missing provisions including limitation of liability, IP ownership, data handling, and termination. Produce severity-rated summary with specific counter-language."
+
+**Key insight:** Generic prompts → generic results. Specific, detailed prompts → useful output on first pass.
+
+
+### Skills = Encoded Judgment
+
+Custom instruction files that encode:
+- Analytical frameworks
+- Preferred formats
+- Voice/tone
+- Practice-specific judgment
+- What to look for, what to flag, how to weigh competing considerations
+
+This is the real leverage: **encoding individual judgment** into reusable instructions.
+
+
+### Context Compounds
+
+- Use once → knows your folder structure
+- Use 5 times → knows your projects, voice, standards
+- Use 20 times → becomes your personalized operating system
+
+The more you use the system, the smarter it gets. Automatically.
+
+
+### Quality Control
+
+Always verify AI output. AI can hallucinate. The problem was never AI—it was AI without quality control.
+
+
+**Required self-review:**
+- Verify citations and facts
+- Flag uncertainty explicitly
+- Check for internal contradictions
+
+### Engineer Mindset (from Karpathy)
+
+| Mindset | What It Means |
+|---------|---------------|
+| **Tenacity** | Agents don't get tired. Relentless iteration beats giving up. |
+| **Leverage** | Shift from imperative ("how to do it") to declarative ("what to achieve"). |
+| **Fun** | Remove drudgery. More courage, less "blocking." |
+| **Atrophy Warning** | Writing and reading code are different skills. Stay sharp intentionally. |
+| **Speedups ≠ Just Faster** | Use efficiency to do **more**, not just the same things faster. |
+| **Slopocalypse** | Brace for wave of AI slop in 2026. High hype requires human judgment to find true signal. |
+
+### Ship Small, Ship Often
+
+> Small increments, rapid iteration, continuous learning.
+> Don't batch changes — ship as you go.
+> Every session should produce something real.
+
+**Bad:** Wait until perfect, then ship big
+**Good:** Ship small, get feedback, iterate
+
+---
+
 ## 💰 Cost Optimization Framework (Inspired by Prajwal Tomar)
 
 ### Model Tiering Strategy
