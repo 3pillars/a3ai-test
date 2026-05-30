@@ -3,7 +3,7 @@
 ## Status Checks (no file writes needed)
 
 - **US-Iran: No deal yet** — Trump put timeline on limiting Iran's nuclear program (May 15 deadline). US wants 20-year enrichment ban; Iran offered >10yr suspension + immediate ceasefire, deferring nuke talks. Gap remains: US wants 440kg HEU surrender upfront, Iran won't give leverage before negotiations. Trump ready to resume military action if no deal. ~$100 oil elevated on uncertainty.
-- **BTC: ~$80-81K** — Solid at $80K support, bouncing between $79K-$81K range. Good stability in your alert zone.
+- **BTC: ~$73K** — Dropped from $80-81K to ~$73K (-3% 7-day). $2B long liquidations since May 25, $4B ETF outflows in 3 weeks. Fear & Greed at 34 (fear). Holding $73K support but concerning momentum.
 - **FOMC: Done** — Powell's last press conference was April 29. Warsh took over as Fed Chair.
 - **Russia-Ukraine: Easter ceasefire expired**, deadliest attacks in months, EU approving €90B loan
 - **North Korea:** Russia-NK cooperation deepening
