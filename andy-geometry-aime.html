@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Visual-Spatial AIME Problems for Andy</title>
+<style>
+  @page { size: Letter; margin: 18mm 16mm; }
+  * { box-sizing: border-box; }
+  body {
+    font-family: "Georgia", "Iowan Old Style", serif;
+    color: #1a1a1a; line-height: 1.5; font-size: 11.5pt;
+  }
+  h1 { font-size: 22pt; margin: 0 0 2px; color: #14213d; letter-spacing:-0.3px; }
+  .sub { color:#5a6478; font-size:10.5pt; margin: 0 0 14px; font-style:italic; }
+  h2 { font-size: 13.5pt; color:#14213d; margin: 22px 0 6px; border-bottom:2px solid #e3a008; padding-bottom:3px; }
+  h3 { font-size:12pt; color:#9a6700; margin:18px 0 4px; }
+  .why-box {
+    background:#fbf7ec; border-left:4px solid #e3a008; padding:10px 14px;
+    border-radius:0 6px 6px 0; margin:10px 0 18px; font-size:11pt;
+  }
+  .prob { background:#f5f7fa; border:1px solid #dde3ec; border-radius:8px; padding:12px 16px; margin:6px 0; }
+  .label { font-weight:bold; color:#14213d; }
+  .ans { background:#eaf6ec; border:1px solid #b6dcc0; border-radius:6px; padding:6px 10px; margin-top:8px; font-weight:bold; color:#1d6a37; display:inline-block; }
+  .fit { color:#6b21a8; font-size:10.5pt; margin-top:8px; }
+  .fit b { color:#581c87; }
+  ul { margin:5px 0 5px 0; padding-left:20px; }
+  li { margin:3px 0; }
+  .math { font-family:"Cambria Math","STIX Two Math",Georgia,serif; }
+  .foot { margin-top:26px; font-size:9.5pt; color:#7a8294; border-top:1px solid #dde3ec; padding-top:8px; }
+  .pill { display:inline-block; background:#14213d; color:#fff; font-size:8.5pt; padding:1px 8px; border-radius:10px; vertical-align:middle; margin-left:6px;}
+</style>
+</head>
+<body>
+
+<h1>Geometry &amp; Visual-Spatial Problems <span class="pill">AIME level</span></h1>
+<p class="sub">Curated for Andy — a mathematician who thinks in pictures. June 1, 2026.</p>
+
+<h2>Why these problems fit Andy's profile</h2>
+<div class="why-box">
+Andy does his entire computation <b>internally</b> — no written steps, no whiteboard scaffolding — and communicates the result afterward by drawing. That single fact should drive what we put in front of him. These five problems were chosen because each one:
+<ul>
+  <li><b>Collapses to one spatial insight.</b> The hard work is <i>seeing</i> the right picture (unfold it, bisect it, slice it). Once seen, the rest is a one-line mental calculation. This matches how he already works — he solved the IMO 2011 Windmill problem in his head, which is exactly this kind of "find the invariant" geometry.</li>
+  <li><b>Needs no written derivation.</b> There is no multi-page algebra to transcribe — a barrier for a child with fine-motor/writing impairment. The reasoning lives as a mental image, his native channel.</li>
+  <li><b>Outputs a single value.</b> The answer is one number (or one clean expression), which fits AAC / drawing-based communication far better than a written proof.</li>
+  <li><b>Rewards systemizing.</b> In Baron-Cohen's framing, Andy's gift is extreme systemizing — detecting lawful regularities. Each problem hinges on an <i>invariant</i>: distance is preserved when you unfold, a fold-line is a perpendicular bisector, tangent lengths from a vertex are equal, symmetry fixes the octagon and hexagon. These are pure structure, not memorized procedure.</li>
+  <li><b>Is sensory-light and self-contained.</b> Each can be held entirely in the mind's eye — no tools, no writing, no verbal exchange required to engage with it.</li>
+</ul>
+The throughline: <b>geometry that pays off mental visualization over written manipulation</b> — leaning into his strength while routing around the writing/verbal barriers, not testing them.
+</div>
+
+<h2>The Five Problems</h2>
+
+<h3>1 · The Spider and the Fly <span style="font-weight:normal;color:#9a6700">(3D → unfold to 2D)</span></h3>
+<div class="prob">
+A box-shaped room is <b>30 long, 12 wide, 12 high</b>. A spider sits at one bottom corner; a fly at the diagonally opposite top corner. Find the <b>shortest distance crawling along the surfaces</b>.
+<ul>
+  <li><span class="label">Insight:</span> Don't reason in 3D — <b>unfold</b> the box flat so the path becomes a straight line, then use Pythagoras. Different unfoldings give different lengths; pick the smallest.</li>
+  <li>Best unfolding: distance = <span class="math">√(30² + (12+12)²) = √(900 + 576) = √1476 = 6√41 ≈ 38.4</span>.</li>
+  <li>The "obvious" route (across floor, then up the wall) = 30 + 12 = 42 — longer. The unfolded straight line wins.</li>
+</ul>
+<span class="ans">Answer: 6√41</span>
+<div class="fit"><b>For Andy:</b> the entire difficulty is a mental rotation — flattening a 3D box. That is a pure spatial act, no writing, and it's precisely the kind of dimensional re-seeing that visual thinkers do faster than symbol manipulators.</div>
+</div>
+
+<h3>2 · The Folded Rectangle <span style="font-weight:normal;color:#9a6700">(2D paper-folding)</span></h3>
+<div class="prob">
+A rectangle is <b>4 wide, 3 tall</b>. Fold it so one corner lands exactly on the diagonally opposite corner. How long is the <b>crease</b>?
+<ul>
+  <li><span class="label">Insight:</span> Folding corner B onto corner D makes the crease the <b>perpendicular bisector of diagonal BD</b> — every crease point is equidistant from B and D.</li>
+  <li>With A(0,0), B(4,0), C(4,3), D(0,3): crease runs (0.875, 0) → (3.125, 3).</li>
+  <li>Length = <span class="math">√(2.25² + 3²) = √14.0625 = 15/4 = 3.75</span>.</li>
+</ul>
+<span class="ans">Answer: 15/4</span>
+<div class="fit"><b>For Andy:</b> "equidistant from two points" is an invariant he can <i>see</i> as a mirror line. The fold is physical and visual; the answer is one fraction.</div>
+</div>
+
+<h3>3 · The 13-14-15 Triangle <span style="font-weight:normal;color:#9a6700">(the famous "nice" triangle)</span></h3>
+<div class="prob">
+A triangle has sides <b>13, 14, 15</b>. Find its <b>inradius</b> and how the incircle splits each side at its tangent points.
+<ul>
+  <li><span class="label">Insight:</span> Tangent segments from each vertex are equal, and equal to (semiperimeter − opposite side).</li>
+  <li>s = 21; Area (Heron) = <span class="math">√(21·7·6·8) = √7056 = 84</span>; inradius r = 84/21 = <b>4</b>.</li>
+  <li>Tangent lengths: 21−14 = 7, 21−15 = 6, 21−13 = 8. So side 14 splits into <b>6 and 8</b>, side 15 into <b>7 and 8</b>, side 13 into <b>6 and 7</b> (each pair sums to its side — a built-in check).</li>
+</ul>
+<span class="ans">Answer: r = 4; splits 6-7-8</span>
+<div class="fit"><b>For Andy:</b> the equal-tangent-length structure is a clean symmetry rule. He can hold the whole figure as one picture and read off the integer splits — no algebra, just structure.</div>
+</div>
+
+<h3>4 · Two Squares Overlapping <span style="font-weight:normal;color:#9a6700">(rotational symmetry)</span></h3>
+<div class="prob">
+Two identical squares of side <b>1</b> share a center; one is rotated <b>45°</b> (forming an 8-pointed star). Find the <b>area of the overlap</b> (a regular octagon).
+<ul>
+  <li><span class="label">Insight:</span> The rotated square is just the constraint <span class="math">|x|+|y| ≤ √2/2</span>; its diagonals <b>slice off the four corners</b> of the first square.</li>
+  <li>Overlap = 1 − (four corner triangles) = <span class="math">2√2 − 2 ≈ 0.828</span>.</li>
+</ul>
+<span class="ans">Answer: 2√2 − 2</span>
+<div class="fit"><b>For Andy:</b> symmetry does all the work — recognizing four identical cut corners. It's a "see the whole pattern at once" problem, ideal for a systemizer.</div>
+</div>
+
+<h3>5 · The Hexagon Hidden in a Cube <span style="font-weight:normal;color:#9a6700">(3D cross-section — the prettiest)</span></h3>
+<div class="prob">
+Slice a <b>unit cube</b> with a plane through the <b>midpoints of six edges</b>. The cross-section is a <b>regular hexagon</b>. Find its area.
+<ul>
+  <li><span class="label">Insight:</span> The six edge-midpoints are mutually equidistant. Adjacent vertices, e.g. (1, ½, 0) and (½, 1, 0), are <span class="math">√(¼+¼) = √2/2</span> apart — the hexagon's side.</li>
+  <li>Regular hexagon area = <span class="math">(3√3/2)·s² = (3√3/2)·(½) = 3√3/4 ≈ 1.299</span>.</li>
+</ul>
+<span class="ans">Answer: 3√3/4</span>
+<div class="fit"><b>For Andy:</b> the surprise — that slicing a cube yields a <i>perfect</i> hexagon — is a spatial revelation. Visualizing the slicing plane inside the cube is exactly the mental 3D manipulation he excels at.</div>
+</div>
+
+<div class="foot">
+Prepared by a3ai for Jacob · The common thread: redraw the picture (unfold it, bisect it, slice it) and the algebra nearly vanishes — built to reward Andy's internal, visual computation rather than written work.
+</div>
+
+</body>
+</html>
