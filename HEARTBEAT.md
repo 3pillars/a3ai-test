@@ -3,7 +3,7 @@
 ## Status Checks (no file writes needed)
 
 - **US-Iran: No deal yet** — Trump put timeline on limiting Iran's nuclear program (May 15 deadline). US wants 20-year enrichment ban; Iran offered >10yr suspension + immediate ceasefire, deferring nuke talks. Gap remains: US wants 440kg HEU surrender upfront, Iran won't give leverage before negotiations. Trump ready to resume military action if no deal. ~$100 oil elevated on uncertainty.
-- **BTC: ~$73K** — Dropped from $80-81K to ~$73K (-3% 7-day). $2B long liquidations since May 25, $4B ETF outflows in 3 weeks. Fear & Greed at 34 (fear). Holding $73K support but concerning momentum.
+- **BTC: <$67K (Jun 3)** — Crashed below $67K, $1.8B liquidations, F&G at 11 (Extreme Fear). May ETF outflows record $2.43B. Key support ~$62,250; oversold RSI = possible exhaustion/reversal. DIVERGENCE: crypto capitulating while equities/semis in melt-up.
 - **FOMC: Done** — Powell's last press conference was April 29. Warsh took over as Fed Chair.
 - **Russia-Ukraine: Easter ceasefire expired**, deadliest attacks in months, EU approving €90B loan
 - **North Korea:** Russia-NK cooperation deepening
@@ -12,7 +12,7 @@
 - **Supreme Court:** Voids Louisiana majority-Black district — boosts Republicans
 - **Spain-NATO:** Pentagon leaked email floats suspending Spain over Iran war non-support. Sánchez dismisses. Ongoing.
 - **DExit:** $3T+ corporate exodus from Delaware ongoing. Tesla case finally dismissed by VP Chancellor David (Apr 13) after Scrabble tile random assignment drama.
-- **Bitcoin Dumping Grounds:** Michael Saylor's Strategy accumulating more BTC
+- **Saylor REVERSAL (Jun 3):** MicroStrategy/Strategy SOLD Bitcoin for the FIRST time ever — breaks the "never sell" narrative; structural question mark on the institutional bid.
 ## Market Monitoring
 
 - **Hunter's Melt-up Alert (July-End 2026):**
