@@ -1,3 +1,30 @@
+# Weekly Research Findings — June 5, 2026
+
+## 1. Quant Finance / Monte Carlo
+- Monte Carlo still core to 2026 quant workflows: derivative pricing, VaR, strategy backtest stress-testing, position sizing, risk-of-ruin estimation.
+- Key edge over plain backtesting: reveals sensitivity to trade ORDER and clustering — thousands of scenarios show what *could* happen, not just what already did.
+- Modern pipeline pattern: data → preprocess → GARCH volatility modeling → MC + VaR risk → cross-asset correlation.
+- Carryover caution: standard MC underestimates tail risk in crypto (autocorrelation + regime-switching) — keep variance reduction adequate for fat tails.
+
+## 2. AI Agents / LLMs
+- NVIDIA Nemotron 3 Ultra: frontier reasoning, 5x faster inference, 30% lower cost for agentic workloads (SageMaker JumpStart).
+- METR data: AI task duration doubling ~every 7 months — 1hr tasks (early 2025) → 8hr workstreams (late 2026).
+- Z.ai GLM-5.1 (open-weights) + Anthropic Claude Opus 4.7: both target sustained autonomous single-task work up to ~8 hours.
+- ChatGPT "Dreaming" memory: builds coherent user profiles vs scattered bullets.
+- 2026 = year agents became the "third automation layer" (alongside RPA/BPM); MCP now a protocol standard. Gartner: 40% of enterprise apps embed agents by mid-2026.
+
+## 3. Bitcoin / Crypto
+- BTC ~$64,317 on Jun 4, down 3.94%. At 0.786 Fib support, RSI 18.2 (deeply oversold).
+- Heavy ETF outflows: -$2.42B over 7 days (zero positive days); week ending Jun 1 = largest-ever weekly outflow $3.4B. May closed -$2.30B (worst month of 2026).
+- Fear & Greed = 12 (Extreme Fear, Jun 3). The institutional demand that anchored 2026 has reversed.
+- Near-term catalyst: US jobs report Jun 6. Recovery toward ~$68K possible if $65K holds; breakdown risk if it doesn't.
+- Year-end: Standard Chartered cut to ~$100K; Bernstein still bullish $150K.
+- Note vs last week: BTC dropped from ~$76K (May 29) to ~$64K — the $66K breakdown level flagged last week was breached.
+
+Sources: tradealgo, IBKR Quant, llm-stats.com, METR, firecrawl, CoinStats, CapitalStreetFX, Yahoo Finance, Polymarket.
+
+---
+
 # Weekly Research Findings — May 29, 2026
 
 ## 1. Quantitative Finance / Trading / Monte Carlo Simulation
