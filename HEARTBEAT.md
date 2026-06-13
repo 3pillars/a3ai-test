@@ -2,8 +2,8 @@
 
 ## Status Checks (no file writes needed)
 
-- **US-Iran: No deal yet** — Trump put timeline on limiting Iran's nuclear program (May 15 deadline). US wants 20-year enrichment ban; Iran offered >10yr suspension + immediate ceasefire, deferring nuke talks. Gap remains: US wants 440kg HEU surrender upfront, Iran won't give leverage before negotiations. Trump ready to resume military action if no deal. ~$100 oil elevated on uncertainty.
-- **BTC: <$67K (Jun 3)** — Crashed below $67K, $1.8B liquidations, F&G at 11 (Extreme Fear). May ETF outflows record $2.43B. Key support ~$62,250; oversold RSI = possible exhaustion/reversal. DIVERGENCE: crypto capitulating while equities/semis in melt-up.
+- **US-Iran: Trump claims "war ended" (Jun 12)** — announced canceled strikes + a "great settlement," 60-day Pakistan-mediated ceasefire in place; deal possibly signed this weekend. ⚠️ Iran's Foreign Ministry says NO final deal yet; intermittent violations persist. US downed 2 Iranian drones near Hormuz after Tehran fired on a transiting vessel; Iran had threatened to close Hormuz. Oil FELL on the news — Brent -2.9% to ~$90. Relief rally real but fragile (unconfirmed by Iran, Hormuz still a flashpoint).
+- **BTC: ~$63K rebound (Jun 12)** — bounced ~3.4% off $61.1K (Jun 11) on geopolitical-relief risk-on; touched $61.5K Jun 4 (~48% off Oct '25 high). Record May ETF outflows $2.30–2.75B. Strategy/MicroStrategy SOLD BTC (first since 2022) = institutional conviction crack, not just retail. Still inside Jacob's $60–80K accumulation band. ⚠️ Fed Jun 16–17 (98% hold odds) could undo the bounce; bears eye $40–46K if support breaks.
 - **FOMC: Done** — Powell's last press conference was April 29. Warsh took over as Fed Chair.
 - **Russia-Ukraine: Easter ceasefire expired**, deadliest attacks in months, EU approving €90B loan
 - **North Korea:** Russia-NK cooperation deepening

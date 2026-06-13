@@ -1,148 +1,92 @@
-# Weekly Research Findings — June 5, 2026
-
-## 1. Quant Finance / Monte Carlo
-- Monte Carlo still core to 2026 quant workflows: derivative pricing, VaR, strategy backtest stress-testing, position sizing, risk-of-ruin estimation.
-- Key edge over plain backtesting: reveals sensitivity to trade ORDER and clustering — thousands of scenarios show what *could* happen, not just what already did.
-- Modern pipeline pattern: data → preprocess → GARCH volatility modeling → MC + VaR risk → cross-asset correlation.
-- Carryover caution: standard MC underestimates tail risk in crypto (autocorrelation + regime-switching) — keep variance reduction adequate for fat tails.
-
-## 2. AI Agents / LLMs
-- NVIDIA Nemotron 3 Ultra: frontier reasoning, 5x faster inference, 30% lower cost for agentic workloads (SageMaker JumpStart).
-- METR data: AI task duration doubling ~every 7 months — 1hr tasks (early 2025) → 8hr workstreams (late 2026).
-- Z.ai GLM-5.1 (open-weights) + Anthropic Claude Opus 4.7: both target sustained autonomous single-task work up to ~8 hours.
-- ChatGPT "Dreaming" memory: builds coherent user profiles vs scattered bullets.
-- 2026 = year agents became the "third automation layer" (alongside RPA/BPM); MCP now a protocol standard. Gartner: 40% of enterprise apps embed agents by mid-2026.
-
-## 3. Bitcoin / Crypto
-- BTC ~$64,317 on Jun 4, down 3.94%. At 0.786 Fib support, RSI 18.2 (deeply oversold).
-- Heavy ETF outflows: -$2.42B over 7 days (zero positive days); week ending Jun 1 = largest-ever weekly outflow $3.4B. May closed -$2.30B (worst month of 2026).
-- Fear & Greed = 12 (Extreme Fear, Jun 3). The institutional demand that anchored 2026 has reversed.
-- Near-term catalyst: US jobs report Jun 6. Recovery toward ~$68K possible if $65K holds; breakdown risk if it doesn't.
-- Year-end: Standard Chartered cut to ~$100K; Bernstein still bullish $150K.
-- Note vs last week: BTC dropped from ~$76K (May 29) to ~$64K — the $66K breakdown level flagged last week was breached.
-
-Sources: tradealgo, IBKR Quant, llm-stats.com, METR, firecrawl, CoinStats, CapitalStreetFX, Yahoo Finance, Polymarket.
-
----
-
-# Weekly Research Findings — May 29, 2026
+# Weekly Research Findings — June 12, 2026
 
 ## 1. Quantitative Finance / Trading / Monte Carlo Simulation
 
-Web search returned generic conceptual results rather than current articles (no recent date-filtered results available via Gemini).
+**Key Insight:** Monte Carlo remains essential for risk management, option pricing, and strategy backtesting. The critical limitation: it underestimates "tail risk" when models assume normal distributions.
 
-**General landscape (based on broader knowledge + search context):**
-- Monte Carlo simulations remain a cornerstone for options pricing, VaR risk modeling, and portfolio optimization
-- Growing focus on combining MC methods with ML for more efficient tail-risk estimation
-- Institutional desks increasingly using variance reduction techniques (antithetic, control variates) for real-time Pricing
-- Algorithmic trading firms using MC for slippage modeling and execution strategy backtesting
+**AI Integration Trend:**
+- Neural density estimation captures complex, non-normal distributions
+- Dynamic correlation modeling adapts to market regimes
+- Neural surrogate models accelerate valuations
+- Hybrid Monte Carlo + ML frameworks gaining traction for more accurate risk modeling
 
-**Actionable insight:** If using MC for trading strategy validation, ensure your variance reduction is adequate for fat-tailed crypto returns. Standard MC can underestimate tail risk in crypto due to autocorrelation and regime-switching behavior.
+**Practical Takeaway for Traders:** Monte Carlo stress-tests trading strategies by shuffling trade sequences across thousands of randomized scenarios — revealing whether performance is skill or luck. Still, treat outputs probabilistically, not as predictions.
 
 ---
 
-## 2. AI Agents / LLMs — MAJOR DEVELOPMENTS (2026)
+## 2. AI Agents / LLMs
 
-**Agentic AI Revolution in Full Swing:**
+**Key Insight:** 2026 is the year of "agentic AI" — autonomous agents moving from experiments to production. Multi-Agent Systems (MAS) with supervisor/worker architecture are now the enterprise standard.
 
-- By end of 2026, Gartner projects **40% of net-new enterprise apps will incorporate task-specific AI agents** (up from <5% in 2025)
-- Multi-agent systems (MAS) are now production-ready — agents collaborate like human teams using frameworks: LangGraph, CrewAI, Microsoft AutoGen
-- Key enabling technologies:
-  - **MCP (Model Context Protocol)** and **A2A (Agent-to-Agent)** — standardized communication between agents and tools
-  - Persistent memory / context management across sessions
-  - Self-evolving agents that learn from operations + human feedback
+**Critical Security Shift:** As agents gain ability to modify databases and send communications, zero-trust governance frameworks and unique agent identities are now table stakes, not optional.
 
-**LLM Architecture Trends:**
-- Strong focus on long-context efficiency (KV-cache reduction, memory traffic optimization)
-- Multimodal agents now integrating text, vision, audio, video
-- Computer-use agents (GUI interaction) expected mainstream by 2027
-
-**Security & Governance:**
-- CISA + NSA issuing joint warnings on AI agent attack surfaces
-- OWASP Top 10 for LLM Applications becoming industry standard
-- NVIDIA-verified agent skills framework for capability governance
-
-**What this means for Jacob:**
-- AI agent infrastructure is now enterprise-grade — good time to build/embed automation into tradingops
-- Multi-agent architectures could autonomously handle: market scanning → signal generation → order execution → risk monitoring
-- Security and observability gaps in agent deployments are THE operational challenge — if building agents, prioritize governance tooling upfront
+**Key Developments:**
+- Open standards (MCP and A2A protocols) enabling cross-vendor agent interoperability — the "Agent Internet" is emerging
+- Reasoning models with RL now generate production-quality code for large projects
+- Physical AI + humanoid robotics advancing rapidly (VLA models driving autonomous driving/manufacturing)
+- Specialized compact models (SLMs) democratizing AI for smaller orgs
+- Human role shifting from task manager → agent orchestrator
 
 ---
 
 ## 3. Bitcoin / Crypto Market Analysis
 
-**Current State (May 28-29, 2026):**
-- Bitcoin consolidating between **$75,000–$77,000** after a 3-week correction
-- Support zone: **$73,000–$75,000** (strong); breakdown level: **$66,000**
-- Resistance: **$79,000** (critical decision zone), then **$84,000–$92,000** possible on breakout
-- Target for end of May: ~**$80,500** (~4.5% upside from current)
-- Institutional demand weakening: Bitcoin ETFs saw **$1.26 billion outflows over 6 consecutive days**
-- "Fear & Greed Index" at **22 (Extreme Fear)** — historically a contra Indicator
+**Current State (June 12, 2026):**
+- BTC trading ~$61,000–$63,000 range — down ~30% YTD from ATH of $126K (Oct 2025)
+- Fear & Greed Index at extreme fear (12/100)
+- Spot Bitcoin ETFs: unprecedented $2.75B cumulative outflows since mid-May — longest redemption streak on record
+- Fed maintaining 3.50%–3.75% rates; CPI at 4.2% — hawkish environment crushing risk assets
 
-**Historical Context:**
-- May has averaged **+8% returns** for Bitcoin over the past decade
-- Current macro headwinds (US-Iran conflict, oil prices) could override seasonality
+**Institutional Dynamics:**
+- Despite outflows, institutions + ETFs now hold >15% of circulating BTC supply
+- "Model Portfolios" (2–5% BTC allocation via advisors) provide systematic floor buying
+- Sovereign wealth funds and family offices actively buying dips
+- Regulatory clarity improving: SEC Draft Strategic Plan FY26–30 supports on-chain infrastructure
 
-**Key Levels to Watch:**
-```
-Support:  $73,000–$75,000  (hold long)
-Breakdown: <$75,000 → → $66,000
-Resistance: $79,000 (clean break = bullish)
-Next targets: $84,000 → $90,000–$92,000
-```
+**Risk Alert:**
+- Some analysts project potential bottom at $40K–$46K by Q4 2026 if correction continues
+- Quantum vulnerability threat: ~7M BTC potentially at risk post-quantum (requires community preparation)
 
-**Risks:**
-- Continued ETF outflows = institutional selling pressure
-- Geopolitical escalation (Middle East) → risk-off crypto selling
-- Fed rate uncertainty → USD strength → crypto headwind
+**Bullish Case:**
+- Long-term AI models target $150K–$225K by end of 2026
+- July 2026 forecasts: min $73K, max $110K, avg ~$92K
+- Lightning Network + L2 maturation increasing real utility
 
 ---
 
 ## 4. Economy Outlook / Investment Strategy
 
-**Global Economy:**
-- Global growth: **3.1–3.2%** (below pre-pandemic averages)
-- US remains a key growth driver (AI investments + consumer spending)
-- Global inflation expected to rise to ~**3%** in 2026 before declining in 2027
-- Middle East / Iran conflict driving energy price volatility
+**Global Growth:** IMF projects 3.1% (2026), 3.2% (2027). Goldman Sachs: 2.8%. World Bank: 2.5% (downside risk from Middle East conflict).
 
-**Recession Risk:**
-- US recession probability: **30–50%** over next 12 months
-- Key triggers: high energy prices, persistent inflation, trade tensions
+**Top Risk:** Middle East conflict driving energy price increases → inflation persistence → more hawkish central banks.
 
-**Fed Rates (May 2026):**
-- Effective FF rate: **3.62%**
-- Markets now pricing **~0 rate cuts in 2026** (reversing earlier expectations)
-- FOMC expected to hold steady at June 2026 meeting
-- Potential hike Q1 2027 if inflation remains elevated
-- Bull case for cuts: severe labor market weakening or severe economic fallout
+**Strategic Asset Allocation for 2026:**
 
-**Recommended Portfolio Strategy (2026):**
-- **Equities**: Overweight developed markets, S&P 500 index funds as core; increase small caps and emerging markets
-- **Fixed Income**: Prioritize securitized assets over corporate credit; short-term Treasury ETFs for ballast
-- **Cash**: Deploy excess cash; CD ladders / high-yield savings for idle funds
-- **AI theme**: Strong overweight — the AI buildout will influence equities, credit, rates, and commodities for years
-- **Diversification**: Global diversification over US-only exposure
+| Asset | Recommendation |
+|-------|----------------|
+| US Equities | Selective; AI beyond infra phase; quality focus |
+| International | Europe/Japan/Emerging — better entry points, weaker USD |
+| Fixed Income | Shorter duration; high-quality bonds for income |
+| Cash/Stability | Hold 5–10% stability layer — avoid forced selling |
+| Commodities | Support from GDP growth + potential Fed cuts |
+| 60/40 Framework | Regaining relevance as bonds provide ballast |
+
+**AI Investment Theme Evolution:** Shift from infrastructure providers (picks-and-shovels) to broader implementation beneficiaries.
+
+**Inflation Protection:** TIPS still relevant given near-term elevated headline inflation.
 
 ---
 
-## Key Takeaways for Jacob
-
-### 🔴 Risks to Avoid
-1. **Crypto leverage** — BTC in consolidation with ETF outflows = volatile. Don't use leverage in this range.
-2. **Chasing the " Fear & Greed" narrative** — Extreme Fear at 22 is historically a buy signal for BTC; don't panic-sell.
-3. **Ignoring recession tail risk** — 30–50% recession probability means position sizing matters. Don't go all-in on any single thesis.
-4. **Missing rate cut expectations** — If you're positioned for rate cuts in 2026, you're likely wrong. The Fed is in "hold or hike" mode.
-5. **Over-concentrating in US equities** — Diversify globally given elevated valuations in US markets.
-
-### 🟢 Actionable Insights
-1. **Bitcoin position**: Hold core BTC allocation. Support at $73–75K is solid. Accumulate on weakness toward $66K if it comes. Target $80.5K by month-end.
-2. **Portfolio ballast**: Short-term Treasury ETFs + high-yield cash equivalents given rate uncertainty.
-3. **AI investment theme**: Overweight AI-adjacent equities or crypto ( miners, infrastructure). This is the multi-year megatrend.
-4. **Build AI agent ops**: Now is the time to embed AI agents into trading workflow (market scan → signal → execution → risk). Infrastructure is mature.
-5. **DCA strategy**: With recession odds at 30–50%, dollar-cost average into core positions rather than lump-sum.
-6. **Cash ladder**: Given Fed uncertainty, build a 6–12 month CD ladder for stability while waiting for clearer signals.
+*Sources: IMF WEO April 2026, Goldman Sachs 2026 Outlook, World Bank GEP, Galaxy Research, Interactive Brokers, Forbes, JPMorgan Asset Management, BlackRock, PIMCO, Salesforce AI Trends 2026, Microsoft AI Preview 2026*
 
 ---
 
-*Research date: May 29, 2026 | Sources: Gemini web search across 4 domains.*
+## 🔄 Fresh Scan Addendum — Fri June 12, 8:00 AM PT
+
+**New data points this week:**
+
+- **Crypto:** BTC briefly touched **$61,500 on June 4** (lowest since late 2024), now ~$64K. **~48% off the Oct 2025 highs.** Over **$2B in liquidations**. Spot ETFs closed May with **$2.30B net outflows** — largest of 2026. **Strategy (MicroStrategy) executed its first BTC sale since 2022** — notable shift in the biggest corporate holder's posture.
+- **AI:** **Inception's Mercury 2** — a diffusion-based reasoning LLM generating **>1,000 tokens/sec** via parallel decoding. Targets agentic loops + real-time voice where latency matters. Diffusion/JEPA architectures gaining ground as a challenge to pure-transformer LLMs. Morgan Stanley flagged a major AI "leap" coming in 2026 driven by compute accumulation.
+- **Quant:** 2026 baseline — **10,000 MC iterations** is the practical standard (key stats stabilize ~5,000 runs). 74% of retail traders now use heat maps for scanning. Core value of MC remains exposing tail-risk drawdown that historical-sequence backtests hide.
+
+*Scan sources: [BeInCrypto](https://beincrypto.com/bitcoin-price-prediction-june-2026/), [Intellectia](https://intellectia.ai/blog/bitcoin-crash-june-2026-market-analysis-june-12), [llm-stats](https://llm-stats.com/ai-news), [Fortune](https://fortune.com/2026/03/13/elon-musk-morgan-stanley-ai-leap-2026/), [QuantInsti](https://blog.quantinsti.com/monte-carlo-simulation/)*
