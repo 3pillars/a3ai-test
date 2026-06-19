@@ -2,9 +2,9 @@
 
 ## Status Checks (no file writes needed)
 
-- **US-Iran: Trump claims "war ended" (Jun 12)** — announced canceled strikes + a "great settlement," 60-day Pakistan-mediated ceasefire in place; deal possibly signed this weekend. ⚠️ Iran's Foreign Ministry says NO final deal yet; intermittent violations persist. US downed 2 Iranian drones near Hormuz after Tehran fired on a transiting vessel; Iran had threatened to close Hormuz. Oil FELL on the news — Brent -2.9% to ~$90. Relief rally real but fragile (unconfirmed by Iran, Hormuz still a flashpoint).
-- **BTC: ~$63K rebound (Jun 12)** — bounced ~3.4% off $61.1K (Jun 11) on geopolitical-relief risk-on; touched $61.5K Jun 4 (~48% off Oct '25 high). Record May ETF outflows $2.30–2.75B. Strategy/MicroStrategy SOLD BTC (first since 2022) = institutional conviction crack, not just retail. Still inside Jacob's $60–80K accumulation band. ⚠️ Fed Jun 16–17 (98% hold odds) could undo the bounce; bears eye $40–46K if support breaks.
-- **FOMC: Done** — Powell's last press conference was April 29. Warsh took over as Fed Chair.
+- **US-Iran: MOU SIGNED (Jun 17)** — Trump & Pezeshkian signed a 14-point framework ending the 110-day war: ceasefire, Iran dilutes HEU (keeps it in-country, not shipped out), US waives sanctions + allows oil sales, up to $300B private investment, Hormuz free passage restored within 30 days (fees may apply after 60-day grace). 60-day window to a final deal; formal Switzerland ceremony pending. ⚠️ Fragile: Israel NOT a party, still striking Lebanon; IAEA can't yet inspect; Tehran factions split. Oil eased to ~$75 Brent.
+- **BTC: ~$64.7K (Jun 18)** — chopping in the low-$60s post-Fed; ~48% off Oct '25 high. Record May ETF outflows $2.30–2.75B; but long-term holders ABSORBING (+125k BTC in June, LTH supply near ATH) = accumulation under the selling. Strategy/MicroStrategy SOLD (first since 2022) still the structural ⚠️. Inside Jacob's $60–80K band. Bears eye $40–46K if support breaks.
+- **FOMC: Warsh HELD (Jun 17), hawkish** — rates steady but forward guidance DROPPED and a hike left on the table → headwind for risk assets / the melt-up. First decision under Chair Warsh (Powell's last presser was Apr 29).
 - **Russia-Ukraine: Easter ceasefire expired**, deadliest attacks in months, EU approving €90B loan
 - **North Korea:** Russia-NK cooperation deepening
 - **SEC:** Eliminated $25k minimum for pattern day traders
