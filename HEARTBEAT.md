@@ -2,8 +2,8 @@
 
 ## Status Checks (no file writes needed)
 
-- **US-Iran: MOU SIGNED (Jun 17)** — Trump & Pezeshkian signed a 14-point framework ending the 110-day war: ceasefire, Iran dilutes HEU (keeps it in-country, not shipped out), US waives sanctions + allows oil sales, up to $300B private investment, Hormuz free passage restored within 30 days (fees may apply after 60-day grace). 60-day window to a final deal; formal Switzerland ceremony pending. ⚠️ Fragile: Israel NOT a party, still striking Lebanon; IAEA can't yet inspect; Tehran factions split. Oil eased to ~$75 Brent.
-- **BTC: ~$64.7K (Jun 18)** — chopping in the low-$60s post-Fed; ~48% off Oct '25 high. Record May ETF outflows $2.30–2.75B; but long-term holders ABSORBING (+125k BTC in June, LTH supply near ATH) = accumulation under the selling. Strategy/MicroStrategy SOLD (first since 2022) still the structural ⚠️. Inside Jacob's $60–80K band. Bears eye $40–46K if support breaks.
+- **US-Iran: MOU FRACTURING (Jun 26)** — MOU signed Jun 17 but already collapsing. Jun 25: IRGC drone struck Taiwanese cargo vessel Ever Lovely in Hormuz (~7.5nm from Oman). Jun 26: US struck Iran — missile/drone storage + coastal radar sites in direct response. IMO halted seafarer evacuation operations. Hormuz traffic slowing. The 60-day grace period is effectively void. ⚠️ Tehran factions clearly not unified on compliance. Oil will gap up Monday if tensions continue.
+- **BTC: ~$59-60K (Jun 26)** — dropped to $58-60K range today, testing $60K support hard. ETF outflows continuing (~$1.3B this week). LTHs still absorbing (+125k BTC in June). ⚠️ Broke below Jacob's $60K floor. Next support: $54K area. Bears targeting $40-46K on macro deterioration.
 - **FOMC: Warsh HELD (Jun 17), hawkish** — rates steady but forward guidance DROPPED and a hike left on the table → headwind for risk assets / the melt-up. First decision under Chair Warsh (Powell's last presser was Apr 29).
 - **Russia-Ukraine: Easter ceasefire expired**, deadliest attacks in months, EU approving €90B loan
 - **North Korea:** Russia-NK cooperation deepening
