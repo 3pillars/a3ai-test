@@ -2,8 +2,8 @@
 
 ## Status Checks (no file writes needed)
 
-- **US-Iran: MOU FRACTURING (Jun 26)** — MOU signed Jun 17 but already collapsing. Jun 25: IRGC drone struck Taiwanese cargo vessel Ever Lovely in Hormuz (~7.5nm from Oman). Jun 26: US struck Iran — missile/drone storage + coastal radar sites in direct response. IMO halted seafarer evacuation operations. Hormuz traffic slowing. The 60-day grace period is effectively void. ⚠️ Tehran factions clearly not unified on compliance. Oil will gap up Monday if tensions continue.
-- **BTC: ~$59-60K (Jun 26)** — dropped to $58-60K range today, testing $60K support hard. ETF outflows continuing (~$1.3B this week). LTHs still absorbing (+125k BTC in June). ⚠️ Broke below Jacob's $60K floor. Next support: $54K area. Bears targeting $40-46K on macro deterioration.
+- **US-Iran: MOU VOID (Jun 27)** — MOU signed Jun 17, now fully collapsed. Jun 27: Iran struck US positions in Bahrain with drones — direct attack on US assets, not proxy. IRGC warns of "swift and decisive response." Iran forcing commercial tankers to alter course — Hormuz actively disrupted. Hezbollah REJECTS Israel-Lebanon framework deal. MOU's Lebanon component dead. The 60-day grace period is void. ⚠️ Tehran factions not unified — IRGC moving independently of diplomatic track. Oil will gap up significantly Monday if this continues.
+- **BTC: ~$59-60K (Jun 27)** — hovering near $60K floor. Record $3B ETF outflows in 10 days. Down 52% from ATH. LTHs absorbing (+125k BTC in June). ⚠️ BTC bouncing off 200-week MA. If Iran escalation continues → $54K next support, then $40-46K bears' target.
 - **FOMC: Warsh HELD (Jun 17), hawkish** — rates steady but forward guidance DROPPED and a hike left on the table → headwind for risk assets / the melt-up. First decision under Chair Warsh (Powell's last presser was Apr 29).
 - **Russia-Ukraine: Easter ceasefire expired**, deadliest attacks in months, EU approving €90B loan
 - **North Korea:** Russia-NK cooperation deepening
