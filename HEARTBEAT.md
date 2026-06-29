@@ -2,7 +2,7 @@
 
 ## Status Checks (no file writes needed)
 
-- **US-Iran: MOU VOID (Jun 27)** — MOU signed Jun 17, now fully collapsed. Jun 27: Iran struck US positions in Bahrain with drones — direct attack on US assets, not proxy. IRGC warns of "swift and decisive response." Iran forcing commercial tankers to alter course — Hormuz actively disrupted. Hezbollah REJECTS Israel-Lebanon framework deal. MOU's Lebanon component dead. The 60-day grace period is void. ⚠️ Tehran factions not unified — IRGC moving independently of diplomatic track. Oil will gap up significantly Monday if this continues.
+- **US-Iran: TEMPORARY DE-ESCALATION (Jun 28-29)** — MOU void Jun 27 after Iran struck Bahrain/Kuwait bases; but Jun 28 night: US and Iran agreed to halt attacks, allow Hormuz shipping, continue talks this week. Oil only +1% Sunday (WTI ~$70). ⚠️ This is fragile — "pause not peace." Tehran factions still not unified. Hezbollah still rejects Lebanon deal. Watch for breakdown this week.
 - **BTC: ~$59-60K (Jun 27)** — hovering near $60K floor. Record $3B ETF outflows in 10 days. Down 52% from ATH. LTHs absorbing (+125k BTC in June). ⚠️ BTC bouncing off 200-week MA. If Iran escalation continues → $54K next support, then $40-46K bears' target.
 - **FOMC: Warsh HELD (Jun 17), hawkish** — rates steady but forward guidance DROPPED and a hike left on the table → headwind for risk assets / the melt-up. First decision under Chair Warsh (Powell's last presser was Apr 29).
 - **Russia-Ukraine: Easter ceasefire expired**, deadliest attacks in months, EU approving €90B loan
