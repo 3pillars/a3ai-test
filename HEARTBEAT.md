@@ -3,7 +3,7 @@
 ## Status Checks (no file writes needed)
 
 - **US-Iran: DOHA TALKS POSTPONED to ~July 9** — Khamenei alive (false alarm earlier), funeral scheduled. Talks resume after. 60-day MOU clock ticking. Hormuz military warning: Iran approved routes only, "forceful response" threatened for non-compliance. This is the real flashpoint, not Khamenei's death. Ceasefire holding but fragile.
-- **BTC: ~$61K (Jul 2 AM)** — recovered from $58K lows, back above $60K. Warsh dovish signal + jobs miss (57K vs 110K) = rate hike fears eased. Still watching $60K as key support.
+- **BTC: ~$61K (Jul 2 PM)** — recovered from $58K lows, holding above $60K. Warsh dovish signal + jobs miss (57K vs 110K) = rate hike fears eased. 4pm range: $59.6K-$62.2K.
 - **FOMC: Warsh HELD (Jun 17), hawkish** — rates steady but forward guidance DROPPED and a hike left on the table. Jobs miss changes the calculus — stagflation vs growth collapse now the debate.
 - **Russia-Ukraine: Easter ceasefire expired**, deadliest attacks in months, EU approving €90B loan
 - **North Korea:** Russia-NK cooperation deepening
@@ -15,7 +15,7 @@
 - **Saylor REVERSAL (Jun 3):** MicroStrategy/Strategy SOLD Bitcoin for the FIRST time ever — breaks the "never sell" narrative; structural question mark on the institutional bid.
 - **Jobs Report (Jul 2):** 57K actual vs 110K expected — massive miss. Softening labor market + stagflation risk.
 - **MiCA (Jul 2):** EU crypto regulations kick in today.
-- **XRP CLARITY Act:** Senate cloture vote July 4 — math unresolved.
+- **XRP CLARITY Act:** Senate in recess until July 13. Floor vote expected late July/early August. Needs 60 votes (bipartisan). Slipped past July 4 target.
 ## Market Monitoring
 
 - **Hunter's Melt-up Alert (July-End 2026):**
