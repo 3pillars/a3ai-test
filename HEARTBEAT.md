@@ -2,8 +2,8 @@
 
 ## Status Checks (no file writes needed)
 
-- **US-Iran: DOHA TALKS POSTPONED to ~July 9** — Khamenei alive (false alarm earlier), funeral scheduled. Talks resume after. 60-day MOU clock ticking. Hormuz military warning: Iran approved routes only, "forceful response" threatened for non-compliance. This is the real flashpoint, not Khamenei's death. Ceasefire holding but fragile.
-- **BTC: ~$61K (Jul 2 PM)** — recovered from $58K lows, holding above $60K. Warsh dovish signal + jobs miss (57K vs 110K) = rate hike fears eased. 4pm range: $59.6K-$62.2K.
+- **US-Iran: KHAMENEI DEAD (killed in US-Israeli strikes)** — Week-long funeral underway. Doha talks paused during mourning. 60-day MOU clock ticking. Trump: "Iran agreed to just about everything." Hormuz: Iran still warning ships to use "approved routes" or face "forceful response." New supreme leader selection is the next flashpoint — likely hardliners.
+- **BTC: ~$61.5-62K (Jul 3 AM)** — +7.3% in 48hrs, recovering from $57,750 low. Short squeeze: ~$450M bearish bets liquidated. Spot ETFs: 5 consecutive days of inflows. ETH ~$1,705, SOL ~$80, XRP ~$1.10.
 - **FOMC: Warsh HELD (Jun 17), hawkish** — rates steady but forward guidance DROPPED and a hike left on the table. Jobs miss changes the calculus — stagflation vs growth collapse now the debate.
 - **Russia-Ukraine: Easter ceasefire expired**, deadliest attacks in months, EU approving €90B loan
 - **North Korea:** Russia-NK cooperation deepening
