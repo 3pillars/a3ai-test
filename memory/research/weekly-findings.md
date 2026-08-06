@@ -1,121 +1,153 @@
-# Weekly Research Findings — July 3, 2026
+# Weekly Research Findings
 
-## Topics Covered
-1. Quantitative Finance / Trading / Monte Carlo Simulation
-2. AI Agents / LLMs
-3. Bitcoin / Crypto Market Analysis
-4. Economy Outlook / Investment Strategy
+**Week of:** August 5, 2026 (Wednesday)
+**Research Focus:** Quantitative Finance, AI Agents, Bitcoin/Crypto, Economy Outlook
 
 ---
 
-## 1. Quantitative Finance & Monte Carlo Simulation
+## 1. Quantitative Finance / Trading / Monte Carlo Simulation
 
-**What it is:** Monte Carlo simulation models thousands of random market scenarios to assess strategy risk — beyond standard backtesting.
+### Key Developments
+- **Monte Carlo remains essential** for risk management, derivative pricing, and strategy backtesting
+- **Hybrid ML + Monte Carlo** frameworks are emerging as the new standard
+- **Quantum Monte Carlo** research advancing for options pricing (still early stage)
 
-**Key applications (2026):**
-- **Robustness testing** — reshuffle trade sequences to separate skill from luck
-- **Drawdown & bust probability** — simulate worst-case scenarios before live trading
-- **Stress testing** — expose overfitting in trading strategies
-- **Position sizing** — size positions based on worst-case drawdowns from simulation, not just averages
-- **VaR/CVaR quantification** — more realistic risk metrics than standard deviation
+### Practical Applications
+- Monte Carlo stress-tests help evaluate trading strategies across randomized market paths
+- Useful for determining safe withdrawal rates and portfolio risk assessment
+- **Key insight:** Don't expect price prediction – it's a risk modeling tool, not a crystal ball
 
-**For Jacob's trading:**
-- Use Monte Carlo to validate any BTC/crypto trading strategy before scaling
-- Key insight: size live accounts based on **worst-case drawdowns**, not average performance
-- Tools: Amibroker, NinjaTrader, Python (numpy/scipy), or even Excel for simpler models
-
----
-
-## 2. AI Agents / LLMs — Enterprise Adoption
-
-**The big picture (2026):**
-- 80%+ of enterprises now using GenAI APIs (up from <5% in 2023)
-- 40% of enterprise apps will embed AI agents by end of 2026 (up from <5% in 2025)
-- 88% of AI agent pilots **fail** to reach production — execution is the hard part
-- AI agents are now coordinating multi-step workflows autonomously
-
-**Impact on Jacob's work:**
-- AI automation is mainstream — opportunities to build/sell AI-adjacent products
-- LLM task completion: 69% acceleration in report summarization, email, data analysis
-- Human forecasters using LLM assistants: 24-28% better accuracy
-- Cost reduction: 55% of companies adopting AI for analytics see labor cost savings
-
-**Watch: MCP servers** — open standard for AI agents to connect to enterprise apps = big integration opportunity
+### Tools to Explore
+- QuantConnect (open-source algorithmic trading platform)
+- StrategyQuant X (Monte Carlo + historical data)
+- Pineify (TradingView integration)
 
 ---
 
-## 3. Bitcoin / Crypto Market Analysis
+## 2. AI Agents / LLMs (2026 State)
 
-**Current state (July 3, 2026):**
-- BTC trading in **$56K–$62K range**, down ~33% YTD
-- Worst ETF outflows on record: ~$4.5B out in June 2026
-- ETF flows now **negative YTD** — institutional selling is the dominant headwind
-- Fear & Greed Index: **Extreme Fear**
-- Double-bottom pattern forming at $57,800 — potential bottom signal
-- Realized profit/loss ratio at lowest since 2022 (historically a cycle low indicator)
+### Market Size & Adoption
+- Global AI agents market: **$10.91 billion in 2026**
+- 43% of enterprises planning agentic AI adoption in 2026
+- **80% of Fortune 500 already running active AI agents**
 
-**Price scenarios:**
-| Scenario | Range | Trigger |
-|----------|-------|---------|
-| Base case | $56K–$62K | Fed stays cautious, ETF outflows continue |
-| Bearish | $50K–$53K | Break below $56,200, sustained ETF outflows |
-| Bullish | $65K–$70K+ | ETF inflows resume, Fed signals cuts, break above $63,800 |
+### Key Trends
+- **Multi-agent systems** (specialized agents collaborating like human teams)
+- AI becoming embedded in enterprise software (Excel, Slack, Google Workspace)
+- Self-improving agents emerging (learn from experiences)
+- Long-running execution capabilities (hours-long autonomous tasks)
 
-**Key macro drivers:**
-- Fed policy is #1 — "hot" inflation print = bad for BTC; cooler data = rate cut odds rise
-- Dollar strength, sticky inflation, geopolitical tensions = headwinds
-- AI equities attracting capital away from crypto
+### Business Impact
+- Automating repetitive operational tasks
+- Reducing costs, increasing efficiency
+- Enhancing productivity (humans focus on strategy/creativity)
 
-**Structural notes:**
-- 2024 halving further solidified BTC's deflationary supply
-- Regulatory clarity improving (SEC-CFTC March 2026 joint interpretation)
-- Long-term: scarcity + institutional infrastructure = underlying support
+### Risks & Challenges
+- **Security:** Autonomous agents become high-value attack targets
+- **Governance:** "Rogue AI" accountability is now a board-level issue
+- **Data quality** remains primary obstacle to scaling
+- **Agent sprawl** – managing many agents is complex
 
 ---
 
-## 4. Economy Outlook & Investment Strategy
+## 3. Bitcoin / Crypto Market Analysis (August 2026)
 
-**US Economy (2026):**
-- GDP growth: ~2.1–2.2% (rebound driven by AI infrastructure investment)
-- Inflation: CPI likely 3.5–4.0% (sticky, tariff effects, fiscal deficit)
-- Recession probability: **20–35%** — not base case but real risk
-- Fed: expected to cut to ~3% over next year, but FOMC is hawkish — some members even penciling in hikes
-- Global growth: 3.1%
+### Current Status
+- **BTC Price:** ~$64,000 (down from $126K ATH in Oct 2025)
+- Historical pattern: August is BTC's weakest month (median -7% over 13 years)
 
-**Investment strategy for this environment:**
+### Key Technical Levels
+| Type | Levels |
+|------|--------|
+| Resistance | $64,300 → $65,000 → $68,000 → $72,000 |
+| Support | $60,000 → $58,000 → $55,000-$58,000 |
 
-**✅ Do:**
-- **Diversify across real assets** — gold as inflation/geopolitical hedge
-- **Inflation-linked instruments** — TIPS, I-bonds to protect purchasing power
-- **Defensive equities** — consumer staples, healthcare, utilities
-- **AI-driven growth equities** — productivity theme still intact
-- **High-quality bonds (2–5yr maturities)** — lock in yields before rates drop further
-- **Short-term debt funds** — better after-tax than bank deposits
-- **Maintain liquidity** — CDs, T-bills for flexibility
-- **Long-term equity exposure** — historically outpaces inflation over time
+### Catalysts to Watch
+- **Aug 12:** CPI report (inflation data)
+- **Aug 27:** Jackson Hole Symposium (Fed policy signals)
+- **Sept Rate Decision:** Futures pricing 72% chance of hike
 
-**❌ Avoid:**
-- Unprofitable companies with high debt
-- Highly speculative crypto assets (except BTC as a core holding)
-- Over-concentration in any single asset class
+### Institutional Flows
+- June 2026: **$4.52 billion outflows** from spot BTC ETFs
+- July: Smallest monthly inflow on record ($205M)
+- Aug 4: Modest $19.6M inflow (recovering from $265M outflow day)
+- Whales (10-1,000 BTC wallets) adding ~19,696 BTC in one week
+
+### Scenarios
+- **Bullish:** CPI cools → rate hike priced out → BTC to $68-70K
+- **Base:** Range-bound $60K-$65.5K (uncertainty keeps it flat)
+- **Bearish:** Hot inflation → rate hike certain → BTC to $55-58K
+
+### Risks
+- AI bubble pullback could drag crypto down
+- Stablecoin liquidity contracting (reduced speculative activity)
+- Fed hawkishness is the main headwind
+
+---
+
+## 4. Economy Outlook / Investment Strategy (2026)
+
+### Global Economy
+- **World Bank:** Global growth slowing to 2.5% in 2026
+- **IMF:** 3.0% global growth for 2026
+- Below pre-pandemic averages – modest expansion only
+
+### U.S. Specifics
+- GDP growth: 1.5-2.0%
+- **Core PCE inflation:** Rising to 3.4% by year-end (up from 2.9%)
+- Labor market: "Low-hire, low-fire" equilibrium
+- Fed expected to ease, but cuts could slow
+
+### Key Risks
+- Middle East conflict → energy price spikes
+- AI productivity disappointment risk
+- Geopolitical fragmentation
+
+### Investment Strategy Recommendations
+
+#### Equities
+- Stay overweight, but **diversify globally**
+- International stocks attractive (weaker USD, emerging market AI demand)
+- **Small caps + emerging markets** worth increasing exposure
+
+#### Fixed Income
+- Use for portfolio ballast
+- Add **real rate protection** (TIPS/inflation-protected)
+- High-quality bonds as rates decline
+
+#### AI Sector
+- AI infrastructure boom continues
+- Semiconductors have been market leaders
+- "AI trade" may still have room to run
+
+#### Alternatives
+- Hedge funds for diversification and downside protection
+- Real assets for geopolitical/inflation resilience
 
 ---
 
-## Cross-Cutting Actionable Insights for Jacob
+## Key Takeaways for Jacob
 
-1. **BTC in $56K–$62K range = potential accumulation zone** — Monte Carlo suggests sizing conservatively (worst-case drawdown thinking), but historically realized P/L at 2022 lows suggests Capitulation may be near
+### Actionable Insights
+1. **Don't time BTC precisely** – Monte Carlo shows range of outcomes, not predictions
+2. **BTC at $64K is historically significant** – Well below ATH, could be accumulation zone
+3. **Watch CPI Aug 12** – Cool inflation = bullish for risk assets; hot = bearish
+4. **Diversify internationally** – USD weakness + emerging market AI demand = opportunity
+5. **Consider small-cap exposure** – Historically underowned, could rebound
 
-2. **Don't fight the ETF outflow trend** — institutional selling is the near-term driver. Wait for stabilization before adding large positions.
+### Risks to Avoid
+1. **Don't overweight crypto** – ETF outflows show institutional caution
+2. **Avoid AI bubble stocks** – If AI trade unwinds, contagion risk
+3. **Inflation protection** – Core PCE rising, consider TIPS
+4. **August seasonality** – Historically weak for BTC; don't panic sell
 
-3. **Inflation is stickier than hoped** — protect purchasing power with TIPS/I-bonds; don't hold too much cash
-
-4. **AI is the dominant growth theme** — if building products/services, AI integration is table stakes; if investing, AI infrastructure beneficiaries still have runway
-
-5. **Monte Carlo your trading strategy** — before scaling any crypto trade, stress-test with 1000+ simulations to understand true bust probability
-
-6. **Recession risk is real (20-35%)** — don't go all-in on risk assets; maintain 6-month liquidity buffer
-
-7. **Regulatory clarity improving** — 2026 is better environment for institutional crypto participation than 2024-25; long-term structural thesis intact
+### Portfolio Suggestions
+- Maintain BTC position but don't add aggressively until CPI clear
+- Increase international/EM equity exposure
+- Add inflation-protected bonds (TIPS)
+- Consider hedge fund exposure for downside protection
+- Watch Jackson Hole (Aug 27) for Fed signals
 
 ---
-*Research date: July 3, 2026 | Sources: Quantified Strategies, Google Cloud AI Trends, 247WallSt,Coinbase,RSM US, Fidelity, IMF, PIIE, JPMorgan*
+*Research compiled: August 5, 2026*
+*Sources: IMF, World Bank, major financial institutions, crypto analysts*
