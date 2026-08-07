@@ -1,5 +1,42 @@
 # Weekly Research Findings
 
+## === Scan: 2026-08-07 (Friday) ===
+
+### 1. Quantitative Finance / Monte Carlo / Trading
+- Active trend: **integrating Monte Carlo with ensemble ML models** for market forecasting — probabilistic scenario analysis + predictive models to improve accuracy and risk evaluation.
+- Core trading use: thousands of randomized scenarios sampled from historical return distributions → probability map of outcomes (expected return, drawdowns, **risk of ruin**).
+- Growing use of MC for **VaR** calculations in crypto risk assessment.
+- Reminder: it's a risk-modeling tool, not a price predictor.
+- Sources: pm-research.com, aimspress.com (QFE 2024011), QuantPedia, IBKR Quant.
+
+### 2. AI Agents / LLMs
+- **OpenAI** launched GPT-5.6 with "ChatGPT Work" agent.
+- **Anthropic** shipped **Claude Opus 5** at ~half the price of comparable frontier models.
+- **Google** delayed Gemini 3.5 Pro. **Moonshot AI** published **Kimi K3** (largest open-weight model ever).
+- **MCP** shipped a major release candidate — enterprises brokering agent access to production systems.
+- AI voice startups raised **$7B in Q1 2026** (up from $1B a year earlier) — voice as the primary next-gen agent interface.
+- **Regulatory:** EU AI Act high-risk provisions enforceable **Aug 2, 2026**; fines up to €15M or 3% of global revenue.
+- Sources: llm-stats.com, aiagentstore.ai, agentic.ai, augusto.digital.
+
+### 3. Bitcoin / Crypto Market
+- BTC near **$64,000** entering August; fell from ~$93k at start of 2026.
+- Trading **below 20-day & 50-day EMAs**; rejected at $66,500.
+- **Key levels:** hold **$60k–$63k** support, break **$65k–$70k** resistance to reverse the medium-term downtrend (Gemini/Claude/Grok converge on this zone).
+- Forecasts: ChatGPT sees ~$60,500 close (55% prob $58k–$64k); TA month range **$62,386 – $74,044**.
+- **Macro headwind:** Fed held at **3.50%–3.75%** ("higher-for-longer") amid sticky inflation + surging oil.
+- Sources: intellectia.ai, coinidol.com, ccn.com, axeladlerjr.com.
+
+### 4. Economy / Investment Strategy
+- Fed held **3.50%–3.75%** (July 29 FOMC). Major shift: markets now price **possible HIKES** — path to ~3.8% by Oct, ~4% by year-end. Rate-cut thesis is dead for now.
+- Morningstar 2026: GDP ~1.9%, inflation ~2.7% (above target). Core PCE 3.3% '26 → 2.5% '27 → 2.1% '28. Resilient but uneven growth.
+- Positioning: **bonds favorable for income** — front-end & belly of curve (<10yr). Add corporate credit, securitized assets, EM bonds.
+- Cross-cutting: higher-for-longer + sticky inflation pressures BTC/growth, rewards short-duration income. Family wealth → short-duration bond income as stable base; BTC small (1–5%) + DCA; MC-risk-size any auto-trading.
+- Sources: ishares.com, jpmorgan.com, morningstar.com, forbes.com.
+
+---
+
+# Weekly Research Findings (prior)
+
 **Week of:** August 5, 2026 (Wednesday)
 **Research Focus:** Quantitative Finance, AI Agents, Bitcoin/Crypto, Economy Outlook
 
