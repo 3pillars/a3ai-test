@@ -18,7 +18,7 @@
 - **XRP CLARITY Act:** Senate in recess until July 13. Floor vote expected late July/early August. Needs 60 votes (bipartisan). Slipped past July 4 target.
 ## Market Monitoring
 
-- **Recession Tripwire (weekly):** Check consumer-credit stress per `shared-context/recession-tripwire.md`. Alert Jacob if card 90+ delinquency breaks ~13.7% (GFC peak), subprime auto delinquency hits new highs, or payrolls print negative 2nd month. Needs web access to pull live data.
+- **Recession Tripwire (weekly):** Check consumer-credit stress per `shared-context/recession-tripwire.md`. Primary triggers: (1) card delinquency **FLOW/transition rate** breaks its ~2yr flat range, (2) payrolls print negative 2nd month (Jul −23k), (3) subprime auto **re-accelerates >7%** (already at 32-yr record but plateaued — don't alert on "new high" alone). NOTE: card 90+ STOCK rate (~12.8%) is a lagging/contaminated signal per NY Fed — do NOT trigger on it.
 - **Hunter's Melt-up Alert (July-End 2026):**
   - Watch for: Extreme optimism, AI hype, "this time different" narratives, all in sentiment
   - Key triggers: VIX <15, Fear & Greed at Extreme Greed, AAII bull-bear spread at extremes

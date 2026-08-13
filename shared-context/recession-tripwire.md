@@ -4,25 +4,31 @@
 **Cadence:** Weekly review (heartbeat surfaces it). Hard data updates quarterly (NY Fed) / monthly (jobs, delinquency proxies).
 **Created:** 2026-08-11, off the NY Fed Q2 2026 Household Debt & Credit report.
 
-## Baseline (VERIFIED against NY Fed Q2 2026 release, Aug 11 2026)
+## Baseline (VERIFIED against NY Fed Q2 2026 release + Liberty St Economics, Aug 2026)
 - Credit card debt: **$1.26T** (+$21B in Q2). Record $1.28T = Q4 2025. ✅
 - Total household debt: **$18.8T** — actually *dipped* $13B (−0.1%) in Q2. ✅ (headline "rise" is the card line, not the total)
 - Auto loans: **$1.71T** (+$28B, record high). ✅
 - Mortgages: **$13.1T** (−$74B). HELOC: **$459B** (+$13B). Student: **$1.65T** (−$7B). ✅
-- **90+ day card delinquency (share of balances): 12.8%** (up from 7.6%). ✅ GFC peak was ~13.7% — we're within a whisker.
-- July jobs: **−23,000** (expected a gain) — labor market turning.
+- **Card 90+ STOCK delinquency (share of balances): ~12.8%** (up from 7.6% Q3 2022). GFC peak ~13.7%. ⚠️ **CAVEAT — see below.**
+- **Card delinquency FLOW (transition rate into 90+): elevated but ~flat since 2024.** ← the honest signal.
+- **Subprime auto 60+ delinquency: ~6.9% (Jan 2026), 32-yr record — worst since 1994, above GFC.** But **plateauing** since 2023, not accelerating. Prime auto: ~0.42% (benign; GFC prime peak was 0.9%).
+- July jobs: **−23,000** (expected a gain) — labor market turning. ← freshest real catalyst.
 - NY Fed framing: **"K-shaped" divide** — stress concentrated in lower-income/paycheck-to-paycheck households, not evenly spread.
-- Sources: [NY Fed release](https://www.newyorkfed.org/microeconomics/hhdc), [CNBC](https://www.cnbc.com/2026/08/11/ny-fed-credit-card-debt-hits-1point26-trillion-k-shaped-divide-persists.html), [ABA Banking Journal](http://bankingjournal.aba.com/2026/08/new-york-fed-household-debt-dipped-to-18-8t-in-q2/).
+- Sources: [NY Fed release](https://www.newyorkfed.org/microeconomics/hhdc), [Liberty St Economics — reconciling delinquency measures](https://libertystreeteconomics.newyorkfed.org/2026/08/how-distressed-are-consumers-reconciling-diverging-credit-card-delinquency-measures/), [Wolf Street auto Q1](https://wolfstreet.com/2026/05/19/auto-loan-balances-debt-to-income-ratio-and-delinquencies-of-subprime-prime-auto-loans-in-q1-2026-how-bad-is-it/), [The Hill](https://thehill.com/business/5901953-credit-card-balances-record-high-late-payments-new-york-fed/).
+
+## ⚠️ Metric correction (why the scary number lies)
+The NY Fed's OWN research (Liberty St Economics, Aug 2026) says the **12.8% stock rate overstates distress** — it's inflated by charged-off debt sitting on books LONGER, not by more people newly falling behind. The **flow (transition) rate is the accurate real-time gauge, and it's been ~flat since 2024.** So "12.8% approaching 13.7% GFC peak" is a lagging, contaminated signal. **Trigger on flow, not stock.**
 
 ## Watchlist + trigger thresholds
-| Metric | Source | Alert if |
-|---|---|---|
-| Card 90+ delinquency (share of balances) | NY Fed HHDC (quarterly) | breaks above ~13.7% (GFC peak) |
-| Subprime auto 60+ delinquency | Fitch/Cox Automotive, Fed | new multi-decade high / accelerating |
-| Auto repossession rate | Cox Automotive | rising m/m |
-| Nonfarm payrolls | BLS monthly | 2nd consecutive negative print |
-| Continuing jobless claims | DOL weekly | sustained > ~1.95M and rising |
-| Revolving credit growth | Fed G.19 | rolls negative (consumer tapped out) |
+| Metric | Source | Alert if | Priority |
+|---|---|---|---|
+| **Card delinquency FLOW / transition into 90+** | NY Fed HHDC (quarterly) | **breaks out of its ~2yr flat range** ← primary card signal | 🔴 HIGH |
+| Nonfarm payrolls | BLS monthly | **2nd consecutive negative print** (Jul was −23k) | 🔴 HIGH |
+| Subprime auto 60+ delinquency | Cox Automotive / Fitch | **re-accelerates / breaks decisively >7%** (already 32-yr record @6.9%, but plateaued — "new high" alone = noise) | 🟡 MED |
+| Continuing jobless claims | DOL weekly | sustained > ~1.95M and rising | 🟡 MED |
+| Auto repossession rate | Cox Automotive | rising m/m | 🟡 MED |
+| Revolving credit growth | Fed G.19 | rolls negative (consumer tapped out) | 🟡 MED |
+| ~~Card 90+ STOCK delinquency~~ | ~~NY Fed HHDC~~ | **DEMOTED** — contaminated by charge-off reporting lag; context only, not a trigger | ⚪ WATCH |
 
 ## Interpretation
 - Delinquencies = **old debt going bad** (per NY Fed) → stress already baked in, not just starting.
