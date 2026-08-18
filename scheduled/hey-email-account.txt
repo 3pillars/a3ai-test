@@ -1,0 +1,12 @@
+HEY email account — created 2026-08-17
+========================================
+Email:        changjieyang@hey.com
+Name:         Jacob Yang
+Password:     Hey$Changjie2026!Vault   (auto-generated — CHANGE THIS after first login)
+Backup email: changjieyang@gmail.com
+Plan:         HEY for You — 30-day free trial (no card entered). $99/yr after trial.
+Login URL:    https://app.hey.com/sign_in
+
+Notes:
+- Trial ends ~Sept 16, 2026. No payment info was entered; account will lapse if not paid.
+- Recommend changing the password on first login (Settings) and storing in a password manager.
