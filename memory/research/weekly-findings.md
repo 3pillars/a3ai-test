@@ -1,24 +1,22 @@
-# Weekly Research Findings — 2026-08-14
+# Weekly Research Findings — 2026-08-21
 
-## 1) Quantitative Finance / Monte Carlo / Trading
-- Monte Carlo remains the core tool for strategy stress-testing: run thousands of randomized scenarios by resampling historical return distributions to map expected returns, drawdowns, and **risk of ruin**.
-- **Trend:** hybrid pipelines — ensemble ML (Random Forest, SVM, LSTM) feeding/combined with MC scenario analysis — improve predictive accuracy and tail-risk estimation.
-- MC-based assessment shown more accurate at forecasting extreme/tail events → better risk alerts for institutions.
-- Practical takeaway for Jacob's automation goal: bolt a MC drawdown/risk-of-ruin sim onto any strategy before sizing positions; validates position sizing for the $5k/mo passive target.
-- Sources: [AIMS QFE (MC + ensemble ML)](http://www.aimspress.com/article/doi/10.3934/QFE.2024011), [QuantPedia MC strategy sim](https://quantpedia.com/introduction-and-examples-of-monte-carlo-strategy-simulation/), [IBKR Quant](https://www.interactivebrokers.com/campus/ibkr-quant-news/power-of-monte-carlo-simulations-in-finance/)
+## 1) Quant Finance / Monte Carlo
+- Industry standard: ~1,000 sims for stable median & 5th percentile; 5,000–10,000 for tail-risk (99th pctile drawdowns, risk of ruin).
+- Core use: resample/reshuffle historical trade P&L order to expose hidden drawdown/streak risk a single backtest hides.
+- Key output metric: 95th percentile max drawdown → drives position sizing and realistic expectations.
+- Renaissance, Two Sigma use MC-style sims extensively for strategy testing & portfolio risk.
 
 ## 2) AI Agents / LLMs (August 2026)
-- **Anthropic shipped Claude Opus 5** at ~half the price of comparable frontier models.
-- **OpenAI GPT-5.6** launched with "ChatGPT Work" agent; **Google Gemini 3.7 Flash** released Aug 13, 2026. ~10 new models in August.
-- **MCP** (Model Context Protocol) shipped a major RC — becoming the standard for agents brokering access to production/business systems.
-- Small-model leap: **7B models now beat last year's 70B**; strong local agents viable → cheaper routing for routine tasks (relevant to our tiering strategy).
-- Direction: AI getting operational/embedded in enterprise workflows; heavier emphasis on eval + governance.
-- Sources: [augusto.digital LLM news Aug 2026](https://augusto.digital/insights/blogs/monthly-llm-news-august-2026/), [llm-stats news](https://llm-stats.com/ai-news), [LLM Gateway timeline](https://llmgateway.io/timeline)
+- OpenAI: GPT-5.6 + "ChatGPT Work" agent.
+- Anthropic: Claude Opus 5 at ~half the price of comparable frontier models.
+- Others: Alibaba Qwen3.8 Max (Aug 2), Z.AI GLM-5.3 (Aug 14).
+- MCP (Model Context Protocol) shipped major RC — enterprises brokering agent access to production systems.
+- Efficiency: 7B models now beat last year's 70B; complex agents run on smartphones.
+- Trend: semi-autonomous agent orchestration, multimodal standard, governance/eval focus.
 
-## 3) Bitcoin / Crypto Market (as of Aug 12, 2026)
-- **BTC ~$64,200** — down ~27% YTD, ~49% below Oct 2025 ATH of $126,080. Market cap ~$1.3T.
-- Range-bound: **$62,500 support**, **$65k–$70k resistance**; trading below key MAs.
-- **Fear & Greed Index: 29 (Fear)**; technicals bearish.
-- Forecast clustering: most projections **$65k–$80k**; AI-model range $50k–$99k. Whales reportedly betting against a 4-year losing streak.
-- Note vs Jacob's alert band ($60k–$80k): BTC sitting near the bottom of that band — worth watching for a support break below $62.5k.
-- Sources: [TheStreet BTC Aug 12](https://www.thestreet.com/crypto/markets/bitcoin-price-today-august-12-2026), [Phemex analysis](https://phemex.com/blogs/bitcoin-price-analysis-august-2026), [BeInCrypto](https://beincrypto.com/bitcoin-price-prediction-august-2026/)
+## 3) Bitcoin / Crypto
+- BTC ~$65,000, $1.3T market cap; +~3% on week but ~30% off 2026 high (~$93k at year start).
+- Range: $62,500 support / $65,000–$70,000 resistance. Local bottom in low-$60ks early Aug, bouncing.
+- 200-day MA still trending up → long-term bull structure intact per TA.
+- Capitulation line: realized price ~$52,750; below = deeper trouble.
+- Risk guidance: 1–5% portfolio allocation, DCA for entry timing.
