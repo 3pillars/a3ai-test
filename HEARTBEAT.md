@@ -19,6 +19,7 @@
 ## 🔴 LIVE TRIPWIRES (Aug 2026 — check every heartbeat, alert only on trigger)
 
 - **BTC $53K FLOOR:** If BTC trades/accepts **below $53,000**, alert Jacob immediately — this is the thesis-structure breaker (not a dip; sovereignty/debasement floor failing). Secondary heads-up if it loses **$66-67k** (breakout-retrace = "was a squeeze" confirmation).
+- **🟢 ACTIVE TRADE — BTC LONG (Jacob's primary, greenlit Aug 22 @ ~$77.4k):** Jacob is running the BULLISH/contrarian side as higher-confidence; "don't chase" caution is now the hedge. Watch levels: (1) **FLUSH TRIGGER $74k** — first break below = the dip is arriving, alert Jacob (add-zone if held, warning if it accelerates). (2) **INVALIDATION $70k daily close** — trade thesis breaks, this is the stop / flip-to-caution line; alert immediately. (3) **BULL CONFIRM** — if BTC holds **>$74k into/through Aug 28 (Jackson Hole)**, the "flush that never came" = contrarian bull confirmed, alert Jacob. (4) Upside targets $85k then $90k+ — flag on tag for profit-taking.
 - **CPI FLAG — Sept 11, 2026 (8:30am ET):** On **Sept 10**, remind Jacob next-day CPI is the cleanest falsifier of the whole stagflation/hawkish-Warsh read. Soft print = re-examine everything; hot print = thesis intact. (Next print after: mid-Oct.)
 - **JACKSON HOLE — Warsh keynote Fri Aug 28, 7am PT:** already on his Google Calendar. Dovish/neutral Warsh = relief rally real, "don't chase" was wrong.
 - Full falsification list + rationale: `memory/macro-tripwires.md`
