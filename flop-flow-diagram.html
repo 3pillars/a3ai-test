@@ -1,0 +1,158 @@
+<!doctype html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>FLOP / technocore agent flow</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #f8fafc;
+    --fg: #172033;
+    --muted: #5b6475;
+    --line: #64748b;
+    --neutral: #e2e8f0;
+    --input: #bfdbfe;
+    --process: #c7d2fe;
+    --storage: #99f6e4;
+    --external: #fde68a;
+    --risk: #fecaca;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0f172a;
+      --fg: #e5e7eb;
+      --muted: #a3adbd;
+      --line: #94a3b8;
+      --neutral: #334155;
+      --input: #1d4ed8;
+      --process: #4338ca;
+      --storage: #0f766e;
+      --external: #92400e;
+      --risk: #991b1b;
+    }
+  }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font: 14px/1.4 ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  }
+  main { max-width: 980px; margin: 32px auto; padding: 0 20px; }
+  svg { width: 100%; height: auto; display: block; }
+  .title { font-size: 20px; font-weight: 650; fill: var(--fg); }
+  .sub { font-size: 12.5px; fill: var(--muted); }
+  .label { font-size: 13.5px; font-weight: 650; fill: var(--fg); }
+  .small { font-size: 11px; fill: var(--fg); opacity: 0.85; }
+  .tiny { font-size: 10.5px; fill: var(--muted); font-style: italic; }
+  .node { stroke: var(--line); stroke-width: 1; }
+  .neutral { fill: var(--neutral); }
+  .input { fill: var(--input); }
+  .process { fill: var(--process); }
+  .storage { fill: var(--storage); }
+  .external { fill: var(--external); }
+  .risk { fill: var(--risk); }
+  .edge { stroke: var(--line); stroke-width: 1.6; fill: none; }
+  .edge-dash { stroke: var(--line); stroke-width: 1.6; fill: none; stroke-dasharray: 5 4; }
+  .zone { fill: none; stroke: var(--line); stroke-width: 1; stroke-dasharray: 6 5; opacity: 0.7; }
+  .zlabel { font-size: 11px; font-weight: 600; fill: var(--muted); letter-spacing: 0.04em; }
+</style>
+<main>
+<svg viewBox="0 0 960 700" role="img" aria-label="FLOP technocore agent flow diagram">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="var(--line)" />
+    </marker>
+  </defs>
+
+  <text class="title" x="20" y="30">How the FLOP airdrop agent works — technocore.chat flow</text>
+  <text class="sub" x="20" y="50">Status Aug 25 2026: positioned &amp; kept-alive daily — NOT yet qualified. Qualification is gated on FLOP Labs shipping the real testnet + anti-Sybil rules.</text>
+
+  <!-- trust zones -->
+  <rect class="zone" x="20" y="66" width="920" height="150" rx="10" />
+  <text class="zlabel" x="34" y="84">LOCAL MACHINE · private key never leaves</text>
+
+  <rect class="zone" x="20" y="300" width="920" height="150" rx="10" />
+  <text class="zlabel" x="34" y="318">technocore.chat · FLOP Labs server (world-readable)</text>
+
+  <!-- edges first (behind nodes) -->
+  <!-- keypair -> DID -->
+  <path class="edge" d="M420 128 L360 150" marker-end="url(#arrow)" />
+  <!-- keypair -> private key -->
+  <path class="edge" d="M540 128 L620 150" marker-end="url(#arrow)" />
+  <!-- DID -> keep-alive -->
+  <path class="edge" d="M330 178 L330 236 L440 252" marker-end="url(#arrow)" />
+  <!-- private key -> keep-alive -->
+  <path class="edge" d="M690 178 L690 236 L560 252" marker-end="url(#arrow)" />
+  <!-- keep-alive -> note -->
+  <path class="edge" d="M410 288 L250 352" marker-end="url(#arrow)" />
+  <!-- keep-alive -> lobby -->
+  <path class="edge" d="M550 288 L710 352" marker-end="url(#arrow)" />
+  <!-- private key signs (dashed down right side to lobby) -->
+  <path class="edge-dash" d="M860 165 L905 165 L905 392 L892 392" marker-end="url(#arrow)" />
+  <text class="tiny" x="900" y="285" text-anchor="end" transform="rotate(90 900 285)">🔑 signs room|nonce|text</text>
+  <!-- note -> gate -->
+  <path class="edge" d="M250 434 L400 500" marker-end="url(#arrow)" />
+  <!-- lobby -> gate (presence only) -->
+  <path class="edge-dash" d="M710 434 L560 500" marker-end="url(#arrow)" />
+  <!-- gate -> claim -->
+  <path class="edge-dash" d="M480 540 L480 578" marker-end="url(#arrow)" />
+  <text class="tiny" x="496" y="562">unlocks when rules ship → STEP C</text>
+
+  <!-- NODES -->
+  <!-- N1 keypair -->
+  <rect class="node input" x="380" y="100" width="200" height="52" rx="8" />
+  <text class="label" x="480" y="123" text-anchor="middle">① Ed25519 keypair</text>
+  <text class="small" x="480" y="140" text-anchor="middle">generated locally</text>
+
+  <!-- N2 DID -->
+  <rect class="node process" x="150" y="150" width="270" height="56" rx="8" />
+  <text class="label" x="285" y="174" text-anchor="middle">② DID  did:key:z6MkgAKz…jRy9</text>
+  <text class="small" x="285" y="191" text-anchor="middle">public identity + future claim address</text>
+
+  <!-- N2b private key -->
+  <rect class="node storage" x="560" y="150" width="300" height="56" rx="8" />
+  <text class="label" x="710" y="174" text-anchor="middle">Private key</text>
+  <text class="small" x="710" y="191" text-anchor="middle">file 0600 · never leaves machine</text>
+
+  <!-- N3 keep-alive -->
+  <rect class="node process" x="340" y="248" width="280" height="52" rx="8" />
+  <text class="label" x="480" y="271" text-anchor="middle">③ Daily keep-alive (launchd 9:05 PT)</text>
+  <text class="small" x="480" y="288" text-anchor="middle">re-runs ④ so the footprint never decays</text>
+
+  <!-- N4a durable note -->
+  <rect class="node storage" x="70" y="352" width="360" height="82" rx="8" />
+  <text class="label" x="250" y="378" text-anchor="middle">④a Durable DID note → /kv/did-88/…</text>
+  <text class="small" x="250" y="397" text-anchor="middle">signed write · persists · verified read-back 200</text>
+  <text class="tiny" x="250" y="416" text-anchor="middle">the one snapshot-able footprint</text>
+
+  <!-- N4b lobby -->
+  <rect class="node external" x="530" y="352" width="360" height="82" rx="8" />
+  <text class="label" x="710" y="378" text-anchor="middle">④b Signed check-in → /r/lobby</text>
+  <text class="small" x="710" y="397" text-anchor="middle">room|nonce|text · Ed25519 · ephemeral</text>
+  <text class="tiny" x="710" y="416" text-anchor="middle">presence only · Sybil swarm · scrolls off</text>
+
+  <!-- N5 gate -->
+  <rect class="node risk" x="140" y="484" width="680" height="56" rx="8" />
+  <text class="label" x="480" y="508" text-anchor="middle">⛔ GATE — not live yet</text>
+  <text class="small" x="480" y="525" text-anchor="middle">faucet / testnet + anti-Sybil scoring rules unpublished (Hayes: "details coming")</text>
+
+  <!-- N6 claim -->
+  <rect class="node neutral" x="300" y="580" width="360" height="58" rx="8" />
+  <text class="label" x="480" y="604" text-anchor="middle">Q4 2026 snapshot → FLOP airdrop claim</text>
+  <text class="small" x="480" y="621" text-anchor="middle">private key signs the claim · genesis Q1 2027</text>
+
+  <!-- legend -->
+  <g>
+    <rect class="node input" x="20" y="662" width="14" height="14" rx="3" />
+    <text class="small" x="40" y="673">start</text>
+    <rect class="node process" x="95" y="662" width="14" height="14" rx="3" />
+    <text class="small" x="115" y="673">action</text>
+    <rect class="node storage" x="175" y="662" width="14" height="14" rx="3" />
+    <text class="small" x="195" y="673">durable</text>
+    <rect class="node external" x="265" y="662" width="14" height="14" rx="3" />
+    <text class="small" x="285" y="673">ephemeral / untrusted</text>
+    <rect class="node risk" x="435" y="662" width="14" height="14" rx="3" />
+    <text class="small" x="455" y="673">blocked gate</text>
+    <text class="small" x="560" y="673">— — — dashed = pending / conditional</text>
+  </g>
+</svg>
+</main>
