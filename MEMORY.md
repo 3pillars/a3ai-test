@@ -174,6 +174,10 @@ _Store corrections here so they're never forgotten_
 - Be mindful of token usage in sessions
 - **Expected savings: 65-70%**
 
+## Personal Philosophy
+
+- **金惟纯 frame (因/缘 + 减法 + 开窍 + 反求诸己):** `memory/personal-philosophy-jin-weichun.md` — maps onto the 诸葛亮 trading discipline; includes caveats (反求诸己 ≠ self-blame for Andy's structural needs; "money follows life-force" is survivorship bias). Keep-line: 父母自己先活好，就是给孩子最大的礼物.
+
 ## 诸葛亮的智慧 (应用在交易)
 
 ### 亮之交易哲学
