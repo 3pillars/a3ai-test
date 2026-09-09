@@ -2,7 +2,7 @@
 
 ## Status Checks (no file writes needed)
 
-- **US-Iran: KHAMENEI DEAD (killed in US-Israeli strikes)** — Week-long funeral underway. Doha talks paused during mourning. 60-day MOU clock ticking. Trump: "Iran agreed to just about everything." Hormuz: Iran still warning ships to use "approved routes" or face "forceful response." New supreme leader selection is the next flashpoint — likely hardliners.
+- **🔴 US-Iran: MAJOR ESCALATION Sept 8** — US destroyed 5 Iranian oil tankers in Gulf of Oman after IRGC attempted ballistic missile hits on US Navy warship. Iran retaliated with 20 ballistic missiles at US base in Jordan (18 intercepted, NO US casualties). 27 Iranian airlines + 9 entities sanctioned by US Treasury. UK expanding energy/metal/banking bans. Nuclear talks: US Energy Secretary says deal "may not happen anytime soon." Previous 60-day MOU/ceasefire framework COLLAPSED. Hormuz: direct military exchange, not proxies — next 48-72h IRGC statements determine whether this stabilizes or spreads.
 - **BTC: ~$69K (Aug 19 PM)** — reclaimed $70k for first time since June on Bessent bond intervention + SEC crypto-reg news. Now ABOVE the $67k wall (watch: this may be triggering the "real breakout" falsifier). Prior context: recovered from $57,750 Jul low.
 - **FOMC: Warsh HELD (Jun 17), hawkish** — rates steady but forward guidance DROPPED and a hike left on the table. Jobs miss changes the calculus — stagflation vs growth collapse now the debate.
 - **Russia-Ukraine: Easter ceasefire expired**, deadliest attacks in months, EU approving €90B loan
