@@ -1,75 +1,40 @@
-# Weekly Research Findings
-**Week of September 18, 2026**
+# Weekly Research Findings — 2026-09-18
 
----
+## 1. Bitcoin / Crypto
+- BTC ~$77,200 (Sep 11). +24.95% in August, still -9.6% YTD.
+- Base case Sep target $80k; $86k by Dec IF 200-day EMA ($73,077) holds as support.
+- Range: $75k–$85k; total crypto mkt cap ~$2.5–2.9T.
+- BTC dominance 59.6% — capital rotating INTO BTC (defensive), not fleeing crypto.
+- Momentum cooling: daily MACD decelerating, negative histogram; more consolidation/volatility than continuation likely in Sep.
+- MicroStrategy (Saylor) resumed buying: $370M after 2-month pause. Institutional support intact.
+- Jacob alert zone $60k-$80k: currently IN the upper band.
 
-## 1. Quantitative Finance / Trading / Monte Carlo Simulation
+## 2. AI Agents / LLMs
+- Salesforce launched 7 named Agentforce agents (Sep 11) for sales/service/commerce/IT-HR/supply chain.
+- OpenAI exposed Agents API + ChatGPT Work agent infra. Google Opal, OpenAI Agent Builder, Google ADK, MS Studio Copilot = no-code agent race.
+- McKinsey: ~1/3 of orgs declined buying software because they could build it internally with AI coding agents. (Build-vs-buy shift = deflationary pressure on SaaS.)
+- Model releases: Anthropic Fable 5.1 GA (Sep 1, $10/$50, cache reads $0.25); DeepSeek V4.1 Flash (Sep 10); Sakana Fugu Max (Sep 11).
 
-**Status:** GPU-accelerated Monte Carlo is now standard in institutional desks. Neural SDEs act as fast surrogate models replacing brute-force simulations for live Greeks. Quantum Monte Carlo (QAE) still theoretical but shows promise for high-dimensional derivatives.
+## 3. Macro / Fed
+- Fed HIKED 25bps to 3.75%-4.00% on Sep 16 — first increase since 2023, unanimous. Driven by oil-price-led inflation.
+- Futures pricing ~4.2% by Dec 2026, ~4.6% by Sep 2027. More hikes expected.
+- 2026 GDP forecast raised to 1.8% (from 1.6%); unemployment lowered to 4.1%. Economy resilient.
+- IMPLICATION: Rising rates = headwind for risk assets, esp. long-duration/growth & crypto. Cash/short T-bills now yield ~4%.
 
-**Key insight:** The biggest shift is **hardware acceleration (GPU/PyTorch/JAX)** enabling millions of paths in milliseconds. The code benchmark shows 1M-path simulations pricing European options + VaR in seconds — well within live trading windows.
+## 4. Equities / Investment Strategy
+- Morgan Stanley: bull market into 4th year, S&P target ~7,500 (~double-digit return). Breadth improving — 10 of 11 sectors positive YTD.
+- Recession odds low (~20% for severe correction/bear). Mild recession = low-probability tail.
+- RISKS: (1) Concentration — top 10 stocks = ~35% of S&P weight; Mag 7 earnings miss = index-wide hit. (2) AI capex ROI doubts. (3) USMCA trade deal expiry. (4) Fed credibility.
 
-**Practical techniques relevant to crypto trading:**
-- Sequence risk permutation (shuffle backtest trades to test for luck vs. structural edge)
-- Bootstrap/synthetic price path generation for regime testing
-- VaR/CVaR using Monte Carlo rather than parametric assumptions — better for crypto's fat tails
+## 5. Consumer Credit Stress (risk to avoid)
+- Auto loans: 90+ day delinquencies 5.60% Q1 2026 (vs 3.59% long-term avg). Subprime 60+ dpd at 6.9% — highest since 1990s.
+- ~29% of auto finance customers "financially vulnerable" (JD Power).
+- Credit cards: delinquencies 6.97% (up slightly YoY, stabilizing).
+- BNPL delinquencies surged 34%→41-42% in 2 yrs (fastest-rising segment) but only ~1.1% of card spending — limited systemic risk for now.
+- SIGNAL: Consumer/subprime stress building beneath a strong-market surface. Watch consumer-discretionary & subprime-exposed lenders.
 
-**Core GBM formula for reference:**
-```
-S_T = S_0 * exp((μ - 0.5σ²)T + σ√T * Z), Z ~ N(0,1)
-```
-
-**Sources:** NVIDIA developer blog, arXiv, quantstart.com, corporatefinanceinstitute.com
-
----
-
-## 2. AI Agents / LLMs (2026 State of Play)
-
-**Defining shift:** LLMs in 2026 have moved from **passive text generators → autonomous digital workers**. Agency is the keyword.
-
-**Major trends:**
-- **GUI/computer-use agents:** Models now "see" screens, navigate browsers, control desktop apps directly
-- **Test-time compute scaling:** Models like GPT-5, o3, DeepSeek R1 spend extra cycles reasoning/reflecting mid-inference before acting
-- **Three-layer memory:** Episodic (execution logs) + Semantic (vector search for context) + Procedural (reusable workflow patterns)
-- **Multi-agent orchestration:** Single agents replaced by manager + specialist sub-agent teams (LangGraph, AutoGen, OpenAI Agent SDK)
-- **Enterprise adoption:** ~40% of enterprise apps now embed AI agents (up from <5% in 2024/25)
-- **Open-source catching up:** DeepSeek R1 and Gemma 3 enable capable local agents; OpenClaw enables desktop automation
-
-**Safety note:** New attack surface from tool-hijacking, indirect prompt injection, and unauthorized package creation. Sandbox and zero-trust permissions now enterprise requirements.
-
-**Sources:** Anthropic (2026 state of AI agents), Google Cloud AI agent trends, machine learning mastery, The Guardian (security story on malicious RubyGems packages)
-
----
-
-## 3. Bitcoin / Crypto Market Analysis — September 18, 2026
-
-**Current BTC price:** ~$78,000–$80,000 (consolidating after hitting $82,087 intra-month high)
-
-**Key drivers this week:**
-- **Clarity Act failed (Sept 15):** Digital Asset Market Clarity Act stalled at 49–50 votes (needed 60). Sparked $592M single-day ETF outflows.
-- **SEC relief rally (Sept 17):** SEC Chair issued conditional exemptive relief for tokenized NMS stocks on blockchain venues. BTC bounced ~5% back toward $80K.
-- **Fed policy:** Rates held at 3.75%–4.00%. Market largely priced it in — BTC held despite headwinds.
-
-**Technical levels to watch:**
-| Level | Price |
-|-------|-------|
-| Resistance | $82,100 (breakout triggers move to $85–90K) |
-| Current | $78,000–$80,000 |
-| Support | $76,700 (True Market Mean) |
-| Deep support | $71,300 (STH cost basis) / $70,200 (200-day MA) |
-
-**On-chain context:**
-- BTC dominance at 58.1% (capital concentrated in BTC, caution signal)
-- Post-August's $3.52B ETF inflows, September flows stabilized
-- CME futures basis 5–6% (healthy institutional participation)
-- Alt rotation beginning: DeFi/RWA tokens (Uniswap, NEAR, Hyperliquid) gaining on SEC news
-
-**Q4 2026 outlook:**
-- Bull case: Break above $82.1K → $85–90K driven by institutional adoption + tokenization clarity
-- Bear case: Lose $75K → liquidation cascade toward $70.3K (200-day MA)
-
-**Sources:** exchangerates.org.uk, Galaxy Research, Lowenstein Crypto Brief (Sept 17), forex.com, cryptoslate, cryptonomist.ch
-
----
-
-*Generated: 2026-09-18 08:00 PDT*
+## Actionable Takeaways
+- Fed hiking regime + resilient economy: favor quality, keep dry powder in ~4% T-bills, avoid over-leveraged long-duration bets.
+- Crypto in mid-upper band; institutional buying supports but momentum cooling — no aggressive adds near $80k, keep BTC alert live.
+- Equities OK but concentration risk high — diversify beyond Mag 7.
+- Avoid subprime consumer credit exposure; stress is real and rising.
