@@ -1,32 +1,52 @@
-# Macro Tripwires & Falsification Signals (set Aug 19, 2026)
+# Macro Tripwires — Active Monitoring (Updated Sept 20, 2026)
 
-Context: Bessent doubled Treasury buybacks (Sep 9–Nov 4); BTC reclaimed ~$69-70k on the news + SEC crypto-reg. My standing read = "sticky inflation → cornered Fed → debasement → own scarce assets (BTC/gold)." Jacob asked for the signals that would prove that read WRONG, then said "wire them." These are the live tripwires (armed in HEARTBEAT.md).
+## LIVE TRIPWIRES
 
-## Armed tripwires (checked each heartbeat)
+### 🔴 BTC $53K FLOOR
+If BTC trades/accepts **below $53,000** — alert Jacob immediately. Structural thesis breaker.
+Secondary: if BTC loses **$66-67K** (was the breakout-retrace falsifier, now ABOVE this level at $80K+).
 
-1. **BTC $53K floor** — accept below $53k = thesis-structure break (regime change, not a dip). ALERT IMMEDIATELY.
-2. **CPI flag** — next print **Sept 11, 2026, 8:30am ET** (Aug CPI). Flag Jacob **Sept 10**. Soft/cooling print is the single cleanest falsifier — unwinds stagflation base case + hawkish-Warsh trap + debasement urgency all at once. Print after: mid-Oct.
-3. **Warsh Jackson Hole keynote** — Fri **Aug 28, 7am PT** (on Google Calendar). Dovish/neutral = "don't chase" was wrong.
+### 🟢 ACTIVE TRADE — BTC LONG (Jacob, greenlit Aug 22 @ ~$77.4K)
+Watch levels:
+- **(1) FLUSH TRIGGER $74K** — break below = the dip is arriving. Alert Jacob. Add-zone if held, warning if accelerates.
+- **(2) INVALIDATION $70K daily close** — stop / flip-to-caution. Alert immediately.
+- **(3) BULL CONFIRM** — BTC held >$74K through Jackson Hole (Aug 28) = contrarian bull confirmed.
+- **Upside targets $85K then $90K+** — flag for profit-taking.
 
-## Full falsification list (where each layer of the call breaks)
+**STATUS (Sept 20, 2026):** BTC $80,963 — above all triggers. FLUSH TRIGGER ($74K) intact. INVALIDATION ($70K) intact.
 
-**"Don't chase into Jackson Hole" is wrong if:**
-- Warsh comes out dovish/neutral Aug 28 (acknowledges 57K jobs miss, signals patience, doesn't push back on Bessent).
-- BTC reclaims and HOLDS $67k on real volume before the speech = breakout not squeeze. **NOTE: already near/above this as of Aug 19 (~$69k) — watch closely.**
-- Next CPI/PCE prints soft — kills the hawkish-hike-to-offset-Bessent logic.
+### ⚪ STX WATCH (Muneeb thesis — WATCH only, NOT a Jacob position)
+Baseline: STX ~$0.223, ~290 sats. Two independent triggers:
+- (1) **STX/BTC approaching/tagging 1,000 sats** (~$0.77 at BTC $77K) = Muneeb's "wake me up" level
+- (2) **sBTC staking TVL crossing ~$1B** (10x off $100M baseline) = real-cycle confirmation
 
-**"Buyback is a nothingburger / fiscal dominance = debasement" is wrong if:**
-- Yields keep falling and STAY down through September (past the short-covering window) = buyback had structural bite.
-- Deficit actually gets cut (real spending deal / DOGE follow-through) — Brusuelas said "not in the cards"; if it lands, debasement-inevitability cracks.
-- Dollar (DXY) breaks higher and holds durably — undercuts the weak-dollar/debasement leg.
+### 🟡 FLOP-LABS-OFFICIAL WATCH
+Arthur Hayes confirmed $FLOP airdrop Q4 2026, genesis Q1 2027, ~20% supply to testnet over 10 years, 100% fair launch.
+Official site: technocore.chat (only)
+DID active: `z6MkgAKz…jRy9`
+Daily keep-alive via LaunchAgent `com.a3ai.flop-keepalive` at 9:05am PT.
+⚠️ STANDING: when Hayes publishes official faucet/testnet + anti-Sybil rules, UPDATE flop_keepalive.py STEP C.
+**🚨 ORCHESTRATOR TRIPWIRE:** if `~/flop_agent/FLOP_TRIGGER.flag` exists, alert Jacob immediately.
 
-**"Long-BTC sovereignty thesis intact" is wrong if:**
-- BTC accepts below $52–53k — accumulation floor fails.
-- BTC decouples from debasement — Treasury keeps blinking (more QE-lite), liquidity loosens, and BTC does NOT respond. Debasement trade stops working when debasement accelerates.
-- Spot ETF flows reverse hard — sustained multi-week outflows = structural bid turned seller.
+## Falsification List
 
-## The two that hurt most
-1. Dovish Warsh + soft CPI combo → wrong on the trap; Jacob missed a real entry sitting out.
-2. BTC losing $52k on RISING liquidity → deepest signal; sovereignty/debasement thesis stopped mapping to price.
+| Thesis | Falsifier | Status |
+|--------|-----------|--------|
+| BTC $77K long | Daily close below $70K | ✅ Clear |
+| Stagflation / oil up | Hormuz reopened + Iran deal | ⚠️ Watching |
+| US-Iran military | Ceasefire framework | ❌ Collapsed Aug |
+| BTC institutional bid | Saylor reversal confirmed | ⚠️ Partial |
+| Solana ecosystem | Pump/Pons fee dominance | ⚠️ Competitive |
 
-**Cleanest single falsifier:** inflation cooling. If CPI rolls over, re-examine the whole stack.
+## Recurring Monitors
+
+### Weekly: Consumer Credit Stress
+Check per `shared-context/recession-tripwire.md`
+Primary triggers: card flow/transition rate breaks 2yr range; payrolls negative 2nd month; subprime auto re-accelerates >7%.
+
+### Ongoing: Hunter's Melt-up Alert (July-End 2026 target)
+Watch: VIX <15, Fear & Greed at Extreme Greed, AAII bull-bear at extremes.
+Alert file: `memory/market-euphoria-alert.md`
+
+---
+Last updated: 2026-09-20
