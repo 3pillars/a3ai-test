@@ -1,70 +1,84 @@
-# Weekly Research Findings
-**Week of October 2, 2026 | Scanned: 2026-10-02**
-
----
+# Weekly Research Findings — October 2, 2026
 
 ## 1. Quantitative Finance / Trading / Monte Carlo Simulation
 
-### Key Themes
-- **Monte Carlo remains foundational** for derivative pricing (exotic options, American/Bermudan via Longstaff-Schwartz), risk analytics (VaR, CVaR, drawdown distributions), and strategy backtesting
-- **GPU acceleration (CUDA/PyTorch/JAX)** reducing path simulation runtimes from minutes to milliseconds for millions of paths
-- **Quasi-Monte Carlo (Sobol sequences)** improving convergence from O(N^-1/2) to near O(N^-1)
-- **Quantum Monte Carlo (QAE)** emerging with theoretical quadratic speedup in sample complexity
-- **Deep Learning + MC**: Deep BSDEs solving high-dimensional PDEs; MLMC combining coarse/fine discretization for targeted variance at lower compute cost
+**State of the Art (2026):**
+- Monte Carlo simulations now use GPU-accelerated parallel computing (PyTorch/JAX) to run 1M+ trajectories in milliseconds
+- Modern quant models go beyond simple Geometric Brownian Motion — Heston Stochastic Volatility, Merton Jump-Diffusion, and Neural SDEs capture volatility clustering and fat-tailed jump risks
+- Adjoint Algorithmic Differentiation (AAD) gives 100x-1000x speedup in computing portfolio Greeks vs. traditional finite difference methods
+- Deep Reinforcement Learning (Deep RL) combined with MC simulations finds optimal dynamic delta-gamma hedging in the presence of transaction costs
+- Quantum Amplitude Estimation (QAE) is emerging, offering quadratic speedup for derivative pricing and VaR calculations
+- Longstaff-Schwartz algorithm (LSM) + MC is standard for pricing path-dependent American-style options
 
-### Critical Pitfalls
-- Gaussian copulas break down in crises (correlations spike to 1.0) → use empirical/t-copulas or extreme value theory
-- Hardcoded volatility ignores regime shifts → always use dynamic/adaptive estimates
-- Variance reduction (antithetic variates, control variates, importance sampling) is essential, not optional
-
-### Implementation Trend
-Python-based jump diffusion models (Merton's model) + GPU-vectorized path generation are the new standard for retail quants
+**Key Implication for Jacob:** These advances make quantitative trading strategies more accessible. AI-agent-driven execution can now autonomously run complex hedging and options strategies with real-time risk management.
 
 ---
 
 ## 2. AI Agents / LLMs
 
-### Key Themes
-- **2026 = "Autonomous Agentic Workflows"** — goal-oriented agents that decompose high-level instructions, execute multi-step plans, self-correct
-- **Multi-Agent Orchestration** replacing monolithic single agents (Coder Agent, Security Analyst, QA, etc. coordinated by orchestrator)
-- **MCP (Model Context Protocol) + A2A (Agent-to-Agent)** standards enabling interoperability between agents and tools
-- **Computer-Using Agents**: Multimodal models now navigate GUIs, click buttons, type — not just call APIs
-- **SLMs for micro-tasks** + large models for high-level planning (cost/latency optimization)
-- **EU AI Act compliance**: mandatory human-in-the-loop checkpoints, audit trails for high-risk financial/legal operations
+**State of the Art (2026):**
+- Major shift: from chatbots/copilots → autonomous AI agents that decompose broad goals, plan execution, call external tools, and self-verify
+- Model Context Protocol (MCP) has become the universal standard ("USB-C for AI") for agent tool-calling — eliminates custom API wrappers per model
+- Agents now use reasoning models (OpenAI o3, DeepSeek R1, Claude 3.5/3.7) with internal Monte Carlo Tree Search / chain-of-thought reasoning at inference time
+- Multi-agent orchestration via LangGraph, CrewAI, AutoGen is production-ready
+- Hybrid model routing: reasoning models for planning; small SLMs (Phi-4, Qwen, Llama fine-tunes) for repetitive execution tasks — dramatically reduces cost
+- Verifiability is the deployment gate: domains with automated test/validation loops (coding, data science) scale fastest
+- MCP Elicitation flows enable enterprise human-in-the-loop guardrails for critical decisions
 
-### Critical Risks
-- **Cascading failures**: one hallucination in step 2 of 20 can compound exponentially
-- **Identity & access security**: agents as identity-bearing software (API tokens, secrets management)
-- **Over-automation**: failing to automate poorly understood processes without clear decision boundaries
-
-### Enterprise Applications (2026)
-Autonomous bug fixing, infrastructure provisioning, market research execution, financial modeling, DevOps incident response, end-to-end ticket processing
+**Key Implication for Jacob:** AI agents can now autonomously handle complex trading research, portfolio rebalancing, and market monitoring — reducing manual workload significantly.
 
 ---
 
-## 3. Bitcoin / Crypto Market Analysis — October 2026
+## 3. Bitcoin / Crypto Market Analysis
 
-### Price Action
-- **BTC trading range**: $82,000–$87,500
-- **Key resistance**: $87,500 (clears path to $90,000+)
-- **Primary support**: $82,000–$82,500
-- **Secondary support**: $75,000
-- **Market regime**: Consolidation / Moderate Bullish (accumulation phase via ETF inflows)
+**Current Status (October 2, 2026):**
+- BTC Price: ~$86,000 – $86,600
+- Fear & Greed Index: 74 (Greed)
+- Q3 2026 gain: ~43% — strongest Q3 performance in years
+- BTC testing key resistance at $87,395 (September high)
 
-### Primary Drivers
-- **Spot ETF inflows**: Dominant force; shifted from retail hype to institutional programmatic rebalancing
-- **MiCA enforcement (Europe)**: Split global exchange liquidity into compliant EU vs non-EU pools; elevated barriers but drew institutional participation
-- **US regulatory clarity**: SEC/CFTC actively defining digital commodity classifications and custody rules
-- **Macroeconomic**: Rate-cutting cycles fueling risk appetite; energy/oil spikes + fiscal deficits bolstering BTC's inflation-hedge thesis
-- **Stablecoins**: Record cross-border transfer volumes; yield-bearing compliant stablecoins leading payment rail integration
+**Technical Levels:**
+- Resistance: $87,395 → $90,000–$95,000 (Q4 target zone)
+- Support: $82,200–$83,500 → $75,000–$80,000 macro zone
+- RSI ~60: room for more upside before overbought
+- MACD: short-term consolidation, absorbing gains
 
-### Altcoin/Ecosystem
-- **RWAs**: Tokenized Treasuries and private credit = core institutional yield vehicles (not experimental anymore)
-- **Ethereum + L2s**: Enterprise smart-contract activity but capital remains concentrated in BTC
+**Bull Case (60%):** Break above $87,395 → $90,000–$95,000 by late October. Q4 seasonality ("Uptober") historically favorable. Citi 12-month target: $113,000.
 
-### Sentiment
-**Cautiously bullish** — structural institutional demand + regulatory integration provide stable foundation into year-end
+**Base Case (30%):** $82,500–$87,500 range-bound consolidation into year-end.
+
+**Bear Case (10%):** Energy price spike or sticky inflation → pullback to $75,000–$80,000 zone.
+
+**Drivers:** Fed rate cuts increasing liquidity, $100B+ in US spot BTC ETFs reducing liquid supply, sustained institutional demand.
 
 ---
 
-*Sources: quantifiedstrategies.com, quantt.co.uk, cybiant.com, katory.net, machinelearningmastery.com, anthropic.com, altfins.com, coinbase.com, chainalysis.com, 247wallst.com, economictimes.com*
+## 4. Economy Outlook / Investment Strategy
+
+**Macro (2026):**
+- Global GDP growth: 2.5%–3.3%
+- US GDP: ~2.0%–2.2% — "soft landing" in progress
+- Stagflation-lite: inflation slightly above target, rates high-for-longer
+- Europe lagging; Emerging Asia (Taiwan, South Korea) outperforming
+
+**Recession Risks (25–30% probability over 12 months):**
+1. Geopolitical conflicts / energy shocks (oil spike above $100)
+2. Private credit / non-bank financial fragility
+3. AI capex re-evaluation (concentration risk in mega-cap tech)
+4. Fiscal deficits and trade barriers
+
+**Strategic Portfolio Positioning (2026):**
+- **Equities:** Broaden beyond mega-cap AI — small-caps, dividend growth, value/cyclicals
+- **Fixed Income:** Lock in intermediate-duration investment-grade bonds; avoid excess cash
+- **Alternatives:** Gold, energy commodities, real estate for inflation hedge
+- **Avoid:** Over-leveraged private credit, opaque alternatives, heavy cash positions
+
+---
+
+## Actionable Takeaways for Jacob's $5K/Month Passive Income Goal
+
+1. **BTC momentum remains bullish** — if $87,400 breaks, Q4 rally toward $90K–$95K is likely. Keep BTC as core holding but don't over-concentrate.
+2. **AI agent tools are now production-ready** — consider deploying agents for automated trading research and portfolio monitoring to reduce manual workload.
+3. **Portfolio diversification is critical** — avoid mega-cap tech concentration. Spread into small-caps, dividend stocks, and real assets (gold/energy).
+4. **Lock in yields now** — intermediate-duration bonds provide income and ballast as rate cuts proceed.
+5. **Key risk to monitor:** Energy prices / Middle East escalation. A spike above $100 oil could trigger inflation rebound and derail the BTC rally and rate-cut trade.
