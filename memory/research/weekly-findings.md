@@ -1,76 +1,70 @@
 # Weekly Research Findings
-**Week of September 25, 2026**
+**Week of October 2, 2026 | Scanned: 2026-10-02**
 
 ---
 
 ## 1. Quantitative Finance / Trading / Monte Carlo Simulation
 
-**Key Insight:** Monte Carlo remains foundational in quant finance — pricing exotics, measuring tail risk, backtesting strategies. The frontier has shifted to AI-generated scenarios and GPU acceleration.
+### Key Themes
+- **Monte Carlo remains foundational** for derivative pricing (exotic options, American/Bermudan via Longstaff-Schwartz), risk analytics (VaR, CVaR, drawdown distributions), and strategy backtesting
+- **GPU acceleration (CUDA/PyTorch/JAX)** reducing path simulation runtimes from minutes to milliseconds for millions of paths
+- **Quasi-Monte Carlo (Sobol sequences)** improving convergence from O(N^-1/2) to near O(N^-1)
+- **Quantum Monte Carlo (QAE)** emerging with theoretical quadratic speedup in sample complexity
+- **Deep Learning + MC**: Deep BSDEs solving high-dimensional PDEs; MLMC combining coarse/fine discretization for targeted variance at lower compute cost
 
-### Highlights
-- **AI + Monte Carlo:** Neural SDEs, GANs, and Diffusion Models now generate hyper-realistic market scenarios (capturing fat tails, volatility smile) rather than relying on theoretical distributions
-- **GPU Parallelization:** JAX/PyTorch/CUDA execute tens of millions of simulated paths per second; dynamic stopping rules cut compute costs
-- **Quantum Monte Carlo:** Quantum Amplitude Estimation (QAE) offers quadratic speedups ($O(1/\epsilon)$ vs classical $O(1/\epsilon^2)$) — real-time portfolio risk on the horizon
-- **Variance Reduction:** Quasi-Monte Carlo (Sobol/Halton sequences) + antithetic variates + control variates are standard stack for production pricing
-- **Key Pitfall:** Assuming Gaussian distributions severely underestimates crash probability — use Student-t, Jump-Diffusion, or empirical bootstraps
+### Critical Pitfalls
+- Gaussian copulas break down in crises (correlations spike to 1.0) → use empirical/t-copulas or extreme value theory
+- Hardcoded volatility ignores regime shifts → always use dynamic/adaptive estimates
+- Variance reduction (antithetic variates, control variates, importance sampling) is essential, not optional
 
-### Relevance to Jacob's Goals
-Monte Carlo is directly applicable to his crypto trading strategy — particularly for:
-- Backtesting under non-stationary market regimes
-- Modeling tail risk / drawdown scenarios
-- Pricing path-dependent instruments (relevant if trading options/struct products)
+### Implementation Trend
+Python-based jump diffusion models (Merton's model) + GPU-vectorized path generation are the new standard for retail quants
 
 ---
 
 ## 2. AI Agents / LLMs
 
-**Key Insight:** September 2026 = agent-first era. Labs competing on cost efficiency, execution speed, and governance — not raw parameter count.
+### Key Themes
+- **2026 = "Autonomous Agentic Workflows"** — goal-oriented agents that decompose high-level instructions, execute multi-step plans, self-correct
+- **Multi-Agent Orchestration** replacing monolithic single agents (Coder Agent, Security Analyst, QA, etc. coordinated by orchestrator)
+- **MCP (Model Context Protocol) + A2A (Agent-to-Agent)** standards enabling interoperability between agents and tools
+- **Computer-Using Agents**: Multimodal models now navigate GUIs, click buttons, type — not just call APIs
+- **SLMs for micro-tasks** + large models for high-level planning (cost/latency optimization)
+- **EU AI Act compliance**: mandatory human-in-the-loop checkpoints, audit trails for high-risk financial/legal operations
 
-### Major Releases
-- **OpenAI:** GPT-6 Astra (flagship), Sol (deep reasoning), Luna (agentic workflows)
-- **Anthropic:** Claude Fable 5.1, Opus 5.5 (half the cost of Fable, stronger prompt-injection resistance)
-- **Google DeepMind:** Gemini 3.8 Flash + Cyber variant (defenders-only)
-- **DeepSeek:** V4.1-Flash — 4× memory reduction for long-horizon agents
-- **xAI:** Grok 4.7 | **Meta:** Muse Spark 1.3
+### Critical Risks
+- **Cascading failures**: one hallucination in step 2 of 20 can compound exponentially
+- **Identity & access security**: agents as identity-bearing software (API tokens, secrets management)
+- **Over-automation**: failing to automate poorly understood processes without clear decision boundaries
 
-### Enterprise & Safety
-- **SAFA** (Standards Authority for Frontier AI) forming — joint Google/OpenAI/Anthropic body for pre-deployment safety benchmarks
-- **BNP Paribas + Google Cloud** partnership for Gemini-powered banking agents
-- **US-UK model sharing paused** — White House requesting cybersecurity review before UK safety testers access unreleased models
-- **Cyber-capability tiers** gated on every major September launch — restricted to verified defense/enterprise security partners
-- **Class-action antitrust lawsuit** against OpenAI, Anthropic, Google, SpaceXAI — alleged informal agreements to throttle AI release pace
-
-### Relevance to Jacob's Goals
-Cost-efficient, memory-compressed models (DeepSeek V4.1-Flash) make always-on autonomous agents more viable for trading automation.
+### Enterprise Applications (2026)
+Autonomous bug fixing, infrastructure provisioning, market research execution, financial modeling, DevOps incident response, end-to-end ticket processing
 
 ---
 
-## 3. Bitcoin / Crypto Market Analysis
+## 3. Bitcoin / Crypto Market Analysis — October 2026
 
-**Key Insight:** BTC in strong recovery — $83k-$85k range, up 37% from summer lows (~$58k), 3-month green streak potentially within reach. Institutional spot ETF flows driving the rally.
+### Price Action
+- **BTC trading range**: $82,000–$87,500
+- **Key resistance**: $87,500 (clears path to $90,000+)
+- **Primary support**: $82,000–$82,500
+- **Secondary support**: $75,000
+- **Market regime**: Consolidation / Moderate Bullish (accumulation phase via ETF inflows)
 
-### Price Structure
-- **Current Zone:** $83,000–$85,000
-- **Recent Peak:** ~$87,374 (8-month high)
-- **Immediate Support:** $81,600–$83,200
-- **Major Target if Break:** $88,600–$97,600
-- **Macro Demand Zone:** $63,300–$74,800 (holds medium-term bull structure)
+### Primary Drivers
+- **Spot ETF inflows**: Dominant force; shifted from retail hype to institutional programmatic rebalancing
+- **MiCA enforcement (Europe)**: Split global exchange liquidity into compliant EU vs non-EU pools; elevated barriers but drew institutional participation
+- **US regulatory clarity**: SEC/CFTC actively defining digital commodity classifications and custody rules
+- **Macroeconomic**: Rate-cutting cycles fueling risk appetite; energy/oil spikes + fiscal deficits bolstering BTC's inflation-hedge thesis
+- **Stablecoins**: Record cross-border transfer volumes; yield-bearing compliant stablecoins leading payment rail integration
 
-### Key Drivers
-- **Institutional ETF Inflows:** Single-day net inflows of $690M–$1B through mid-September
-- **Regulatory Tailwinds:** U.S. Innovation Exemption approved — regulatory relief for on-chain tokenized RWA trading
-- **Derivatives:** $16B BTC options expired on Deribit — heavy OI between $50k-$85k adding short-term volatility
-- **Fundstrat Target:** $150,000+ on tokenization + institutional treasury demand
+### Altcoin/Ecosystem
+- **RWAs**: Tokenized Treasuries and private credit = core institutional yield vehicles (not experimental anymore)
+- **Ethereum + L2s**: Enterprise smart-contract activity but capital remains concentrated in BTC
 
-### Technical
-- Sustained daily close above **$87,400** confirms broader uptrend continuation
-- Clearing mid-$80,000s signals end of 2026 bear-to-consolidation phase
-
-### Relevance to Jacob's Goals
-- **BTC approaching his $80k alert zone** — watch closely
-- Institutional flows + regulatory clarity = macro tailwind intact
-- Medium-term bull structure holds above $63,300
+### Sentiment
+**Cautiously bullish** — structural institutional demand + regulatory integration provide stable foundation into year-end
 
 ---
 
-*Generated: September 25, 2026 | Sources: Web Search (week of Sep 25, 2026)*
+*Sources: quantifiedstrategies.com, quantt.co.uk, cybiant.com, katory.net, machinelearningmastery.com, anthropic.com, altfins.com, coinbase.com, chainalysis.com, 247wallst.com, economictimes.com*
