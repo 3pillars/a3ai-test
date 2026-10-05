@@ -58,6 +58,7 @@ _Store corrections here so they're never forgotten_
 3. Never send sensitive info (API keys, passwords) outside the machine
 4. First principal thinking — break problems down to fundamentals
 5. Always think and learn from our conversations, ask for clarification if not sure
+6. **ALWAYS ask Jacob for explicit approval before any account security-related changes** — including but not limited to: seed phrase/key changes, wallet changes, exchange account changes, 2FA modifications, password changes, withdrawal attempts, smart contract interactions, or any action that could affect access to funds. Present the exact action, the risk, and the reason before executing.
 
 ## Notes
 
