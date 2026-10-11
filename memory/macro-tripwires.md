@@ -1,19 +1,17 @@
-# Macro Tripwires — Active Monitoring (Updated Sept 20, 2026)
+# Macro Tripwires — Active Monitoring (Updated Oct 10, 2026)
 
 ## LIVE TRIPWIRES
 
-### 🔴 BTC $53K FLOOR
-If BTC trades/accepts **below $53,000** — alert Jacob immediately. Structural thesis breaker.
-Secondary: if BTC loses **$66-67K** (was the breakout-retrace falsifier, now ABOVE this level at $80K+).
+### 🔴 BTC $53K FLOOR — REMOVED (too far below)
+Stale reference. Current floor is the $70K invalidation.
 
 ### 🟢 ACTIVE TRADE — BTC LONG (Jacob, greenlit Aug 22 @ ~$77.4K)
-Watch levels:
-- **(1) FLUSH TRIGGER $74K** — break below = the dip is arriving. Alert Jacob. Add-zone if held, warning if accelerates.
+Watch levels (updated Oct 10, 2026 — BTC ~$83K):
+- **(1) FLUSH TRIGGER $74K** — break below = the dip arriving. Alert Jacob. Add on hold if held.
 - **(2) INVALIDATION $70K daily close** — stop / flip-to-caution. Alert immediately.
-- **(3) BULL CONFIRM** — BTC held >$74K through Jackson Hole (Aug 28) = contrarian bull confirmed.
-- **Upside targets $85K then $90K+** — flag for profit-taking.
+- **(3) UPSIDE TARGETS $85K then $90K+** — flag for profit-taking on break.
 
-**STATUS (Sept 20, 2026):** BTC $80,963 — above all triggers. FLUSH TRIGGER ($74K) intact. INVALIDATION ($70K) intact.
+**STATUS (Oct 10, 2026):** BTC $83K — above all triggers. FLUSH TRIGGER ($74K) intact. INVALIDATION ($70K) intact.
 
 ### ⚪ STX WATCH (Muneeb thesis — WATCH only, NOT a Jacob position)
 Baseline: STX ~$0.223, ~290 sats. Two independent triggers:
@@ -26,7 +24,17 @@ Official site: technocore.chat (only)
 DID active: `z6MkgAKz…jRy9`
 Daily keep-alive via LaunchAgent `com.a3ai.flop-keepalive` at 9:05am PT.
 ⚠️ STANDING: when Hayes publishes official faucet/testnet + anti-Sybil rules, UPDATE flop_keepalive.py STEP C.
+⚠️ FLOP baseline issue: version 0.13.0→0.14.5 trigger keeps firing, no actionable update yet. Decision: update baseline or keep watching.
 **🚨 ORCHESTRATOR TRIPWIRE:** if `~/flop_agent/FLOP_TRIGGER.flag` exists, alert Jacob immediately.
+
+### 🟡 US-IRAN SITUATION (updated Oct 10, 2026)
+- Trump paused major strikes until after **Nov 3 midterms** — immediate military escalation risk de-escalated
+- Putin relaying Iran's peace terms to Trump directly
+- **Diesel deal**: US buying Russian diesel — fractures NATO sanctions coalition
+- **Brent: ~$103/bbl** — elevated, driven by ~75% Hormuz traffic drop
+- Hormuz blockade still in effect; Iran reviewing 7-day reopening plan
+- Regime hasn't collapsed; 60-day squeeze continues
+- Next catalyst: **CPI print Oct 14, PPI Oct 15** — traders cautious ahead
 
 ## Falsification List
 
@@ -34,7 +42,7 @@ Daily keep-alive via LaunchAgent `com.a3ai.flop-keepalive` at 9:05am PT.
 |--------|-----------|--------|
 | BTC $77K long | Daily close below $70K | ✅ Clear |
 | Stagflation / oil up | Hormuz reopened + Iran deal | ⚠️ Watching |
-| US-Iran military | Ceasefire framework | ❌ Collapsed Aug |
+| US-Iran military | Ceasefire framework | ⚠️ Paused (midterms) |
 | BTC institutional bid | Saylor reversal confirmed | ⚠️ Partial |
 | Solana ecosystem | Pump/Pons fee dominance | ⚠️ Competitive |
 
@@ -44,9 +52,15 @@ Daily keep-alive via LaunchAgent `com.a3ai.flop-keepalive` at 9:05am PT.
 Check per `shared-context/recession-tripwire.md`
 Primary triggers: card flow/transition rate breaks 2yr range; payrolls negative 2nd month; subprime auto re-accelerates >7%.
 
-### Ongoing: Hunter's Melt-up Alert (July-End 2026 target)
+### Weekly: Nightly Tidy (auto — script)
+Runs 6 AM PT daily. Archives sessions, compacts memory, checks stale flags.
+
+### Weekly: Weekly Review (auto — script)
+Runs 8 AM PT Mondays. BTC level check, FLOP status, memory health, disk space.
+
+### Ongoing: Hunter's Melt-up Alert
 Watch: VIX <15, Fear & Greed at Extreme Greed, AAII bull-bear at extremes.
 Alert file: `memory/market-euphoria-alert.md`
 
 ---
-Last updated: 2026-09-20
+Last updated: 2026-10-10
