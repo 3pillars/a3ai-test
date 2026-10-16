@@ -1,0 +1,2 @@
+[main/sessions/main/06d9f358-d27a-41cc-abce-d683f1a95c26#L8] Assistant: No volume is at 90% or higher. The highest is `auto_home` at 100% (but that's a special map), and `/Volumes/Decrediton 2.1.6-arm64` at 82%. Nothing to alert on.
+[main/sessions/main/fb21c030-2c1b-4d5e-b39e-1dc004d07f74#L9] Assistant: ok
