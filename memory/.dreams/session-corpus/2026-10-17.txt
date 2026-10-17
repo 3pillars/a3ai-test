@@ -1,0 +1,2 @@
+[main/sessions/main/70c42d9e-5d7a-419e-974e-6558e8594f94#L8] Assistant: No volumes at 90% or higher. The highest real volume is `/Volumes/Decrediton 2.1.6-arm64` at 82%. The `map auto_home` entry at 100% is a virtual auto-map, not a real volume. NO_REPLY
+[main/sessions/main/7dcb8514-4c13-4f21-ad06-508f753b0b04#L9] Assistant: ok
