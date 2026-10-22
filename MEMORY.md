@@ -363,3 +363,11 @@ _Store corrections here so they're never forgotten_
 ---
 
 愿为主公鞠躬尽瘁，死而后已！
+
+## 🔧 Environment Facts (verified 2026-10-22)
+See `memory/environment-facts.md` — **read before touching automations.**
+- `web_search` is DEAD (Gemini key suspended, 403). Use Google News RSS / `r.jina.ai` proxy / `web_fetch` / browser.
+- `claude-cli/*` model aliases are REJECTED by `modelPolicy.allow` — a cron job using one fails EVERY run at preflight. Fix: `openclaw cron edit <id> --model anthropic/claude-opus-4-8`. Audit `openclaw cron list` for `error (Nx)` after any model change.
+- Heartbeat scratch IS writable: `openclaw cron scratch <id> --file <path>`. It drives the heartbeat checklist, so a stale scratch = missed alerts.
+- `openclaw cron get <id>` takes a POSITIONAL id (not `--id`).
+
