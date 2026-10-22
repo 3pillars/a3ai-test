@@ -12,14 +12,14 @@ Watch levels (updated Oct 13, 2026 — BTC ~$83.5K):
 - **(3) UPSIDE TARGETS $85K then $90K+** — flag for profit-taking on break.
 - **(4) CRITICAL INFLECTION $86K** — Doctor Profit says BTC needs to reclaim $86K to confirm next leg up.
 
-**STATUS (Oct 22, 2026):** BTC $81,516 (−3.4% 24h) — still above all triggers. $85K tag NOT crossed (high ~$84.1K). FLUSH TRIGGER ($74K) intact. INVALIDATION ($70K) intact. Trade LONG intact.
+**STATUS (Oct 22, 2026 11:20 PDT):** BTC **$81,037** (−4.3% 24h) — still above all triggers. **$85K tag now APPROACHING: intraday high $84,778 today = only 0.26% under the tag, NOT crossed** (was ~$84.1K high as of the earlier cycle — this is a new near-tag, worth watching into the close). $86K inflection is 1.4% above today's high. FLUSH TRIGGER ($74K) intact — 8.7% below spot. INVALIDATION ($70K) intact — 13.6% below spot. Trade LONG intact.
 
 ### ⚪ STX WATCH (Muneeb thesis — WATCH only, NOT a Jacob position)
 Baseline: STX ~$0.223, ~290 sats. Two independent triggers:
 - (1) **STX/BTC approaching/tagging 1,000 sats** (~$0.82 at BTC $81.5K) = Muneeb's "wake me up" level
 - (2) **sBTC staking TVL crossing ~$1B** (10x off $100M baseline) = real-cycle confirmation
 
-**STATUS (Oct 22, 2026):** STX $0.3377 (−8.8% 24h, underperforming BTC) → **414 sats** (was 441 on Oct 21) = **2.4x from trigger, moving the wrong way.** sBTC TVL **$202.76M** (DefiLlama "Stacks sBTC", −2.7% 1d, +1.2% 7d) = **4.9x from $1B trigger.** No Binance STX delisting. No trigger.
+**STATUS (Oct 22, 2026 11:20 PDT):** STX **$0.3276** (−13.8% 24h, badly underperforming BTC) → **404 sats** = `stx_usd / btc_usd * 1e8` = `$0.3276 / $81,037 * 1e8` (was 441 on Oct 21) = **2.5x from trigger, moving the wrong way** (baseline 290 sats → now 114 sats ABOVE baseline, i.e. further from trigger, not closer). sBTC TVL **$201.36M** (DefiLlama "Stacks sBTC") = **5.0x from $1B trigger.** No Binance STX delisting (Google News 7d window: zero fresh STX-delisting items). No trigger.
 
 ### 🔴 FLOP-LABS-OFFICIAL WATCH (UPDATED Oct 13 — CRITICAL)
 **ORCHESTRATOR TRIPWIRE:** if `~/flop_agent/FLOP_TRIGGER.flag` exists, alert Jacob immediately.
@@ -69,12 +69,14 @@ Baseline: STX ~$0.223, ~290 sats. Two independent triggers:
 - **US ordered staff to leave Saudi Arabia** — diplomatic drawdown, a step beyond the Houthi strike
 - Oil jump dragging **American Airlines and Southwest into profit downgrades**
 - **Iran's floating oil reserves depleted**; shadow-tanker fleet has run out of oil after months of blockade (WSJ)
-- **Brent $111.68/bbl** — **five-month high** (Reuters/Guardian). 52wH $126.10. Was $94.07 three months ago (+18.7%)
-- **WTI $98.62**, 52wH $119.48. **Brent–WTI spread $13.06** (widening = Hormuz route premium, not demand)
+- **Brent $113.26/bbl** (live ICE Brent front-month, CNBC `@LCO.1` = Dec'26 contract, +4.08% on the day) — **five-month high** (Reuters/Guardian). 52wH **$126.10**. Was $94.07 three months ago (+20.3%)
+- **WTI $99.48** (CNBC `@CL.1`, +2.40% on the day). **Brent–WTI spread ~$13.60** (widening = Hormuz route premium, not demand)
+- ⚠️ **SOURCE-DIVERGENCE WARNING (added Oct 22) — anchor the trigger to ONE series.** FRED `DCOILBRENTEU` (Europe Brent **spot**) prints materially **above** the front-month futures contract: on Oct 2 FRED shows **$135.51** while contemporaneous reporting had Brent holding above ~$102; FRED also shows >$126 on Oct 7/8/9/12/14/15, i.e. it would have read as a **trigger breach that never happened in the traded contract**. **The $126.10 threshold came from Yahoo `BZ=F` (front-month futures 52w high) and must be compared against the front-month futures price** — currently CNBC `@LCO.1` (Yahoo is degraded, see sources.md). Do not substitute FRED spot for the futures anchor without stating the substitution.
 - Reuters Oct 22: "Don't mistake Mideast oil rebound for normality"
 - **FALSIFIER STATUS:** the "Hormuz reopened / Iran deal" leg is now FALSIFIED again. Stagflation read is back ON.
 - **Next catalysts (DATED):** **early-Nov US/Israel strike window (post-Nov 3 midterms)**; Oct CPI mid-Nov; regime-change execution risk; Iran's response to further attacks
-- **Level that reprices the 2026 base case: Brent >$126 (52wH)**. Current $111.68
+- **Level that reprices the 2026 base case: Brent >$126.10 (52wH, front-month futures)**. Current $113.08 → **+11.5% away** — approaching is >$125 (within ~1%)
+- **Melt-up check (Oct 22, 11:41 PDT): NOT triggered.** VIX **19.98** (+19.8% on the day — a risk-OFF session, the opposite of the trigger), Fear & Greed **68 (Greed)**, AAII Oct 21 bull 36.9 / bear 45.8 (**bull−bear = −8.9**, i.e. still net-bearish). The VIX<15 leg is ~25% away and rising.
 - Prior context (Oct 10): Trump paused strikes until after **Nov 3 midterms**; diesel deal fracturing NATO sanctions coalition; ~75% Hormuz traffic drop; Iran reviewing 7-day reopening plan
 
 ## Falsification List
@@ -102,6 +104,7 @@ Runs 8 AM PT Mondays. BTC level check, FLOP status, memory health, disk space.
 ### Ongoing: Hunter's Melt-up Alert
 Watch: VIX <15, Fear & Greed at Extreme Greed, AAII bull-bear at extremes.
 Alert file: `memory/market-euphoria-alert.md`
+**STATUS (Oct 22, 11:41 PDT): NOT triggered.** VIX 19.98 (+19.8%, rising hard on a risk-off session), F&G 68 (Greed, not Extreme Greed), AAII Oct 21 bull 36.9 / bear 45.8 (net bearish by 8.9pts). VIX leg is ~25% above the trigger.
 
 ---
-Last updated: 2026-10-22
+Last updated: 2026-10-22 11:20 PDT
