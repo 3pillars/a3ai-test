@@ -28,3 +28,27 @@
 [main/sessions/main/de39b286-e127-4826-97a0-fb47781f40e8#L9] Assistant: Note: the status log already has two 2026-10-22 entries (one amended at 09:10). I'll gather current readings and append a fresh entry.
 [main/sessions/main/de39b286-e127-4826-97a0-fb47781f40e8#L23] Assistant: web_search is failing (provider 403). Switching to direct data APIs.
 [main/sessions/main/de39b286-e127-4826-97a0-fb47781f40e8#L74] Assistant: AI-capex sentinel: all quiet — CRWV -8.2% today (-34.7% 1mo) with Bernstein downgrade and unsecured 2032s still ~15%, yet HY OAS pinned at 327bps (max 2wk move in 2026 = +54bps vs +75-100bps trigger) and LQD +0.84% on the day: equities are breaking, credit isn't confir
+[main/sessions/main/52ba9ccd-4747-47b7-8e64-a5bbc24dc607#L9063] Assistant: Useful — this confirms the rating status. Let me pull the truncated detail and record it.
+[main/sessions/main/52ba9ccd-4747-47b7-8e64-a5bbc24dc607#L9069] Assistant: Let me resolve which agency, since the slug is ambiguous.
+[main/sessions/main/52ba9ccd-4747-47b7-8e64-a5bbc24dc607#L9072] Assistant: Found it — that resolves the rating question. Let me record the correction.
+[main/sessions/main/52ba9ccd-4747-47b7-8e64-a5bbc24dc607#L9075] Assistant: The background search finished and it **resolves the one loose end** from my alert — the CoreWeave rating question. **What came back:** 1. **The instrument and the move** — CRWV's **unsecured 2032 notes** climbed to **~15% yield "just four months"** after issuance (i.e
+[main/sessions/main/52ba9ccd-4747-47b7-8e64-a5bbc24dc607#L9075] Assistant: confirmed and was asserting a "market-implied credit event." That's still correct, but the confirmed baseline makes the signal *sharper*, not weaker: - July: **BB / positive outlook** - Mid-October: **~15% yield on the same paper** - The rating **never moved.** The mar
+[main/sessions/main/52ba9ccd-4747-47b7-8e64-a5bbc24dc607#L9075] Assistant: distressed financing — that's the neocloud squeeze signature, and it's why I said this is single-name stress rather than systemic. **Bottom line: my earlier alert stands as written.** HY OAS 327bps has not tripped the +75–100bps/2-week threshold, so this is not systemi
+[main/sessions/main/52ba9ccd-4747-47b7-8e64-a5bbc24dc607#L9075] Assistant: repetition count kept under 255 on macOS.
+[main/sessions/main/52ba9ccd-4747-47b7-8e64-a5bbc24dc607#L9479] Assistant: Three async results — two useful, one failure. Let me check what the SIGTERM hit and verify the rest.
+[main/sessions/main/52ba9ccd-4747-47b7-8e64-a5bbc24dc607#L9482] Assistant: The scratch is now **3 bytes** — a background "heartbeat-migration" process wiped what I just wrote. Let me investigate before restoring.
+[main/sessions/main/52ba9ccd-4747-47b7-8e64-a5bbc24dc607#L9485] Assistant: Let me find what wiped the scratch before restoring.
+[main/sessions/main/52ba9ccd-4747-47b7-8e64-a5bbc24dc607#L9488] Assistant: The scratch content looks intact — my earlier parse used the wrong JSON key. Let me verify properly.
+[main/sessions/main/52ba9ccd-4747-47b7-8e64-a5bbc24dc607#L9491] Assistant: Good — the scratch is intact (7,231 bytes, revision 5); my earlier "3 bytes" was a bad JSON parse on my end, not a wipe. Let me pull the cburniske session output and check the SIGTERM.
+[main/sessions/main/52ba9ccd-4747-47b7-8e64-a5bbc24dc607#L9497] Assistant: Session was cleaned up. Let me retrieve the cburniske result and verify that headline.
+[main/sessions/main/52ba9ccd-4747-47b7-8e64-a5bbc24dc607#L9500] Assistant: Let me verify the Burniske headline properly — my query was too loose and returned noise.
+[main/sessions/main/52ba9ccd-4747-47b7-8e64-a5bbc24dc607#L9503] Assistant: Let me pin down the exact Burniske article, the SIGTERM cause, and the CoinGecko 429 impact.
+[main/sessions/main/52ba9ccd-4747-47b7-8e64-a5bbc24dc607#L9506] Assistant: Let me verify the Burniske content and the 429 impact on the live skill.
+[main/sessions/main/52ba9ccd-4747-47b7-8e64-a5bbc24dc607#L9512] Assistant: Let me check the process and verify the remaining items.
+[main/sessions/main/52ba9ccd-4747-47b7-8e64-a5bbc24dc607#L9515] Assistant: Both source URLs 404'd. Let me find the actual content and check the CoinGecko 429 impact.
+[main/sessions/main/52ba9ccd-4747-47b7-8e64-a5bbc24dc607#L9539] Assistant: The CoinGecko legs are now failing (rate-limited) while OKX works — a real fragility. Let me check the fallback logic.
+[main/sessions/main/52ba9ccd-4747-47b7-8e64-a5bbc24dc607#L9542] Assistant: Three async results — and the third exposed a live fragility. Let me test the US-leg fallbacks before patching.
+[main/sessions/main/52ba9ccd-4747-47b7-8e64-a5bbc24dc607#L9545] Assistant: Key finding: the primary US-leg source is **dead (404)** — which is why the "Coinbase premium" was silently measuring a global index, not a US exchange. Let me confirm and fix.
+[main/sessions/main/52ba9ccd-4747-47b7-8e64-a5bbc24dc607#L9548] Assistant: Three async results. The third one — the CoinGecko 429 — exposed something serious. Let me verify before acting.
+[main/sessions/main/52ba9ccd-4747-47b7-8e64-a5bbc24dc607#L9551] User: Please add to my calendar and two days reminder
+[main/sessions/main/52ba9ccd-4747-47b7-8e64-a5bbc24dc607#L9565] Assistant: Appointment letter read. Let me check for duplicates and dry-run the event before creating.
