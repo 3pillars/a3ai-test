@@ -35,3 +35,9 @@
 
 ## Goal
 Build foundation to understand AI deeply enough to direct AI systems (as per Sebastian Bubeck's insight)
+
+## Tracking
+- Plan start: 2026-03-02 (8-week cycle, repeats)
+- 2026-10-26 → week 35 → cycle position 3 → *Practical Skills* (Week 3-4 block)
+  - Week 3 focus: OpenAI Academy — prompt engineering
+  - Week 4 focus: Hugging Face — Transformers
