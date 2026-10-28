@@ -106,5 +106,14 @@ Watch: VIX <15, Fear & Greed at Extreme Greed, AAII bull-bear at extremes.
 Alert file: `memory/market-euphoria-alert.md`
 **STATUS (Oct 22, 11:41 PDT): NOT triggered.** VIX 19.98 (+19.8%, rising hard on a risk-off session), F&G 68 (Greed, not Extreme Greed), AAII Oct 21 bull 36.9 / bear 45.8 (net bearish by 8.9pts). VIX leg is ~25% above the trigger.
 
+### 🔴 EMA50 DAILY FAILURE — NEW (Oct 27, 2026 17:20 PDT)
+Dr Profit (@DrProfitCrypto) called the Oct 24 daily close as "reclaim EMA50" = bull confirmation, EMA50 stated at $80,800.
+**VERIFIED against Coinbase daily candles: BTC closed Oct 24 at $80,769.7 vs EMA50 $80,791.2 — ~$21 BELOW.**
+- **4 consecutive daily closes below the EMA50** (Oct 24, 25, 26, 28-partial); only Oct 27 closed marginally above (+$64).
+- Live BTC $80,672, EMA50 now ~$80,731 → **spot BELOW EMA50**. Oct 27 high $81,182 (wicked above, failed to hold).
+- **His $94K target (longs avg $80,400) is contingent on the EMA50 reclaim — that condition has NOT been met.**
+- Track via reminder job `494142aa-d2a6-4e8e-a550-b62ccdc05dea` (Nov 1).
+- Method note: OCR via macOS Vision (Swift VNRecognizeTextRequest) — no PIL/pdftotext/vision-API on this box.
+
 ---
-Last updated: 2026-10-22 11:20 PDT
+Last updated: 2026-10-27 17:20 PDT
