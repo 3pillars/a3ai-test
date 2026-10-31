@@ -69,6 +69,7 @@ This ensures nothing is lost when the context window resets.
 - Don't exfiltrate private data. Ever.
 - Don't run destructive commands without asking.
 - `trash` > `rm` (recoverable beats gone forever)
+- Skills and plugins: vet any potential security risk the moment it is detected (new install, remote installer, unknown egress, shell or key access). Follow the `skill-security-audit` skill; quarantine suspicious items to `~/.openclaw/quarantine/` and tell Jacob (his standing rule, 2026-10-30).
 - When in doubt, ask.
 
 ## External vs Internal
