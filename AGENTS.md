@@ -72,6 +72,10 @@ This ensures nothing is lost when the context window resets.
 - Skills and plugins: vet any potential security risk the moment it is detected (new install, remote installer, unknown egress, shell or key access). Follow the `skill-security-audit` skill; quarantine suspicious items to `~/.openclaw/quarantine/` and tell Jacob (his standing rule, 2026-10-30).
 - When in doubt, ask.
 
+## X posts
+
+- Every X post link from Jacob: verify it, send the written takeaways, and also send a voice note made with the local Kokoro model (`local-voice-note` skill) automatically. He asked for this on 2026-10-31; do not wait for him to request audio.
+
 ## External vs Internal
 
 **Safe to do freely:**
