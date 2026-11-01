@@ -1,9 +1,40 @@
 {
   "lastChecks": {
-    "geopolitics": 1746600000,
-    "bitcoin": 1747941600,
+    "geopolitics": 1793566313,
+    "bitcoin": 1793566313,
     "email": null,
     "calendar": null
   },
-  "lastHeartbeat": 1748175600
+  "lastHeartbeat": 1793566313,
+  "updatedAt": "2026-11-01T12:55:00-08:00",
+  "notes": "Heartbeat 2026-11-01 12:55 PDT. No tripwire triggered. Brent front-month (Jan27) still 113.43 vs 126.10 trigger (-10.05%). HY OAS 3.26 unchanged (FRED Oct 29). Hormuz tanker/mine incident reported but oil not repricing; markets closed Sunday. mindset:profit-reminder delivery failed once (sendMessage network error) - transient, other 8am/9am jobs delivered.",
+  "tripwires": {
+    "btcUsd": 77838,
+    "btc24hPct": 0.47,
+    "ethUsd": 2260.7,
+    "stxUsd": 0.325138,
+    "stxSats": 417.7,
+    "sbtcTvlUsd": 193861200,
+    "brentFrontMonth": 113.43,
+    "brentTrigger": 126.1,
+    "wti": 104.12,
+    "hyOasPct": 3.26,
+    "igOasPct": 0.89,
+    "bbbOasPct": 1.1,
+    "dgs10": 4.98,
+    "vix": 19.42,
+    "move": 100.2,
+    "hyg": 77.43,
+    "lqd": 104.27,
+    "spx": 7580.07,
+    "ixic": 25436.999,
+    "payrolls": 159044,
+    "unrate": 4.2,
+    "continuingClaims": 1701000,
+    "cardDelinquencyFlow": 2.85,
+    "subprimeAuto60Plus": 5.67,
+    "subprimeAuto60PlusAsOf": "2026-06",
+    "flopVersion": "0.14.5",
+    "flopLastCheck": "2026-11-01T17:05:11Z"
+  }
 }

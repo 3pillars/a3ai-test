@@ -96,6 +96,8 @@ Baseline: STX ~$0.223, ~290 sats. Two independent triggers:
 Check per `shared-context/recession-tripwire.md`
 Primary triggers: card flow/transition rate breaks 2yr range; payrolls negative 2nd month; subprime auto re-accelerates >7%.
 
+**Subprime auto 60+ is NOT a FRED series** — it is **Fitch Ratings** data republished by Wolf Street. Latest: **5.67% (June 2026), −64bps YoY**, below the Jan 2026 record of 6.90% and running BELOW prior-year levels. Read path: `https://r.jina.ai/https://wolfstreet.com/<auto-debt-slug>` → grep `60-day-plus delinquency rate of subprime`. Monthly cadence; do not re-verify weekly. `DRALACBS` is a DIFFERENT metric (bank-level, all loans) — never substitute it. Full note: `shared-context/recession-tripwire.md`.
+
 ### Weekly: Nightly Tidy (auto — script)
 Runs 6 AM PT daily. Archives sessions, compacts memory, checks stale flags.
 
