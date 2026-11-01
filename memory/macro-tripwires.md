@@ -12,21 +12,22 @@ Watch levels (updated Oct 13, 2026 — BTC ~$83.5K):
 - **(3) UPSIDE TARGETS $85K then $90K+** — flag for profit-taking on break.
 - **(4) CRITICAL INFLECTION $86K** — Doctor Profit says BTC needs to reclaim $86K to confirm next leg up.
 
-**STATUS (Oct 22, 2026 11:20 PDT):** BTC **$81,037** (−4.3% 24h) — still above all triggers. **$85K tag now APPROACHING: intraday high $84,778 today = only 0.26% under the tag, NOT crossed** (was ~$84.1K high as of the earlier cycle — this is a new near-tag, worth watching into the close). $86K inflection is 1.4% above today's high. FLUSH TRIGGER ($74K) intact — 8.7% below spot. INVALIDATION ($70K) intact — 13.6% below spot. Trade LONG intact.
+**STATUS (Nov 1, 2026 07:15 PDT — refreshed live, Coinbase):** BTC **$77,955** (+0.9% 24h) — down **−3.8%** in the ten days since the Oct 22 note. **EMA50 = $80,287 → spot is 2.90% BELOW the daily EMA50.** Daily closes below EMA50 now **3 consecutive COMPLETED sessions** (Oct 29 −3.54%, Oct 30 −4.13%, Oct 31 −3.68%); the Nov 1 session is in progress at −2.90%. **DrProfit's reclaim failed** — the $86K inflection is now 10.3% overhead. Upside targets moved AWAY, not closer: $85K **+9.0%** (was "approaching, 0.26% under" on Oct 22), $90K +15.4%. FLUSH TRIGGER ($74K) intact — 5.07% below spot. INVALIDATION ($70K) intact — 10.20% below spot. Trade LONG still formally intact but **under water vs DrProfit's $80,400 average (−3.0%) and no longer confirmed.**
 
 ### ⚪ STX WATCH (Muneeb thesis — WATCH only, NOT a Jacob position)
 Baseline: STX ~$0.223, ~290 sats. Two independent triggers:
 - (1) **STX/BTC approaching/tagging 1,000 sats** (~$0.82 at BTC $81.5K) = Muneeb's "wake me up" level
 - (2) **sBTC staking TVL crossing ~$1B** (10x off $100M baseline) = real-cycle confirmation
 
-**STATUS (Oct 22, 2026 11:20 PDT):** STX **$0.3276** (−13.8% 24h, badly underperforming BTC) → **404 sats** = `stx_usd / btc_usd * 1e8` = `$0.3276 / $81,037 * 1e8` (was 441 on Oct 21) = **2.5x from trigger, moving the wrong way** (baseline 290 sats → now 114 sats ABOVE baseline, i.e. further from trigger, not closer). sBTC TVL **$201.36M** (DefiLlama "Stacks sBTC") = **5.0x from $1B trigger.** No Binance STX delisting (Google News 7d window: zero fresh STX-delisting items). No trigger.
+**STATUS (Nov 1, 2026 07:15 PDT — refreshed live):** STX **$0.32005** (+0.8% 24h) vs BTC **$77,955** → **411 sats** = `0.32005 / 77955 * 1e8` (404 sats on Oct 22) = **2.4x from the 1,000-sat trigger**, still far (baseline 290 sats → 121 above baseline). sBTC TVL **$193.35M** (DefiLlama "Stacks sBTC") = **5.2x from the $1B trigger**, drifting DOWN from $201M. No trigger.
 
 ### 🔴 FLOP-LABS-OFFICIAL WATCH (UPDATED Oct 13 — CRITICAL)
 **ORCHESTRATOR TRIPWIRE:** if `~/flop_agent/FLOP_TRIGGER.flag` exists, alert Jacob immediately.
 
 **Current status:**
 - DID active ✅ — `did:key:z6MkgAKzLRhJ5mU5t1GTRymXWexD4eR4V8jRy9` (did-88/12fa839a6de69f)
-- Keepalive running daily at 9:05am PT ✅
+- Keepalive running daily at 9:05am PT ✅ (launchd `com.a3ai.flop-keepalive`, runs 5, exit 0)
+- **Testnet monitor REPAIRED Nov 1 → now HOURLY** (`StartInterval 3600`, `RunAtLoad`): DID note readable **True**, verdict `live=False — Pending signal: 'opens q4 2026'` (page still Status Draft / Opens Q4 2026). No `FLOP_TRIGGER.flag` and no `FLOP_QUALIFICATION_TRIGGER.flag` — **no false launch alert.** Hourly cadence means a real launch surfaces in ~1h, not 24h. `com.a3ai.flop-qualification` also healthy (runs 133, exit 0).
 - **Airdrop starts late October** — 90 days, ~25% of 10-year supply (~18.1B tokens)
 - Hayes took CEO role at Flop Labs
 - Tokenomics: ~18.1B 10yr supply, miners ~48.6%, airdrop ~24.3%, validators ~6.9%, no VC/presale
@@ -104,7 +105,8 @@ Runs 8 AM PT Mondays. BTC level check, FLOP status, memory health, disk space.
 ### Ongoing: Hunter's Melt-up Alert
 Watch: VIX <15, Fear & Greed at Extreme Greed, AAII bull-bear at extremes.
 Alert file: `memory/market-euphoria-alert.md`
-**STATUS (Oct 22, 11:41 PDT): NOT triggered.** VIX 19.98 (+19.8%, rising hard on a risk-off session), F&G 68 (Greed, not Extreme Greed), AAII Oct 21 bull 36.9 / bear 45.8 (net bearish by 8.9pts). VIX leg is ~25% above the trigger.
+**STATUS (Nov 1, 2026 07:15 PDT — refreshed live): NOT triggered — and the regime flipped risk-OFF.** VIX **19.42** (prev 18.39) — still ~29% above the <15 trigger. Fear & Greed **34 (Fear)** Nov 1, after 30/30 on Oct 30-31 — down from **68 (Greed)** on Oct 22, a 34-point swing into Fear. AAII not re-fetched (last read Oct 21: bull 36.9 / bear 45.8). The melt-up watch is not merely unmet; the euphoria leg it was watching for has already inverted into fear.
+- **Distribution tell (Oct 30, from the repaired IPO watch):** SpaceX (SPCX) closed **$134.72 — below its $135 IPO price**, new all-time low, ~$400-500B+ of market cap erased in under a month (>$2.3T → <$2T). Driver: Oct 26 lockup tranche (~319M insider shares, ~$38B) meeting the Oct 20 print (EPS $0.35 vs $0.10 cons.). ~3.89B shares unlocked across 8 events; full expiry ~Dec 9-10; Musk locked to Jun 2027. Per Jacob's framework, **mega-IPO clustering near a top = distribution signal → lean defensive (trim, tighten stops, raise cash); do NOT chase.** SMH is NOT stretched (522.49, −21.9% off its 6-mo high, 8.8% below its 50-dma) — the semis melt-up already cracked ~22%; SpaceX is the live distribution tell. Anthropic (ANT) debut ~Nov 16-18 lands into an already-rolled-over tape (S-1 still preliminary, no price range).
 
 ### 🔴 EMA50 DAILY FAILURE — NEW (Oct 27, 2026 17:20 PDT)
 Dr Profit (@DrProfitCrypto) called the Oct 24 daily close as "reclaim EMA50" = bull confirmation, EMA50 stated at $80,800.
@@ -113,7 +115,8 @@ Dr Profit (@DrProfitCrypto) called the Oct 24 daily close as "reclaim EMA50" = b
 - Live BTC $80,672, EMA50 now ~$80,731 → **spot BELOW EMA50**. Oct 27 high $81,182 (wicked above, failed to hold).
 - **His $94K target (longs avg $80,400) is contingent on the EMA50 reclaim — that condition has NOT been met.**
 - Track via reminder job `494142aa-d2a6-4e8e-a550-b62ccdc05dea` (Nov 1).
+- **✅ RESOLVED Nov 1, 07:15 PDT (live Coinbase candles, EMA50 recomputed from 350 daily closes):** DrProfit gave BTC 9 hours to reclaim and close above the EMA50 at $80,800. **It failed.** Closes vs EMA50: Oct 28 $81,249 (+0.61% above) → Oct 29 $77,780 (**−3.54%**) → Oct 30 $77,180 (**−4.13%**) → Oct 31 $77,424 (**−3.68%**) → Nov 1 $77,950 (**−2.90%**). EMA50 has rolled down to **$80,287**; spot $77,955 sits **2.90% below** it. This is now **3 consecutive COMPLETED daily closes below the EMA50** (plus the Nov 1 session in progress at −2.90%) and the reclaim is *fading*, not recovering — the Oct 27 "wicked below, recovered within hours" pattern (Oct 15) did **not** repeat. **The $94K target stays invalid** while price is under $80,800; the $86K confirmation level is 10.3% overhead. BTC is also −3.0% under DrProfit's $80,400 long average.
 - Method note: OCR via macOS Vision (Swift VNRecognizeTextRequest) — no PIL/pdftotext/vision-API on this box.
 
 ---
-Last updated: 2026-10-27 17:20 PDT
+Last updated: 2026-11-01 07:15 PDT

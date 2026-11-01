@@ -1,48 +1,40 @@
 # IPO Top-Signal Monitor — State
 
-Last run: 2026-11-01 (Sun) 02:14 PT
+Last run: 2026-11-01 (Sun) 07:05 PT
 Run type: scheduled cron ipo-top-signal-monitor
-Result: NO ALERT SENT (nothing met decision rule a/b/c)
+Result: ALERT SENT to Telegram 5157095960 (messageId 9163) — rule (c) met: SpaceX major post-listing catalyst + extreme move.
 
-## SpaceX (SPCX) — already trading, post-listing watch only
-- IPO/listing: traded since 2026-06-12 at $135/sh, ~$1.77T valuation, ~$75B raise.
-- Below IPO price 2026-07-15; +22% by 2026-10-12.
-- Lockup schedule (confirmed via search 2026-11-01, static sources only):
-  - First unlock 2026-08-06: up to ~911.5M insider shares (~$123B) — ALREADY PAST, no move reported.
-  - Staggered time-based tranches ~70-135 days after listing (Aug-Oct 2026).
-  - Q2 earnings (2026-08-04) triggered an early tranche release 2026-08-06.
-  - Early-release price trigger at $175.50 (share count/terms unconfirmed).
-  - Full expiry ~180 days after 2026-06-12 => approx 2026-12-09/10 (approx, not SEC-confirmed date).
-  - Musk lock-up runs to June 2027.
-  - Sources: https://spcx.capital/spacex-stock-lockup-dates , https://spacexshareprice.com/blog/spcx-lockup-schedule.html , https://daytradingtoolkit.com/market-insights/spacex-lockup-expiration-august-2026 , https://finance.yahoo.com/markets/stocks/articles/spacexs-lockup-expires-aug-6-080500494.html
-- NEW since last state: lockup schedule detail above (previously untracked). No extreme move, no Q3 earnings date, no new catalyst announced as of 2026-11-01.
-- Next watch: Q3 earnings date + associated unlock tranche; Dec 9-10 full-expiry supply; whether $175.50 early-release trigger is hit.
+## SpaceX (SPCX) — ALERT TRIGGERED 2026-11-01
+- IPO: traded since 2026-06-12 at $135/sh (debut $150), peak $225.64, ~$1.77T at IPO, now <$2T.
+- NEW (2026-11-01 run):
+  - Q3 2026 earnings reported Oct 20: EPS $0.35 vs $0.10 consensus, revenue $14.58B. Stock +8% Oct 21, then fully round-tripped.
+  - Oct 26 lockup tranche: ~319M insider Class A shares (~$38B) eligible. Stock fell below $135 IPO price after (‑4.1% Thu, ‑2% Fri open).
+  - ~3.89B shares unlocked from lockup across 8 events through Oct 26 (247wallst).
+  - Oct 30 close $134.72 (low 134.50) on 122M volume vs ~68M avg => ‑6.4% day, BELOW $135 IPO price, new all-time-low territory. Oct high $163.42 (10/12) => ‑17.5% in ~12 sessions.
+  - Market cap: >$2.3T down to <$2T; $400-500B+ of value erased in under a month.
+  - Drivers cited: lockup supply (not business), policy/geopolitical shocks, competition, AI risk; $40B GPU lease headline; Tesla merger talk failing to lift sector.
+  - Q4/next unlock ~Dec 9-10 (full 180-day expiry, approx). Musk locked to June 2027. $175.50 early-release price trigger not hit.
+- Sources: https://finance.yahoo.com/markets/article/spacex-has-lost-more-than-500-billion-in-market-value-in-less-than-a-month-213855332.html , https://www.fool.com/investing/2026/10/30/why-spacex-stock-dropped-today/ , https://247wallst.com/investing/2026/10/29/spacex-insiders-could-sell-nearly-4-billion-shares-why-isnt-wall-street-worried/ , https://www.ibtimes.com.au/spacex-insider-shares-unlock-stock-pressure-1876755 , https://www.marketbeat.com/earnings/reports/2026-10-20-spacex-stock/ , https://www.ainvest.com/news/spacex-slide-lockup-story-business-story-2610/
+- Next watch: Dec 9-10 full-expiry supply event; further all-time-low breaks; Q4 earnings date; $175.50 trigger.
 
-## Anthropic (ANT, Nasdaq) — S-1 public, no price yet
-- Public S-1 filed 2026-10-26 (acc-no 0001628280-26-067168, CIK 2130357, $1.0B aggregate offering price), Delaware PBC. Prospectus PRELIMINARY; price range blank.
-- Reported: investor day at $2T target (~$1.8-2T pitch), marketing/roadshow from week of Nov 9-10, earliest pricing Fri Nov 13, earliest reported first trading day Mon Nov 16; debut later that week also possible; "before Thanksgiving" (~Nov 26) target.
-- Reported valuation $1.5T-$2T. Goldman leads; BofA/Goldman/MS syndicate.
-- Polymarket/Kalshi implied probabilities tracked (Oct 29 snapshot) — market expectation, NOT a confirmed date.
-- Sources: https://finance.yahoo.com/markets/article/when-is-the-anthropic-ipo-the-stock-could-start-trading-as-soon-as-nov-16-132727631.html , https://bingx.com/en/learn/article/when-is-anthropic-ipo-november-16-a-possible-first-trading-day , https://www.mexc.com/learn/article/anthropic-ipo-date-plans-and-status-whats-confirmed-and-what-isnt/1 , https://aitoolsrecap.com/Blog/anthropic-ipo-investor-day-valuation-timeline-2026
-- NEW since last state: none. Nov 16 remains "earliest reported possible", not firm. Nothing trading today/tomorrow.
-- Next watch: firm price range in 424B4/424B1, confirmed first-trading date, roadshow launch week of Nov 9.
+## Anthropic (ANT, Nasdaq) — S-1 public, still no price range
+- Public S-1 filed 2026-10-26 (acc-no 0001628280-26-067168, CIK 2130357, $1.0B aggregate offering price), Delaware PBC. Prospectus PRELIMINARY; price range blank. Nasdaq listing under "ANT" confirmed in filing coverage.
+- Prospectus details (new): $80.7B loss, ~$16.3B 6-month revenue, explosive growth + massive compute costs; 7 cofounders ~$14B each pre-IPO. Reported valuation $1.5T-$2T.
+- Timing: earliest reported first trading day Nov 16; "SEC rules and SpaceX's sprint point to Nov. 16-18"; roadshow/marketing from week of Nov 9-10; target "before Thanksgiving". NOT firm.
+- Goldman + Morgan Stanley on top banking roles; Dimon/JPM involved.
+- Sources: https://finance.yahoo.com/markets/article/when-is-the-anthropic-ipo-the-stock-could-start-trading-as-soon-as-nov-16-132727631.html , https://www.cnbc.com/ , https://www.reuters.com/markets/ , https://www.axios.com/ , https://www.nbcnews.com/
+- Next watch: 424B4/424B1 price range; roadshow launch wk of Nov 9; confirmed first-trading date.
 
 ## OpenAI — confidential, no public filing
-- Confidential draft S-1 2026-06-08 (Goldman + Morgan Stanley advising). No public S-1.
-- Valuation ~$852B private; reported to raise ~$30B (UAE-led, ~$1.25T). ~$25B ARR, still lossmaking.
-- CEO ruled out 2026 listing; Altman confirmed on the record (September) that IPO slips to 2027.
-- Sources: https://decodethefuture.org/en/openai-ipo-explained/ , https://fortrovepartners.com/openai-ipo-timeline-valuation-tracker/ , https://smartasset.com/investing/openai-ipo-date-investor-timeline-valuation-and-expectations
-- NEW since last state: none. No public S-1, no firm date.
-- Next watch: public S-1 on EDGAR, formal 2027 window guidance, exchange/ticker announcement.
+- Confidential draft S-1 2026-06-08 (Goldman + Morgan Stanley advising). No public S-1 as of 2026-11-01.
+- Valuation ~$852B private; reported ~$30B raise (UAE-led, ~$1.25T). ~$25B ARR, still lossmaking. CEO ruled out 2026; Altman says 2027.
+- Sources: https://decodethefuture.org/en/openai-ipo-explained/ , https://smartasset.com/investing/openai-ipo-date-investor-timeline-valuation-and-expectations
+- Next watch: public S-1 on EDGAR; formal 2027 guidance; ticker/exchange announcement.
 
-## Decision rule status
-- (a) Trading today/tomorrow (Nov 1-2)? NO for both.
-- (b) New firm date / price range / final valuation? NO — Anthropic Nov 16 still speculative; no price range; OpenAI no public filing.
-- (c) SpaceX major post-listing catalyst? NO new event — Aug 6 unlock already past; Dec 9-10 full expiry known/scheduled, not newly announced; no extreme move.
-=> No Telegram alert sent to 5157095960 this run.
+## Market context (added 2026-11-01)
+- SMH 522.49 (Oct 30 close): -21.9% from 6-mo high 668.91, -8.8% below 50-dma 572.62. Semis melt-up has already cracked ~22% — NOT stretched. SpaceX is the live distribution tell, not semis.
 
-## Next run checklist
-- Anthropic: has 424B4 price range appeared? Is a first-trading date officially confirmed (and is it within 1 day)?
-- Anthropic: did roadshow start week of Nov 9?
-- OpenAI: public S-1 on EDGAR? 2027 date guidance?
-- SpaceX: Q3 earnings date, unlock tranche reaction, any move past $175.50 trigger, price action vs $135 IPO level.
+## Decision rule status 2026-11-01
+- (a) Trading today/tomorrow (Nov 1-2)? NO.
+- (b) New firm date/price range/final valuation? NO — Anthropic still preliminary, Nov 16-18 speculative; OpenAI no public filing.
+- (c) SpaceX major post-listing catalyst? YES -> ALERT SENT (Q3 earnings Oct 20, Oct 26 unlock of 319M sh, Oct 30 close $134.72 below $135 IPO price, new ATL, $400-500B+ mkt cap erased).
