@@ -1,60 +1,73 @@
-# SCRATCH — Live Market Context (Updated Oct 22, 2026 11:20 PDT)
+# SCRATCH — Live Market Context (Updated Nov 1, 2026 11:25 PDT)
 
-## BTC Status (Oct 22, 2026 11:20 PDT)
-- **CURRENT: ~$81,037** (CoinGecko live, −4.3% 24h)
-- **Trade: LONG from Aug 22 @ ~$77.4K** — INTACT ✅
-- **FLUSH TRIGGER: $74K** — $7,037 / 8.7% below current. Well above trigger.
-- **INVALIDATION: $70K** — daily close below = stop / flip-to-caution. 13.6% below current.
-- **$85K profit tag: APPROACHING, NOT crossed** — today's high was $84,778 (0.26% under the tag). Was ~$84.1K high earlier today — this is a fresh near-tag, watch into the close.
-- **$86K critical inflection** — 1.4% above today's high, also approaching.
-- **BTC dominance 59.47%** · total mcap $2.73T · ETH $2,374 (−5.7%)
+## BTC Status (Nov 1, 2026 11:25 PDT — live, CoinGecko)
+- **CURRENT: $77,699** (+0.17% 24h) · 24h high **$78,122** (was $84,778 on Oct 22 — the $85K tag moved AWAY)
+- **ETH $2,254.93** (+0.01% 24h; was $2,374 on Oct 22)
+- **Trade: LONG from Aug 22 @ ~$77.4K** — formally INTACT, essentially flat vs entry
+- **FLUSH TRIGGER $74K** — 4.70% below. Not hit.
+- **INVALIDATION $70K daily close** — 9.91% below. Not hit.
+- **$85K profit tag +9.12% above / $86K inflection +10.43%** — both moved AWAY, no longer near-tag.
+- CoinGecko 24h: +0.17% (flat). The Oct 30 risk-off session (SPX -1.82%, IXIC -2.86%) has NOT extended.
 
-## Live Cross-Asset (Oct 22, 11:20 PDT, CNBC quote API)
-- **SPX 7,652.75 (−1.35%)** · **IXIC 26,006.69 (−2.61%)** · DJI 52,785 (−0.13%) — risk-off session
-- **VIX 19.37 (+16.1%)** · **MOVE 104.49 (+8.91%)** — vol bid
-- **Gold $4,057.40 (−2.23%)**
-- **HYG $77.055 (+0.10%)** · **LQD $104.365 (+1.12%)** — credit calm, duration bid
-- **HY OAS 327bps (Oct 21)** vs +75–100bps/2wk sentinel threshold → **not tripped** (Oct 6→21 was only +24bps). Slow grind, not a spike.
-- **Canaries:** CRWV $55.11 (−10.9%) · NBIS $156.80 (−8.6%) · META $645.37 (−7.5%) · ORCL $123.48 (−4.4%) · NVDA $212.67 (−4.2%)
+## Live Cross-Asset (Nov 1, 11:25 PDT, CNBC quote API — last close 10/30, futures 10/31)
+- **SPX 7,580.07 (-1.82%)** · **IXIC 25,436.99 (-2.86%)** — Oct 30 was the risk-off session
+- **VIX 19.42 (+12.9%)** — ~29% above the <15 euphoria trigger. **NOT triggered.**
+- **MOVE 100.20 (+7.12%)** — vol bid, but BELOW the 104.49 of Oct 22
+- **HYG $77.43 (-0.19%)** · **LQD $104.27 (+0.05%)** — credit calm, duration bid; **not confirming stress**
+- **HY OAS 3.26 (326bps) Oct 29** (Oct 27 3.18 -> Oct 29 3.26) — still INSIDE the flat range.
+  Trigger is +75-100bps over 2wk from 327bps = needs 402-427bps. **NOT CROSSED.** This is the #1 watch.
+- **IG OAS 0.89** (Oct 29) · **BBB OAS 1.10** (Oct 29; Oct 27 1.09 -> 1.10, +1bp, creeping, NOT breaking)
+- **Canaries:** CRWV $54.87 (-9.66%) · META $614.99 (-1.53%) · NVDA $204.64 (-4.22%) — equity-led, credit calm
+- **10Y DGS10 4.98 (Oct 29)** — yields lower again; still **NOT** a rate-hike-fear tape
 
-## Oil (Oct 22, 11:20 PDT)
-- **Brent front-month $113.08** (+3.91%) — CNBC `@LCO.1` = ICE Brent Dec'26
-- **WTI $99.48** (+2.40%) — CNBC `@CL.1`. **Brent–WTI spread ~$13.60** (route premium, not demand)
-- Five-month high (Reuters/Guardian). Was $94.07 three months ago (+20.2%).
-- **REPRICING TRIGGER: Brent >$126.10 (52wH, FRONT-MONTH FUTURES)** → +11.5% away
-- ⚠️ **DO NOT use FRED `DCOILBRENTEU` (spot) for this trigger.** It prints >$126 on six October sessions (Oct 2: $135.51) that never happened in the traded contract. FRED's own 52w spot high is $138.21 (Apr 7 wartime peak) — a different series from the $126.10 futures anchor.
+## Oil (Nov 1, 11:25 PDT)
+- **Brent front-month $113.43** (`@LCO.1`, prev close 10/31; **contract rolled Dec'26 -> Jan'27**), WTI $104.12 (`@CL.1`)
+- **REPRICING TRIGGER: Brent FRONT-MONTH FUTURES >$126.10** — 11.2% away. **NOT triggered.**
+- ⚠️ Still never use FRED `DCOILBRENTEU` (spot) for this trigger — different series, prints >$126 on sessions
+  that never happened in the traded contract.
 
-## US-Iran — ESCALATION (updated Oct 22)
-- 7 oil tankers attacked/damaged in the Strait of Hormuz (AP/The Hill/CBC)
-- Houthi strike on a Saudi airport kills 2; Saudis intercepting drones; US tells diplomats to leave
-- Iran threatens oil AND AI facilities across seven Gulf countries
-- **STRIKE WINDOW DATE-CONFIRMED: EARLY NOVEMBER** (NPR Oct 22 + NYT Oct 21 + FT Oct 21) — post-Nov 3 midterms
-- Netanyahu ordered IDF + Mossad to topple the regime — **regime-change doctrine**
-- Iran's floating oil reserves depleted; shadow-tanker fleet out of oil (WSJ)
-- **The Oct 21 read ("Trump blocked Netanyahu's offensive → oil de-rating") was WRONG — reversed Oct 22.**
-- Next catalysts: early-Nov strike window; Oct CPI mid-Nov; regime-change execution risk
+## US-Iran — ESCALATION CONTINUED, BUT OIL IS FALLING
+- Israel struck the **South Pars gas field** + Asaluyeh oil/petrochemical sites (Iranian state media, US
+  approved/coordinated). Iran has hit energy infrastructure across **7 Gulf countries** — 135+ drone/missile
+  attacks on 84+ infrastructure sites (Saudi, UAE, Iraq, Qatar, Kuwait, Oman, Bahrain).
+- Trump: US still has to "take care of" 1-2 targets in Iran. Khamenei warns. Israel preparing post-midterm
+  renewal; "war could restart after the midterms" (CNN).
+- **BUT oil is FALLING on diplomacy:** WSJ "Oil Prices Fall as Traders Weigh U.S.-Iran Diplomacy";
+  "Morgan Stanley Lowers Oil Price Forecasts After US-Iran Peace Deal" (EnergyNow). Brent $113.43 < $126.10.
+  ⇒ The escalation is real but the market is NOT repricing the 2026 base case. Trigger stands at $126.10.
 
 ## Sentiment / Melt-up (NOT TRIGGERED)
-- **VIX 19.37** (trigger <15 — ~23% above) · **F&G 68 Greed** (not Extreme Greed) · **AAII Oct 21: bull 36.9 / bear 45.8 = −8.9 net bearish**
-- Trigger requires VIX<15 + Extreme Greed simultaneously. Nowhere near.
+- **VIX 19.42** (prev 18.39) — ~29% above <15 trigger. Fear & Greed **34 (Fear)** vs 68 (Greed) on Oct 22.
+
+## Recession tripwire — NO TRIGGER
+- **Card delinquency FLOW 2.85 (2026-04-01, Q2)** — falling (2.95 -> 2.91 -> 2.85). INSIDE flat range.
+  Q3 not yet published. Do NOT trigger on card 90+ stock.
+- **Payrolls POSITIVE 3 straight**: Jul 158,882 -> Aug 159,015 -> Sep 159,044 (PAYEMS)
+- **Continuing claims 1,701,000 (Oct 17)** — well under the 1.95M trigger. Initial claims 194,000 (Oct 24).
+- **UNRATE 4.2 (Sep)**. Subprime auto 60+: FRED CASSVAO returned EMPTY this cycle (could not re-verify) —
+  last read 6.9%, below the >7% trigger; treat as UNVERIFIED this cycle, not as a pass.
 
 ## STX / sBTC Watch (WATCH only — not a Jacob position)
-- **STX $0.3276** (−13.8% 24h, badly underperforming) → **404 sats** = `$0.3276 / $81,037 * 1e8` (was 441 Oct 21) = **2.5x from the 1,000-sat trigger, moving the wrong way.** Baseline 290 sats.
-- **sBTC TVL $201.36M** = **5.0x from the $1B trigger.**
-- No Binance STX delisting (Google News 7d: zero fresh items).
+- STX **$0.321003** (-4.54% 24h) vs BTC $77,699 => **413 sats** = `0.321003 / 77699 * 1e8` (411 sats at 07:15,
+  404 on Oct 22) — **2.4x from the 1,000-sat trigger**, drifting UP but far. Baseline 290 sats.
+- sBTC TVL **$193.86M** (DefiLlama, last element) — **5.2x from the $1B trigger**, drifting DOWN from $201M.
 
 ## FLOP Labs Kibble — WATCH
-- **ORCHESTRATOR TRIPWIRE:** `~/flop_agent/FLOP_TRIGGER.flag` — **absent** ✅ (also `FLOP_QUALIFICATION_TRIGGER.flag` absent)
-- Keepalive last SUMMARY **2026-10-22T16:05:18Z overall=OK** (1.8h old, well inside 36h rule)
-- DID active ✅ — `did:key:z6MkgAKzLRhJ5mU5t1GTRymXWexD4eR4V8jRy9` (did-88/12fa839a6de69f)
-- Journal posted 6 today, verify_did=True. Watch version 0.14.5 (no change).
-- Airdrop starts late October. **Yellowpaper Issue #133 ambiguity still open** — technocore.chat chat activity may NOT count toward the airdrop (only settled compute purchases).
-
-## Coinbase Premium (read-only, no state write)
-- CEX premium **−0.1173%** (neutral) · DEX premium **−0.2857%** (negative). No US demand bid.
+- Keepalive **OK 2026-11-01T17:05:11Z** overall=OK, version 0.14.5 (well inside the 36h rule). Journal posted, verify_did=True.
+- ⚠️ **Real flags ABSENT**: `~/flop_agent/FLOP_TRIGGER.flag` and `~/flop_agent/FLOP_QUALIFICATION_TRIGGER.flag`
+  do NOT exist. **DO NOT flag on the copy under `~/.openclaw/tmp/*/FLOP_TRIGGER.flag`** — that one reads
+  "TEST — synthetic" (created 2026-11-01 01:59) and is NOT the tripwire path. Only `~/flop_agent/*.flag` counts.
+- Hourly qualification job healthy: version=0.14.5 faucet=no claim=no rooms=17463 (unchanged).
+- Yellowpaper Issue #133 ambiguity still OPEN (chat activity likely does NOT count; only settled compute purchases).
 
 ## Automation Health
-All crons `ok`. Heartbeat running. No failures, no silent repeats.
+- 🔴 **`heartbeat-main`: 14 CONSECUTIVE SKIPPED ticks** — lastRunStatus=skipped, lastRunAt 07:10, stale
+  runningAtMs 10:40, nextRunAt stuck at 10:40. The heartbeat has NOT run since 07:10, so the scratch below
+  was 10 days stale on arrival. **Scratch staleness is the hidden failure mode** — refresh it every session.
+  Next step: inspect why ticks are skipped (wakeMode=next-heartbeat + sessionTarget=main) before the market
+  moves further than this file does.
+- ✅ 29/30 jobs ok. zrx-stake-executor + israel-cec-official-results both enabled, lastStatus=ok, correctly silent.
+- Israel CEC probe re-run: `PCT=0 PARTIES=0 STATUS=המדגם_האחרון_שפורסם` — official results STILL not published.
 
 ## Tooling Notes (new this cycle)
 - **Yahoo Finance is fully degraded** (Oct 22, 11:20): `query1`/`query2` chart API returns `Edge: Too Many Requests` on EVERY symbol, even with a browser UA. `sources.md` says the UA fixes it — true at last check, **false now**.
