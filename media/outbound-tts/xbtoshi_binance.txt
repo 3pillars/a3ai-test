@@ -2,7 +2,7 @@ Jacob, this one is serious, so I went to the primary sources rather than the twe
 
 First, what happened. On the twenty-ninth of October, roughly six point three billion dollars of digital assets left Binance, about six point three six billion according to TRM Labs, in roughly twenty minutes, across ten blockchains. Ethereum was the biggest at three point eight billion. Bitcoin was one point five billion, about eighteen thousand two hundred and seventy coins. Tron was six hundred and twenty-eight million, XRP Ledger was two hundred and ninety-six million, and Solana was ninety-six million. Roughly three billion of stolen stablecoins have been frozen, by Tether and Circle. The US Secret Service says it is working to recover the funds. Binance set aside six point three four billion dollars of company money and says it will absorb the loss, not the users. That was the worst theft in the history of cryptocurrency, bigger than the Bybit hack.
 
-On attribution, be precise. The blockchain forensics firm TRM Labs linked it to North Korea and named a group called Trader Traitor, which is widely described as part of the Lazarus Group. Binance itself has not officially named an attacker.
+On attribution, be precise. The blockchain forensics firm TRM Labs linked it to North Korea, and named a North Korean group that is widely described as part of the Lazarus Group. I will not try to pronounce the group's name here, because it is two ordinary English words and it does not survive that. Binance itself has not officially named an attacker.
 
 Now the accusation. The account's point is that Binance's proof of reserves page used to show everything, and now it does not. I pulled the live page and then pulled the underlying API directly, and the account is right.
 
@@ -12,7 +12,7 @@ Today, the live snapshot has its Merkle hash marked in progress. The USDT ratio 
 
 So on the headline numbers the account is right. The reserve ratio really did drop, the cushion really did evaporate, and the Merkle proof really is unfinished.
 
-Now the page itself, and this is where I checked the API rather than the screen, because the screen only renders eight rows at a time. On October first, the snapshot carried fifty-five assets spread across seven pages. Today the snapshot carries ten assets across two pages. Forty-five tokens were dropped from the current reporting, including Dogecoin, Chainlink, Tron, Uniswap, Aave, Polkadot, Avalanche, Arbitrum, Optimism, Sui, Near, and Shiba Inu. The account said only ten majors remain, and that is exactly right. My first pass told you the page showed eight, and that was me counting the visible rows and missing that ZEC and RLUSD sit on the second page. The number is ten.
+Now the page itself, and this is where I checked the API rather than the screen, because the screen only renders eight rows at a time. On October first, the snapshot carried fifty-five assets spread across seven pages. Today the snapshot carries ten assets across two pages. Forty-five tokens were dropped from the current reporting, including Dogecoin, Chainlink, Tron, Uniswap, Polkadot, Avalanche, Arbitrum, Optimism, Near, and Shiba Inu. The account said only ten majors remain, and that is exactly right. My first pass told you the page showed eight, and that was me counting the visible rows and missing that ZEC and RLUSD sit on the second page. The number is ten.
 
 Here is what the account leaves out, and it matters.
 
