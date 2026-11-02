@@ -1,0 +1,55 @@
+Here is the check on the second Zero Hedge post, the private jet crash.
+
+First, what the post is. Zero Hedge posted it at twenty one forty-three Universal Coordinated Time on the first of November, two forty-three in the afternoon Pacific. It links to a Tyler Durden article titled, "Going To Crash Into The Ground: Chilling ATC Audio Captures Private Jet's Final Seconds Over Palm Beach County." Two hundred and twelve likes, twenty-seven retweets, nineteen replies.
+
+More engagement than the Natixis one, and a completely different kind of story. This is not markets content. I verified it anyway, because the standing rule is that everything you send gets checked.
+
+What happened. A Learjet sixty, registration N seven two two Bravo Delta, crashed this afternoon in Palm Beach County, Florida. It was on its way from Austin, Texas to North Eleuthera airport in the Bahamas. Nine people were on board. All nine died.
+
+The article quotes United States Transportation Secretary Sean Duffy, who posted that the crash happened at twelve fifty in the afternoon and confirmed all nine are dead. CNN and United States News both confirm all nine died, and Local Ten in Miami and Aviation News carry the same crash details, including the nine on board and the flight from Austin to the Bahamas. So the fatality count and the location are corroborated well beyond Zero Hedge.
+
+Now the air traffic control audio, because that is the actual headline, and it is the part worth your attention.
+
+Here is what the pilot said. At the start of the recording the aircraft was descending eight thousand feet, and the pilot transmitted "Mayday, mayday, we are descending ten thousand feet per minute." Air traffic control replied, "Roger, declare an emergency." The pilot then said, "We are in an emergency condition, descending twenty thousand feet per minute." At the twenty-eight second mark, the pilot said, "We are gonna crash into the ground." Air traffic control answered, "I am here with you." Then the pilot reported, "We are descending twenty-two thousand feet, and we are banking sixty degrees."
+
+So the pilot knew, told the controller, and the controller stayed with the aircraft to the end. That is the content of the tape.
+
+The flight path, from Flightradar twenty-four's ADS-B data. The aircraft departed Austin at fifteen thirty-seven, bound for the Bahamas, climbing to a cruising altitude of forty-one thousand feet. At seventeen thirty-five, near Naples, it began descending to thirty-five thousand feet. At seventeen forty-eight it briefly climbed, and then entered a steep right-hand descent. The last ADS-B fix was at an altitude of eight thousand seven hundred and fifty feet, with a maximum vertical speed of more than thirty-two thousand feet per minute.
+
+One detail the article gets right, and it is unusual. The crash site is about four miles south of the West Palm Beach airport, which was renamed for President Trump earlier this year. I verified that. Florida statute requires the name change, and Governor Ron DeSantis signed the legislation on March thirtieth, twenty twenty-six, renaming Palm Beach International Airport the President Donald J. Trump International Airport, effective July first, twenty twenty-six. The article also notes that President Trump had departed aboard Air Force One a little more than an hour before the crash, because he was in Palm Beach County. That is the reason the article bothered to mention the airport rename, so you can discount the political framing, but the underlying facts check out.
+
+Also verified: the aircraft's registry. N seven two two Bravo Delta is a Learjet sixty owned by an entity called LR six zero two seven one LLC, based in Wilmington, Delaware. That matches the FAA registry entry exactly.
+
+Now, the thing I want to put on your board, and it is not the crash.
+
+While verifying, I found a story in the Zero Hedge sidebar that is directly relevant to your credit tripwire, and it is more important than the plane.
+
+The headline is "Oh, By The Way, Private Credit Defaults Just Hit A Record." The numbers are from Fitch Ratings' third quarter private credit and middle market performance monitor, dated the twenty-ninth of October. The headline figure checks out. Fitch's private credit default rate reached six point three percent over the trailing twelve months ended in the third quarter of twenty twenty-six. That is the highest on record, up from six point zero percent in the second quarter. So the headline number is real, and I confirmed it directly against Fitch's own release, not just through the press.
+
+Now the correction. ZeroHedge's summary of this story gets one number wrong, and it is the wrong number in a way that matters.
+
+ZeroHedge wrote that Fitch recorded twenty-seven default events in the third quarter, compared with twenty in the second quarter. That is a misreading of Fitch's release. Fitch actually says the opposite. The twenty-seven default events came from twenty new unique defaulters in the third quarter, and the trailing twelve month total of unique defaulters rose to ninety-one, up from eighty-four in the second quarter. So the "twenty" is not the second quarter total. The second quarter total was eighty-four. ZeroHedge swapped a quarterly new-defaulter count for a trailing total.
+
+Now here is the figure ZeroHedge left out, and it is the most important one in the release. When you count only hard outcomes, meaning bankruptcies, liquidations, and out-of-court restructurings, the default rate was zero point three percent in the third quarter, and it fell from zero point four percent in the second quarter. So the headline rate is at a record because of deferrals and extensions. The hard default rate is going the other way.
+
+The breakdown. Over the trailing twelve months, interest deferrals and payment in kind accounted for fifty percent of default events. Stressed maturity extensions were thirty-eight percent. Uncured payment defaults were eight percent. Bankruptcies, liquidations, and out-of-court restructurings were four percent. So ZeroHedge's claim that roughly eighty-eight percent of defaults were restructurings rather than outright bankruptcy is correct. Fifty plus thirty-eight equals eighty-eight.
+
+There is also a composition shift that nobody mentioned. The increase was driven entirely by Fitch's model-based credit opinion portfolio, which feeds middle market collateralized loan obligations. That rate rose to a record five point seven percent from four point nine percent, the eighth consecutive monthly increase. The privately monitored rating portfolio, used mostly by insurers for regulatory capital, actually declined, to eight point zero percent from nine point four percent.
+
+The quote from the man who runs private credit for United States corporates at Fitch, and this is the one that connects straight back to the first post you sent me. His name is Lyle Margolis. Lyle, spelled L-Y-L-E. Margolis, spelled M-A-R-G-O-L-I-S. He said: "Persistently high real interest rates are maintaining pressure on highly leveraged borrowers' debt service capacity and refinancing options."
+
+Read that again against the first post. The first post was about ten year real yields at levels last seen in two thousand seven and two thousand eight. Fitch's head of private credit is naming the same thing as the cause of the distress. Those two stories are the same story.
+
+Moody's independently agrees, and I verified that too. Its report, published in October and covering the twelve months ended June, looked at six hundred and seven borrowers across forty-seven middle market collateralized loan obligations. Four percent had reported defaults, but that rose to five point eight percent once payment in kind amendments and maturity extensions were counted. Twenty-four reported defaults became thirty-five default or default-equivalent events. And more than sixty percent of borrowers already carrying payment in kind provisions have migrated to a Caa one equivalent rating or lower, which is very high credit risk territory.
+
+One more number that cuts against the panic. Among the largest sectors, technology software had the lowest default rate of any, at zero point six percent, down from one point two percent. So the tech credit story is not the private credit story. That is important given what the first post was about.
+
+Why this is on your board even though nothing triggered. Your credit sentinel is high-yield spreads, currently at three hundred and twenty-six basis points, and the trigger needs four hundred and two to four hundred and twenty-seven. That trigger has not fired, and it will not fire off this. The public high-yield market is not where the distress is. It is in private credit, which is not marked to market daily and where the lender holds the unilateral option to restructure instead of default.
+
+So the mechanism to watch is this. If private credit keeps extending and pretending through the maturity wall, the losses get deferred, not removed. The high-yield spread number stays quiet, and one day the repricing arrives somewhere else, and it will not arrive gradually.
+
+For your book. No tripwire triggers from this. Neither the crash nor the private credit story hits a threshold you track. But the private credit number is a genuine record, Fitch says it has risen every quarter since the third quarter of twenty twenty-five, and the mechanism driving it is high real yields, which is exactly the risk the first post flagged.
+
+Three things worth doing. One, widen your credit sentinel to include the Fitch private credit default rate alongside high-yield spreads, because right now you could see a record default rate and no trigger. Two, note that the hard default rate is zero point three percent and falling, so this is a slow-burn story, not a sudden one, and the trigger for it is a maturity wall rather than a spread level. Three, if you want to chase it, the primary source is Fitch's third quarter monitor, which I was able to pull directly, and I can pull the underlying series if you want it wired into the tripwire board.
+
+And what I did not verify. The Forbes article that Zero Hedge cited, because Forbes is behind a CAPTCHA. But I reached Fitch's own release directly, so the primary figures come from the source rather than from the press summary.

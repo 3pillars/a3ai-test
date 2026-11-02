@@ -1,0 +1,41 @@
+Here is the check on the Zero Hedge post.
+
+First, what the post is. Zero Hedge posted it on the first of November, at twenty one forty in Universal Coordinated Time, which is two forty in the afternoon Pacific. It links to a Tyler Durden article with the title, "The Ghosts of Crises Past To Haunt The Midterms: Natixis Says A Democratic Sweep Could Exorcise The A I Bond Bear." Thirty-five likes, seven retweets, five replies.
+
+That engagement number is worth flagging right away. The Asuka Groyper post you sent earlier had thirteen thousand likes. This one has thirty-five. That is a fraction of one percent. Whatever you make of the thesis, almost nobody is talking about it yet.
+
+What I could and could not reach. The article body sits behind a Zero Hedge Professional login. I read the free portion, which quotes the underlying research note directly, and I read the note's own cover link, which also redirects to a login. So I verified the parts that are checkable, and I could not read the full argument. I will not pretend otherwise.
+
+The central checkable claim is the chart. The article says the note shows ten year real yields back at levels last seen in two thousand seven and two thousand eight. That is verifiable against the Federal Reserve's inflation indexed ten year series, and it holds up precisely.
+
+Here are the numbers. The ten year real yield, the TIPS series, closed at two point six three percent on the twenty ninth of October. Now, the last time that series was at or above two point six three before this year was the twenty sixth of November, two thousand eight, when it printed two point six eight. That is roughly eighteen years ago. The two thousand seven high was two point eight three, in June. The two thousand eight high was three point fifteen, in November. And in two thousand twenty six the series peaked at two point nine five, on the fifth of October.
+
+So the claim is not just directionally right. It is right to the decimal, and it is arguably understated. The series has been at these levels since before the last financial crisis.
+
+For context, the nominal ten year finished at four point nine eight percent, and the ten year expected inflation rate was two point three four. The real yield is doing all of the work.
+
+Now the second moving part. The headline is about a Democratic sweep. The prediction market Polymarket, spelled P-O-L-Y-M-A-R-K-E-T, posted at twenty one thirty one on the first, the day before this, that Democrats' odds of sweeping both chambers had surged to a new high, seventy percent. Five hundred and fourteen likes. That checks out against Polymarket's own account. The midterms are the third of November, so two days is right.
+
+Now what I could not verify, and it is the part that actually matters. The full note. The mechanism by which a Democratic sweep supposedly exorcises an A I bond bear. I could not read it. The note is called "The Ghosts of Crises Past to Haunt the Midterms." It is the Halloween eve edition of the Natixis Americas series called Across the Americas, credited to four people: Benito Berber, Christopher Hodge, John Briggs, and Selin Aker. Selin, spelled S-E-L-I-N. The free text quotes the opening, about Macbeth's witches and their cauldron, and it names the chart. But the argument itself, the mechanism, is behind the paywall. I am not going to reconstruct a thesis I did not read.
+
+Now the correction that I think matters for you.
+
+The same Zero Hedge page carries several linked Market Ear articles. Those are Zero Hedge's own promotional blurbs, not the Natixis note. And one of them is overstated.
+
+It says four of the Mag Seven have entered bear market territory, wiping out some four trillion dollars, as the Nasdaq tests a critical level. I checked that against the exchange's own fifty two week high and low data, using the thirtieth of October close. Two of seven are in a bear market, not four. Alphabet is down thirty one and a half percent from its fifty two week high. Meta is down twenty one point one percent. Tesla is down nineteen point nine percent, which just misses the twenty percent line. Nvidia is down fifteen point nine. Amazon sixteen point three. Microsoft five point three. Apple two percent. So two confirmed, one right on the line.
+
+And the money number. Four trillion is about three point two five trillion by my calculation, off current market caps. Three trillion, not four. It is in the right neighborhood, but it is inflated.
+
+The silver claim checks out cleanly. The blurb says silver is imploding and testing fifty dollars. Silver COMEX December is at forty nine dollars and twenty eight cents. That one is verified, and it is a live price.
+
+And the Nasdaq itself. The composite closed the thirtieth at twenty five thousand four hundred and thirty seven, down two point eight six percent on the day. That matches. The VIX was up almost thirteen percent, at nineteen point four two. So the risk-off in tech is real.
+
+Here is the part I would put on your board, and it is the opposite of what the headline implies. If the story is about a bond bear, broad credit is not showing it. High yield spreads closed the twenty ninth at three point two six percent, or three hundred and twenty six basis points. Your trigger needs four hundred and two to four hundred and twenty seven. Investment grade is at zero point eight nine. B double B is one point ten, up one basis point, which is a drift, not a break.
+
+So there is no credit stress in the aggregate. The A I bear, if it exists, is not a broad high yield event. It would be localized. And the likeliest place is the data center and A I infrastructure complex, where the outsized moves over the last two sessions were the real signals. Core Weave down about ten percent. Nebius down about ten. Oracle down about six.
+
+And that is exactly where I would push back on the framing. The premise of the piece, that the ghosts of two thousand seven and two thousand eight are back in the form of real yields, is well supported. The implication that a Democratic sweep resolves it is the part I cannot verify, and I would not take it on faith.
+
+For your book. No tripwire triggers. Credit, silver, and the Nasdaq are all moving, but none of them hit a threshold you track. The thing to watch is the election itself, on Tuesday. A seventy percent implied sweep is a large position, and if it resolves wrong, the real yield and dollar complex moves. The second thing to watch is the A I infrastructure credit complex specifically, because that is where this thesis, if it is right, would first show up, and broad credit will not warn you.
+
+What I did not verify. The body of the Natixis note, and therefore the mechanism by which a Democratic sweep supposedly exorcises an A I bond bear. And the full Zero Hedge argument, because both sit behind a login.
