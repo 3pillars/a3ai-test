@@ -1,0 +1,48 @@
+{
+  "lastChecks": {
+    "geopolitics": 1793644800,
+    "bitcoin": 1793644800,
+    "email": null,
+    "calendar": null
+  },
+  "lastHeartbeat": 1793644800,
+  "updatedAt": "2026-11-02T10:40:00-0800",
+  "notes": "Heartbeat 2026-11-02 10:40 PDT. NO tripwire triggered. Brent front-month BZ=F $104.18 vs $126.10 trigger (-17%); WTI CL=F $95.88. Iran de-escalation confirmed by headlines (peace talks, draft agreement, Brent below $107); HY OAS 3.44 (FRED Oct 30) = 344bps, +17bps vs 327 baseline, trigger 402-427bps NOT crossed; IG OAS 0.94, BBB 1.16 (creep not migration); HYG $77.06 / LQD $104.115, HYG/LQD 0.7401, no breakdown. VIX 19.67, DGS10 4.98, SPY 758.105 (-0.95%); canaries weak (CRWV -6.44%, NBIS -5.18%, NVDA -4.54%, ORCL -3.49%, META -2.68%) = equity-led, not systemic. BTC $76,928 (-1.09%), flush $74k / invalidation $70k intact; ETH $2,250. STX $0.328848 = 427.4 sats (2.34x from trigger); sBTC TVL $190.79M (5.2x). FLOP keepalive OK 2026-11-02T17:05:13Z (fresh), no real flags, testnet pending Q4 2026. Payrolls Sep 159,044 positive; card FLOW 2.85 flat; subprime auto 5.67%. Automations 18/18 visible ok, mindset:profit-reminder delivery recovered. ZRX still blocked (no holder key).",
+  "tripwires": {
+    "btcUsd": 76928,
+    "btc24hPct": -1.09,
+    "ethUsd": 2250.06,
+    "stxUsd": 0.328848,
+    "stxSats": 427.4,
+    "sbtcTvlUsd": 190786022,
+    "brentFrontMonth": 104.18,
+    "brentTrigger": 126.1,
+    "wti": 95.88,
+    "hyOasPct": 3.44,
+    "igOasPct": 0.94,
+    "bbbOasPct": 1.16,
+    "dgs10": 4.98,
+    "vix": 19.67,
+    "move": null,
+    "hyg": 77.06,
+    "lqd": 104.115,
+    "hygLqdRatio": 0.7401,
+    "spy": 758.105,
+    "payrolls": 159044,
+    "unrate": 4.2,
+    "continuingClaims": 1701000,
+    "initialClaims": 194000,
+    "cardDelinquencyFlow": 2.85,
+    "subprimeAuto60Plus": 5.67,
+    "subprimeAuto60PlusAsOf": "2026-06",
+    "flopVersion": "0.14.5",
+    "flopLastCheck": "2026-11-02T17:05:13Z",
+    "canaries": {
+      "CRWV": 51.635,
+      "NBIS": 145.335,
+      "ORCL": 121.66,
+      "META": 613.65,
+      "NVDA": 206.2
+    }
+  }
+}

@@ -1,0 +1,15 @@
+Zero Hedge, post two one one seven three two eight six eight nine five four five two eight five six eight zero. That is nineteen digits. Posted today at ten fifty one in the morning Pacific time. About forty four thousand views, ninety one likes, twelve reposts. Three point four million followers, individually verified.
+
+The post quotes a Bank of America note that calls Texas the single most consequential election for data centers, utilities and power this cycle. It says the next governor inherits a four hundred seventy four gigawatt interconnection queue, about ninety percent data centers, and more than five times the all time system peak.
+
+Here is what checks out. The queue number is real but it moves fast. E R C O T was tracking about four hundred ten gigawatts of large loads in April, with eighty seven percent data centers. A tracker called E R C O T Queue shows four hundred sixty six gigawatts in its September report, ninety percent data centers. Four hundred seventy four is the June figure on another tracker. So the order of magnitude is right. The all time peak is ninety one point one gigawatts, set July twenty second, according to the Energy Information Administration. Four hundred seventy four divided by ninety one point one is five point two. So more than five times is correct. But a queue is requests, not projects. Another tracker put approved to energize at about nine gigawatts, and observed large load consumption at about four gigawatts, in March.
+
+The audit is real. Governor Abbott ordered a comprehensive audit of data centers on August third, from his own state website. On September twenty first he told the environmental regulator to halt data center permits until the audit finishes. And Gina Hinojosa, the Democrat, says the pause leaks, because watchdogs found permits still being approved. She wants a formal moratorium by executive order and a special session.
+
+The image is Exhibit thirty five from the B of A note. All five Public Utility Commission members were appointed by Abbott. The next term expires in September twenty twenty seven. The exhibit calls Abbott's stance a de facto, audit based pause.
+
+What I could not verify. The C C N remands. I found the big seven sixty five kilovolt line cases at the commission, but not a remand tied to data centers. And the second quoted note, about the president's veto and local zoning, I could not check.
+
+On the race: the Pollsmax average, as of October thirtieth, is Abbott forty nine point one, Hinojosa forty six point oh, so Abbott by about three. The last poll was forty nine to forty seven. One odds site showed Abbott at about sixty one percent, but I did not confirm when that was taken. The election is tomorrow, November third.
+
+My read. The B of A quote is mostly right on the numbers. Its real claim is that regulatory risk is now independent of who wins. That is plausible, because both candidates want some form of pause. The risk is timing and cost allocation, not demand. The names exposed are the Texas utilities: Sempra, CenterPoint, A E P, T N M P, Entergy and Xcel. A pro data center governor does not erase the audit.
