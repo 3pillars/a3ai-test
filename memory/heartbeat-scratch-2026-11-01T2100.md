@@ -1,0 +1,53 @@
+## Live State (refreshed 2026-11-01 20:57 PDT)
+
+- **🟢 RECESSION TRIPWIRE — NO TRIGGER.** Card delinquency FLOW **2.85 (2026Q2)** falling (2.95→2.91→2.85), inside 2yr flat range. Payrolls **positive 3 straight** (Jul 158,882 → Aug 159,015 → Sep 159,044). Continuing claims **1,701,000** (Oct 17) vs 1.95M trigger; initial 194,000 (Oct 24). UNRATE **4.2** (Sep). **Subprime auto 60+ = 5.67% (June 2026), −64bps YoY** — below 7% and improving; Jan'26 peak was 6.90%. Monthly cadence — do NOT re-verify weekly. Do NOT trigger on card 90+ stock (lagging/contaminated); trigger on FLOW only.
+- **🟡 AI-CAPEX CREDIT SENTINEL — CANARY WEAK, MASTER SIGNAL CALM.** FRED (Oct 29): **HY OAS 3.26 = 326bps** (Oct 27 3.18 → 3.14 → 3.26). Trigger = +75–100bps over 2wk from 327bps = **402–427bps. NOT CROSSED.** **IG OAS 0.89** (flat) · **BBB OAS 1.10** (+1bp since Oct 27 — creeping, NOT breaking). Last close (Oct 30): **HYG $77.43**, **LQD $104.27** — credit NOT confirming stress. **MOVE 100.20 (+7.12%)**, **VIX 19.42 (+12.9%)**. Canaries unchanged from Oct 30 close: CRWV $54.87 (−9.66%), NBIS $154.14 (−10.38%), ORCL $130.67 (−6.37%), META $614.99 (−1.53%), NVDA $204.64 (−4.22%). Equity-led risk-pricing, NOT systemic. **RISK = FUNDING not DEMAND.** Sources: `shared-context/ai-capex-credit-sentinel.md`, `memory/macro-tripwires.md`.
+- **🟡 US-IRAN — ESCALATION CONTINUED, OIL FALLING.** Israel struck **South Pars** + Asaluyeh; Iran hit energy infra across **7 Gulf countries** (135+ attacks, 84+ sites). Trump: US still has to "take care of" 1–2 targets; Khamenei warns; "war could restart after the midterms" (CNN). But market is NOT repricing: Brent front-month **$110.02 (−3.01%)** on diplomacy headlines.
+- **🟢 BRENT — NOT TRIGGERED.** **Brent front-month $110.02** (`@LCO.1` = ICE Brent **Jan'27**, contract rolled Dec'26→Jan'27), WTI **$100.81** (`@CL.1`, Dec'26). **REPRICING TRIGGER: Brent FRONT-MONTH FUTURES >$126.10** — now **−12.76% below**. **NOT triggered.** ⚠️ Trigger is a FUTURES level, NOT FRED spot. FRED `DCOILBRENTEU` = Europe Brent **spot**, prints materially higher — would read as a breach that never happened in the traded contract. **Compare front-month futures vs $126.10; never substitute FRED spot silently.** FRED 52w spot high $138.21 (Apr 7) is a different series.
+- **🟢 BTC $78,410 (+0.84% 24h), ETH $2,293.22 (+1.21%).** Jacob's **LONG greenlit Aug 22 @ ~$77.4k** — open, ~+1.3% vs entry. Flush trigger **$74k** (not hit, 5.62% above); invalidation **$70k daily close** (not hit, 10.71% above); floor **$53k** (not hit). **$85k profit tag / $86k inflection — both moved AWAY, still ~8–10% overhead.** SPX **7,580.07 (−1.82%)**, IXIC **25,436.99 (−2.86%)** = Oct 30 risk-off has NOT extended.
+- **⚪ STX WATCH (Muneeb, WATCH-only — NOT a Jacob position):** STX **$0.330806** (+2.04% 24h) vs BTC $78,410 ⇒ **421.9 sats** = `0.330806 / 78410 * 1e8` (404 on Oct 22) — **2.4x from the 1,000-sat trigger**, still far. Baseline 290 sats. **sBTC TVL $194.67M = 5.1x from the $1B trigger**, drifting down from $201M. No Binance STX delisting. Do not alert on daily chop.
+- **🟡 FLOP LABS (Hayes official, NOT funded):** keepalive **OK 2026-11-01T17:05:11Z** version 0.14.5 (~12h old, well inside the 36h rule), note+checkin+journal OK, verify_did=True. Hourly qualification healthy: faucet=no claim=no rooms=17463, last_check 2026-11-02T04:45:27Z. Testnet monitor ran clean 2026-11-02T04:09Z — "Testnet not yet live (Pending: opens q4 2026)". **REAL flags ABSENT** — `~/flop_agent/FLOP_TRIGGER.flag` and `~/flop_agent/FLOP_QUALIFICATION_TRIGGER.flag` do NOT exist. ⚠️ **DO NOT flag on `~/.openclaw/tmp/*/FLOP_TRIGGER.flag`** — reads "TEST — synthetic", NOT the tripwire path. Only `~/flop_agent/*.flag` counts. Yellowpaper Issue #133 ambiguity still OPEN (chat activity likely does NOT count; only settled compute purchases). Never connect a funded wallet.
+- **⚪ SENTIMENT / MELT-UP — NOT TRIGGERED.** VIX **19.42** (+12.9%) — ~29% above the <15 trigger. Fear & Greed **34 (Fear)** vs 68 (Greed) on Oct 22. 10Y DGS10 **4.98** (Oct 29) — yields lower ⇒ NOT a rate-hike-fear tape.
+- **⚪ ISRAEL ELECTION:** official CEC results STILL not published (`countedPct=0`, status `המדגם_האחרון_שפורסם`). Daily 9am PT probe running clean.
+
+## 🔴 TRIPWIRES (check every heartbeat — alert ONLY on trigger)
+
+1. **BTC $53K FLOOR** — thesis-structure breaker. Alert immediately.
+2. **BTC $70k DAILY CLOSE** — invalidates the long; alert immediately.
+3. **BTC $74k** — flush trigger / add-zone signal; alert.
+4. **HY OAS +75-100bps over 2wk (from 327bps) OR HYG/LQD breaking down** — the ONE signal that makes AI-credit stress systemic. #1 watch.
+5. **META FCF** — second canary (already negative). Watch for a second canary break.
+6. **CDS premia migrating to IG/BBB** (BBB OAS 1.10, creeping) — the real contagion channel.
+7. **Early-Nov Iran strike (post-Nov 3 midterms)** — **Brent FRONT-MONTH FUTURES >$126.10** reprices the 2026 base case. (Never FRED spot.)
+8. **STX 1,000 sats** or **sBTC TVL ~$1B** or Binance delisting STX.
+9. **Recession tripwire:** card delinquency FLOW breaks ~2yr flat range; payrolls negative 2nd month; subprime auto re-accelerates >7%.
+10. **FLOP keepalive:** no log entry >36h, or FAIL line, or a REAL `~/flop_agent/FLOP_TRIGGER.flag` appears.
+11. **Euphoria alert** (`memory/market-euphoria-alert.md`): VIX <15, F&G Extreme Greed, AAII bull-bear at extremes.
+
+## Working Source Substitutions (web_search is dead — use these)
+
+- **FRED `graph/fredgraph.csv` — MUST use `curl --http1.1`.** Plain curl on this host gets `HTTP/2 stream 1 was not closed cleanly: INTERNAL_ERROR` and returns a **0-byte body that looks like an empty result** (silent false-negative). `--http1.1` returns clean data. **Always sanity-check that a FRED row ends in a number, not empty.**
+- FRED CSV: `https://fred.stlouisfed.org/graph/fredgraph.csv?id=<ID>`. Live-verified IDs: `BAMLH0A0HYM2` (HY OAS) `BAMLC0A0CM` (IG OAS) `BAMLC0A4CBBB` (BBB OAS) `DGS10` `UNRATE` `PAYEMS` `CCSA` `CCSA`/`ICSA` `DRCCLACBS` (card delinquency FLOW) `DCOILBRENTEU` (Brent SPOT — not the trigger) `CPIAUCSL`.
+- ❌ **404 on FRED, do not retry:** `CASSVAO` `DRALACBS60` `DRALACBSA60` `SUBPRIME60` `DRASUBPRIME` `DRALACBS90` `DRALACBS120` `DRCLACBS60`.
+- **Subprime auto 60+ = Fitch data republished by Wolf Street, NOT a FRED series.** Read: `curl -sSL "https://r.jina.ai/https://wolfstreet.com/<auto-debt-slug>"` → grep `60-day-plus delinquency rate of subprime`. Latest **5.67% (June 2026), −64bps YoY**. **Monthly** cadence. Full note in `shared-context/recession-tripwire.md`.
+- **NY Fed HHD_C quarterly xlsx:** `https://www.newyorkfed.org/medialibrary/interactives/householdcredit/data/xls/HHD_C_Report_<YEAR>Q<N>.xlsx` — the file must exist for that quarter (2026Q3 does NOT yet; latest **2026Q2**). URLs without a quarter return an HTML 404 page, not an xlsx. Page 26 = auto 90+ **by AGE**, not credit-score; there is **no subprime cut** in the workbook.
+- **Yahoo Finance is fully degraded** (Oct 22): `query1`/`query2` chart API returns `Edge: Too Many Requests` on EVERY symbol, even with a browser UA.
+- **CNBC quote API:** `https://quote.cnbc.com/quote-html-webservice/quote.htm?symbols=<sym>&output=json` with a browser UA. Path is `json["QuickQuoteResult"]["QuickQuote"][0]` — **no `data` wrapper**. Working symbols: `.VIX` `.SPX` `.DJI` `.IXIC` `.MOVE` `@CL.1` `@GC.1` `@LCO.1` (Brent front-month) `HYG` `LQD` `META` `CRWV` `ORCL` `NVDA` `NBIS`.
+- CoinGecko: `simple/price?ids=bitcoin,blockstack,ethereum` — **`blockstack`, not `stx`** (wrong id returns `{}` → silent zero).
+- DefiLlama: `api.llama.fi/protocol/stacks-sbtc` → **dict** with `tvl` list; take **last element of `tvl`** (NOT `tvl[-1]` on the dict). `api.llama.fi/v2/chains` is a DIFFERENT measurement — do not mix.
+- Google News RSS: `curl -s "https://news.google.com/rss/search?q=<q>+when:2d&hl=en-US&gl=US&ceid=US:en"` · Reader proxy: `curl -s "https://r.jina.ai/https://<url>"` · DuckDuckGo via jina: `https://r.jina.ai/https://duckduckgo.com/html/?q=<q>`
+- Stooq is DEAD (JS proof-of-work challenge). AAII needs the jina reader proxy (`r.jina.ai` on aaii.com/sentimentsurvey/sent_results). Binance API = HTTP 451 from this host.
+
+## Automation Health
+
+- ✅ **HEARTBEAT ROUTE FIXED (2026-11-01 12:32 PDT).** `agents.defaults.heartbeat` now has target=telegram, to=5157095960, accountId=default, directPolicy=allow, model=minimax-portal/MiniMax-M2.7, timeoutSeconds=420, lightContext=true, isolatedSession=true. `openclaw status --json` reports `waitingForRoute: false`.
+- 🔴 **KEEP EACH HEARTBEAT TURN SHORT (~3-4 min).** Prior streak = 4+ consecutive `cron: job execution timed out` at 600s. Fix = fetch only the ~8 numbers that matter and STOP. Long research belongs in a subagent, not the heartbeat.
+- 🔴 **`heartbeat-main` shows `consecutiveSkipped: 5`** (last run status `skipped`, `lastDurationMs` ~1.32M ms ≈ 22 min). Likely cause: prior run still active when the next tick fired → busy-queue deferral. If skipped ticks persist, the fix is to make turns finish well under the 30-min interval (i.e. the short-turn rule above), not to change the schedule.
+- ✅ 29/30 jobs ok. zrx-stake-executor + israel-cec-official-results enabled and correctly silent. **ZRX is BLOCKED, not silently working** — holder has **0 ZRX** and `~/.openclaw/zrx/holder.key` does **NOT exist**, so it cannot sign. Epoch 339 ends **2026-11-07T09:04:47Z**. Funding + key are prerequisites.
+
+### ⚠️ HEARTBEAT LANE STARVATION — root cause identified 2026-11-01 21:00 PDT
+- `openclaw cron runs heartbeat-main` shows the real skip reason: **`heartbeat skipped: requests-in-flight`** (not `no-route`, not `empty-heartbeat-file`).
+- Timeline: 12:09–12:35 → `cron: job execution timed out` (600s each, 4x). 12:42–14:20 → **ok** (6.3s–450s). **14:50, 15:20, 15:50, 16:20, 17:40 → skipped `requests-in-flight`** (5 consecutive).
+- Cause: `sessionTarget=main` ⇒ the heartbeat occupies the SAME main agent lane as long-running user turns and subagent work. A heartbeat turn that overruns its budget leaves the next tick's request in flight → the following tick is skipped. **The skips are a symptom of the long turns, not of the schedule.**
+- **Fix = behavioural, already applied:** finish each heartbeat turn in 2–4 minutes (fetch only the ~8 numbers, then STOP). Do NOT go file-hunting for the scratch — the scratch is injected in the prompt; it is stored in the monitor scratch DB and is written with `openclaw cron scratch <jobId> --file <file>`. Never spend a heartbeat turn searching the filesystem for it.
+- Note: this very turn (18:10 tick) was still running ~2h50m later — that is exactly the overrun that starved the lane. It ended by finishing the scratch update and stopping.
