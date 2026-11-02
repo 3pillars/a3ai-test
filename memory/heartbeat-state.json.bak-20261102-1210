@@ -1,0 +1,48 @@
+{
+  "lastChecks": {
+    "geopolitics": 1793646600,
+    "bitcoin": 1793646600,
+    "email": null,
+    "calendar": null
+  },
+  "lastHeartbeat": 1793646600,
+  "updatedAt": "2026-11-02T11:10:00-0800",
+  "notes": "Heartbeat 2026-11-02 11:10 PDT. NO tripwire triggered. Brent front-month BZ=F $104.61 vs $126.10 trigger (-17%); WTI CL=F $96.19. Oil fell sharply from Oct 30 close 117.64 on Iran de-escalation/peace-talk tape. HY OAS 3.44 (FRED Oct 30) = 344bps, +17bps vs 327 baseline, trigger 402-427bps NOT crossed; IG OAS 0.94, BBB 1.16 (creep not migration); HYG $77.045 / LQD $104.06, HYG/LQD 0.7404, no breakdown. VIX 20.05, MOVE 100.81, DGS10 4.98, SPY 756.36 (+0.08%); canaries weak (ORCL -7.77%, CRWV -6.88%, NBIS -6.73%, META -0.60%, NVDA +0.26%) = equity-led, not systemic. BTC $76,818, flush $74k / invalidation $70k intact; ETH $2,245. STX $0.32879 = 428.0 sats (2.34x from trigger); sBTC TVL $190.79M (5.2x). FLOP keepalive OK 2026-11-02T17:05:13Z (fresh), no real flags, testnet pending Q4 2026. Payrolls Sep 159,044 positive; card FLOW 2.85 flat; subprime auto 5.67%. Automations 18/18 visible ok, mindset:profit-reminder delivery OK. ZRX still blocked (no holder key).",
+  "tripwires": {
+    "btcUsd": 76818,
+    "btc24hPct": -1.2,
+    "ethUsd": 2245.39,
+    "stxUsd": 0.32879,
+    "stxSats": 428.0,
+    "sbtcTvlUsd": 190786022,
+    "brentFrontMonth": 104.61,
+    "brentTrigger": 126.1,
+    "wti": 96.19,
+    "hyOasPct": 3.44,
+    "igOasPct": 0.94,
+    "bbbOasPct": 1.16,
+    "dgs10": 4.98,
+    "vix": 20.05,
+    "move": 100.81,
+    "hyg": 77.045,
+    "lqd": 104.06,
+    "hygLqdRatio": 0.7404,
+    "spy": 756.36,
+    "payrolls": 159044,
+    "unrate": 4.2,
+    "continuingClaims": 1701000,
+    "initialClaims": 194000,
+    "cardDelinquencyFlow": 2.85,
+    "subprimeAuto60Plus": 5.67,
+    "subprimeAuto60PlusAsOf": "2026-06",
+    "flopVersion": "0.14.5",
+    "flopLastCheck": "2026-11-02T17:05:13Z",
+    "canaries": {
+      "CRWV": 51.095,
+      "NBIS": 143.765,
+      "ORCL": 120.52,
+      "META": 611.275,
+      "NVDA": 205.18
+    }
+  }
+}
