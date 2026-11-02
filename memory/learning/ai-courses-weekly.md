@@ -41,3 +41,5 @@ Build foundation to understand AI deeply enough to direct AI systems (as per Seb
 - 2026-10-26 → week 35 → cycle position 3 → *Practical Skills* (Week 3-4 block)
   - Week 3 focus: OpenAI Academy — prompt engineering
   - Week 4 focus: Hugging Face — Transformers
+- 2026-11-02 → week 36 → cycle position 4 → *Practical Skills* (Week 3-4 block)
+  - Week 4 focus: Hugging Face - Transformers (huggingface.co/learn)
