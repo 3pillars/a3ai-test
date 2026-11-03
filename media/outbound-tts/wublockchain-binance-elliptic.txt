@@ -1,0 +1,17 @@
+Wu Blockchain post on the Binance hack, checked. It was posted at three forty-five A M Pacific time on November second, which is eleven forty-five U T C. The post I D is two, one, one, seven, two, two, one, five, six, four, eight, two, seven, seven, four, six, five, zero, two. That is nineteen digits. It has about twenty-two thousand six hundred views, one hundred thirty-three likes, thirty reposts, thirty-four replies and thirty-four bookmarks.
+
+The verdict. Every number in the post matches Elliptic's own report, which was last updated on November second at seven thirty U T C.
+
+What I checked against Elliptic. Six point four three billion dollars was stolen from Binance on October twenty-ninth, across eleven blockchains. That matches. About twelve thousand wallets and more than forty thousand transactions in under four days, roughly one new wallet every twenty-five seconds. That matches. Two point eight five billion dollars frozen or seized, which is forty-four percent. That matches. About three point two four billion dollars still sits in linked addresses, mostly E T H and bitcoin. That matches. On Tron, funds were split across about seven thousand seven hundred addresses. That matches. And about sixteen million dollars went to addresses that also hold proceeds of the September Bitget exploit. That matches too.
+
+Now the context the headline leaves out. First, the CoinJoin. Elliptic does call it the first mixing of the stolen funds. But it is small. About twenty-eight bitcoin, around two point two million dollars, went through eighteen coinjoins, Wasabi style. The attacker stole eighteen thousand two hundred seventy bitcoin, and Elliptic says that bitcoin has not moved since the first half hour.
+
+Second, the three point two four billion dollars is not all being laundered. Elliptic says the funds that have not moved are very likely still held by North Korea, and that a negligible amount has been cashed out.
+
+Third, forty-four percent frozen is unusually high. After the Bybit hack, only about three percent was frozen. But it is almost all U S D T and U S D C, frozen by Tether and Circle. What is left is E T H and bitcoin, which nobody can freeze.
+
+On attribution, the F B I named North Korea's TraderTraitor group on October thirty-first. Wikipedia notes that North Korea has denied it.
+
+What I did not verify. I did not trace any wallets myself. Every figure here rests on Elliptic, and Elliptic says its numbers are changing and may be incomplete.
+
+My read. The post is a faithful summary. The real risk now is the cash-out phase. Elliptic expects the E T H to be swapped for bitcoin in many small transactions, then sold through over-the-counter brokers over months. Exchanges and brokers are where this can still be stopped.

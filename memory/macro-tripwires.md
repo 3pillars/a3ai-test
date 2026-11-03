@@ -12,14 +12,14 @@ Watch levels (updated Oct 13, 2026 — BTC ~$83.5K):
 - **(3) UPSIDE TARGETS $85K then $90K+** — flag for profit-taking on break.
 - **(4) CRITICAL INFLECTION $86K** — Doctor Profit says BTC needs to reclaim $86K to confirm next leg up.
 
-**STATUS (Nov 1, 2026 21:00 PDT — refreshed live, CoinGecko):** BTC **$78,410** (+0.84% 24h) — flush $74K ~5.6% below, invalidation $70K ~10.7% below, both intact; $85K/$86K still 8–10% overhead. (Prior 07:15 read: BTC **$77,955** (+0.9% 24h) — down **−3.8%** in the ten days since the Oct 22 note. **EMA50 = $80,287 → spot is 2.90% BELOW the daily EMA50.** Daily closes below EMA50 now **3 consecutive COMPLETED sessions** (Oct 29 −3.54%, Oct 30 −4.13%, Oct 31 −3.68%); the Nov 1 session is in progress at −2.90%. **DrProfit's reclaim failed** — the $86K inflection is now 10.3% overhead. Upside targets moved AWAY, not closer: $85K **+9.0%** (was "approaching, 0.26% under" on Oct 22), $90K +15.4%. FLUSH TRIGGER ($74K) intact — 5.07% below spot. INVALIDATION ($70K) intact — 10.20% below spot. Trade LONG still formally intact but **under water vs DrProfit's $80,400 average (−3.0%) and no longer confirmed.**
+**STATUS (Nov 2, 2026 19:47 PDT — refreshed live, CoinGecko + Kraken daily candles):** BTC **$76,704** (−2.57% 24h) — flush $74K now **3.52% below** (was 5.6% yesterday — gap closing fast), invalidation $70K **8.74% below**, both intact; $85K +10.8%, $86K +12.1% overhead. **EMA50 = $80,029 (Kraken 50d recomputed) → spot is 4.19% BELOW.** Daily closes below EMA50 now **5 consecutive COMPLETED sessions** (Oct 29 $77,800, Oct 30 $77,204, Oct 31 $77,437, Nov 1 $78,239, Nov 2 $76,676) — streak extended again after the 3-session read in the Nov 1 note. **DrProfit's reclaim remains failed**; structure deteriorating, not basing. Trade LONG formally intact but under water vs the $80,400 average (−4.6%) and no longer confirmed.
 
 ### ⚪ STX WATCH (Muneeb thesis — WATCH only, NOT a Jacob position)
 Baseline: STX ~$0.223, ~290 sats. Two independent triggers:
 - (1) **STX/BTC approaching/tagging 1,000 sats** (~$0.82 at BTC $81.5K) = Muneeb's "wake me up" level
 - (2) **sBTC staking TVL crossing ~$1B** (10x off $100M baseline) = real-cycle confirmation
 
-**STATUS (Nov 1, 2026 07:15 PDT — refreshed live):** STX **$0.32005** (+0.8% 24h) vs BTC **$77,955** → **411 sats** = `0.32005 / 77955 * 1e8` (404 sats on Oct 22) = **2.4x from the 1,000-sat trigger**, still far (baseline 290 sats → 121 above baseline). sBTC TVL **$193.35M** (DefiLlama "Stacks sBTC") = **5.2x from the $1B trigger**, drifting DOWN from $201M. No trigger.
+**STATUS (Nov 2, 2026 19:47 PDT — refreshed live):** STX **$0.320693** (−5.17% 24h) vs BTC **$76,704** → **418.1 sats** = `0.320693 / 76704 * 1e8` (404 sats Oct 22; 411 sats Nov 1) = **2.4x from the 1,000-sat trigger** (baseline 290 sats → 128 above baseline). sBTC TVL **$191.22M** (DefiLlama "Stacks sBTC", `currentChainTvls.Bitcoin`) = **5.2x from the $1B trigger**, still drifting DOWN from $193.35M. No trigger.
 
 ### 🔴 FLOP-LABS-OFFICIAL WATCH (UPDATED Oct 13 — CRITICAL)
 **ORCHESTRATOR TRIPWIRE:** if `~/flop_agent/FLOP_TRIGGER.flag` exists, alert Jacob immediately.
