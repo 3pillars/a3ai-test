@@ -1,0 +1,13 @@
+Elvis, who posts as omar sar zero, on owning your intelligence stack. The post I.D. is two one one seven two four five eight one one three four three nine six six four three eight. That is nineteen digits.
+
+It was posted at five twenty one in the morning Pacific time on November second. As I checked it, it had about eleven thousand views, one hundred seventeen likes, sixty seven replies, seven reposts, and seventy eight bookmarks. Elvis has about three hundred twenty seven thousand followers and runs the D A I R dot A I academy.
+
+The post quotes Guillermo Rowk, the Ver-sell C E O, who wrote on November first that people should own their intelligence, keep local models growing, and own their harness, data, connections and runtime.
+
+Elvis agrees and adds a practical step. Open models are still expensive to run and tune, so you do not have to move everything at once. Start with the harness, build your own evals, and move down the stack from there. His argument is that your own harness gives you options, and shows you where to invest next.
+
+My read. This is an opinion post, not a factual claim, so there is nothing to fact check in the strict sense. The useful part is the advice. Building evals first is sound, because it lets you measure whether a cheaper or open model is good enough before you commit. His line that your business's very existence is at play is rhetoric, not evidence.
+
+One thing to keep in mind. Rowk says anyone who opposes this has something to sell you. But both men also sell things: Ver-sell sells hosting and an A I gateway, and Elvis sells courses. That does not make them wrong. It means treat the framing as a pitch, and test the advice with your own numbers.
+
+I did not check the replies, and I did not verify any claim about open model costs, because the post gives no figures.
