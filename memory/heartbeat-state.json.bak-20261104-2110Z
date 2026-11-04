@@ -1,0 +1,51 @@
+{
+ "lastChecks": {
+  "geopolitics": 1793661211,
+  "bitcoin": 1793661211,
+  "email": null,
+  "calendar": null
+ },
+ "lastHeartbeat": 1781296800,
+ "updatedAt": "2026-11-04T11:10:00-0800",
+ "notes": "Heartbeat 2026-11-04 11:10 PDT (19:10Z). NO tripwire triggered. FRED RECOVERED (HTTP 200 all series after 2 down ticks): HY OAS 3.40 (Nov 3), IG 0.93, BBB 1.16, DGS10 4.91 (Nov 2) => credit EASING, trigger 402-427bps NOT crossed, ~62bps headroom; DRCCLACBS 2.85 (2026Q2) confirmed live. BTC Coinbase 80,262.63 (bid/ask 80262.63/80262.64); Kraken Nov 4 candle last 80,268.0 (h 81,179.6, l 75,625.0); EMA50 80,058 closed / 80,066 incl today (full 721-bar history) => spot +0.25% above EMA50, $80,800 threshold 0.67% overhead (NOT met); Nov 4 daily close is the decider. $86K 7.2% overhead; flush 74k 7.8% below; invalidation 70k 12.8% below. Jacob's LONG ~+3.7%. HYG 77.55 / LQD 104.55 ratio 0.74175 (3mo min 0.7394) no breakdown => RISK=FUNDING/POLICY not DEMAND. VIX 16.72 (-19.73%), MOVE 93.95 (-6.02%). SPY 768.66 (+1.90%). Canaries: CRWV 48.69 (-9.40%) low 48.02 fresh 52wk low, NBIS 141.98 (-6.37%), ORCL 125.79, META 630.77 (+1.57%), NVDA 203.98 (-1.31%). CRWV headlines = Texas Blue Wave data-center restrictions + Citi PT cut; NO rating action, downgrade, missed raise, refi scare => equity/policy-led watch item. META FCF still ONE break (not tripped). Brent @LCO.1 94.71 (-8.58%) ~25% below 126.10 trigger; WTI 88.05; gold 4,072.40. STX 0.357585 = 445.5 sats (2.24x); sBTC TVL 199.49M (5.01x). Recession confirmed: FLOW 2.85, unrate 4.2, ICSA 194,000, CCSA 1,701,000, subprime auto 5.67%. FLOP keepalive OK 2026-11-04T17:05:13Z v0.14.5 (daily cadence), no REAL flags, qual last_check 18:48:22Z, testnet completed 19:12:03Z not live, yellowpaper #133 open. Automation: 30 jobs all enabled, all ok except heartbeat-main itself (error on prior tick). ZRX still blocked (holder.key missing); epoch 339 ends 2026-11-07T09:04:47Z; zrx-movestake-deadline 2026-11-06T17:00Z. Data note: CNBC OLD endpoint quote-html-webservice/quote.htm returned empty/000 - use https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=<ONE>&requestMethod=quick&noform=1&partnerId=2&fund=1&exthrs=1&output=json&events=1; Nasdaq api.nasdaq.com/api/quote/<SYM>/info?assetclass=stocks is a fallback (stocks only, not ETFs/indices); Yahoo v8/finance/chart hard rate-limited (429).",
+ "tripwires": {
+  "btcUsd": 80262.63,
+  "ethUsd": 2431.1,
+  "stxUsd": 0.357585,
+  "stxSats": 445.51,
+  "sbtcTvlUsd": 199487199,
+  "brentFrontMonth": 94.71,
+  "brentTrigger": 126.1,
+  "wti": 88.05,
+  "hyOasPct": 3.4,
+  "igOasPct": 0.93,
+  "bbbOasPct": 1.16,
+  "dgs10": 4.91,
+  "vix": 16.72,
+  "move": 93.95,
+  "hyg": 77.55,
+  "lqd": 104.55,
+  "hygLqdRatio": 0.74175,
+  "spy": 768.66,
+  "gold": 4072.4,
+  "payrolls": 159044,
+  "unrate": 4.2,
+  "continuingClaims": 1701000,
+  "initialClaims": 194000,
+  "cardDelinquencyFlow": 2.85,
+  "subprimeAuto60Plus": 5.67,
+  "subprimeAuto60PlusAsOf": "2026-06",
+  "flopVersion": "0.14.5",
+  "flopLastCheck": "2026-11-04T17:05:13Z",
+  "canaries": {
+   "CRWV": 48.69,
+   "NBIS": 141.98,
+   "ORCL": 125.79,
+   "META": 630.77,
+   "NVDA": 203.98
+  },
+  "btcEma50": 80058.13,
+  "btcAboveEma50": true,
+  "btcAbove80800": false
+ }
+}
