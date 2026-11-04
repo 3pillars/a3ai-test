@@ -1,0 +1,21 @@
+Check on a post by Cyber Satoshi, handle X B Toshi, about Monero versus Zcash. The post I.D. is two one one seven nine six two three seven one two one four zero zero eight five five five. That is nineteen digits. It went up at four forty-nine a.m. Pacific today, November fourth.
+
+The post is a one-line endorsement of a longer post by Ansem, written thirty-six minutes earlier. Ansem says Monero's coins sit with people who will never sell, and that Zcash was pushed up by opportunists and by Mert, who brought Solana traders in and is now getting exit liquidity. X B Toshi adds that privacy is counter-economic infrastructure, and Monero is the closest thing to financial sovereignty.
+
+Engagement is small. About thirty-four hundred views, fifty-nine likes, two reposts, five replies and twelve bookmarks. The account is verified as an individual, has about fourteen thousand six hundred followers, and joined in January twenty twenty-four. Ansem's post has about fifty-seven thousand views at last count. One caution: the Ansem account in the data shows about thirty-two thousand followers and a March twenty twenty-four join date, so I did not confirm it is the well-known trader of that name.
+
+Now the claims, using Coin Gecko data pulled this morning.
+
+First, Zcash was pushed up to billions. True, but it understates it. Zcash is worth about twenty-two point three billion dollars, rank ten. Monero is worth about eleven point nine billion, rank thirteen. Zcash is almost twice the size of Monero. Zcash is up about one hundred ninety-five percent over twelve months; Monero is up about eighty-six percent. So Monero was also pumped this year. Its all time high was seven hundred ninety-eight dollars on January fourteenth, and it is twenty-one percent below that now.
+
+Second, Monero's holders never sell. Nobody can check this. Monero hides balances by design, so no public holder data exists. Monero's daily volume is about one hundred ninety-five million dollars, which is one point six percent of its market cap. Zcash trades about one point three billion, roughly seven times more. Thinner trading is consistent with tight holding, but it is also consistent with low access. Binance delisted Monero in February twenty twenty-four, and one source reports a European Union ban on regulated platforms handling privacy coins from July twenty twenty-seven.
+
+Third, Zcash holders are exit liquidity dumping into the narrative. Not supported by price. Zcash is up zero point three percent over thirty days and about two percent over seven days, and sits near its early October level. The share of Zcash held in shielded pools is about twenty-nine percent, near its peak, which does not look like a rush for the exit. The one large named holder I found is Cypherpunk Technologies, a Winklevoss-backed treasury with about three hundred twenty-three thousand Zcash, one point nine percent of supply. That comes from Data Wallet, a secondary source. Whether Mert holds or sold Zcash, I did not check, and no one in the post shows it.
+
+Fourth, the framing. Calling Zcash speculative privacy and Monero adversarial privacy is a good phrase, not a measurement. The design difference is real: Monero makes every transaction private, and Zcash makes privacy optional, so most Zcash sits in public addresses. But Zcash has a Grayscale exchange traded fund filing in progress, while I found no Monero equivalent. Both are Ansem's and X B Toshi's opinions about who holds what.
+
+Bottom line. The tweet is narrative, not evidence. The market data says Zcash is the bigger and more liquid privacy coin, and the price action does not show dumping. The claim that Monero's holders are waiting for banks to be hacked can't be tested at all.
+
+Tie-in. This is the same account that posted the Binance hack threads in recent days, and the hack story is the fuel. I found nothing showing X B Toshi holds Monero, so I can't call it a promotion, but I also didn't check.
+
+For your positions, this is not a signal on Bitcoin. If you wanted privacy exposure, the real questions are exchange access, regulation, and liquidity, not who holds the coins.
