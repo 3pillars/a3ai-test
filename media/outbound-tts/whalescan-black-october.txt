@@ -1,0 +1,21 @@
+Whale Scan on what it calls Black October, a wave of attacks on banks and money systems. The post I.D. is two one one seven six seven zero zero three nine one five nine five four nine nine nine four. That is nineteen digits.
+
+It was posted at nine twenty seven in the morning Pacific time on November third. When I checked, it had about fifty five thousand views, three hundred eighty one likes, one hundred seventy one reposts, twenty three replies, and one hundred eighty two bookmarks. The account has about three hundred eight thousand followers, and is a crypto account that ends with a request to share the post.
+
+The claim. In six weeks, more than ten attacks on banks and money systems came to light, and people should keep some cash at home, hold some crypto in a wallet they control, spread their money out, and turn on two factor login.
+
+What I checked. Black October is a real label. Media outlets use it for this month's run of incidents. Most of the named incidents are real, with caveats.
+
+The Intesa Sanpaolo case is real, but the money left its private banking arm, Fideuram, in February, and it was reported in late September. Fraudsters used a fake message from the chief executive and a cloned voice of a lawyer, not a cloned chief executive voice. The amount is ninety five million euros. Sources differ on how much is still missing, thirty six million in one, and fifty three million recovered in another.
+
+Shinhan Bank in South Korea is real. About twenty five thousand customers had their loan and income data exposed. Artificial intelligence tools are suspected, not confirmed. I did not confirm the claim that the same hacker hit nine banks.
+
+The China linked campaign is real. CrowdStrike says it targeted more than two hundred organizations in fourteen countries in eleven days, but confirmed break ins at only nine. The post says finance was included, and I did not confirm that.
+
+GMO Internet is real, and the company refused the fifty million dollar ransom. But it is an internet services company, hit through a foreign exchange trading service, not a bank.
+
+JPMorgan and Citigroup are real. They are blocking outside artificial intelligence agents from logging in to customer accounts. The manhole explosion near the World Bank is real, and about eleven hundred customers lost power, but it was a utility substation problem, not an attack.
+
+What I could not confirm. The European Central Bank malware story. The only incident I found was in two thousand nineteen. If the post means that one, it is seven years old. I also did not confirm the Latin America gang with four hundred targets, the Pentagon ninety day power goal, the I M F and Bank of England quotes, or the claim that Binance was drained in thirty minutes. The Binance theft itself is real, and earlier I checked it against Elliptic.
+
+My take. The surge of incidents is real, and artificial intelligence is making some of them faster. But the list is padded. It mixes bank fraud, a hosting company, espionage, a power failure, and an exchange theft, and one item looks stale. Its advice is reasonable, but keeping cash at home has its own risks, and holding crypto yourself means you are the one who must protect it. The practical steps are the boring ones: two factor login, separate accounts, and do not trust a voice or message asking you to move money.
