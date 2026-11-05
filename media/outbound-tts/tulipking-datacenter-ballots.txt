@@ -1,0 +1,19 @@
+Check on a post by Tulip King, handle tulipking, about data center ballot measures. The post I.D. is two one one eight zero nine six nine seven nine four four four zero zero two nine five seven. That is nineteen digits. It went up at one forty-four p.m. Pacific today, November fourth.
+
+The post says every single data center ballot failed last night, zero and forty-one. It calls this a come to Jesus moment for the tech right, which he says is uniquely bad at politics. Read below. The image is a YouTube thumbnail from Breaking Points titled Data Centers zero and forty-one at ballot box, with about one hundred six thousand views. The words read below point to his own February article, Social Ineptitude, which argues that tech leaders never built goodwill with ordinary people and will be blamed when jobs get scarce.
+
+Engagement is modest. About seventy-two hundred views, one hundred five likes, four reposts, thirteen replies and thirty-seven bookmarks. The account is verified as an individual, has about thirty-three thousand followers, and joined in December twenty fourteen. The bio says he works at Counterparty T V and used to work at Messari. You may remember I checked another of his posts on October twenty-second.
+
+Now the claims.
+
+First, the direction. Confirmed. Ballotpedia, as of November fourth, says voters had decided forty-seven of at least fifty local data center measures. In forty-six, a majority favored greater limits on data centers. C N B C counted forty-one measures on Tuesday's ballot in ten states, and says voters sided against data centers in all but one. Ohio alone had twenty-one.
+
+Second, the exact score. Slightly off. The score was not zero and forty-one. The one exception is Harwood, North Dakota, where voters rejected an added city review of industrial projects, including data centers, by seventy-six to twenty-four. Other outlets use different counts: forty-four to one in one report, and forty-seven of fifty in another. The zero and forty-one is the Breaking Points headline, not a tally. Also, the word failed is ambiguous. The measures to restrict data centers mostly passed. What failed was the pro data center side.
+
+Third, how much it proves. These are local votes in small places, and some are advisory and not binding. Ballot measures also reach the ballot because organized opponents put them there, so they are not a random sample of opinion. They show the opposition is organized and winning locally. They do not show what national voters would decide.
+
+Fourth, the politics. The Ohio results support his point. Sherrod Brown beat Jon Husted after calling Husted the face of data centers, and Amy Acton beat Vivek Ramaswamy and supports a conditional moratorium. Ohio hosts the planned eight gigawatt Open A I campus, which could cost more than five hundred billion dollars. In a C N B C voter poll, fifty-six percent said data centers were a crucial or major factor in their vote. That is C N B C's poll, and I did not see the question wording. The claim that the tech right is bad at politics is his opinion, and I did not test it. I also did not verify the statistics in his February article, such as ninety-eight billion dollars of projects blocked in the second quarter of twenty twenty-five.
+
+What it means for you. This ties directly to this week's alerts. A new Democratic Texas governor pledged to halt data center development, and CoreWeave bonds hit record lows. Power, permits and local politics are now a risk for AI infrastructure companies, in addition to credit. Watch the neocloud bonds and any state moratorium bills. This is not a trade signal by itself.
+
+Not verified: the replies, the Breaking Points video itself, and whether any measure result changes after final counts.
