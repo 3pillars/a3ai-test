@@ -1,0 +1,53 @@
+{
+  "lastChecks": {
+    "geopolitics": 1793837532,
+    "bitcoin": 1793837532,
+    "email": null,
+    "calendar": null
+  },
+  "lastHeartbeat": 1793837532,
+  "updatedAt": "2026-11-04T16:10:00-0800",
+  "notes": "Heartbeat 2026-11-04 16:10 PDT (00:10Z Nov 5). NO FORMAL TRIPWIRE; canary tier still escalated; Nov 4 BTC daily close RESOLVED BELOW the $80,800 trigger (Kraken close 80,440.8 / Coinbase 80,428.31; high 81,179.6 tagged it intraday but faded) => DrProfit EMA50-reclaim signal UNTRIGGERED for the Nov 4 session (fade, not a break). Spot 80,553.9 = 0.31% under 80,800; EMA50 (721-bar full history) 80,064.5 incl Nov 4 / 80,049.1 thru Nov 3 => spot +0.61% above EMA50, Nov 4 close +0.47% above => sub-EMA50 streak still broken but below the 80,800 headline threshold. Next decider = Nov 5 daily close (00:00Z Nov 6). $86K 6.33% overhead, $85K 5.23%; flush 74k 8.9% below; invalidation 70k close 15.1% below; floor 53k not hit. Jacob's LONG ~+4.1%. FRED unchanged (Nov 3): HY OAS 3.40 = 340bps, 2wk +7bps => trigger 402-427bps NOT crossed (~62bps headroom), credit EASING; IG 0.93; BBB 1.16 = 116bps, still 4bps from the 120 tripwire (creeping, not broken). CANARY (no NEW break, equity-side prints only): CRWV 48.42 (-9.90%) 52-wk low; new prints all equity/analyst-side (MarketBeat 22:03Z analyst downgrade, MarketBeat 21:35Z Citi PT cut, Seeking Alpha 21:35Z new 52-wk low, VanEck 21:55Z neocloud sell-off hits miners, TIKR 15:56Z CRWV -7%, FXLeaders 20:24Z below $50); no rating-agency action, no downgrade, no covenant/refi failure, no missed raise => canary break (single-name, policy-driven), NOT systemic. NBIS 141.52 (-6.67%); HY raise still shelved; $3.5B Citi 364-day facility + asset-backed financing => financing access exists, market channel closed (missed-raise break, not a default). Driver = TX gov Gina Hinojosa (D) data-center halt pledge; bonds 2031 = 79.5 of par, 2030/32 YTW >15%. Seeking Alpha '(Rating Downgrade)' = AUTHOR tag, not agency action. BINANCE AFTERMATH absorbing, no new prints: resumed withdrawals Nov 4 20:01-21:36Z (WSJ 21:23Z); loss ~$6.3-6.4B (NK/Lazarus; Binance absorbs $6.34B); net customer outflow US$4.7B (The Edge 14:23Z); $5.3B net outflow (CoinDesk Nov 3); market-share loss (Bloomberg Nov 3); Privacy Cash deposits paused; Tether froze $1.5B USDT (Paypers 08:20Z / CoinTrust 14:21Z); Coinbase unaffected. NEW DeFi read-through NO live break: CryptoSlate 19:50Z 'Aave and Lido lose $1.7B post-hack' but live DefiLlama shows Lido $23.44B (+5.6% 1d), Aave V3 $16.06B (+4.28%), Aave V4 $0.81B (+8.03%), Horizon RWA $216.2M (+0.15%) => cumulative drawdown, REBOUNDING. Stablecoins CLEAN this tick: USDT 0.999394, USDC 0.999708, USDS 1.0000 => NO depeg. US spot BTC ETFs -$115.6M Nov 3 = third straight outflow day, cumulative ~$1.16B over 3 sessions, pace slowing => small drain, not panic (HedgeCo 13:42Z, TradingView/Bitwise 09:38Z, BigGo 06:26Z, Pluang 12:07Z). Credit/vol calm: HYG 77.52 / LQD 104.50 ratio 0.74182 (3mo min 0.7394) no breakdown; VIX 16.61 (-20.26%); MOVE 93.88 (-6.09%); US10Y 4.886%; SPY 766.81 (+1.65%); Brent 94.62 ~25.0% below 126.10; WTI 88.33; gold 4,074.90. META 630.00 (+1.44%), NVDA 200.13 (-3.17%). BDCs clean (ARCC 19.46, BXSL 23.92, BIZD 12.66, SRLN 40.08, JNK 93.03). META FCF still ONE break (not tripped). STX 0.357796 = 444.2 sats (2.25x); sBTC TVL $199.10M (5.02x); NO Binance delisting. Recession clear (FLOW 2.85, PAYEMS 159,044k, UNRATE 4.2, ICSA 194,000). FLOP keepalive OK 17:05:13Z v0.14.5 (daily cadence), no REAL flags, qual last_check 23:48:33Z, testnet 23:12:11Z not live, yellowpaper #133 open. Automation: 18 jobs, all enabled, all lastRunStatus ok; ZRX still blocked (holder.key missing, notified.missing_key=cdcd816f444a6ca6); epoch 339 ends 2026-11-07T09:04:47Z; zrx-movestake-deadline 2026-11-06T17:00Z. Data note: Kraken/COINBASE daily candles now include a partial current-day row - exclude the last row when computing 'through Nov 4' EMA50; COINBASE daily via api.exchange.coinbase.com/products/BTC-USD/candles?granularity=86400 is a good close cross-check.",
+  "tripwires": {
+    "btcUsd": 80553.9,
+    "ethUsd": 2420.84,
+    "stxUsd": 0.357796,
+    "stxSats": 444.2,
+    "sbtcTvlUsd": 199104135,
+    "brentFrontMonth": 94.62,
+    "brentTrigger": 126.1,
+    "wti": 88.33,
+    "hyOasPct": 3.4,
+    "igOasPct": 0.93,
+    "bbbOasPct": 1.16,
+    "dgs10": 4.886,
+    "vix": 16.61,
+    "move": 93.88,
+    "hyg": 77.52,
+    "lqd": 104.5,
+    "hygLqdRatio": 0.74182,
+    "spy": 766.81,
+    "gold": 4074.9,
+    "payrolls": 159044,
+    "unrate": 4.2,
+    "continuingClaims": 1701000,
+    "initialClaims": 194000,
+    "cardDelinquencyFlow": 2.85,
+    "subprimeAuto60Plus": 5.67,
+    "subprimeAuto60PlusAsOf": "2026-06",
+    "flopVersion": "0.14.5",
+    "flopLastCheck": "2026-11-04T23:12:11Z",
+    "canaries": {
+      "CRWV": 48.42,
+      "NBIS": 141.52,
+      "ORCL": 123.73,
+      "META": 630.0,
+      "NVDA": 200.13
+    },
+    "btcEma50": 80064.5,
+    "btcAboveEma50": true,
+    "btcAbove80800": false,
+    "crwvBondPrice2031": 79.5,
+    "crwvYtwRange": "15.0-15.7% (Nov 3)"
+  }
+}
