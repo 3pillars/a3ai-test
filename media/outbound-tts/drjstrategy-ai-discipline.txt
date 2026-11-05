@@ -1,0 +1,25 @@
+Check on a post by Dr J Strategy, handle Dr J Strategy, titled AI's Reckoning Is About Discipline, Not Decline. The post I.D. is two one one eight four one six two three three two six seven six five four nine three seven. That is nineteen digits. It went up at ten fifty-two a.m. Pacific today, November fifth.
+
+The post argues the A I selloff is not the end of the A I data center boom, but a healthier slowdown. It says investors wrongly bet that A I would destroy software, and that thesis failed. Now comes the next obituary, that the data center boom is finished. Democratic calls to restrict advanced A I, including banning superintelligence, have raised anxiety. An outright ban would surrender leadership to China. Today's selloff looks like weak sentiment colliding with excess leverage, not collapsing fundamentals. Slower capital spending could improve the investment case, because compute would become scarcer, and it would ease pressure on credit, electricity prices and inflation while improving hyperscaler cash flow. It ends: this too shall pass.
+
+Engagement is small. About forty-seven hundred views, ninety-seven likes, fifteen reposts, eighteen replies, thirteen bookmarks. The account is verified, with about one hundred twenty-nine thousand followers. The bio says chief market strategist at Wellington Altus, with a Ph.D. in economics, and not investment advice. I checked two of his posts on October thirty-first.
+
+Now the claims.
+
+First, software. Partly right, with the dates off. The software selloff over A I disruption was in early February this year, after an Anthropic announcement, not late last year. The software index, I G V, is now about ninety-nine fifty-eight, against a one year low of seventy-four sixty-seven and a high of one twelve sixty-seven. So it has rebounded about a third from the low, but remains about twelve percent below the high. Microsoft is about five hundred thirty-nine dollars a share, near its one year high of five hundred fifty-six dollars. The thesis did not fully fail, and did not fully hold either.
+
+Second, Democrats and the superintelligence ban. Supported, but it is the progressive wing. Senator Sanders and Representative Casar introduced a bill in September to ban artificial superintelligence and pause advanced A I. House Democratic leader Jeffries said he was not prepared to take a position on a superintelligence ban. Business coverage today says a single post on X from a newly empowered Democrat calling for an A I pause hit memory chip stocks. So it is real, and it is a minority of the party.
+
+Third, an outright ban would surrender leadership to China. An opinion, and a common argument on the pro industry side. There is no ban in force or close to passing.
+
+Fourth, leverage and sentiment, not fundamentals. Plausible, but incomplete. Margin debt was a record one point four eight trillion dollars in September, and about six hundred thirty-one million dollars of crypto longs were liquidated in a day, both consistent with forced selling. But today's drivers also include real news: Microsoft and Alphabet reported capital spending below estimates last week, Micron fell sharply on market share worries, and Texas data center permit risk. So it is not only leverage.
+
+Fifth, slower capex improves the case. This is where the post leans on a convenient reading. The slowdown it calls capital discipline is not clearly a choice. Microsoft's finance chief said chip suppliers' delays will push some capacity into the first half of twenty twenty-seven, so some of the shortfall is supply, not restraint. Alphabet kept its forecast and reported negative free cash flow. Hyperscalers are still spending about eight hundred twenty-eight billion dollars this year, so this is not a cut.  One source says Microsoft trimmed its yearly estimate from one seventy-five to one seventy billion dollars, which I did not verify and which is small anyway. The post's logic that scarcer compute helps owners of compute is sound, but it is a forecast.
+
+Sixth, easing pressure on credit, electricity and inflation, and better hyperscaler cash flow. Logical. Three of the four large spenders had negative free cash flow in recent reporting, so slower spending would help. But the bond and neocloud stress this week came from the opposite side, from projects relying on that spending.
+
+Seventh, this too shall pass. A prediction.
+
+Bottom line. The post is a reasoned bull case, not a fact check. It is right that regulation risk comes from one wing of the party and that selloffs can overshoot. It is generous in calling a supply-limited slowdown discipline, and it does not address the credit and policy risks that are specific to this selloff.
+
+For your positions. The test is credit. High yield spreads were still tight in this morning's heartbeat, and your Bitcoin flush level is two point eight percent below spot. That supports the idea of a sentiment selloff so far, but it is not a trade signal. Not verified: Wellington Altus's own positioning, the replies, and what happens to the close.

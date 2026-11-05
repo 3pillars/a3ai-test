@@ -1,0 +1,25 @@
+Check on a post by Ram Ahluwalia, handle ram ahluwalia, about Texas governor-elect Gina Hinojosa and the data center trade. The post I.D. is two one one eight three eight seven one four seven one eight seven zero four eight eight two three. That is nineteen digits. It went up at eight fifty-seven a.m. Pacific today, November fifth.
+
+The post says the most powerful woman in the world now is the newly elected governor of Texas. It says the VIX is up forty percent and appears to be receding, then lists five observations: Texas carries twenty-six percent of data center capacity at risk; Hinojosa called a temporary moratorium a scam because Abbott will likely lift it right after the election; she has proposed legislation that passes in January; it would protect communities; and voters rank data center issues well behind inflation. It ends: the best time to buy is when there is panic.
+
+Engagement is small. About thirty-seven hundred views, twenty-six likes, one repost, five replies, seven bookmarks. The account is verified, with about fifty-one thousand followers. Ahluwalia is the founder of Lumida Wealth, a wealth management firm, so a call to buy on panic is also his business. I checked one of his posts in October.
+
+Now the claims.
+
+First, the VIX. Wrong now. At around eight thirty this morning the VIX was about twenty-two, up roughly thirty-four percent, so up forty and fading was fair then. As of ten ten this morning, it was twenty-five point six, up about fifty-four percent from yesterday's sixteen point six one, with the high at twenty-eight point oh nine. The S and P five hundred was down about three point nine percent and the Nasdaq about five point two. So it has not receded; it re-spiked.
+
+Second, twenty-six percent of capacity at risk. Close, with a wrong label. Coverage from twenty-four seven Wall Street says Texas holds twenty-seven percent of planned U S data center power capacity. That is planned capacity, not capacity at risk, and I did not find twenty-six percent.
+
+Third, the Abbott quote and the moratorium. Plausible. Abbott has in fact paused data center approvals. He halted grid connections in August, and on September twenty-first he told Texas's environmental agency to stop issuing data center permits until the grid operator finishes an audit expected in mid-December. Data Center Dynamics reports Hinojosa promises to continue the moratorium and pursue more legislation. I could not open that article and did not find the exact quote, so the word scam is unverified. Whether Abbott lifts the pause is her prediction, not a fact.
+
+Fourth, legislation that passes in January. Unverified, and shaky. The legislature convenes in January, but a bill introduced then does not pass that month, and the post gives no source for what she proposed. She also does not take office until January. Abbott is still governor now.
+
+Fifth, voters rank data centers well behind inflation. Mixed. The A P voter poll says the economy and democracy are voters' top issues. But a C N B C voter poll found fifty-six percent called data centers a crucial or major factor in their vote, and the ballot measure results were lopsided against data centers. So the issue ranks behind the economy, but not obviously far behind.
+
+Sixth, most powerful woman in the world. Hyperbole. Texas governors have limited formal powers. Though note that Abbott's moratorium was done by executive directive, so a governor can move this issue alone.
+
+Seventh, the best time to buy is when there is panic. An opinion that is often true over long periods, but a VIX that rose again this morning is not evidence that the panic has ended. It is not specific advice, and it depends on what you buy. Neocloud stocks, whose bonds hit record lows this week, are among the names tied to Texas capacity.
+
+Bottom line. The Texas facts are broadly right, with one wrong label. The VIX statement is already out of date, and the buy call is a slogan.
+
+For your positions. Your tripwires matter more than this post. Bitcoin was about seventy-six thousand this morning, with the seventy-four thousand flush trigger close, and the Nasdaq is in correction. It is not a trade signal. Not verified: the Hinojosa quote, the twenty-six percent figure, and what she has actually proposed.
