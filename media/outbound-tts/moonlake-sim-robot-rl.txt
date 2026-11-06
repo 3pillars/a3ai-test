@@ -1,0 +1,21 @@
+Moonlake, at moonlake on X: the R L era of robotics is here, and simulation is how to scale it. Posted November fifth, with about ninety-two thousand views when I checked. The post links to a Moonlake blog from October, A Simulation-enabled Scaling Paradigm for Robot Learning.
+
+Here is the setting. Moonlake is a San Francisco lab that builds simulation environments and world models for robots. By their own blog, they raised twenty-eight million dollars in seed funding. Investors named there include Threshold Ventures, A I X Ventures and N Ventures, which is Nvidia's venture arm. I did not find any later round from a primary source.
+
+Now the claim, and what the blog actually shows. The idea is to develop a robot policy in simulation first, instead of collecting lots of real teleoperation data and testing on the real robot every time. Three steps: build a simulation calibrated to the real scene, evaluate policies in it, then improve the policy with reinforcement learning or simulated data.
+
+The tests use one robot type, a two-armed arm called the Y A M, and one base model, Physical Intelligence's pi zero point five. Three tasks: sorting small parts out of a tote, putting bottles in a bin, and flipping mugs upright.
+
+First result: sim predicts real. Across fifteen fine-tuned policies, simulation and real-robot progress agreed closely. One note: the text says twelve policies in one place and fifteen in another, so the count is inconsistent.
+
+Second result, the headline one. On the sorting task, starting from only fifty real demonstrations, adding filtered successful runs from simulation raised progress by eleven points. Then reinforcement learning in three hundred eighty-four parallel simulations added thirty-eight points in simulation and thirty-nine points on the real robot. On a hard layout with forty-five parts, the original policy sorted six parts, and after reinforcement learning it sorted twenty-three.
+
+Third result: for bottles and mugs, policies trained only on simulated data, with no real data except one demonstration to calibrate, transferred to the real robot.
+
+The cost claim is the weakest part. The blog says the simulation process reaches about the same progress at a fraction of the cost, but the text gives no dollar figure. The numbers are only in a chart.
+
+My read. The technical result is real and specific, and it is more credible than most because the real-robot numbers are reported. But it is a company's own blog, on three tasks and one robot, with no outside replication. The cost savings are asserted, not quantified in text. And the post is also a pitch for their paid Environment Hub.
+
+For you: this is robotics and physical A I narrative, not a trade signal. It matters mainly as evidence that simulation plus reinforcement learning is becoming the standard recipe for robot training, which favors simulation and compute suppliers over teleoperation data collectors. Moonlake itself is private, so there is nothing to buy.
+
+Not verified: the dollar cost savings, and any independent replication.
