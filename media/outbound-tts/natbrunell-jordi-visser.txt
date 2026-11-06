@@ -1,0 +1,29 @@
+Check on a post by Natalie Brunell, handle nat brunell, promoting her Coin Stories interview with Jordi Visser. The post I.D. is two one one eight three eight four zero five one nine nine six three zero seven five eight one. That is nineteen digits. It went up at eight forty-five a.m. Pacific today, November fifth.
+
+The post asks, is the S and P five hundred's run over, says it seems like a good day to share the conversation, and says Visser thinks the index's best days are behind it and the next wealth boom will not come from Wall Street. The attached video is fifty-seven minutes, which is too long to transcribe fully. I transcribed the five parts that carry the checkable claims: the S and P thesis, Microsoft, the AI stock pullback, healthcare, and Bitcoin quantum risk.
+
+Engagement is moderate. About forty thousand views, one hundred eighty-five likes, fourteen reposts, eleven replies, one hundred fifty-one bookmarks. Natalie Brunell is verified, with about six hundred forty-six thousand followers, and wrote the book Bitcoin Is for Everyone. Her show reads ads for Bitcoin businesses, including BitGo, Bitkey, a Bitcoin-backed lender, Bitdeer and a mining firm. Visser is a bullish voice on Bitcoin, so both sides of this conversation have a view to sell. Also, the post says it is a good day to share it, a day the S and P fell about four percent.
+
+Now the claims.
+
+First, the S and P versus money supply. Supported. Visser says since the financial crisis the S and P has gone up at a much higher multiple than money supply. M two has risen about two point eight times since March two thousand nine, per FRED, and the S and P about nine times, my estimate using an index near eight hundred then.
+
+Second, we are at the end of the S and P five hundred's reign. Opinion. He argues that private companies grow without public markets, and tokenization will speed that up. For context, the S and P has gained about twelve point seven percent a year over ten years, price only, and nine point two percent over five. That is not evidence it is over. It shows the best stretch may be behind, which is his point.
+
+Third, Microsoft. Mostly checks out. CNBC, the New York Times and CBS report Microsoft offered voluntary buyouts to about sixty thousand employees across four countries, roughly a quarter of its workforce. Visser's other numbers are his own. He says Microsoft has about two hundred twenty-three thousand employees, so sixty thousand is about twenty-seven percent, and the arithmetic works. He says the average employee costs about four hundred thousand dollars, so twenty-four billion dollars a year. I could not verify that average, and it looks high against Microsoft's reported median pay, though the eligible group may be more senior. He also says that if all sixty thousand left, headcount would fall back to about twenty twenty levels. But the buyouts are voluntary, and only a sliver of eligible workers are expected to accept, per the Times, so the savings may be far smaller.
+
+Fourth, his tax claim. He says people earning four hundred thousand dollars pay fifty to sixty percent, and Microsoft pays much less. That looks overstated. The top federal income tax rate is thirty-seven percent, and Washington state has no income tax. Microsoft's statutory corporate rate is twenty-one percent. The gap exists, but not that wide.
+
+Fifth, the memory chip stocks. He says if you bought Micron a year ago you are up seven or ten times, and twenty at the peak. The data show less. Micron is about six hundred fifty-six dollars, up about two point three times from a year ago and about four times at its May peak. It is now about forty-three percent below that peak. So the point that it ran a lot is right, but the multiples are overstated.
+
+Sixth, no more easy money in the AI trade. Opinion. This morning's selloff, with the Nasdaq down about five percent, is consistent with it, but it is a view.
+
+Seventh, healthcare. Visser says Eli Lilly will be the biggest company in the world within five years, and healthcare outperformed after the dot-com crash and the financial crisis. The second is broadly true historically. The first is a bold prediction. Lilly is reported at around one trillion dollars, against several trillion for the largest companies.
+
+Eighth, Roth I R A: five thousand dollars into five hundred thousand. An illustration. That is a hundred times, which would be a rare outcome for Bitcoin, let alone anything else. It is not advice.
+
+Ninth, Bitcoin and quantum computing. He says the community lacks a leader on the issue. There is work underway, including a proposal known as B I P three sixty, and researchers say the timeline is shortening. I did not check his claim about the lack of a spokesperson.
+
+Bottom line. The factual spine, Microsoft's buyouts and the gap between the S and P and money supply, is sound. The tax comparison and Micron multiples are overstated. The thesis, that public markets' best days are behind them, is an opinion made by two Bitcoin advocates on a sponsored show. His labor-versus-capital point lines up with the record low labor share I found in the Darius Dale post.
+
+For your positions. You hold Bitcoin and watch the S and P, so this is the view you are most likely to hear more of this week. Your tripwires are the better evidence, and it is not a trade signal. Not verified: the other fifty minutes of the episode, the average Microsoft pay, and his prediction that Treasury Secretary Bessent will act in the bond market this month.
