@@ -1,4 +1,4 @@
-# Macro Tripwires — Active Monitoring (Updated Oct 13, 2026)
+# Macro Tripwires — Active Monitoring (Updated Nov 6, 2026)
 
 ## LIVE TRIPWIRES
 
@@ -81,6 +81,21 @@ Baseline: STX ~$0.223, ~290 sats. Two independent triggers:
 - **Melt-up check (Oct 22, 11:41 PDT): NOT triggered.** VIX **19.98** (+19.8% on the day — a risk-OFF session, the opposite of the trigger), Fear & Greed **68 (Greed)**, AAII Oct 21 bull 36.9 / bear 45.8 (**bull−bear = −8.9**, i.e. still net-bearish). The VIX<15 leg is ~25% away and rising.
 - Prior context (Oct 10): Trump paused strikes until after **Nov 3 midterms**; diesel deal fracturing NATO sanctions coalition; ~75% Hormuz traffic drop; Iran reviewing 7-day reopening plan
 
+### 🔴 SPOT-BTC-ETF INSTITUTIONAL-DEMAND BREAK — TRIPWIRE FIRED (Nov 6, 2026 21:10 PDT / 2026-11-07 05:10Z)
+
+**Condition (registered Nov 6 08:40Z):** "a SECOND consecutive settled day of spot-BTC-ETF net outflows (⇒ institutional demand break becomes a trend)". **✅ MET — alert delivered.**
+
+- **Farside (authoritative, via `r.jina.ai`) settled rows:**
+  - **Nov 6 BTC = (411.9)**: IBIT **(403.0)** | FBTC +42.8 | BITB (20.5) | ARKB (20.1) | BTCO/EZBC/BRRR/HODL/BTCW/MSBT 0.0 | GBTC (11.1) | BTC 0.0
+  - **Nov 6 ETH = (93.3)**: ETHA **(90.8)** | ETHB +1.1 | FETH (1.7) | ETHE 0.0 | ETH (1.9) | rest 0.0
+  - **Nov 5 BTC = (430.2) / ETH = (99.9)** ⇒ Nov 6 combined **−505.2M**, two-day combined **−1,035.3M**
+- **Set of record (Farside, BTC-only):** Nov 2 −398.6 | Nov 3 −115.6 | Nov 4 **+74.6** | Nov 5 −430.2 | Nov 6 −411.9 ⇒ **4 of the last 5 sessions negative.**
+- **Concentration:** IBIT alone = **98%** of the Nov 6 BTC outflow ⇒ **single-fund BlackRock client-redemption drive, not broad institutional exit.** FBTC (Fidelity) was the only positive, +42.8.
+- **Price behaviour:** BTC **RECOVERED to ~$75.8K** while ETFs bled ⇒ **stealth distribution with no capitulation flush** (worse configuration than selling into weakness). Flush $74K NOT hit; 24h low 74,790.
+- **Retired figures (do not re-litigate):** "$127.6M inflow" = the **Nov 5 partial-day** print. TokenPost 50328 "+208 BTC / +16,825 ETH Nov 5" = mis-dated/mis-unit. CryptoBriefing/TradingView "$403M" headline matches Nov 6 IBIT but its **body is a stale Nov 2 piece** — headline only, body not used.
+- **Still clean at fire time:** HY OAS **332bps** (70bps headroom to 402 — the crypto break has NOT propagated into credit); HYG $77.23 / LQD $104.53 ratio **0.738831**; HYG <$75 not hit; BBB **116bps** (4bps from 120); Brent $98.32 (~22% below $126.10); no rating actions; no failed auctions; FLOP clean.
+- **Escalation watches from here:** (1) **Nov 7 settle — a THIRD consecutive negative day turns "trend" into "regime" ⇒ the BTC long thesis needs re-underwriting**; (2) IBIT-vs-FBTC rotation (founder-stock rotation ≠ broad institutional exit); (3) does BTC **hold $74K while ETFs bleed**; (4) HY OAS toward 402bps would join the crypto leg and the credit leg.
+
 ## Falsification List
 
 | Thesis | Falsifier | Status |
@@ -89,6 +104,7 @@ Baseline: STX ~$0.223, ~290 sats. Two independent triggers:
 | Stagflation / oil up | Hormuz reopened + Iran deal | 🔴 **RE-FALSIFIED Oct 22** — 7 tankers hit, Brent 5-mo high $111.68 |
 | US-Iran military | Ceasefire framework | 🔴 **RE-ESCALATED Oct 22** + strike window DATE-CONFIRMED for early Nov (NPR/NYT/FT) |
 | BTC institutional bid | Saylor reversal confirmed | ⚠️ Partial |
+| BTC institutional bid (ETF channel) | Two consecutive settled spot-BTC-ETF outflow days | 🔴 **FIRED Nov 6** — Nov 5 −430.2, Nov 6 −411.9 BTC (IBIT 98% of it) |
 | Solana ecosystem | Pump/Pons fee dominance | ⚠️ Competitive |
 
 ## Recurring Monitors
