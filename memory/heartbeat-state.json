@@ -1,18 +1,18 @@
 {
   "lastChecks": {
-    "geopolitics": 1793986945,
-    "bitcoin": 1793986945,
+    "geopolitics": 1794003174,
+    "bitcoin": 1794003174,
     "email": null,
     "calendar": null,
-    "credit": 1793986945,
-    "ai_credit": 1793986945,
-    "equities": 1793986945,
-    "zrx": 1793986945,
-    "crc_cron": 1793986945
+    "credit": 1794003174,
+    "ai_credit": 1794003174,
+    "equities": 1794003174,
+    "zrx": 1794003174,
+    "crc_cron": 1794003174
   },
-  "lastHeartbeat": 1793986945,
-  "updatedAt": "2026-11-06T09:42:25-0800",
-  "notes": "Heartbeat 2026-11-06 09:40 PDT (17:40Z). NO FORMAL TRIPWIRE CROSSED. ZRX unchanged: holder key still absent AND holder EOA still gas-starved (0.0000002 ETH vs ~0.0002 needed); hard deadline 2026-11-07T09:04:47Z, one-shot reminder zrx-epoch339-end-final armed for 08:00Z Nov 7. BBB still the tightest tripwire (116bps, 4bps from 120). HYG/LQD ratio 0.738487 = back at the Nov 5 settled low, not below. Equity bounce fading (Nasdaq +1.11%, DJI -0.13%, VIX 25.62 up from 24.57). BTC 75,584, 24h low 74,790 = 1.06% above the $74K flush, still below EMA50/$80.8K trigger. AI-credit still repricing not default: ZERO rating actions, ZERO failed auctions; ESCALATION VECTOR SHARPENED - ECB review of banks' data-center lending now reported by Bloomberg/Moomoo/Investing (still a review, not supervisory action). FIX MADE: israel-cec-check.mjs now has a one-shot delivery guard (~/.openclaw/state/israel-cec-delivered.json, seeded for today's real delivery) so the daily 09:00 PT job prints NO_REPLY instead of re-announcing the identical results - verified live. FLOP clean, labor carried, commodities/DeFi/stablecoins clean, 30 cron jobs all enabled 0 errors, heartbeat-main ok (733s, under the 900s ceiling - keep ticks tight).",
+  "lastHeartbeat": 1794003174,
+  "updatedAt": "2026-11-06T14:12:54-0800",
+  "notes": "Heartbeat 2026-11-06 15:10 PDT (22:10Z). NO FORMAL TRIPWIRE CROSSED. ZRX unchanged: holder key still absent AND holder EOA still gas-starved (0.0000002 ETH vs ~0.000157 needed worst case at 0.113 gwei, ~755x short); deadline 2026-11-07T09:04:47Z, one-shot reminder zrx-epoch339-end-final armed for 08:00Z Nov 7. BBB still the tightest tripwire (116bps, 4bps from 120, FRED still on the Nov 5 row). HYG/LQD ratio 0.738831 unchanged (5.2bps below the 3mo closing low, 4.4bps above the Nov 5 settled low). ETF FLOWS: TokenPost $127.6M AMBIGUITY RESOLVED - article body (tokenpost.com/news/investing/50328, published 20:45Z) shows +208 BTC / +16,825 ETH are THURSDAY NOV 5 flows, NOT a Nov 6 settle; still NO settled Nov 6 figure (Farside/SoSoValue Cloudflare). Nov 5 daily print is now VINTAGE-CONTESTED (headline -$430M vs TokenPost +208 BTC). US closed: Nasdaq +1.09%, DJI -0.46%. BTC 75,991, 24h low 74,790 = 1.05% above the $74K flush, still below EMA50/$80.8K trigger. AI-credit: CoreWeave >16% still the sharpest print but ZERO rating actions, ZERO failed auctions, ZERO defaults; ECB still review-only. NEW non-tripwire: BofA Cabana says >3 Fed hikes may be needed. FLOP clean, labor carried, DeFi/stablecoins clean, 30 cron jobs all enabled 0 errors, heartbeat-main ok.",
   "tripwires": {
     "btcUsd": 75523.2,
     "ethUsd": 2225.85,
