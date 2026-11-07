@@ -140,7 +140,18 @@
   "wti": 90.6,
   "zrxEpoch339EndsAt": "2026-11-07T09:04:47Z",
   "zrxGasPriceWei": 50665846,
-  "zrxHolderEth": 2.07756339e-07
+  "zrxHolderEth": 2.07756339e-07,
+  "bxlDividendReset": "BXSL 8-K/Ex-99.1 (Nov 4, 2026): board declared Q4-26 regular div $0.77 (record 12/31/26) AND Q1-27 regular div $0.60 (record 3/31/27) = -22% RESET. 3Q26 NII $0.68 vs $0.77 div = 88% coverage (first sub-100%); non-accrual 1.8%->2.1% FMV (2.8% amortized cost); NAV $25.53->$25.25. TELLTALE: our BDC check had been reading PRICES only and logged \"no dividend cut\" for 3 days - WRONG.",
+  "bxlCoverage": "BXSL 3Q26 dividend coverage 88% (NII 0.68 / regular div 0.77); post-reset coverage at $0.60 = 113%. ARCC 3Q26: NII $0.46 vs $0.48 div = 96% coverage, non-accrual 1.8%->2.4% amortized cost, NAV $19.31 vs price 19.13 (-0.9%) - NEXT CUT CANDIDATE, not yet cut.",
+  "bdcTailCuts": "VERIFIED from issuers SEC filings (not prices) 2026-11-07: OXLC monthly $0.40(FY26)->$0.20(Oct-Dec26,declared Jul23)->$0.10(Jan-Mar27,declared Oct 22 2026, disclosed Nov 5) = -75% vs FY26; NAV $10.74->$9.95; px $6.52->$4.90 Nov5 (-24.8%, 10x vol), $4.92 Nov6 = -50.5% to NAV; 6-mo realized losses $50.5M. CION Q1-27 base $0.25 vs $0.30 (declared Nov 3), 3Q26 NII $0.25 = 83% coverage, NAV $13.57->$13.20, EPS -$0.07. TSLX $0.42 base UNCHANGED + $0.01 supp. FSK $0.44 reg + $0.20 special. PSEC $0.035/mo. NO CUT: ARCC $0.48, OBDC $0.31 base + $0.01 supp (base already cut $0.37->$0.31 in Q2-26), GSBD $0.32, HTGC $0.47, BBDC $0.26, CGBD $0.35.",
+  "bdcCheckMethod": "CRITICAL: BDC dividend status must be read from SEC 8-K / Ex-99.1 dividend declarations (https://data.sec.gov/submissions/CIK##########.json -> Archives/edgar/data/<cik>/<acc>/<ex99>.htm), NOT from price quotes. CNBC restQuote only proves price. CIKs: BXSL 1736035, ARCC 1287750, OBDC 1655888, TSLX 1508655, CION 1534254, PSEC 1287032, FSK 1422183, GSBD 1572694, HTGC 1280784, OXLC 1495222, BBDC 1379785, CGBD 1544206.",
+  "bxlPrice": "BXSL $24.09 (-0.33%) Nov 6 close; NAV $25.25 => -4.6% discount; post-cut yield 0.60*4/24.09 = 9.96%. ARCC $19.13 (-1.14%), NAV $19.31 => -0.9%.",
+  "bxlResetNote": "The $0.60 Q1-27 reset was TELEGRAPHED in Aug/Sept commentary (Seeking Alpha Aug 6 \"The Dividend Cut I have been expecting is coming\"; TradingKey Sept 22 \"BXSL: Dividend resets to $0.60 in Q1 2027\"), formally declared Nov 4 with Q3 results => market largely priced it, no price break. So this is CONFIRMATION of the private-credit payout trend, not a fresh shock.",
+  "updatedAt": "2026-11-07T20:02:38.313350Z",
+  "oxlcCut": "OXLC is the deepest single-name BDC break of the cycle: two cuts (-75% vs FY26 monthly rate), NAV 10.74->9.95, price -50.5% to NAV at $4.92, net realized losses $50.5M in 6 months, 52wk low $4.62 on Nov 5. NOT a blue-chip (CLO-equity manager, ~$482M mkt cap) but a genuine NAV+dividend break - classify as CANARY/TAIL, separate from the BXSL blue-chip signal.",
+  "bxslHistoryVerified": "BXSL 8-K series confirms regular dividend $0.77 for the entire 3yr chart 3Q23->3Q26 (nine+ consecutive quarters $0.77); the Nov 4 2026 declaration of $0.60 for the March 31 2027 record date is the FIRST cut of that rate in three years. Coverage series in the same deck: 88% (3Q26) after 97/100/104/106/100/108/109/118/116/113/125/123%.",
+  "oxlcCorrection": "Prior scratch/macro-tripwires text said \"OXLC halved Nov 5\" - WRONG. The $0.10/mo halving was declared Oct 22, 2026; Nov 5 was the FQ2 earnings release + N-CSRS disclosure. Corrected in macro-tripwires.md, ai-capex-credit-sentinel.md and heartbeat-scratch-latest.md.",
+  "bxlAlertDelivered": "DELIVERED to Jacob via telegram 2026-11-07 ~20:20Z (messageId 10894, conv_6f9492ccfdf5034f745e6d7284d2573f). DO NOT re-send the BXSL dividend-cut alert. Re-alert only on: ARCC declaring a cut, BBB OAS >=120bps, HY OAS >=402bps, or BXSL/ARCC NAV break (>=15% discount) or default/covenant event."
  },
- "updatedAt": "2026-11-06T19:10:00-0800"
+ "updatedAt": "2026-11-07T20:02:38.313350Z"
 }
