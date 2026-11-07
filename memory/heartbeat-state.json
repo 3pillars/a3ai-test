@@ -1,18 +1,18 @@
 {
   "lastChecks": {
-    "ai_credit": 1794012558,
-    "bitcoin": 1794012558,
-    "calendar": 1794012558,
-    "crc_cron": 1794012558,
-    "credit": 1794012558,
-    "email": 1794012558,
-    "equities": 1794012558,
-    "geopolitics": 1794012558,
-    "zrx": 1794012558
+    "ai_credit": 1794021191,
+    "bitcoin": 1794021191,
+    "calendar": 1794021191,
+    "crc_cron": 1794021191,
+    "credit": 1794021191,
+    "email": 1794021191,
+    "equities": 1794021191,
+    "geopolitics": 1794021191,
+    "zrx": 1794021191
   },
-  "lastHeartbeat": 1794012558,
-  "lastTickDecision": "no-tripwire; farside-nov6-row-partial-negative-one-print-from-firing",
-  "notes": "Heartbeat 2026-11-06 16:49 PDT (2026-11-07T00:49Z). NO FORMAL TRIPWIRE CROSSED. NEW: Farside reachable again via r.jina.ai proxy and the Nov 6 ETF row is PARTIAL AND NEGATIVE (BTC -51.7M with IBIT/FBTC still blank; ETH -1.9M) => the two-consecutive-settled-outflow-days condition is ONE PRINT AWAY but NOT met. TokenPost $127.6M ambiguity RESOLVED: it is the Nov 5 partial-day print, not a Nov 6 settle; Farside settled Nov 5 = -430.2 BTC / -99.9 ETH. ZRX unchanged: holder key still absent AND holder EOA still gas-starved (0.0000002 ETH vs ~0.0000969 worst case at 0.0507 gwei, ~470x short); epoch 339 ends 2026-11-07T09:04:47Z, one-shot reminder zrx-epoch339-end-final armed for 08:00Z. BBB still the tightest tripwire (116bps, 4bps from 120, FRED still on the Nov 5 row). HYG/LQD 0.738831 unchanged. US closed: Nasdaq +1.09%, SPX +0.31%, DJI -0.46%, VIX 25.64, MOVE 92.77; CRWV +6.28% equity vs >16% bond yield. AI-credit: CRWV >16% still the sharpest print but ZERO rating actions, ZERO failed auctions, ZERO defaults; ECB still review-only. BTC 75,841.9 = -5.04% below EMA50, -6.13% below 80,800 => both flags false; flush $74K 1.06% below the 24h low, not hit; STX 457.5 sats. FLOP clean, labor carried (payrolls +165K hot), DeFi/stablecoins clean, 30 cron jobs all enabled 0 errors, heartbeat-main ok.",
+  "lastHeartbeat": 1794021191,
+  "lastTickDecision": "NO_REPLY (2026-11-07T03:10Z) - no formal tripwire crossed. Farside reachable again via r.jina.ai: Nov 6 row STILL PARTIAL AND NEGATIVE (BTC -8.9M with IBIT blank, ETH -3.6M with ETHA/ETHB blank) => two-consecutive-settled-outflow condition is ONE PRINT AWAY, not met; TokenPost $127.6M confirmed = Nov 5 partial, not a Nov 6 print. BBB still 116bps = 4bps from the 120 tripwire (FRED still on the Nov 5 row). ZRX both blockers live (key absent, holder EOA 0.0000002 ETH vs 0.0000891 worst case at 0.0426 gwei, ~429x short); epoch 339 ends 2026-11-07T09:04:47Z (~5.9h), final job queued 08:00Z. NEW: protesters broke into a Microsoft data centre site in Amsterdam (Reuters/CNA 00:15-01:09Z) = physical/policy escalation of the anti-data-centre leg, not a credit event. AI-credit: CRWV >16% still the sharpest print but ZERO rating actions, ZERO failed auctions, ZERO defaults; ECB still review-only. HYG/LQD 0.738831 unchanged (5.2bps below 3mo low, 4.4bps above Nov 5 settled low); HYG<$75 not hit. US closed: Nasdaq +1.09%, SPX +0.31%, DJI -0.46%, VIX 25.54, MOVE 92.81. BTC 76,022 = -4.85% below EMA50, -5.91% below 80,800 => both flags false; flush $74K 1.06% below the 24h low, not hit; STX 454.9 sats. FLOP clean, labor carried (payrolls +165K hot), DeFi/stablecoins clean, 30 cron jobs all enabled 0 errors, heartbeat-main ok.",
+  "notes": "Heartbeat 2026-11-06 19:10 PDT (2026-11-07T03:10Z). NO FORMAL TRIPWIRE CROSSED. Farside reachable again via r.jina.ai => Nov 6 ETF row PARTIAL AND NEGATIVE: BTC -8.9M (IBIT still blank; FBTC +42.8, BITB -20.5, ARKB -20.1, GBTC -11.1), ETH -3.6M (ETHA/ETHB blank). Nov 5 settled -430.2M BTC / -99.9M ETH; Nov 4 +74.6M BTC / +53.0M ETH. The two-consecutive-settled-outflow-days condition is ONE PRINT AWAY, NOT met. TokenPost $127.6M = Nov 5 partial (resolved). ZRX unchanged: key absent AND holder EOA gas-starved (0.0000002 ETH vs ~0.0000891 worst case at 0.0426 gwei, ~429x short); epoch 339 ends 2026-11-07T09:04:47Z, one-shot job zrx-epoch339-end-final armed for 08:00Z. BBB still the tightest tripwire (116bps, 4bps from 120, FRED still Nov 5 row). HYG/LQD 0.738831 unchanged, HYG<$75 not hit. US closed: Nasdaq +1.09%, SPX +0.31%, DJI -0.46%, VIX 25.54, MOVE 92.81; Europe closed down 1-2%. NEW: protesters breached a Microsoft data centre site in Amsterdam (Reuters/CNA) = physical/policy escalation of the anti-data-centre leg, not a credit event. AI-credit: CRWV bond yield tops 16% (sharpest print) but ZERO rating actions, ZERO failed auctions, ZERO defaults; ECB still review-only (no capital charge / exposure limit / supervisory action). BTC 76,022 = -4.85% below EMA50, -5.91% below 80,800 => both flags false; flush $74K 1.06% below the 24h low, not hit; STX 454.9 sats. FLOP clean, labor carried (payrolls +165K hot), DeFi/stablecoins clean, 30 cron jobs all enabled 0 errors, heartbeat-main ok.",
   "notesExtra": {
     "aiJunkBondDecliners": "2026-11-06: NAI500 'Data Center Debt Finds the Weakest Link' (09:57Z) - 'CoreWeave and Galaxy Digital junk bonds were among the biggest high-yield decliners' on Nov 5; Applied Digital, Cipher Digital, IREN each -14%+; Reuters: $3T wiped from S&P 500 market value; Nasdaq 100 -6.4%. FIRST spread-led confirmation INSIDE the AI theme's own paper (single-name, not index). HY OAS unmoved at 332bps => still NOT systemic.",
     "anthropicIpoStress": "2026-11-06 11:36-11:57Z: Reuters exclusive - AI backlash could threaten Anthropic IPO timing; some investors skeptical of the $1.5T valuation; Telegraph 'Anthropic IPO in turmoil as AI sell-off hammers valuation'; Invezz/Newser: investors doubt a $100B IPO. Capital-availability datapoint for the AI theme (and for the Google $19B TeraWulf/Anthropic lease backstop) - NOT a credit event, NOT a tripwire. Watch for a formal IPO deferral / lease restructuring.",
@@ -141,5 +141,5 @@
     "zrxGasPriceWei": 50665846,
     "zrxHolderEth": 2.07756339e-07
   },
-  "updatedAt": "2026-11-06T16:49:00-0800"
+  "updatedAt": "2026-11-06T19:10:00-0800"
 }
