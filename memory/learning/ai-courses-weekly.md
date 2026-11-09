@@ -43,3 +43,5 @@ Build foundation to understand AI deeply enough to direct AI systems (as per Seb
   - Week 4 focus: Hugging Face — Transformers
 - 2026-11-02 → week 36 → cycle position 4 → *Practical Skills* (Week 3-4 block)
   - Week 4 focus: Hugging Face - Transformers (huggingface.co/learn)
+- 2026-11-09 → week 37 → cycle position 5 → *Cloud & Deployment* (Week 5-6 block)
+  - Week 5 focus: Microsoft Azure AI (learn.microsoft.com/training)
