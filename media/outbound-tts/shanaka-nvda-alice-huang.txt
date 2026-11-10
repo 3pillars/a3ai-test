@@ -1,0 +1,21 @@
+Here is the check on the Shanaka Anslem Perera post about Nvidia, Jensen Huang and Alice Huang. The post I D is two one two zero one seven three two seven zero eight nine two nine seven four five two five. That is nineteen digits.
+
+The short version. The news is real and widely reported. The numbers in the post match the sources I could open. Two things are not facts. One is the unproven claim that Alice Huang's ties enabled the chip sales. The other is the revenue call, which is his own forecast.
+
+On the post itself. It went up Tuesday morning, about seven fourteen Pacific. The count right now is about twenty-five thousand seven hundred views, thirteen replies, thirty-two reposts, one hundred fifty-five likes and sixty-two bookmarks. He is a verified individual with about three hundred six thousand followers, on X since two thousand nine, and calls himself an independent analyst and author. Notably, he states what would prove him wrong. That is good practice.
+
+What checks out. Reuters, the New York Times, N B C and C N B C all cover the story. The Information reported that Alice Huang's network moved at least seven point five billion dollars of Nvidia chips to Chinese buyers. Shanghai Century Litong was founded in June two thousand twenty-three. Reuters says it could not verify the report, and the post says so too. Nvidia, Megaspeed and Century Litong had not commented.
+
+The Justice Department part is real. N B C and the New York Times report that Justice asked Commerce to pause its piece of the Megaspeed probe after Nvidia's general counsel emailed Commerce investigators. Reports say the case then moved into a criminal inquiry.
+
+Congress. Three House chairs, Moolenaar, Mast and Crawford, asked Huang for a closed-door briefing on November eighteenth, and asked for his answer by November eleventh. That matches the House China committee press release.
+
+The stock. Nvidia closed Monday at one seventy-eight sixty-seven, down four point two seven percent, which I confirmed from Yahoo price data. Right now it trades near one sixty-eight, down about five point eight percent on the day. From Friday's close of one eighty-six sixty-four, that is about ten percent in two sessions. The post's figure of eight percent was true earlier Tuesday morning. Bank of America removed Nvidia from its top picks list but kept its Buy rating. Wells Fargo cut its target to three hundred dollars.
+
+The earnings setup. Nvidia reports Tuesday, November seventeenth, after the close. Its guide is one hundred eight billion dollars, plus or minus two percent, so the top of the range is one hundred ten point one six billion. Analysts expect about one hundred eight point eight to one hundred nine billion. I confirmed all of that.
+
+His forecast. Last quarter Nvidia reported ninety-six point two billion against a guide of ninety-one billion plus or minus two percent, so it beat the top of the range by about three and a half percent. This quarter it needs only about two percent over the midpoint to pass his line. History supports him. But I could only confirm the last two quarters one by one, so the nine in a row claim is partly unchecked. One small difference: I get the thinnest cushion in April two thousand twenty-five at about two and a half percent over the midpoint, not two point six.
+
+What I did not check. The shareholder lawsuit in San Jose, the Banks and Warren defense bill push, the claim that the guide excludes China data center sales, and the claim that Democrats won both chambers.
+
+What it means for you. This is a tech risk story, not a Bitcoin signal. It does not change your tripwires. The dates to watch are November eleventh, whether Huang accepts the briefing, and November seventeenth, the earnings report. His revenue call is a bet on one quarter. The scandal can still move the stock whatever the revenue says.
