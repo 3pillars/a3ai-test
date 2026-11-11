@@ -1,32 +1,24 @@
 # IPO Top-Signal Monitor — State
-Last updated: 2026-11-10 (America/Los_Angeles)
 
-## SpaceX (SPCX)
-- ALREADY TRADING since 2026-06-12 at $135/share, ~$1.77T valuation, ~$75B raise.
-- Fell below IPO price 2026-07-15; +22% by 2026-10-12.
-- Lockup schedule (staggered, not a single cliff):
-  - ~911.5M shares freed 2026-08-06 (2 trading days after Q2 earnings 2026-08-04; float ~4.9% -> ~11.8%)
-  - Further tranches through Oct 2026, incl. up to ~1.3B after Q3 earnings (Q3 report expected early Nov 2026)
-  - $175.50 early-release trigger noted in some schedules
-  - Remaining standard 180-day block frees 2026-12-08 (180th day after 2026-06-11 pricing)
-  - Musk's own ~6.4B share block locked until June 2027
-- 2026-11-10 run: no NEW catalyst confirmed (no fresh Q3 earnings report announcement, no extreme move reported in search results). Nothing new to alert.
-- Watch next: Q3 earnings date/report + ~1.3B tranche; 2026-12-08 full 180-day expiry.
+Last updated: 2026-11-11 (Wed, 07:00 PST)
 
 ## Anthropic (ANT, Nasdaq)
-- Public S-1 filed 2026-10-26 (acc-no 0001628280-26-067168, CIK 2130357, $1.0B aggregate offering price), Delaware PBC.
-- Amendment No. 1 (S-1/A) filed 2026-11-02 — price range STILL BLANK ("subject to completion"). A later S-1/A adding a range would be the first hard confirmation.
-- Roadshow earliest start 2026-11-10 (week of Nov 9-10). Earliest possible pricing 2026-11-13.
-- Earliest reported first trading day 2026-11-16; a debut later that week is also possible. Company has NOT announced a date (WSJ/Reuters report of targeting week of Nov 16).
-- Reported valuation $1.5T-$2T; investor day at $2T target; $1.0B offering size.
-- Goldman leads; BofA/Goldman/MS on syndicate.
-- 2026-11-10 run: no firm price range, no confirmed trading date. Nothing new to alert.
+- Public S-1 filed 2026-10-26 (acc-no 0001628280-26-067168, CIK 2130357). Delaware PBC. Ticker ANT, Nasdaq Global Select.
+- **NEW 2026-11-10: amended/updated S-1 sets price range $70.00-$78.00/share; 825,000,000 Class A shares (801,351,354 primary + 23,648,646 secondary).**
+- Implied valuation ~$1.3T (Forbes) / up to ~$1.404T (TechCrunch). Gross raise ~$57.8B-$64.4B at range (plus ~$26B concurrent private placement w/ 7 investors).
+- Roadshow launched ~week of Nov 9-10. Earliest possible pricing Nov 13; earliest reported first trading day Nov 16 (Mon); debut later that week possible. Date NOT officially confirmed.
+- ALERT SENT 2026-11-11 (price range newly confirmed).
 
 ## OpenAI
-- Confidential draft S-1 2026-06-08 (Goldman + Morgan Stanley). Still NO public S-1 on EDGAR.
-- Valuation ~$852B-$1.4T; reported to be raising ~$30B (UAE-led, ~$1.25T).
-- CEO ruled out a 2026 listing; 2027 likely window. Sam Altman confirmed 2027 move on record in September 2026.
-- 2026-11-10 run: no public S-1, no firm date. Nothing new to alert.
+- Confidential draft S-1 submitted 2026-06-08 (confirmed by OpenAI). No public S-1.
+- Valuation ~$852B-$1.4T. CEO ruled out 2026 listing; 2027 the likely window; reportedly delayed.
+- Reporting to raise ~$30B (UAE-led) at ~$1.25T. Nothing new as of 2026-11-11.
 
-## Notes / decision log
-- 2026-11-10 07:00 PST run: 3 web_search calls (Anthropic/OpenAI/SpaceX). No alert conditions met (no trading today/tomorrow, no firm date/range/valuation, no SpaceX catalyst). Sent NO_REPLY.
+## SpaceX (SPCX)
+- ALREADY TRADING since 2026-06-12 at $135/share; ~$1.77T valuation; ~$75B raise.
+- Fell below IPO price 2026-07-15; +22% by 2026-10-12.
+- Lock-up schedule (from prospectus pp.258-259): staggered. First ~911.5M shares eligible Aug 6, 2026; more tranches through Oct incl. up to ~1.3B after Q3 earnings; remaining standard 180-day lock-up ends ~Dec 8, 2026 (180th day after Jun 11 pricing); Musk lock-up June 2027; early-release trigger at $175.50.
+- No new catalyst confirmed as of 2026-11-11.
+
+## Notes
+- Decision rule: alert only on trading today/tomorrow, firm new date/price range/valuation, or SpaceX major catalyst.
