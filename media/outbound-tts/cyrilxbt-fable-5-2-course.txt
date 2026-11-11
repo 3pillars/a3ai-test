@@ -1,0 +1,23 @@
+Check of the post by Cyril X B T, titled How to Master Claude Fable five point two, the full course. The post I D is two one two zero five six seven four one nine five eight four three six eight nine nine four. That is nineteen digits. It was posted this morning, Wednesday November eleventh, at nine twenty A M Pacific.
+
+Who and how big. Cyril X B T is a verified individual account with about one hundred ninety-seven thousand followers. The bio says he builds and writes about A I agents and crypto. The post is only minutes old, so engagement is tiny: about fifteen hundred views and thirty likes. He ends by asking readers to follow him, so this is audience building, not Anthropic material.
+
+The verdict. This is mostly accurate. It is a repackaging of Anthropic's own documents, and I checked it against the announcement, the model docs, and the prompting guide. Two details are wrong or overstated.
+
+What checks out. Anthropic released Claude Fable five point two and Claude Mythos five point two on November ninth. They are the same underlying model. Fable has the cyber and biology safeguards and is open to everyone. Mythos is for organizations vetted through Anthropic's verification programs. So the line that Mythos is less restricted, not smarter, matches Anthropic's own wording.
+
+The specs match too. One million token context, one hundred twenty-eight thousand output tokens, up to thirty percent faster. Price is eight dollars per million input tokens and forty dollars per million output, down from ten and fifty on Fable five point one. Batch is half price. Fast mode is two point five times faster at sixteen and eighty dollars. Cache reads are twenty cents per million, which is forty times cheaper than base input, and that arithmetic is right.
+
+Anthropic's own docs do say to start with the latest Opus and move up to Fable when Opus at higher effort still falls short. Thinking is always on, and the effort levels are low, medium, high, x high, and max. The A P I default is high. In Claude apps and Claude Code the default is medium, which the post skips.
+
+The behavior quirks are real, and they come from Anthropic's Fable five point two prompting guide. A line like answer directly without deliberating does not stop it from thinking at medium effort and above, so you lower the effort instead. It sometimes ends a long task early, more often at low and medium effort. It pays close attention to who owns the code. Anthropic measured it consolidating duplicated code in under ten percent of runs without an ownership sentence, and about seventy-five percent with one. Strict style rules can make its writing choppy. Subagents can become a large share of session cost. In Claude Code, fast mode is billed through usage credits.
+
+The Fermat claim also holds. Anthropic says a team of one thousand Fable five point two agents formalized the proof of Fermat's Last Theorem in thirty hours. That was a prerelease test by Anthropic itself, so it is Anthropic's claim and I could not reproduce it.
+
+What is wrong or overstated. First, the post says one million tokens is roughly seven hundred fifty thousand words. Anthropic's docs say about five hundred fifty-five thousand words on the current tokenizer, and that seven hundred fifty thousand was for older models. The post is about a third too high.
+
+Second, the post says Fable beats Opus five point five on every benchmark Anthropic listed. Anthropic's own wording is almost all. In Anthropic's table, on the knowledge work test called A A Briefcase, the rating score is eighteen hundred for Opus five point five, against seventeen eighty-five for Fable five point two. So the every claim is slightly too strong.
+
+What I could not check. The workflows and prompts in parts eight through ten are the author's own suggestions, not tested claims. The ten minute test is sensible advice, not a finding.
+
+For you. This is a how-to, not a market signal. The practical takeaway matches what you already do: use the strongest model for planning, a cheaper one for execution, and cheap ones for checking. Bitcoin is about seventy-four thousand five hundred fifty dollars, just above the seventy-four thousand level you watch. Your seventy thousand invalidation line is not hit. Your tripwires are unchanged.
