@@ -1,0 +1,17 @@
+Check of the post by Peter Sillahdee, spelled S Z I L A G Y I. The post I D is two one two zero six six seven nine four four six one zero nine one eight eight zero two. That is nineteen digits. It was posted Wednesday November eleventh at four P M Pacific.
+
+The post says: if you have a networked smart device, rip the connectivity out of it now. Unplug the ethernet, get it off Wi-Fi, trash it if you can't. A storm is coming, and it is the time of reckoning for decades of Internet of Things negligence.
+
+Who and how big. He is a verified individual account with about seventy-three thousand followers, on X since twenty ten. His bio says he founded dark dot bio and was the Go Ethereum lead from twenty fifteen to twenty twenty-five. The post has about six thousand views, a hundred thirty-three likes, six reposts, and twelve replies. It is only hours old.
+
+The verdict. This is a warning, not a report. The post names no device, no vulnerability, and no date, so the storm itself cannot be checked as true or false. What I can check is what he is reacting to, and that is real, but it comes from him.
+
+What his own posts show. On November ninth he wrote that he checked devices in his own home and found what he called criminal negligence, not a coding error. On November tenth he wrote that he holds four or more vulnerabilities that let him take over a consumer home automation device in three or more ways. He says the vendor is Swiss, earns about three quarters of a billion dollars a year, serves hospitals, airports, and pharma plants, and has no security disclosure process and does not answer email. He says he submitted four C V Es. That post has about a hundred sixty-seven thousand views. He did not name the vendor, and I could not confirm the C V Es were accepted. So this is one researcher's account about one vendor, not verified by me.
+
+What supports the direction. In April, Anthropic said a preview of its Mythos model found thousands of high-severity zero-day flaws in every major operating system and web browser. That is software, not smart devices, but it shows that finding bugs is getting cheaper. A security vendor's blog also says the Justice Department seized the control servers of a botnet of over three million cameras, recorders, and routers in March, and the devices stayed vulnerable. That is one vendor blog, and I did not confirm it with the Justice Department.
+
+What is overstated. Rip it all out now is blanket advice from one vendor's flaws. My own view, not a finding, is that most households do better by putting smart devices on a separate guest network, turning off remote access they don't use, and replacing the ones that no longer get updates.
+
+One link to this morning's check. Szilagyi says Claude refused to help him probe his own device. That fits Anthropic's own documentation, which says Fable five point two's safeguards block most cybersecurity tasks, while Mythos goes only to vetted organizations.
+
+For you. This is a security story, not a market signal. Bitcoin is about seventy-three thousand five hundred sixty dollars, below the seventy-four thousand level you watch. Your seventy thousand invalidation line is about five percent lower and not hit. Your tripwires are unchanged.
