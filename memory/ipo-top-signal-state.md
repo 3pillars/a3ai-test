@@ -1,26 +1,22 @@
 # IPO Top-Signal Monitor — State
-Last run: 2026-11-14 (America/Los_Angeles)
 
-## Anthropic (ANT, Nasdaq) — PRICED / NEW
-- IPO pricing: Wed 2026-11-18. First trading day: Thu 2026-11-19 (company-confirmed, announced Thu 2026-11-12).
-- Price range $70.00-$78.00/share; 825,000,000 shares + up to 123,750,000-share underwriter greenshoe (30-day option).
-- Roadshow launched (anthropic.com/news/roadshow-launch).
-- Offering size ~$57.8B-$64.4B base (~$66B-$73B with full greenshoe). Reported valuation $1.5T-$2T.
-- Public S-1 filed 2026-10-26; acc-no 0001628280-26-067168; CIK 2130357; Delaware PBC.
-- Revenue: $386M (2024) -> $4.6B (2025) -> $16.3B (H1 2026).
-- ALERTED 2026-11-14 (firm date + price range).
+_Last run: 2026-11-15 (Sun)_
 
-## OpenAI — UNCHANGED
-- Confidential draft S-1 2026-06-08 (confirmed). Still NO public S-1.
-- Listing pushed to 2027 (Sam Altman confirmed Sept 2026). Valuation ~$852B-$1.4T; reported ~$30B raise in talks.
+## SpaceX (SPCX) — PUBLIC since 2026-06-12
+- Listed $135/share, ~$1.77T valuation, ~$75B raise.
+- Fell below IPO price 2026-07-15; +22% by 2026-10-12.
+- Lockup schedule (from prospectus, NOT new): staged unlocks Aug–Dec 2026; first tranche Aug 6 (~911.5M insider shares); Q3 earnings-linked tranche; $175.50 early-release trigger; full expiry ~Dec 8, 2026 (~180d). Elon Musk lockup to Jun 2027.
+- Watch only for a MAJOR post-listing catalyst: lockup-driven extreme move, earnings surprise. No new alert-worthy catalyst this run.
 
-## SpaceX (SPCX) — UNCHANGED
-- Trading since 2026-06-12 @ $135/share (~$1.77T valn). Below IPO price 2026-07-15; +22% by 2026-10-12.
-- First earnings was 2026-08-04 (done). First lockup release 911.5M shares (~20% of pool, ~$108B) on 2026-08-06.
-- Staggered lockup tranches 2026-08-20 through 2027-06-12; Musk lockup June 2027; $175.50 early-release trigger.
-- No new post-listing catalyst as of 2026-11-14.
+## Anthropic (ANT, Nasdaq) — PRICING IMMINENT
+- Public S-1 filed 2026-10-26 (acc 0001628280-26-067168, CIK 2130357), Delaware PBC.
+- **NEW (2026-11-15): price range SET at $70–$78/share, 825M shares** (prior: blank/"subject to completion"). Implied raise ~$58–64B. Reported valuation target ~$1.5T–$2T.
+- Earliest reported first trading day: Mon Nov 16 (tomorrow). Fri Nov 13 earliest pricing.
+- ALERT SENT this run (decision rule b: price range newly confirmed).
+- Next watch: final offer price, confirmed first-trading date, actual debut.
 
-## Next watch
-- ANT first trading day 2026-11-19 (debut/offer-price pop = top-signal check).
-- Any OpenAI public S-1 filing.
-- SpaceX Q3 earnings + next lockup tranche dates.
+## OpenAI — NO CHANGE
+- Confidential draft S-1 2026-06-08; NO public filing.
+- Altman confirmed IPO moved to 2027 (on record, Sept). Valuation ~$852B–$1.4T.
+- Reportedly raising ~$30B (UAE-led, ~$1.25T private round); listing delayed.
+- Watch for: a PUBLIC S-1 or a firm date. Nothing new this run.
