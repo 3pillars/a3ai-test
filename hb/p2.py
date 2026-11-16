@@ -1,0 +1,10 @@
+import json
+s=json.load(open('hb/status.json'))
+print('HI:',json.dumps(s['hormuzIndex'])[:1400])
+print('\nAISGAPS:',json.dumps(s.get('aisGaps'))[:900])
+print('\nVESSEL:',json.dumps(s.get('vesselRisk'))[:500])
+db=s.get('dailyBrief')
+print('\nBRIEF:',json.dumps(db)[:900])
+print('\nCHOKE:',json.dumps(s.get('chokepoints'))[:800])
+print('\nGAS:',json.dumps(s.get('gas'))[:300])
+print('\nPRED:',json.dumps(s.get('predictionMarkets'))[:1500])
