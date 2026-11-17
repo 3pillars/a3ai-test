@@ -1,0 +1,8 @@
+.SPX | 7,337.75 | chg -78.84 -1.06% | prev 7,416.59 | time 2026-11-17T10:41:29.000-0500
+.IXIC | 24,194.085 | chg -315.672 -1.29% | prev 24,509.758 | time 2026-11-17T10:41:29.000-0500
+.DJI | 50,993.44 | chg -614.73 -1.19% | prev 51,608.17 | time 2026-11-17T10:41:30.000-0500
+@CRWV | None | chg None None | prev None | time None
+@NBIS | None | chg None None | prev None | time None
+@NVDA | None | chg None None | prev None | time None
+BTC= | 64,500.52 | chg -786.76 -1.2051% | prev 65,287.28 | time 2026-11-17T10:41:00.000-0500
+@LCO.1 | 93.02 | chg +0.58 +0.63% | prev 92.44 | time 2026-11-17T16:31:28.000+0100

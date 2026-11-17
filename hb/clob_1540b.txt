@@ -1,0 +1,110 @@
+Q: US x Iran Effective Ceasefire by November 8?
+   bid [(0.29, 40.0), (0.28, 242.0), (0.27, 676.23)] ask [(0.3, 1214.83), (0.31, 4483.28), (0.32, 2309.45)]
+Q: US x Iran Effective Ceasefire by November 15?
+   bid [(0.31, 390.13), (0.3, 2415.95), (0.29, 489.99)] ask [(0.33, 918.6), (0.34, 606.56), (0.36, 50.0)]
+Q: US x Iran Effective Ceasefire by November 22?
+   bid [(0.46, 16.73), (0.45, 20.0), (0.44, 36.36)] ask [(0.48, 77.61), (0.49, 337.64), (0.5, 559.87)]
+Q: US x Iran Effective Ceasefire by November 30?
+   bid [(0.56, 486.22), (0.55, 48.14), (0.54, 405.0)] ask [(0.57, 1394.26), (0.58, 69.0), (0.59, 789.49)]
+Q: US x Iran Effective Ceasefire by December 31?
+   bid [(0.71, 530.64), (0.7, 617.67), (0.69, 325.0)] ask [(0.72, 1583.49), (0.73, 735.53), (0.74, 1586.0)]
+Q: Israel x Iran ceasefire continues through December 31?
+   bid [(0.64, 14091.23), (0.63, 24033.61), (0.62, 11531.54)] ask [(0.65, 2765.46), (0.66, 24478.46), (0.67, 39031.05)]
+Q: Israel x Iran ceasefire continues through November 30?
+   bid [(0.83, 5.0), (0.82, 1208.6), (0.81, 3089.85)] ask [(0.84, 779.88), (0.85, 3077.36), (0.86, 5219.61)]
+Q: Israel x Iran ceasefire continues through November 15?
+   bid [(0.997, 32.07), (0.996, 2616.44), (0.995, 3775.88)] ask [(0.998, 27935.07), (0.999, 48190.18)]
+Q: Israel x Iran ceasefire continues through December 15?
+   bid [(0.72, 560.41), (0.71, 185.56), (0.7, 3231.48)] ask [(0.73, 2600.28), (0.74, 26791.63), (0.75, 6050.72)]
+Q: Israel x Iran ceasefire continues through November 22?
+   bid [(0.89, 1766.56), (0.88, 4841.99), (0.87, 9855.91)] ask [(0.9, 6351.68), (0.91, 10619.57), (0.92, 14009.68)]
+Q: Israel x Iran ceasefire continues through November 18?
+   bid [(0.97, 127.86), (0.967, 55.74), (0.964, 430.35)] ask [(0.975, 27.85), (0.976, 141.0), (0.977, 802.0)]
+Q: Israel x Iran ceasefire continues through November 20?
+   bid [(0.94, 74.46), (0.937, 766.0), (0.936, 780.36)] ask [(0.947, 20.0), (0.949, 294.99), (0.95, 827.62)]
+Q: Next US-Iran senior diplomatic meeting by December 31, 2026?
+   bid [(0.2, 6144.22), (0.19, 1461.02), (0.18, 9974.87)] ask [(0.21, 211.8), (0.22, 573.65), (0.23, 2339.43)]
+Q: Next US-Iran senior diplomatic meeting by November 30, 2026?
+   bid [(0.05, 29.6), (0.04, 2232.75), (0.03, 6130.44)] ask [(0.06, 367.94), (0.07, 2589.67), (0.08, 4901.56)]
+Q: Will WTI Crude Oil (WTI) hit (HIGH) $160 in November?
+   bid [(0.007, 333.02), (0.006, 20519.27), (0.005, 20.0)] ask [(0.008, 57414.51), (0.01, 15777.14), (0.012, 140.91)]
+Q: Will WTI Crude Oil (WTI) hit (HIGH) $150 in November?
+   bid [(0.008, 1091.12), (0.007, 2375.01), (0.006, 7640.36)] ask [(0.011, 45.44), (0.012, 210.99), (0.013, 192.45)]
+Q: Will WTI Crude Oil (WTI) hit (HIGH) $140 in November?
+   bid [(0.008, 125.0), (0.007, 1677.0), (0.006, 530.0)] ask [(0.009, 217.11), (0.01, 12944.46), (0.011, 1111.0)]
+Q: Will WTI Crude Oil (WTI) hit (HIGH) $130 in November?
+   bid [(0.008, 20.0), (0.007, 142.0), (0.006, 506.01)] ask [(0.01, 200.76), (0.011, 3393.1), (0.012, 500.0)]
+Q: Will WTI Crude Oil (WTI) hit (HIGH) $120 in November?
+   bid [(0.009, 3043.11), (0.008, 5040.28), (0.007, 4032.99)] ask [(0.014, 111.11), (0.019, 5.0), (0.02, 200.0)]
+Q: Will WTI Crude Oil (WTI) hit (HIGH) $110 in November?
+   bid [(0.025, 299.0), (0.024, 189.95), (0.022, 77.0)] ask [(0.032, 1504.98), (0.037, 37.03), (0.039, 200.0)]
+Q: Will WTI Crude Oil (WTI) hit (LOW) $80 in November?
+   bid [(0.41, 35.0), (0.4, 15.0), (0.39, 410.0)] ask [(0.42, 19.0), (0.43, 1000.0), (0.46, 283.0)]
+Q: Will WTI Crude Oil (WTI) hit (LOW) $70 in November?
+   bid [(0.03, 38.0), (0.029, 289.65), (0.028, 453.0)] ask [(0.046, 40.42), (0.047, 73.0), (0.048, 300.0)]
+Q: Will WTI Crude Oil (WTI) hit (LOW) $60 in November?
+   bid [(0.005, 170.0), (0.004, 1111.0), (0.003, 1514.61)] ask [(0.017, 18.27), (0.019, 125.39), (0.03, 99.99)]
+Q: Will WTI Crude Oil (WTI) hit (LOW) $50 in November?
+   bid [(0.004, 22.89), (0.003, 28.2), (0.001, 50.0)] ask [(0.017, 127.1), (0.018, 100.0), (0.019, 100.0)]
+Q: Will WTI Crude Oil (WTI) hit (LOW) $40 in November?
+   bid [(0.001, 156.0)] ask [(0.01, 34.03), (0.011, 128.68), (0.019, 101.0)]
+Q: Will WTI Crude Oil (WTI) hit (LOW) $30 in November?
+   bid [(0.001, 155.98)] ask [(0.004, 56.5), (0.011, 150.0), (0.012, 50.0)]
+Q: Will WTI Crude Oil (WTI) hit (HIGH) $105 in November?
+   bid [(0.049, 20.0), (0.048, 101.0), (0.047, 20.0)] ask [(0.059, 101.0), (0.06, 59.0), (0.065, 599.99)]
+Q: Will WTI Crude Oil (WTI) hit (HIGH) $115 in November?
+   bid [(0.014, 200.0), (0.013, 600.0), (0.012, 300.0)] ask [(0.02, 10.12), (0.021, 33.33), (0.022, 60.48)]
+Q: Will WTI Crude Oil (WTI) hit (HIGH) $125 in November?
+   bid [(0.006, 14153.71), (0.005, 1165.0), (0.004, 6521.0)] ask [(0.01, 467.97), (0.011, 220.79), (0.014, 5.0)]
+Q: Will WTI Crude Oil (WTI) hit (LOW) $75 in November?
+   bid [(0.11, 19.21), (0.1, 589.24), (0.09, 6734.09)] ask [(0.12, 418.4), (0.15, 709.0), (0.16, 125.0)]
+Q: Will WTI Crude Oil (WTI) hit (HIGH) $100 in November?
+   bid [(0.08, 75.25), (0.07, 716.09), (0.06, 357.0)] ask [(0.09, 94.86), (0.1, 196.1), (0.11, 112.5)]
+Q: Will WTI Crude Oil (WTI) hit (HIGH) $95 in November?
+   bid [(0.17, 199.99), (0.16, 112.2), (0.15, 1400.0)] ask [(0.2, 440.09), (0.22, 99.0), (0.23, 1480.81)]
+Q: Will WTI Crude Oil (WTI) hit (LOW) $65 in November?
+   bid [(0.011, 118.79), (0.009, 131.1), (0.008, 500.0)] ask [(0.034, 713.9), (0.035, 400.0), (0.036, 1800.0)]
+Q: Will WTI Crude Oil (WTI) hit (HIGH) $90 in November?
+   bid [(0.45, 18.49), (0.44, 5.0), (0.43, 2453.72)] ask [(0.46, 13.28), (0.47, 10.0), (0.51, 10.0)]
+Q: Will Crude Oil reach a new all-time high by December 31?
+   bid [(0.035, 520.56), (0.034, 18015.03), (0.033, 10.99)] ask [(0.036, 429.38), (0.037, 476.04), (0.038, 52572.67)]
+Q: Will Crude Oil reach a new all-time high by March 31, 2027?
+   bid [(0.14, 1758.87), (0.13, 34205.26), (0.12, 3718.6)] ask [(0.15, 1157.48), (0.16, 1519.67), (0.17, 1350.0)]
+Q: Will no qualifying US-Iran senior diplomatic meeting take place by December 31
+   bid [(0.78, 9.53), (0.77, 185.41), (0.76, 1394.84)] ask [(0.79, 513.66), (0.8, 855.47), (0.81, 1423.08)]
+Q: Will the next US-Iran senior diplomatic meeting take place in Oman by December
+   bid [(0.01, 246.16), (0.007, 143.0), (0.006, 67.08)] ask [(0.015, 21.45), (0.017, 82.91), (0.018, 14.33)]
+Q: Will the next US-Iran senior diplomatic meeting take place in the UAE by Decem
+   bid [(0.002, 658.4), (0.001, 12373.0)] ask [(0.003, 165.39), (0.004, 9.41), (0.01, 145.97)]
+Q: Will the next US-Iran senior diplomatic meeting take place in Saudi Arabia by 
+   bid [(0.007, 412.32), (0.006, 5.01), (0.004, 123.0)] ask [(0.012, 109.95), (0.013, 5.02), (0.02, 35.05)]
+Q: Will the next US-Iran senior diplomatic meeting take place in Qatar by Decembe
+   bid [(0.11, 6.16), (0.091, 42.0), (0.088, 33.0)] ask [(0.132, 120.0), (0.133, 47.23), (0.138, 31.64)]
+Q: Will the next US-Iran senior diplomatic meeting take place in Switzerland by D
+   bid [(0.012, 534.49), (0.011, 5.32), (0.004, 416.0)] ask [(0.025, 36.11), (0.026, 21.57), (0.027, 63.0)]
+Q: Will the next US-Iran senior diplomatic meeting take place in Austria by Decem
+   bid [(0.01, 859.31), (0.009, 5.05), (0.006, 196.49)] ask [(0.012, 95.5), (0.013, 8.44), (0.014, 14.4)]
+Q: Will the next US-Iran senior diplomatic meeting take place in Turkey by Decemb
+   bid [(0.006, 144.76), (0.004, 150.0), (0.003, 625.0)] ask [(0.017, 40.94), (0.018, 738.08), (0.02, 14.46)]
+Q: Will the next US-Iran senior diplomatic meeting take place in Iran by December
+   bid [(0.005, 201.2), (0.003, 5.0), (0.002, 720.0)] ask [(0.012, 29.45), (0.013, 138.0), (0.019, 149.99)]
+Q: Will the next US-Iran senior diplomatic meeting take place in the United State
+   bid [(0.003, 906.36), (0.002, 2743.03), (0.001, 15924.69)] ask [(0.005, 245.27), (0.006, 10.35), (0.009, 70.95)]
+Q: Will the next US-Iran senior diplomatic meeting take place in Egypt by Decembe
+   bid [(0.001, 3732.67)] ask [(0.003, 87.62), (0.004, 30.54), (0.005, 85.0)]
+Q: Will the next US-Iran senior diplomatic meeting take place in Italy by Decembe
+   bid [(0.002, 819.42), (0.001, 13460.05)] ask [(0.004, 30.0), (0.005, 5.0), (0.007, 16.14)]
+Q: Will the next US-Iran senior diplomatic meeting take place in Iraq by December
+   bid [(0.001, 335.71)] ask [(0.002, 30.97), (0.003, 5.0), (0.004, 20.0)]
+Q: Will the next US-Iran senior diplomatic meeting take place in Kazakhstan by De
+   bid [(0.001, 352.53)] ask [(0.003, 40.0), (0.004, 20.0), (0.005, 20.0)]
+Q: Will the next US-Iran senior diplomatic meeting take place in Pakistan by Dece
+   bid [(0.006, 31.61), (0.005, 157.16), (0.004, 500.0)] ask [(0.025, 118.39), (0.026, 26.66), (0.032, 80.64)]
+Q: Will the next US-Iran senior diplomatic meeting take place in Russia by Decemb
+   bid [(0.003, 174.0), (0.002, 407.1), (0.001, 4633.61)] ask [(0.014, 29.45), (0.015, 92.0), (0.02, 100.0)]
+Q: Will the next US-Iran senior diplomatic meeting take place in another Middle E
+   bid [(0.001, 819.99)] ask [(0.003, 122.78), (0.007, 149.99), (0.008, 5.25)]
+Q: Will the next US-Iran senior diplomatic meeting take place in another European
+   bid [(0.007, 4585.76), (0.006, 17.58), (0.004, 5.0)] ask [(0.012, 44.16), (0.013, 28.27), (0.021, 150.0)]
+Q: Will the next US-Iran senior diplomatic meeting take place in another country 
+   bid [(0.003, 884.16), (0.002, 2098.16), (0.001, 17666.0)] ask [(0.009, 34.45), (0.01, 5.06), (0.023, 149.99)]

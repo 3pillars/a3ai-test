@@ -1,0 +1,15 @@
+Q: Will the next US-Iran senior diplomatic meeting take place in Oman by 
+   bids [(0.01, 246.16), (0.007, 143.0), (0.006, 67.08), (0.005, 5.0)]
+   asks [(0.015, 21.45), (0.017, 82.91), (0.018, 14.33), (0.023, 30.99)]
+Q: Will the next US-Iran senior diplomatic meeting take place in Qatar by
+   bids [(0.11, 6.16), (0.091, 42.0), (0.088, 33.0), (0.087, 57.47)]
+   asks [(0.132, 100.0), (0.133, 47.23), (0.138, 31.64), (0.148, 108.0)]
+Q: Will the next US-Iran senior diplomatic meeting take place in Switzerl
+   bids [(0.012, 534.49), (0.011, 5.32), (0.004, 416.0), (0.003, 1003.26)]
+   asks [(0.025, 36.11), (0.026, 21.57), (0.027, 63.0), (0.028, 10.0)]
+Q: Will the next US-Iran senior diplomatic meeting take place in Turkey b
+   bids [(0.006, 144.76), (0.004, 150.0), (0.003, 625.0), (0.002, 1720.11)]
+   asks [(0.017, 40.94), (0.018, 738.08), (0.02, 14.46), (0.038, 37.99)]
+Q: Will the next US-Iran senior diplomatic meeting take place in Pakistan
+   bids [(0.006, 31.61), (0.005, 157.16), (0.004, 500.0), (0.003, 667.45)]
+   asks [(0.025, 118.39), (0.026, 26.66), (0.032, 80.64), (0.033, 60.0)]

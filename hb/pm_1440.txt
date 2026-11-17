@@ -1,0 +1,115 @@
+== what-price-will-wti-hit-in-november-2026
+    0.007 / 0.008 liq 106549.82091 ltp 0.007 d1 None | Will WTI Crude Oil (WTI) hit (HIGH) $160 in November? | will-wti-reach-160-in-november-2026
+    0.008 / 0.01 liq 51482.12363 ltp 0.012 d1 0.0005 | Will WTI Crude Oil (WTI) hit (HIGH) $150 in November? | will-wti-reach-150-in-november-2026
+    0.008 / 0.009 liq 54821.58856 ltp 0.01 d1 -0.0015 | Will WTI Crude Oil (WTI) hit (HIGH) $140 in November? | will-wti-reach-140-in-november-2026
+    0.008 / 0.01 liq 46766.14288 ltp 0.008 d1 -0.008 | Will WTI Crude Oil (WTI) hit (HIGH) $130 in November? | will-wti-reach-130-in-november-2026
+    0.01 / 0.014 liq 46783.13539 ltp 0.011 d1 -0.0075 | Will WTI Crude Oil (WTI) hit (HIGH) $120 in November? | will-wti-reach-120-in-november-2026
+    0.026 / 0.032 liq 24531.61266 ltp 0.031 d1 -0.003 | Will WTI Crude Oil (WTI) hit (HIGH) $110 in November? | will-wti-reach-110-in-november-2026
+    0.35 / 0.38 liq 33097.9817 ltp 0.36 d1 -0.035 | Will WTI Crude Oil (WTI) hit (LOW) $80 in November? | will-wti-dip-to-80-in-november-2026
+    0.03 / 0.046 liq 38199.03256 ltp 0.04 d1 0.005 | Will WTI Crude Oil (WTI) hit (LOW) $70 in November? | will-wti-dip-to-70-in-november-2026
+    0.005 / 0.017 liq 15537.00589 ltp 0.003 d1 0.0005 | Will WTI Crude Oil (WTI) hit (LOW) $60 in November? | will-wti-dip-to-60-in-november-2026
+    0.004 / 0.017 liq 8945.61671 ltp None d1 -0.0005 | Will WTI Crude Oil (WTI) hit (LOW) $50 in November? | will-wti-dip-to-50-in-november-2026
+    0.001 / 0.01 liq 5169.38577 ltp None d1 -0.0005 | Will WTI Crude Oil (WTI) hit (LOW) $40 in November? | will-wti-dip-to-40-in-november-2026
+    0.001 / 0.004 liq 14252.98303 ltp None d1 None | Will WTI Crude Oil (WTI) hit (LOW) $30 in November? | will-wti-dip-to-30-in-november-2026
+    0.053 / 0.06 liq 40353.81598 ltp 0.059 d1 -0.0135 | Will WTI Crude Oil (WTI) hit (HIGH) $105 in November? | will-wti-reach-105-in-november-2026
+    0.014 / 0.02 liq 29977.80016 ltp 0.015 d1 -0.009 | Will WTI Crude Oil (WTI) hit (HIGH) $115 in November? | will-wti-reach-115-in-november-2026
+    0.006 / 0.01 liq 44273.4434 ltp 0.006 d1 -0.008 | Will WTI Crude Oil (WTI) hit (HIGH) $125 in November? | will-wti-reach-125-in-november-2026
+    0.09 / 0.13 liq 32940.0635 ltp 0.11 d1 -0.015 | Will WTI Crude Oil (WTI) hit (LOW) $75 in November? | will-wti-dip-to-75-in-november-2026
+    0.09 / 0.1 liq 33962.4698 ltp 0.11 d1 -0.03 | Will WTI Crude Oil (WTI) hit (HIGH) $100 in November? | will-wti-reach-100-in-november-2026-from-november-2
+    0.22 / 0.23 liq 35222.5469 ltp 0.22 d1 -0.05 | Will WTI Crude Oil (WTI) hit (HIGH) $95 in November? | will-wti-reach-95-in-november-2026
+    0.011 / 0.034 liq 41002.60689 ltp 0.037 d1 -0.005 | Will WTI Crude Oil (WTI) hit (LOW) $65 in November? | will-wti-dip-to-65-in-november-2026
+    0.56 / 0.6 liq 34592.9862 ltp 0.61 d1 0.025 | Will WTI Crude Oil (WTI) hit (HIGH) $90 in November? | will-wti-reach-90-in-november-2026-from-november-9
+== us-x-iran-effective-ceasefire-begins-by-2-week-pause-20261108
+    0.28 / 0.3 liq 33684.2539 ltp 0.3 d1 -0.125 | US x Iran Effective Ceasefire by November 8? | us-x-iran-effective-ceasefire-by-november-8-20261108
+    0.29 / 0.31 liq 11281.3361 ltp 0.3 d1 -0.19 | US x Iran Effective Ceasefire by November 15? | us-x-iran-effective-ceasefire-by-november-15-20261108
+    0.48 / 0.49 liq 12922.3461 ltp 0.49 d1 -0.12 | US x Iran Effective Ceasefire by November 22? | us-x-iran-effective-ceasefire-by-november-22-20261108
+    0.56 / 0.57 liq 21738.0211 ltp 0.57 d1 -0.085 | US x Iran Effective Ceasefire by November 30? | us-x-iran-effective-ceasefire-by-november-30-20261108
+    0.72 / 0.73 liq 57229.9453 ltp 0.73 d1 -0.07 | US x Iran Effective Ceasefire by December 31? | us-x-iran-effective-ceasefire-by-december-31-20261108
+== israel-x-iran-ceasefire-continues-throughptptpt-20260716224448963
+    0.64 / 0.65 liq 148926.5326 ltp 0.65 d1 None | Israel x Iran ceasefire continues through December 31? | israel-x-iran-ceasefire-continues-through-december-31-415
+    0.83 / 0.84 liq 41368.9191 ltp 0.84 d1 -0.01 | Israel x Iran ceasefire continues through November 30? | israel-x-iran-ceasefire-continues-through-november-30
+    0.995 / 0.997 liq 72378.75234 ltp 0.996 d1 -0.0005 | Israel x Iran ceasefire continues through November 15? | israel-x-iran-ceasefire-continues-through-november-15
+    0.72 / 0.73 liq 47805.7324 ltp 0.73 d1 None | Israel x Iran ceasefire continues through December 15? | israel-x-iran-ceasefire-continues-through-december-15
+    0.89 / 0.9 liq 61995.498 ltp 0.9 d1 -0.03 | Israel x Iran ceasefire continues through November 22? | israel-x-iran-ceasefire-continues-through-november-22
+    0.964 / 0.97 liq 62624.4162 ltp 0.963 d1 -0.0065 | Israel x Iran ceasefire continues through November 18? | israel-x-iran-ceasefire-continues-through-november-18
+    0.946 / 0.95 liq 61808.49968 ltp 0.949 d1 -0.011 | Israel x Iran ceasefire continues through November 20? | israel-x-iran-ceasefire-continues-through-november-20
+== us-iran-hormuz-agreement-byptptpt-20260803235957575
+    0.043 / 0.045 liq 166215.72889 ltp 0.047 d1 -0.001 | US-Iran Hormuz Agreement by November 30? | us-iran-hormuz-agreement-by-november-30
+    0.13 / 0.14 liq 208469.1334 ltp 0.14 d1 -0.01 | US-Iran Hormuz Agreement by December 31? | us-iran-hormuz-agreement-by-december-31
+== us-announces-end-of-iranian-blockade-byptptpt-20260713152715080
+    0.177 / 0.183 liq 351590.89452 ltp 0.18 d1 -0.0045 | US announces end of Iranian blockade by December 31, 2026? | us-announces-end-of-iranian-blockade-by-december-31-2026-20260727171803489-375-949-645-919-269-157-255-857
+    0.53 / 0.54 liq 177741.9415 ltp 0.53 d1 -0.01 | US announces end of Iranian blockade by March 31, 2027? | us-announces-end-of-iranian-blockade-by-march-31-2027
+    0.046 / 0.047 liq 244501.22794 ltp 0.046 d1 0.002 | US announces end of Iranian blockade by November 30, 2026? | us-announces-end-of-iranian-blockade-by-november-30-2026
+    0.09 / 0.1 liq 16751.6287 ltp 0.1 d1 -0.02 | US announces end of Iranian blockade by December 15, 2026? | us-announces-end-of-iranian-blockade-by-december-15-2026
+== iran-blockade-lifted-before-iran-oman-hormuz-agreement
+    0.14 / 0.15 liq 3402.0056 ltp 0.15 d1 0.015 | Iran blockade lifted before Iran-Oman Hormuz agreement? | iran-blockade-lifted-before-iran-oman-hormuz-agreement
+== will-the-us-invade-iran-before-2027
+    0.07 / 0.09 liq 238672.5132 ltp 0.09 d1 0.005 | Will the U.S. invade Iran before 2027? | will-the-us-invade-iran-before-2027
+== will-the-us-officially-declare-war-on-iran-by
+    0.014 / 0.018 liq 79161.00329 ltp 0.018 d1 0.0015 | Will the US officially declare war on Iran by December 31, 2026? | will-the-us-officially-declare-war-on-iran-by-december-31-2026-746
+== next-us-iran-senior-diplomatic-meeting-byptptpt
+    0.2 / 0.21 liq 66257.7495 ltp 0.21 d1 -0.04 | Next US-Iran senior diplomatic meeting by December 31, 2026? | us-x-iran-diplomatic-meeting-by-december-31-2026-20260922
+    0.05 / 0.06 liq 31664.8552 ltp 0.05 d1 -0.01 | Next US-Iran senior diplomatic meeting by November 30, 2026? | next-us-iran-senior-diplomatic-meeting-by-november-30-2026
+== where-will-the-next-us-iran-senior-diplomatic-meeting-take-placeptptpt
+    0.78 / 0.79 liq 25260.6358 ltp 0.78 d1 0.04 | Will no qualifying US-Iran senior diplomatic meeting take place by December 31,  | will-no-qualifying-diplomatic-us-iran-meeting-occur-by-september-30-2026-20260622185050763-copy
+    0.01 / 0.015 liq 25435.9483 ltp 0.015 d1 -0.0045 | Will the next US-Iran senior diplomatic meeting take place in Oman by December 3 | will-the-next-diplomatic-us-iran-meeting-be-in-oman-by-september-30-2026-20260622185050764-copy
+    0.002 / 0.004 liq 6696.6191 ltp 0.002 d1 -0.004 | Will the next US-Iran senior diplomatic meeting take place in the UAE by Decembe | will-the-next-diplomatic-us-iran-meeting-be-in-the-uae-by-september-30-2026-20260622185050765-copy
+    0.007 / 0.012 liq 6599.04548 ltp 0.007 d1 -0.011 | Will the next US-Iran senior diplomatic meeting take place in Saudi Arabia by De | will-the-next-diplomatic-us-iran-meeting-be-in-saudi-arabia-by-september-30-2026-20260622185050766-copy
+    0.11 / 0.141 liq 47815.4026 ltp 0.121 d1 0.007 | Will the next US-Iran senior diplomatic meeting take place in Qatar by December  | will-the-next-diplomatic-us-iran-meeting-be-in-qatar-by-september-30-2026-20260622185050767-copy
+    0.012 / 0.025 liq 25622.55484 ltp 0.008 d1 -0.002 | Will the next US-Iran senior diplomatic meeting take place in Switzerland by Dec | will-the-next-diplomatic-us-iran-meeting-be-in-switzerland-by-september-30-2026-20260622185050768-copy
+    0.01 / 0.012 liq 5782.17885 ltp 0.01 d1 -0.008 | Will the next US-Iran senior diplomatic meeting take place in Austria by Decembe | will-the-next-diplomatic-us-iran-meeting-be-in-austria-by-september-30-2026-20260622185050769-copy
+    0.006 / 0.02 liq 6676.90104 ltp 0.006 d1 0.001 | Will the next US-Iran senior diplomatic meeting take place in Turkey by December | will-the-next-diplomatic-us-iran-meeting-be-in-turkey-by-september-30-2026-20260622185050770-copy
+    0.005 / 0.012 liq 23236.89597 ltp 0.005 d1 -0.0035 | Will the next US-Iran senior diplomatic meeting take place in Iran by December 3 | will-the-next-diplomatic-us-iran-meeting-be-in-iran-by-september-30-2026-20260622185050771-copy
+    0.003 / 0.005 liq 27424.12351 ltp 0.003 d1 -0.0005 | Will the next US-Iran senior diplomatic meeting take place in the United States  | will-the-next-diplomatic-us-iran-meeting-be-in-the-united-states-by-september-30-2026-20260622185050772-copy
+    0.001 / 0.003 liq 6907.17019 ltp 0.001 d1 -0.0005 | Will the next US-Iran senior diplomatic meeting take place in Egypt by December  | will-the-next-diplomatic-us-iran-meeting-be-in-egypt-by-september-30-2026-20260622185050773-copy
+    0.002 / 0.004 liq 6738.53655 ltp 0.002 d1 -0.0015 | Will the next US-Iran senior diplomatic meeting take place in Italy by December  | will-the-next-diplomatic-us-iran-meeting-be-in-italy-by-september-30-2026-20260622185050774-copy
+    0.001 / 0.002 liq 6645.66993 ltp 0.001 d1 -0.001 | Will the next US-Iran senior diplomatic meeting take place in Iraq by December 3 | will-the-next-diplomatic-us-iran-meeting-be-in-iraq-by-september-30-2026-20260622185050775-copy
+    0.001 / 0.003 liq 21457.36581 ltp 0.001 d1 -0.0015 | Will the next US-Iran senior diplomatic meeting take place in Kazakhstan by Dece | will-the-next-diplomatic-us-iran-meeting-be-in-kazakhstan-by-september-30-2026-20260622185050776-copy
+    0.006 / 0.025 liq 26252.79418 ltp 0.005 d1 0.0025 | Will the next US-Iran senior diplomatic meeting take place in Pakistan by Decemb | will-the-next-diplomatic-us-iran-meeting-be-in-pakistan-by-september-30-2026-20260622185050777-copy
+    0.003 / 0.014 liq 6966.18557 ltp 0.007 d1 -0.01 | Will the next US-Iran senior diplomatic meeting take place in Russia by December | will-the-next-diplomatic-us-iran-meeting-be-in-russia-by-september-30-2026-20260622185050778-copy
+    0.001 / 0.003 liq 21861.30426 ltp 0.001 d1 -0.001 | Will the next US-Iran senior diplomatic meeting take place in another Middle Eas | will-the-next-diplomatic-us-iran-meeting-be-in-another-middle-eastnorth-africa-country-by-september-30-2026-20260622185050779-copy
+    0.007 / 0.012 liq 6346.7701 ltp 0.008 d1 -0.0025 | Will the next US-Iran senior diplomatic meeting take place in another European c | will-the-next-diplomatic-us-iran-meeting-be-in-another-european-country-by-september-30-2026-20260622185050780-copy
+    0.003 / 0.009 liq 26615.43618 ltp 0.002 d1 -0.006 | Will the next US-Iran senior diplomatic meeting take place in another country by | will-the-next-diplomatic-us-iran-meeting-be-in-another-country-by-september-30-2026-20260622185050781-copy
+== will-iran-target-saudi-arabia-byptptpt
+    0.11 / 0.13 liq 4103.1707 ltp 0.12 d1 None | Will Iran target Saudi Arabia by November 30, 2026? | will-iran-target-saudi-arabia-by-november-30-2026
+    0.26 / 0.29 liq 1509.0373 ltp 0.25 d1 0.02 | Will Iran target Saudi Arabia by December 31, 2026? | will-iran-target-saudi-arabia-by-december-31-2026
+== houthi-x-saudi-arabia-effective-ceasefire-begins-by-20260916
+    0.04 / 0.05 liq 1727.6429 ltp 0.05 d1 None | Houthi x Saudi Arabia effective ceasefire by November 30? | houthi-x-saudi-arabia-effective-ceasefire-by-november-30
+    0.09 / 0.13 liq 2267.64 ltp 0.12 d1 -0.065 | Houthi x Saudi Arabia effective ceasefire by December 31? | houthi-x-saudi-arabia-effective-ceasefire-by-december-31
+    0.01 / 0.022 liq 873.01946 ltp 0.01 d1 -0.003 | Houthi x Saudi Arabia effective ceasefire by November 15? | houthi-x-saudi-arabia-effective-ceasefire-by-november-15
+== bab-el-mandeb-strait-effectively-closed-by
+    0.07 / 0.08 liq 137809.8934 ltp 0.08 d1 0.01 | Bab el-Mandeb Strait effectively closed by December 31? | bab-el-mandeb-strait-effectively-closed-by-december-31-983-117-222-252
+    0.02 / 0.021 liq 101425.48599 ltp 0.021 d1 0.001 | Bab el-Mandeb Strait effectively closed by November 30? | bab-el-mandeb-strait-effectively-closed-by-november-30
+== iran-full-airspace-closure-byptptpt-20260625195253028
+    0.19 / 0.21 liq 20416.4008 ltp 0.22 d1 -0.01 | Iran full airspace closure by December 31? | iran-full-airspace-closure-by-december-31-20260727170429885
+    0.08 / 0.09 liq 42384.9093 ltp 0.09 d1 -0.01 | Iran full airspace closure by November 30, 2026? | iran-full-airspace-closure-by-november-30-2026
+== will-iran-target-iraq-byptptpt-20261110
+== how-many-ukmto-notices-november-1622
+    0.002 / 0.01 liq 690.76789 ltp None d1 -0.069 | Will UKMTO publish fewer than 4 notices between November 16-November 22? | will-ukmto-publish-fewer-than-4-notices-between-november-16-november-22
+    0.1 / 0.35 liq 656.9587 ltp 0.25 d1 -0.335 | Will UKMTO publish 4-7 notices between November 16-November 22? | will-ukmto-publish-4-7-notices-between-november-16-november-22
+    0.44 / 0.45 liq 422.6697 ltp 0.45 d1 0.115 | Will UKMTO publish 8-11 notices between November 16-November 22? | will-ukmto-publish-8-11-notices-between-november-16-november-22
+    0.16 / 0.42 liq 723.721 ltp 0.15 d1 0.24 | Will UKMTO publish 12-15 notices between November 16-November 22? | will-ukmto-publish-12-15-notices-between-november-16-november-22
+    0.027 / 0.112 liq 527.84916 ltp 0.08 d1 0.004 | Will UKMTO publish 16 or more notices between November 16-November 22? | will-ukmto-publish-16-or-more-notices-between-november-16-november-22
+== eu-emergency-diesel-stocks-end-of-november-2026
+    0.87 / 0.95 liq 1321.3121 ltp 0.94 d1 -0.005 | Will EU emergency diesel stocks be at least 30M tonnes at end of November 2026? | will-eu-emergency-diesel-stocks-be-at-least-30m-tonnes-at-end-of-november-2026
+    0.83 / 0.93 liq 1624.8547 ltp 0.87 d1 0.01 | Will EU emergency diesel stocks be at least 31M tonnes at end of November 2026? | will-eu-emergency-diesel-stocks-be-at-least-31m-tonnes-at-end-of-november-2026
+    0.77 / 0.93 liq 1563.5805 ltp 0.77 d1 0.01 | Will EU emergency diesel stocks be at least 32M tonnes at end of November 2026? | will-eu-emergency-diesel-stocks-be-at-least-32m-tonnes-at-end-of-november-2026
+    0.49 / 0.79 liq 687.985 ltp 0.51 d1 -0.085 | Will EU emergency diesel stocks be at least 33M tonnes at end of November 2026? | will-eu-emergency-diesel-stocks-be-at-least-33m-tonnes-at-end-of-november-2026
+    0.56 / 0.69 liq 3334.8502 ltp 0.6 d1 -0.065 | Will EU emergency diesel stocks be at least 34M tonnes at end of November 2026? | will-eu-emergency-diesel-stocks-be-at-least-34m-tonnes-at-end-of-november-2026
+    0.35 / 0.64 liq 1690.4459 ltp 0.7 d1 -0.155 | Will EU emergency diesel stocks be at least 35M tonnes at end of November 2026? | will-eu-emergency-diesel-stocks-be-at-least-35m-tonnes-at-end-of-november-2026
+    0.21 / 0.43 liq 922.8662 ltp 0.86 d1 0.01 | Will EU emergency diesel stocks be at least 36M tonnes at end of November 2026? | will-eu-emergency-diesel-stocks-be-at-least-36m-tonnes-at-end-of-november-2026
+    0.214 / 0.446 liq 3738.23611 ltp 0.151 d1 0.1735 | Will EU emergency diesel stocks be at least 37M tonnes at end of November 2026? | will-eu-emergency-diesel-stocks-be-at-least-37m-tonnes-at-end-of-november-2026
+== crude-oil-all-time-high-by
+    0.035 / 0.036 liq 242444.99313 ltp 0.036 d1 None | Will Crude Oil reach a new all-time high by December 31? | will-crude-oil-reach-a-new-all-time-high-by-december-31
+    0.14 / 0.15 liq 82089.7036 ltp 0.14 d1 0.01 | Will Crude Oil reach a new all-time high by March 31, 2027? | will-crude-oil-reach-a-new-all-time-high-by-march-31-2027
+== strait-of-hormuz-traffic-returns-to-normal-byptptpt
+    0.08 / 0.09 liq 8751.8244 ltp 0.08 d1 -0.01 | Strait of Hormuz traffic returns to normal by January 31, 2027? | strait-of-hormuz-traffic-returns-to-normal-by-january-31-2027
+    0.22 / 0.23 liq 3969.27 ltp 0.24 d1 None | Strait of Hormuz traffic returns to normal by March 31, 2027? | strait-of-hormuz-traffic-returns-to-normal-by-march-31-2027
+    0.36 / 0.38 liq 49319.8351 ltp 0.38 d1 -0.02 | Strait of Hormuz traffic returns to normal by June 30, 2027? | strait-of-hormuz-traffic-returns-to-normal-by-june-30-2027
+    0.6 / 0.61 liq 13276.0904 ltp 0.58 d1 -0.015 | Strait of Hormuz traffic returns to normal by December 31, 2027? | strait-of-hormuz-traffic-returns-to-normal-by-december-31-2027
+== will-iran-target-united-arab-emirates-byptptpt-20260907
+    0.27 / 0.29 liq 5139.4634 ltp 0.27 d1 -0.025 | Will Iran target the United Arab Emirates by November 30, 2026? | will-iran-target-the-united-arab-emirates-by-november-30-2026
+== will-iran-target-jordan-by-20260909
+    0.34 / 0.42 liq 1054.8522 ltp 0.36 d1 0.07 | Will Iran target Jordan by November 30, 2026? | will-iran-target-jordan-by-november-30-2026
+== will-iran-target-qatar-byptptpt
+    0.27 / 0.31 liq 586.1945 ltp 0.29 d1 0.04 | Will Iran target Qatar by December 31, 2026? | will-iran-target-qatar-by-december-31-2026
