@@ -1,0 +1,38 @@
+### us-x-iran-effective-ceasefire-begins-by-2-week-pause-20261108
+Q: US x Iran Effective Ceasefire by November 8?
+   bid [(0.21, 50.0), (0.2, 64.12), (0.19, 228.0), (0.18, 312.0)]
+   ask [(0.23, 28.07), (0.24, 295.51), (0.25, 333.34), (0.26, 3354.16)]
+Q: US x Iran Effective Ceasefire by November 15?
+   bid [(0.21, 75.0), (0.2, 10.0), (0.19, 30.0), (0.18, 220.0)]
+   ask [(0.24, 5.0), (0.25, 16.56), (0.26, 464.99), (0.27, 1011.02)]
+Q: US x Iran Effective Ceasefire by November 22?
+   bid [(0.43, 25.0), (0.42, 29.85), (0.41, 482.51), (0.4, 35.0)]
+   ask [(0.46, 16.61), (0.47, 62.0), (0.48, 426.61), (0.49, 45.25)]
+Q: US x Iran Effective Ceasefire by November 30?
+   bid [(0.54, 10.0), (0.53, 5.0), (0.52, 8.65), (0.51, 911.1)]
+   ask [(0.55, 1113.03), (0.56, 1276.67), (0.57, 103.35), (0.58, 62.0)]
+Q: US x Iran Effective Ceasefire by December 31?
+   bid [(0.67, 16.0), (0.66, 645.85), (0.65, 1010.0), (0.64, 5.0)]
+   ask [(0.68, 111.86), (0.69, 1144.24), (0.7, 502.42), (0.71, 294.99)]
+### israel-x-iran-ceasefire-continues-throughptptpt-20260716224448963
+Q: Israel x Iran ceasefire continues through December 31?
+   bid [(0.64, 13873.35), (0.63, 21571.76), (0.62, 14159.54), (0.61, 2511.33)]
+   ask [(0.65, 2068.23), (0.66, 25091.1), (0.67, 37362.7), (0.68, 36796.27)]
+Q: Israel x Iran ceasefire continues through November 30?
+   bid [(0.83, 755.63), (0.82, 1543.78), (0.81, 5634.99), (0.8, 2245.77)]
+   ask [(0.84, 733.09), (0.85, 2709.05), (0.86, 5940.97), (0.87, 9827.95)]
+Q: Israel x Iran ceasefire continues through November 15?
+   bid [(0.997, 323.94), (0.996, 2621.45), (0.995, 3754.21), (0.994, 5951.0)]
+   ask [(0.998, 27935.07), (0.999, 48190.18)]
+Q: Israel x Iran ceasefire continues through December 15?
+   bid [(0.72, 662.68), (0.71, 293.57), (0.7, 3200.25), (0.69, 1798.91)]
+   ask [(0.73, 2650.28), (0.74, 26879.8), (0.75, 11417.46), (0.76, 12101.64)]
+Q: Israel x Iran ceasefire continues through November 22?
+   bid [(0.89, 1955.3), (0.88, 4711.71), (0.87, 9921.33), (0.86, 2061.27)]
+   ask [(0.9, 7531.16), (0.91, 10455.69), (0.92, 11983.68), (0.93, 2664.66)]
+Q: Israel x Iran ceasefire continues through November 18?
+   bid [(0.97, 127.86), (0.969, 60.21), (0.968, 13.42), (0.967, 13.02)]
+   ask [(0.975, 720.0), (0.976, 2000.0), (0.977, 65.58), (0.978, 2000.0)]
+Q: Israel x Iran ceasefire continues through November 20?
+   bid [(0.938, 1000.0), (0.937, 766.0), (0.936, 830.81), (0.935, 926.7)]
+   ask [(0.947, 71.26), (0.949, 294.99), (0.95, 811.67), (0.959, 100.0)]

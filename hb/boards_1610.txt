@@ -1,0 +1,14 @@
+### us-x-iran-effective-ceasefire-begins-by-2-week-pause-20261108 | US x Iran Effective Ceasefire begins by...? (2 week pause)
+  - us-x-iran-effective-ceasefire-by-november-8-20261108 | US x Iran Effective Ceasefire by November 8? | bid 0.22 ask 0.26 | p ['["0.24", "0.76"]'] | ltp 0.24 | 1d -0.195 | liq 38321.6415 | v24 128978.06620300001
+  - us-x-iran-effective-ceasefire-by-november-15-20261108 | US x Iran Effective Ceasefire by November 15? | bid 0.21 ask 0.24 | p ['["0.225", "0.775"]'] | ltp 0.19 | 1d -0.295 | liq 12711.9392 | v24 85486.804602
+  - us-x-iran-effective-ceasefire-by-november-22-20261108 | US x Iran Effective Ceasefire by November 22? | bid 0.44 ask 0.47 | p ['["0.455", "0.545"]'] | ltp 0.48 | 1d -0.155 | liq 37544.5022 | v24 20678.755352
+  - us-x-iran-effective-ceasefire-by-november-30-20261108 | US x Iran Effective Ceasefire by November 30? | bid 0.54 ask 0.55 | p ['["0.545", "0.455"]'] | ltp 0.55 | 1d -0.13 | liq 31689.4578 | v24 20870.252642
+  - us-x-iran-effective-ceasefire-by-december-31-20261108 | US x Iran Effective Ceasefire by December 31? | bid 0.67 ask 0.68 | p ['["0.675", "0.325"]'] | ltp 0.68 | 1d -0.12 | liq 74247.7916 | v24 53775.435367
+### israel-x-iran-ceasefire-continues-throughptptpt-20260716224448963 | Israel x Iran ceasefire continues through...?
+  - israel-x-iran-ceasefire-continues-through-december-31-415 | Israel x Iran ceasefire continues through December 31? | bid 0.64 ask 0.65 | p ['["0.645", "0.355"]'] | ltp 0.65 | 1d None | liq 139204.2651 | v24 51061.61934600001
+  - israel-x-iran-ceasefire-continues-through-november-30 | Israel x Iran ceasefire continues through November 30? | bid 0.83 ask 0.84 | p ['["0.835", "0.165"]'] | ltp 0.84 | 1d -0.01 | liq 50681.2861 | v24 70963.022277
+  - israel-x-iran-ceasefire-continues-through-november-15 | Israel x Iran ceasefire continues through November 15? | bid 0.997 ask 0.998 | p ['["0.9975", "0.0025"]'] | ltp 0.997 | 1d 0.0025 | liq 77955.34486 | v24 116259.729803
+  - israel-x-iran-ceasefire-continues-through-december-15 | Israel x Iran ceasefire continues through December 15? | bid 0.72 ask 0.73 | p ['["0.725", "0.275"]'] | ltp 0.73 | 1d None | liq 51271.9894 | v24 49655.573934
+  - israel-x-iran-ceasefire-continues-through-november-22 | Israel x Iran ceasefire continues through November 22? | bid 0.89 ask 0.9 | p ['["0.895", "0.105"]'] | ltp 0.9 | 1d -0.03 | liq 59661.1298 | v24 182898.21581400002
+  - israel-x-iran-ceasefire-continues-through-november-18 | Israel x Iran ceasefire continues through November 18? | bid 0.97 ask 0.975 | p ['["0.9725", "0.0275"]'] | ltp 0.975 | 1d 0.001 | liq 65298.00147 | v24 100311.168822
+  - israel-x-iran-ceasefire-continues-through-november-20 | Israel x Iran ceasefire continues through November 20? | bid 0.938 ask 0.947 | p ['["0.9425", "0.0575"]'] | ltp 0.947 | 1d -0.021 | liq 62860.91615 | v24 70489.46860699999
