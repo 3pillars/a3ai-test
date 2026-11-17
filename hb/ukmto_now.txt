@@ -1,8 +1,6 @@
 Title: Recent Incidents
 
-URL Source: https://www.ukmto.org/indian-ocean/recent-incidents
-
-Final URL: https://www.ukmto.org/recent-incidents
+URL Source: https://www.ukmto.org/recent-incidents
 
 Markdown Content:
 *       *   ![Image 1](https://www.ukmto.org/icon-calendar.svg)16 November 2026
