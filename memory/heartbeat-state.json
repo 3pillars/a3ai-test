@@ -1,23 +1,23 @@
 {
  "lastChecks": {
-  "ai_credit": "2026-11-17 11:40Z",
-  "bitcoin": "2026-11-17 11:40Z",
-  "brent": "2026-11-17 11:40Z",
-  "credit": "2026-11-17 11:40Z",
-  "equities": "2026-11-17 11:40Z",
-  "geopolitics": "2026-11-17 11:40Z",
-  "calendar": "2026-11-17 11:40Z",
-  "crc_cron": "2026-11-17 11:40Z",
-  "email": "2026-11-17 11:40Z",
-  "zrx": "2026-11-17 11:40Z",
-  "ukmto": "2026-11-17 11:40Z",
-  "polymarket": "2026-11-17 11:40Z",
-  "straits": "2026-11-17 11:40Z",
-  "wire": "2026-11-17 11:40Z",
-  "ops": "2026-11-17 11:40Z"
+  "ai_credit": "2026-11-17 12:10Z",
+  "bitcoin": "2026-11-17 12:10Z",
+  "brent": "2026-11-17 12:10Z",
+  "credit": "2026-11-17 12:10Z",
+  "equities": "2026-11-17 12:10Z",
+  "geopolitics": "2026-11-17 12:10Z",
+  "calendar": "2026-11-17 12:10Z",
+  "crc_cron": "2026-11-17 12:10Z",
+  "email": "2026-11-17 12:10Z",
+  "zrx": "2026-11-17 12:10Z",
+  "ukmto": "2026-11-17 12:10Z",
+  "polymarket": "2026-11-17 12:10Z",
+  "straits": "2026-11-17 12:10Z",
+  "wire": "2026-11-17 12:10Z",
+  "ops": "2026-11-17 12:10Z"
  },
- "lastHeartbeat": "2026-11-17T11:40:00Z",
- "lastTickDecision": "11:40Z: THE DAY'S ATTACKS PRICED NOTHING AND THE TAPE IS PRICING A SOFT LANDING. Brent 92.85, straits trailing-24h -2.54% while CNBC is +0.43% against Monday's 92.44 settle - the two bases must never be shown side by side - and the CNBC/straits spread collapsed from $0.29 to $0.01. The whole escalation complex is flat or cheaper: blockade-end Dec-31 .184/.186 -> .182/.183, UAE .29/.30 for a 20th hold, Bab el-Mandeb .07/.08 for a 12th hold, invade .07/.08 for a 22nd hold, declare-war .014/.018. The one real venue move was QATAR CRACKING DOWN to ~.101/.125 (ltp .077) on the day it hosts the Iranian mediation meeting - the market says a meeting happens, but not in Qatar. Diplomacy itself was flat after last tick's depth-backed 3c no-meeting drop held (meeting .21/.22, no-meeting .76/.78). The WTI ladder round-tripped last tick's tail repricing in both directions (LOW $80 -5c, HIGH $90 +4c) with the ATH board still at .035 => noise, not a crash and not a squeeze. AIS transits 123 with population 902 => ratio 13.6% FLAT for a 3rd tick, so 'fleet returning faster than it clears' is confirmed; quality softened (stale 274->293). UKMTO was re-cut this tick (13-Nov row dropped, 208-226 date-stamped): still no 207-26, no UPDATE 002, crew still unaccounted for. New tier-1: Al Jazeera full text (two tankers struck mines on the southern route, a third immobilised east of the strait, IMO 136 incidents/25 seafarers killed, Khor Mor drone overflight), CNBC full text (IRGC 'fully closed'/'minefield of fire', four tankers hit mines in 24h, three carriers, Bremmer on escalation), Lloyd's List abstract (Iran attack KILLS A CREW MEMBER, transits nearly halve, 20% US cargo toll would cost a VLCC $32m), Gulf News/Al Arabiya (crew unaccounted, Vance rules out forever war). Kalshi T20 bid collapsed .62 -> .25 on rising volume and OI (largest Kalshi move of the run) with T15 anchored .93/.96; resolves 14:00Z. Iran rial at a 5th distinct level, 2,672,000. NEXT: whether the CNBC discount turns into a durable positive day; whether Qatar's venue leg stabilises; whether the WTI liquidity converts to a directional third move; whether UKTMO UPDATE 002 lands; the 14:00Z Kalshi resolution and the 14:30Z cash open.",
+ "lastHeartbeat": "2026-11-17T12:10:00Z",
+ "lastTickDecision": "12:10Z: AIS BROKE THE TRANSIT BAND - 123 -> 110 with population at a run high 913, so the ratio that matters fell 13.6% -> 12.0% (110/134 = 82% of the 30-min median), the weakest print since 105, on the cleanest quality counters of the run (gaps 24, carryover 4, stale 291, stratifiedZ -0.70, coverage 98%) => a real traffic signal, not an artifact; not a blockade re-tightening and not an evasion signal. Oil: change24h improved a 6th straight tick (-2.54 -> -2.38) at brent 92.84/92.73, CNBC 92.71 (+0.29% vs Monday's 92.44 settle) is $0.13 BELOW straits again - last tick's $0.01 'healed' spread was a one-tick artifact, and the two bases must never be shown side by side. THE MEDIATOR VENUE LEGS TICKED UP FOR THE FIRST TIME: Oman bid .005 -> .01 with liquidity 10,057 -> 25,985 (+158%, the run's biggest depth build on that board), Switzerland bid +0.4c, Turkey ask +1.0c, Pakistan ask +0.6c, while Qatar did NOT rally (.10/.119, ltp .117 vs .077) so 'a meeting happens, but not in Qatar' survives its first post-crack tick; the meeting leg itself held .21/.22 for a 2nd tick. UKMTO confirms a DOUBLE STRIKE with CREW UNACCOUNTED FOR (Times Now / newscord / Yahoo-Reuters syndication / The National headline) and the IRGC six-vessel mine claim is now on tier-1 wires - and it is still priced at ZERO (no oil bid, no board move, VIX -1.44%). WTI ladder third tick of halved books (LOW $80 .41/.47 liq 17,387, HIGH $90 .48/.52 liq 9,125) => do not trade the 5c moves. Kalshi T20 bid collapsed again .25 -> .14 on 5 contracts of bid size (38c-wide book) and T25 converged to .14 => the 14:00Z resolution is the event; do not quote before it. Manifold .7570 (+0.4pt) but v24 fell 367 -> 238 => drift, not conviction. BTC 64,810 (-0.73%) leaves the 11-session $64K streak ~$810 of cushion; credit still frozen at 0.7464008 (20th tick) until the 14:30Z cash open. NEXT: does transits recover above 115 or fall to ~105; does Oman hold .01 on the bigger book; does the trailing-24h oil percentage cross -2.00%; does a formal attribution or insurance revision land for the crew-missing tanker; the 14:00Z Kalshi resolution and the 14:30Z cash open.",
  "notes": [
   "06:40Z: THE CLAIM/DENIAL PAIR IS THE WHOLE STORY. The IRGC says 6 drones hit the US radar at Al-Rifaa; Bahrain says its air defences intercepted and destroyed them (Al Arabiya 06:05Z); the US Ambassador rejects the IRGC claim (Gulf Daily News 06:22Z); NDTV has Khalifa Port explosions. That double denial is why NOT ONE forward Polymarket board moved for the 10th/17th consecutive tick while the wire grew two dozen Bahrain rows. The straits events feed moved a second time (verifiedAt 05:39:03Z -> 06:16:13Z) and landed on ANOTHER tanker-mine re-run - zero bahrain/riffa/radar/khalifa rows - and the daily brief re-ran at 06:01:08Z still blind on Bahrain: confirmed by-design taxonomy blind spots, so stop spending ticks there. Kalshi T20 HELD its reprice (bid .53 / ask .63 / last .60, prev .57) - a genuine transit-expectations move, mid .58, third print decides. BTC REJECTED the lower-highs/lower-lows read: 64,159.96 low, then 64,567 and 64,611 higher highs, 64,000 held at 64,384. The rial print finally landed at 06:09:09Z and the rate did NOT move off 2,681,500 - ten hours unmoved across a strike on a US base. Manifold .7179748666449587 bit-identical for a third reading, no bet for 63 minutes: dead book. AIS concurrent 143 = new session high with stale fixes 258->274 (worse). HYG/LQD 0.74837078 exactly on the 0.748371 tripwire, not breached.",
   "07:40Z: THE MARKET RESOLVED THE CLAIM/DENIAL YES - AND THE SAUDI BOARD FELL BECAUSE THE CONTRACT SAYS SO. The Arab-country occurrence board went to .9995 on BOTH legs with umaResolutionStatus 'uma proposed' (volume24hr 5,897) - the contract counts 'air-launched drones' at a qualifying Arab country as a qualifying military action regardless of interception, so the six-drone IRGC claim resolves YES even though Bahrain says it destroyed them and the US Ambassador rejected the claim. Bahrain itself upgraded at 07:27-07:42Z to 'several Iranian aerial attacks intercepted' (MEE, Anadolu), which outnumbers the denial. The Bahrain-SPECIFIC board did NOT get a UMA proposal (Nov-22 .981 / Nov-30 .9935, uma None) - possible split outcome, watch it. The Saudi board FELL (.15 -> .12 on Nov-30) on the multi-source confirmed Houthi interception at Riyadh (Reuters 02:58Z, Arab News 03:34Z, Al Jazeera, Al Arabiya, houseofsaud 07:33Z) - that is contract-mechanical, not blindness: the Houthis are not Iran, and both ballistic missiles were destroyed in the air so nothing landed on a qualifying country. Aramco damage (CairoScene 06:07Z) is SINGLE-SOURCE with a HIJACKED BODY (the URL now redirects to a Thai gambling site) - do not carry. BTC broke 64,000 on a 4x-volume bar (85.13 BTC vs 10-25 baseline, closed at the low) and ETH broke 1,770 with matching volume - and the catalyst is crypto-WIDE, not Iran: $1.9B ETF outflows + $753M futures liquidations in 24h, four-month low, SOL -6% to $67.60 on Fed hike fears, Bitwise CIO 'resembles 2018 bear market', Binance $6.3B North Korea hack, and Al-Monitor 07:40Z's first war-linked oil-rebound framing. BTC 24h low 61,946.17 unchanged - a re-test, not a new low. Kalshi T20 peaked at mid .67 and faded to .64 while OI and v24h both ROSE and bid size went 44 -> 241 - real two-sided depth, a paused trend, not a fade. Manifold .7179748666449587 bit-identical for a 5th print (123 min, zero bets). Rial still 2,681,500 for a 12th hour across a resolved-YES strike. AIS concurrent 146 -> 149 but stale fixes 265 -> 276 and carryover 5 -> 9 - the 07:10Z 'constructive combination' did not persist. HYG/LQD exactly on the tripwire for the 55th tick; Brent frozen 95.84. NO TRIPWIRE.",
@@ -30,13 +30,14 @@
   "05:40Z: First real diplomacy break of the run - Dec-31 US-Iran meeting .23/.24 -> .20/.21 and no-meeting .75/.77 -> .79/.80, i.e. the market priced LESS diplomacy despite Vance's 'no forever war' and Araghchi in Muscat (likely the new unconfirmed 'dirty bomb' intelligence). Near end went the other way: blockade-end Nov-30 +4c to .054/.055 => 'thaw without a summit'. Houthi-Saudi Dec-31 broke .17/.18 -> .14/.15 while Bab el-Mandeb sat still. AIS transit count withheld a 2nd tick (stranded 753->780, measuredPopulation 876->901). Oil flat 91.56-91.70 but change24h worsened to -3.92%. Gold re-accelerated to 3,885.30 (tripwire gap ~$15). Israel .64/.65 held a 3rd tick with Nov-18 +2c; divergence 18.0pt. WTI $85-low board confirmed resolved YES. Kalshi/Manifold dormant; rial flat 7th print with the API lag gone; UKMTO byte-identical 6th tick, no 207-26.",
   "07:10Z: TWO-SIDED AIS RECOVERY EXTENDED; OIL GLUE BROKE; DIPLOMACY STALLED WHILE ARAGHCHI MEETS AL BUSAIDI. AIS 115->121 transits with stranded 756->733, offshore 45->40, population 871->854, gaps 21->20, stratifiedZ -1.02->-1.24, gapCarryover 9->5, stale 267->265, coverage 100%->99.5% - two-sided for the 2nd straight print, so the 'two-sided market' caveat is retired. The site's own verdict string is STILL 'closed / Effectively no' - do not quote it against the print. tankerDarkRate field still absent for a 34th tick, so the evasion watch stays SUSPENDED (prose only: tanker ~24.7% vs ambient 25.0%). Oil: the four-route $0.03 glue broke - straits 91.82 vs CNBC 91.64, i.e. CNBC is $0.18 BELOW straits again - and change24h hit -4.80% (7th straight worsening, crossing -4.5%); Reuters' 'supply surplus outlook despite Gulf tensions' is now visibly the driver even as Al Jazeera carries IRGC's two-mine-strike claim plus UKMTO's two confirmed tanker attacks. Diplomacy is a 4-TICK STALL: meeting Dec-31 .19/.20 (liq -7%) vs no-meeting .79/.80 (liq up), blockade Nov-30 .051/.052 held, and ARAGHCHI MET AL BUSAIDI IN MUSCAT (ISNA, Al Arabiya 'safeguarding maritime corridors', MEE 'a constructive meeting') while the Oman venue leg moved 1c on the ask - the boards do not pay for diplomacy. Israel near legs re-slipped (Nov-20 .961/.971, Nov-18 d1 back to -0.0005) so last tick's bounce was a bounce, not a turn; far anchor .64/.65 held a 6th tick; divergence 18.0pt. Houthi-Saudi .13/.14 held a 4th tick, Bab el-Mandeb .07/.08 a 6th hold (~14-tick news/book gap); the Iraq board still prints no legs for a 9th tick even though today's Khor Mor drone alert is exactly the story it would price. WTI ladder split: $90-from-Nov-9 bid +1c to .39 WITH liquidity +11% (thin but building), LOW $80 bid -3c with liq -56% (faded hard) - net: not a crash, not a squeeze. Gold 3,877.90/3,880.17 still below the 3,885 trigger; HYG/LQD 0.7464008 for a 13th tick below 0.748371; BTC 64,610.84 (-1.04%) keeps the 10-session $64K streak alive on ~$611. UKMTO file byte-identical for a 9th tick (no 207-26); Kalshi dormant (T20 bid .61, T25 bid .13/ask .22, bsz 1); Manifold 10th identical print; rial 2,679,500 for a 10th print with the /status<->/api lag resolved for a 4th tick. Ops clean, no cron failures, no unread email, no calendar events. NO USER ALERT - no tripwire crossed.",
   "08:10Z: US-IRAN TRUCE RALLIED WITHOUT ISRAEL - DIVERGENCE 18.0 -> 20.0pt. US-Iran Dec-31 .84/.85 across the whole curve; Israel Dec-31 held .64/.65 a 7th tick with Nov-30 down 1c. Oil change24h improved for the first time in 8 prints to -4.05% (base rolling off) at Brent 91.98 with CNBC $0.35 below. IBTimes 'Crude returns to Prewar Levels' corroborates the AIS recovery on the supply side. AIS transits hit a run high 124 (92% of median) but stranded rebounded 733->784 and population 854->908 - the two-sided pattern broke; quality still best-in-run (gaps 18, stale 260, stratifiedZ -1.48). Diplomacy: 5th unchanged tick but liquidity rotated toward the meeting (+21%) and away from no-meeting (-22%); blockade Nov-30 reversed up to .052/.053 = 'thaw without a summit'. WTI ladder: prices flat, sizes roughly doubled. Reuters: Bahrain intercepted Iranian air attacks, IRGC claims drones hit US radar at Sheikh Isa (third claim on Bahrain in five days). India names TARA GAS as the missile-hit, disabled LPG tanker - first government-confirmed hull attribution. Ops clean, no cron failures, no unread email, no calendar events. NO TRIPWIRE.",
-  "11:40Z: Oil spread went to zero (straits 92.85 vs CNBC 92.84) with CNBC +0.43% vs Monday settle; the whole escalation complex flat/cheaper. Qatar venue leg cracked down to ~.10/.13 on the day it hosts the mediation meeting - 'a meeting, but not in Qatar'. WTI ladder round-tripped (LOW $80 -5c, HIGH $90 +4c) - noise. AIS transits 123, population 902, ratio flat 3 ticks. UKMTO page re-cut: still no 207-26, no UPDATE 002, crew unaccounted. New tier-1: Al Jazeera + CNBC full text, Lloyd's List abstract (crew member killed, transits nearly halve, 20% cargo toll), Kalshi T20 bid .62->.25 on rising volume. Rial at a 5th distinct level (2,672,000). VIX cooled to 22.81, credit frozen 19th tick."
+  "11:40Z: Oil spread went to zero (straits 92.85 vs CNBC 92.84) with CNBC +0.43% vs Monday settle; the whole escalation complex flat/cheaper. Qatar venue leg cracked down to ~.10/.13 on the day it hosts the mediation meeting - 'a meeting, but not in Qatar'. WTI ladder round-tripped (LOW $80 -5c, HIGH $90 +4c) - noise. AIS transits 123, population 902, ratio flat 3 ticks. UKMTO page re-cut: still no 207-26, no UPDATE 002, crew unaccounted. New tier-1: Al Jazeera + CNBC full text, Lloyd's List abstract (crew member killed, transits nearly halve, 20% cargo toll), Kalshi T20 bid .62->.25 on rising volume. Rial at a 5th distinct level (2,672,000). VIX cooled to 22.81, credit frozen 19th tick.",
+  "12:10Z: AIS BROKE THE TRANSIT BAND - 123 -> 110 with population at a run high 913, so the ratio that matters fell 13.6% -> 12.0% (110/134 = 82% of the 30-min median), the weakest print since 105, on the cleanest quality counters of the run (gaps 24, carryover 4, stale 291, stratifiedZ -0.70, coverage 98%) => a real traffic signal, not an artifact; not a blockade re-tightening and not an evasion signal. Oil: change24h improved a 6th straight tick (-2.54 -> -2.38) at brent 92.84/92.73, CNBC 92.71 (+0.29% vs Monday's 92.44 settle) is $0.13 BELOW straits again - last tick's $0.01 'healed' spread was a one-tick artifact, and the two bases must never be shown side by side. THE MEDIATOR VENUE LEGS TICKED UP FOR THE FIRST TIME: Oman bid .005 -> .01 with liquidity 10,057 -> 25,985 (+158%, the run's biggest depth build on that board), Switzerland bid +0.4c, Turkey ask +1.0c, Pakistan ask +0.6c, while Qatar did NOT rally (.10/.119, ltp .117 vs .077) so 'a meeting happens, but not in Qatar' survives its first post-crack tick; the meeting leg itself held .21/.22 for a 2nd tick. UKMTO confirms a DOUBLE STRIKE with CREW UNACCOUNTED FOR (Times Now / newscord / Yahoo-Reuters syndication / The National headline) and the IRGC six-vessel mine claim is now on tier-1 wires - and it is still priced at ZERO (no oil bid, no board move, VIX -1.44%). WTI ladder third tick of halved books (LOW $80 .41/.47 liq 17,387, HIGH $90 .48/.52 liq 9,125) => do not trade the 5c moves. Kalshi T20 bid collapsed again .25 -> .14 on 5 contracts of bid size (38c-wide book) and T25 converged to .14 => the 14:00Z resolution is the event; do not quote before it. Manifold .7570 (+0.4pt) but v24 fell 367 -> 238 => drift, not conviction. BTC 64,810 (-0.73%) leaves the 11-session $64K streak ~$810 of cushion; credit still frozen at 0.7464008 (20th tick) until the 14:30Z cash open. NEXT: does transits recover above 115 or fall to ~105; does Oman hold .01 on the bigger book; does the trailing-24h oil percentage cross -2.00%; does a formal attribution or insurance revision land for the crew-missing tanker; the 14:00Z Kalshi resolution and the 14:30Z cash open."
  ],
  "notesExtra": "02:40Z TOOLING: (a) https://straits.live/status (NO /api/v1/ prefix) is the one-call composite; it also carries hormuzIndex.escalationProbability/crisisPressure. (b) There is NO dedicated risk-index API route - /api/v1/risk, /risk-index, /escalation-index all return the Next.js HTML shell; read values out of /status. (c) Kalshi direct API: GET api.elections.kalshi.com/trade-api/v2/markets/KXHORMUZWEEKLY-26NOV15-{T15,T20,T50}; previous_price_dollars gives the session path; last_updated_time is stale, use the price fields. (d) gamma slug for the 2027 Hormuz legs is strait-of-hormuz-traffic-returns-to-normal-byptptpt. (e) events.health.verifiedAt is the ONLY feed-refresh tell (events.asOf always advances). (f) ukmto.org 403s direct curl; use r.jina.ai proxy. (g) gamma host is gamma-api.polymarket.com - gamma-api.crates.io returns non-JSON. (h) Python urllib gets HTTP 403 from Coinbase - use curl for crypto candles/stats. (i) Push the scratch forward with: openclaw cron scratch a1ba3761-31f1-4584-b943-76417a7f7700 --file <path>. (j) /status and /api/v1/tick can now DISAGREE on stranded (840 vs 815 this tick) - always name the route.",
  "tripwires": {
   "aaaUsRegularGal": "$4.0203 (2026-11-08); week ago $4.1732; month ago $4.3612; year ago $3.0731; diesel week-ago $6.3039 - falling, CPI-context only",
   "aiCreditIGBroadening": "2026-11-17 08:10Z: STILL single-name, NO agency action, NO failed auction, NO default. Credit frozen at the Monday close (HYG 76.73 -0.27% vs LQD 102.80 -0.01% => HY-led softness, run low 0.746401) until the 14:30Z cash open. Escalate on an IG rating action, a failed auction, a default, or HYG/LQD breaking the 3mo low 0.738391.",
-  "aiCreditIndexCheck": "2026-11-17 11:40Z: HYG/LQD 0.746401 (frozen at the Monday close for a 19th tick - no new cash data until the 14:30Z open), still below the 0.748371 tripwire. gold @GC.1 3,861.20 / gold-api 3,865.65 (below the 3,885 trigger). VIX 22.81 (-0.44%). DXY 103.591, US10Y 5.121%. Brent 92.85 (straits trailing-24h -2.54%; CNBC 92.84 +0.43% vs Monday settle 92.44 - spread collapsed to $0.01, different bases). BTC 64,532. AIS transits 123, population 902.",
+  "aiCreditIndexCheck": "2026-11-17 12:10Z: HYG/LQD 0.746401 (frozen at the Monday close for a 20th tick - no new cash data until the 14:30Z open), still below the 0.748371 tripwire and above the 3-mo low 0.738391. gold @GC.1 3,870.70 (below the 3,885 trigger). VIX 22.58 (-1.44%, back below Monday's 22.91 close). DXY 103.586, US10Y 5.117%. Brent 92.84 straits (-2.38% trailing-24h) vs CNBC 92.71 (+0.29% vs Monday settle). BTC 64,810.06 (-0.73%, ~$810 above the $64K streak line). AIS transits 110, population 913.",
   "aiFundVaraOctober": "-33% October for AI-focused hedge fund VARA (GuruFocus/Livemint/Hedgeweek) - crowded-AI-long positioning mark-down, equity-level, not credit",
   "aiLoanAuctionBidDue": "2026-11-19",
   "aiLoanAuctionUsd": 500000000,
@@ -44,14 +45,14 @@
   "aiUnwindBreadth": "industrials/networking/Kospi/miners + AI junk bonds (CRWV/Galaxy) - single-name credit, no index-level tripwire",
   "anthropicIpo": "2026-11-11/12: Anthropic seeks $90.4bn at a $1.3-1.4tn valuation, price range $70-78, trading from Nov 19, oversubscribed multiple times (Quartz 16:18Z, investingLive 21:18Z). Nvidia and Alphabet each agreed to buy ~$10bn of Anthropic stock at the IPO price (Motley Fool 22:47Z). Bloomberg 01:09Z 'AI Doubts Collide With Anthropic's Mega IPO'; 00:45Z 'Jenga block holding up next leg of AI trade'. A mega-IPO landing Nov 19 INTO the Huang-oust story is the setup to watch.",
   "appleBondSale": "7.5B, 4x oversubscribed",
-  "asiaDeescalation": "2026-11-17 11:40Z: THE WARPREMIUM IS BEING UNWINDED, NOT PAID UP. Qatar venue leg CRACKED DOWN to .101/.125 (ltp .077, liq 41.9k, v24 5.9k) on the day Qatar hosts the Iranian mediation meeting; every other venue flat (Oman .005/.015 liq +75%, Iran .005/.012, Pakistan .003/.005). Diplomacy flat after last tick's depth-backed 3c no-meeting drop held: meeting Dec-31 .21/.22 (liq +6.5%), no-meeting .76/.78. US-Iran truce Dec-31 .83/.84 (+1c, liq +5.8%), Nov-30 .74/.75 (-2c); Israel Dec-31 .65/.66 unchanged 5th tick on a +29% book (biggest depth build of the run). Divergence re-widened to 18.0pt (0.835 vs 0.655). Hormuz agreement board Nov-30 .044/.047 on +15% liq, Dec-31 .13/.15 still dead. Meanwhile the whole escalation complex is flat/cheaper: blockade-end Dec-31 .182/.183, UAE .29/.30 (20th hold), Bab el-Mandeb .07/.08 (12th hold), invade .07/.08 (22nd hold), declare-war .014/.018 - despite three carriers, IRGC 'fully closed'/'minefield of fire', four-to-six mine-strike claims, the CNN dirty-bomb scoop and a crew-unaccounted-for tanker.",
+  "asiaDeescalation": "2026-11-17 12:10Z: THE FIRST UPWARD VENUE REPRICING OF THE CYCLE. Oman bid .005 -> .01 with liquidity 10,057 -> 25,985 (+158%, biggest depth build of the run on that board); Switzerland bid .008 -> .012; Turkey ask .006 -> .019; Pakistan ask .005 -> .011. Qatar did NOT rally (.10/.119, ltp .117 vs .077) => 'a meeting happens, but not in Qatar' survives its first post-crack tick. The meeting leg itself is flat (.21/.22, 2nd tick) and no-meeting .76/.78. Meanwhile the whole escalation complex stays flat: blockade-end Dec-31 .184/.185, Hormuz agreement Dec-31 .13/.14, UAE .29/.30 (21st hold), Bab el-Mandeb .07/.08 (13th hold), invade .07/.08 (23rd hold), declare-war .014/.018 - despite a UKMTO double strike with CREW UNACCOUNTED FOR and a tier-1-carried six-vessel mine claim.",
   "asiaPolicyBackstop": "KOSPI closed 5,059.69 (-6.02%) after intraday circuit breaker, pared back above 5,000; Nikkei 57,434.77 (-5.96%) bear market; Taiwan steepest-ever one-day fall; HSI +2.35%; Shanghai 3,649.18 (-1.00%); India bucking the sell-off + officials signaling support => registered condition \"circuit-breaker day WITHOUT a policy backstop\" NOT met",
   "bbbOasPct": 1.16,
   "bdcCheckMethod": "CRITICAL: BDC dividend status must be read from SEC 8-K / Ex-99.1 dividend declarations (https://data.sec.gov/submissions/CIK##########.json -> Archives/edgar/data/<cik>/<acc>/<ex99>.htm), NOT from price quotes. CNBC restQuote only proves price. CIKs: BXSL 1736035, ARCC 1287750, OBDC 1655888, TSLX 1508655, CION 1534254, PSEC 1287032, FSK 1422183, GSBD 1572694, HTGC 1280784, OXLC 1495222, BBDC 1379785, CGBD 1544206.",
   "bdcTailCuts": "VERIFIED from issuers SEC filings (not prices) 2026-11-07: OXLC monthly $0.40(FY26)->$0.20(Oct-Dec26,declared Jul23)->$0.10(Jan-Mar27,declared Oct 22 2026, disclosed Nov 5) = -75% vs FY26; NAV $10.74->$9.95; px $6.52->$4.90 Nov5 (-24.8%, 10x vol), $4.92 Nov6 = -50.5% to NAV; 6-mo realized losses $50.5M. CION Q1-27 base $0.25 vs $0.30 (declared Nov 3), 3Q26 NII $0.25 = 83% coverage, NAV $13.57->$13.20, EPS -$0.07. TSLX $0.42 base UNCHANGED + $0.01 supp. FSK $0.44 reg + $0.20 special. PSEC $0.035/mo. NO CUT: ARCC $0.48, OBDC $0.31 base + $0.01 supp (base already cut $0.37->$0.31 in Q2-26), GSBD $0.32, HTGC $0.47, BBDC $0.26, CGBD $0.35.",
   "blsCheckMethod": "BLS public API v1 rate-limited (daily threshold) - use r.jina.ai on cnbc.com payrolls article",
   "brentDayChangePct": "2026-11-15 02:40Z: +0.02 (unchanged, FIFTY-FOURTH frozen-weekend print).",
-  "brentFrontMonth": "2026-11-17 01:10Z: Brent 92.07 (straits /status, verifiedAt 00:58:10Z) / 91.92 (/api/v1/tick, asOf 01:09:50Z) / CNBC @LCO.1 92.00-92.14 (stamp 01:01-01:07Z). change24h -3.42% (/status) / -3.56% (/tick) - first sub-3.5% day of the run. WTI 85.34 / 85.26-85.38. The /status-to-/tick EXACT-CONVERGENCE STREAK (11 ticks) BROKE (delta 0.15) - always name the route. Brent is ~$3.70 below Friday's 95.84 close.",
+  "brentFrontMonth": "2026-11-17 12:10Z: Brent 92.84 (straits /status, verifiedAt 12:00:24Z) / 92.73 (/api/v1/tick, asOf 12:12:06Z) / CNBC @LCO.1 92.71 (+0.27 / +0.29% vs Monday settle 92.44). change24h -2.38% (/status) / -2.44% (/tick) - 6th consecutive improvement as the pre-collapse base rolls off. CNBC is $0.13 BELOW straits (last tick's $0.01 'healed' spread was a one-tick artifact). WTI 86.18 / 86.09. Brent is ~$3 below Friday's 95.84 close. NEVER show the straits trailing-24h % and CNBC's session % side by side.",
   "brentTrigger": "Brent front-month futures trigger $126.10 (52wH). Live 95.84 = ~24% BELOW the trigger - NO oil tripwire.",
   "btc24hHigh": "2026-11-14 06:40Z: 66,791.2 (prior Kraken print; not recomputed this tick - Yahoo weekend series shows a None Sat bar).",
   "btc24hLow": "2026-11-15 01:45Z: 61,946.17 (Coinbase 5m bar low / 24h low). Breached 62,000 briefly, reclaimed within ~20min, and by 02:35Z was above 64,000 - a full range-midpoint recovery.",
@@ -60,7 +61,7 @@
   "btcEma20": 79467.7,
   "btcEma50": "stale as of 2026-11-05 (79,904.3 from 720 completed bars); not recomputed this tick - spot remains ~-14% below it.",
   "btcEtfFlowsNov5": -430200000,
-  "btcUsd": "2026-11-17 01:10Z (Coinbase Exchange / CNBC BTC=): 64,607-64,665 (-0.95% vs prev close 65,287.28; open 65,266.20, high 65,468.01, low 64,430.37). Held ABOVE $64K, fell with the tape. Still below the $70K invalidation and $74K flush trigger.",
+  "btcUsd": "2026-11-17 12:10Z (CNBC BTC=): 64,810.06 (-477.22 / -0.73% vs prev close 65,287.28). 11th session above $64K with ~$810 of cushion - the widest since the 06:40Z break attempt. Below the $70K invalidation and $74K flush trigger.",
   "bxlAlertDelivered": "DELIVERED to Jacob via telegram 2026-11-07 ~20:20Z (messageId 10894, conv_6f9492ccfdf5034f745e6d7284d2573f). DO NOT re-send the BXSL dividend-cut alert. Re-alert only on: ARCC declaring a cut, BBB OAS >=120bps, HY OAS >=402bps, or BXSL/ARCC NAV break (>=15% discount) or default/covenant event.",
   "bxlCoverage": "BXSL 3Q26 dividend coverage 88% (NII 0.68 / regular div 0.77); post-reset coverage at $0.60 = 113%. ARCC 3Q26: NII $0.46 vs $0.48 div = 96% coverage, non-accrual 1.8%->2.4% amortized cost, NAV $19.31 vs price 19.13 (-0.9%) - NEXT CUT CANDIDATE, not yet cut.",
   "bxlDividendReset": "BXSL 8-K/Ex-99.1 (Nov 4, 2026): board declared Q4-26 regular div $0.77 (record 12/31/26) AND Q1-27 regular div $0.60 (record 3/31/27) = -22% RESET. 3Q26 NII $0.68 vs $0.77 div = 88% coverage (first sub-100%); non-accrual 1.8%->2.1% FMV (2.8% amortized cost); NAV $25.53->$25.25. TELLTALE: our BDC check had been reading PRICES only and logged \"no dividend cut\" for 3 days - WRONG.",
@@ -89,7 +90,7 @@
   "dxy": "2026-11-15 02:10Z: 103.411 (CNBC .DXY, dated 11/13, +0.238 / +0.23%). Unchanged.",
   "easternProvinceBallisticIntercept": "2026-11-08 03:05Z: Saudi coalition (Maj. Gen. Turki al-Maliki on X) CONFIRMED interception + destruction of a Houthi BALLISTIC MISSILE aimed at the Eastern Province (Dammam/Dhahran/Abqaiq alerts at 02:11Z, all-clear, then coalition confirmation). NO damage confirmed. Eastern Province is now a publicly-acknowledged repeat target (drone Nov 5, ballistic Oct 29, ballistic Nov 7/8). Disclosure pattern: alert civilians -> clear -> confirm intercept. Watch for a second alert cycle + for Aramco damage. || 2026-11-08 04:40Z: Reuters/AA/Straits Times confirm the Eastern Province civil-defence alerts (Dhahran, Dammam, Abqaiq, Al-Ahsa) were lifted early Sunday, with the coalition confirming a ballistic missile toward the Eastern region intercepted right after the all-clear. Still NO damage confirmed. || 2026-11-08 07:10Z: Sunday tally stable at FIVE missiles (3 ballistic: 1 Eastern Province + 2 Riyadh; 2 cruise: Riyadh + southern region) per AA body 07:15Z, Al Arabiya 06:39Z, Saudi Gazette, Qatar News Agency 06:53Z, ANI, Arab News, Asharq. Eastern-Province alert->all-clear (Dhahran, Dammam, Abqaiq, Al-Ahsa) confirmed by Reuters/Straits Times. Do NOT re-report the count.",
   "ecbDecHikeConditional": true,
-  "escalationIndex": "2026-11-17 01:10Z: escalationProbability 55 (inputsAsOf 00:47:14Z, FRESH) / crisisPressure 88 (extreme, inputsAsOf 2026-11-08, 8d stale) - TWENTY-ONE consecutive identical ticks, through a UKMTO-confirmed third tanker attack (vessel disabled), a 'dirty bomb in DC' intel story, a third carrier arriving and a -3.4% oil day. The index is not stale-locked; at fresh inputs it still reads 55 while the boards price normalization. Do not rely on it.",
+  "escalationIndex": "2026-11-17 12:10Z: escalationProbability 55 (inputsAsOf 11:17:45Z, FRESH) / crisisPressure 88 (extreme, inputsAsOf 2026-11-08, 9d stale) - THIRTY-THIRD consecutive identical tick, now through a 110-transit print, a UKMTO double strike with crew unaccounted for, and a tier-1 six-vessel mine claim. The index is not stale-locked and simply does not see this. Do not rely on it.",
   "etfBtcNov5": -430.2,
   "etfBtcNov6Partial": -51.7,
   "etfEthNov5": -99.9,
@@ -126,7 +127,7 @@
   "iranPostMidnightStrike": "2026-11-13 16:10Z: THE US STRUCK SIRIK AND IRAN'S RESPONSE IS AN 'UNLIMITED RESPONSE' WARNING. Corroboration: 'Iran claims to destroy Bahrain radar after US Sirik Island strike' (Taiwan Times 14:49Z); 'Southern Iran's Sirik County near Strait of Hormuz hit by enemy strike' (Muslim Network TV 15:11Z); prior tick's Iran-confirmed US strike on an IRGC naval base (ToI). Keep SEPARATE from the Bahrain family: (a) 2 Iranian drones downed toward Bahrain = defender-confirmed; (b) radar destruction = IRGC claim, CENTCOM DENIES; (c) MQ-1 downed = Iran claim only. No market leg moved on any of it.",
   "iranPostMidtermStrike": "2026-11-13 13:40Z: The Bahrain-radar claim family is now DENIED by CENTCOM (see iranPostMidnightStrike). Treat the strike as NOT having occurred; the market has priced otherwise. All other claim families (gas-carrier mine, MQ-1 drone, Sirik telecom tower, Houthi drone on Saudi East-West pipeline) remain Iran-attributed and unconfirmed, with NO UKMTO row and NO maritime-authority confirmation.",
   "iranQatarDealLeg": "2026-11-08 01:10Z: Qatar PM Al-Thani says SIGNIFICANT PROGRESS + Trump claims progress + 'Hormuz could open in 2 days' Qatari deal on the wire. Verified full bodies (New Arab live blog, CBS live blog: Trump called Qatar's emir). First CONCRETE de-escalation mechanism of the cycle; supersedes 'the diplomatic leg stays stuck'. Oil risk now TWO-SIDED; market has priced neither. Blocking variable = Iran's answer to the 2-day proposal.",
-  "iranRate": "2026-11-17 01:10Z: the 00:09:20Z print LANDED; mid 2,679,500 (was 2,680,500, -0.04%), sell 2,693,000 / buy 2,666,000, deltaDayPct +0.7047, delta7dPct +1.6599, basis direct, ageHours 1, stale false. /status and /api/v1/iran-rate have RE-CONVERGED this tick. The rial has held ~2,680,000 for ~13 hours across three UKMTO-confirmed tanker incidents, four claimed mine strikes, a 'dirty bomb' intel story and a third carrier arriving - it prices none of it. Read the flatness as a mild risk signal, not good news.",
+  "iranRate": "2026-11-17 12:10Z: UNCHANGED at mid 2,672,000 (same 11:09:07.908Z print, ageHours ~1.0) - still 5 distinct levels this run (2,679,500 -> 2,680,500 -> 2,677,500 -> 2,673,500 -> 2,672,000), no 6th. sell 2,685,500 / buy 2,658,500, deltaDayPct -0.4656, basis direct. Pinned across the mine-strike cluster, the crew-missing tanker and the dirty-bomb scoop.",
   "iranRateNote": "2026-11-15 02:40Z: asOf advancing normally (02:09:09Z). The open-market quote has not moved off 2,681,500 in three hours.",
   "iranTankerClaim": "2026-11-15 07:40Z: events feed STILL STATIC at verifiedAt 06:50:26.000Z (4th confirmation of the Bahrain blind spot). Wire carries the same claim family: Tasnim 07:44Z, Mehr 06:50Z, Yeni Safak 07:14Z, UkrMedia 06:01Z, MNA 06:50Z. STILL ZERO IMO/Oman/UAE/flag-state/AP/AFP/Bloomberg rows. DO NOT UPGRADE THE SEAFARER-DEATH COUNT (still 25 per the UN) - the KTVN 'tanker into a riverboat cruise ship' item is New Orleans and the 'Atlantic Asphalt / 17 Filipino seafarers' item is dated Nov 1.",
   "iranUsForcePosture": "2026-11-15 07:40Z: BAHRAIN'S OFFICIAL LINE UPGRADED - 'several Iranian aerial attacks intercepted' (Middle East Eye 07:27Z, Anadolu 07:42Z) vs the earlier 'intercepted and destroyed Iranian drones' (Al Arabiya 06:05Z); the CENTCOM/US denial line ('two drones, both intercepted', US Ambassador rejects the IRGC claim) is now outnumbered on the Bahraini side. SAUDI: Reuters 02:58Z, Arab News 03:34Z '2 Houthi missiles targeting Riyadh, 3 drones in Eastern Province', Al Jazeera 06:18Z, Al Arabiya 06:25Z, houseofsaud 07:33Z 'Air Defences Destroy 2 Ballistic Missiles Aimed at Riyadh on November 15', Gdal Mkreq 07:41Z - all interceptions, no damage confirmed. ARAMCO DAMAGE = SINGLE SOURCE with a HIJACKED BODY (CairoScene 06:07Z; the URL now redirects to a Thai gambling site, r.jina.ai returns the spam page) - a 6h sweep found NO second carrier - DO NOT CARRY. NEW: Asharq Al-Awsat 07:39:54Z 'IRGC Media: Technical Modifications to Allow Iran Develop Missiles that Reach US' (first explicit US-range capability statement); Ghalibaf 'Neither-War-Nor-Peace' (Tasnim 07:04Z, Mehr 07:21Z, WANA); Baghaei (WANA 07:01Z); 1,500-2,500 missiles (israelhayom, Daily Beirut); Vance-as-negotiator (WSJ) STILL CONTRADICTS Trump-pulls-Vance; Gdal Mkreq 07:38Z 'Trump prefers economic pressure over military option for now'.",
@@ -186,7 +187,7 @@
   "ukmtoCheck": "2026-11-17 01:10Z: NEW ENTRY - THE 9-TICK 'NOTHING NEW' STREAK IS BROKEN. rawLength 33,827 bytes (was 33,287). NEW LEADING ENTRY (16 Nov 2026): 'UKMTO has received a report of an incident 7NM north of Khasab, Oman. A third-party has reported an attack involving a tanker transiting the Strait of Hormuz, disabling the vessel and resulting in an engine room fire. The crew have been reported safe.' Then unchanged: 16 Nov incident (tanker struck by unknown projectile transiting OUTBOUND, engine-room fire, crew accounted) - WARNING 206-26 SUSPICIOUS ACTIVITY (16 Nov 0330UTC, 430NM east of Socotra) - 15 Nov 'aware of a report' TANKER ATTACK Arabian Gulf eastbound - 204-26 - 202-26 UPDATE 001 - 201-26 - 203-26 - 200-26 - 199-26 - 198-26 - 197-26 - 196-26 - 195-26 - 194-26 - 193-26 - 192-26 - 191-26 - 190-26 HIJACK 31 Oct. The maritime authority has now confirmed THREE separate 16 Nov incidents including one vessel disabled. NOTE: the new entry is UNNUMBERED, so the UKMTO-count board's premise (notice numbers) is weakened - count dated entries instead. DO NOT carry 'tankers hit mines' as fact: UKMTO confirms ATTACK/unknown projectile; the mine claim is Iran's (IRNA).",
   "unrate": 4.1,
   "updatedAt": "2026-11-14T13:40:00Z",
-  "usChinaMediationAsk": "2026-11-08 11:40Z - NEW DE-ESCALATION CHANNEL (user-facing note SENT): WaPo opinion column by David Ignatius (Nov 7 03:57Z, 'Trump's wounded presidency turns to two unresolved wars') reporting, per a knowledgeable US official, that Treasury Secretary Bessent urged Beijing to use its influence over Tehran; TIMES NOW (Nov 8 10:55Z, body VERIFIED via r.jina.ai, timesnownews.com/world/middle-east/is-us-turning-to-china-to-find-an-off-ramp-from-iran-war-article-156482669) adds: China HAS CONVEYED Washington's message to Iran; Trump asked Xi for help when they met in Washington in September and Xi privately agreed Iran should never have a nuclear weapon; issue likely to surface when the leaders meet in SHENZHEN later this month. Corroboration: Times of Israel (Nov 7 11:27Z 'Bessent said to reach out to China to help end Iran war after Republicans' midterm election defeat'); Times of India (Nov 7 17:46Z); Fakti (Nov 8 05:23Z); Arabic: Sada Albald Nov 8 04:43Z 'واشنطن تطلب من بكين التدخل لإنهاء الحرب مع إيران', Al-Ayam Nov 8 09:00Z, Egypt Al-Youm Nov 7 03:37Z, Iran International AR Nov 7 11:20Z. Also: Chosun Nov 8 08:20Z 'White House Factions Clash on Iran War Strategy'; Rubio defends the Iran war / dismisses exit rumours (scanx Nov 8 03:52Z). Context: a Trump-Xi-Putin summit in Shenzhen is being negotiated (FT Nov 3, POLITICO Nov 4, NBC/Guardian Nov 6) but was NOT part of any prior scratch report. READ-THROUGH: the Trump-Xi tie gives Washington a channel that does not require Tehran to accept anything, and it opens the ONE thing the US needs: Chinese pressure on Iran's oil buyers. This is the highest-conviction DOWNSIDE (de-escalation) print of the weekend, and it explains why Brent sits 22% below the trigger.",
+  "usChinaMediationAsk": "2026-11-08 11:40Z - NEW DE-ESCALATION CHANNEL (user-facing note SENT): WaPo opinion column by David Ignatius (Nov 7 03:57Z, 'Trump's wounded presidency turns to two unresolved wars') reporting, per a knowledgeable US official, that Treasury Secretary Bessent urged Beijing to use its influence over Tehran; TIMES NOW (Nov 8 10:55Z, body VERIFIED via r.jina.ai, timesnownews.com/world/middle-east/is-us-turning-to-china-to-find-an-off-ramp-from-iran-war-article-156482669) adds: China HAS CONVEYED Washington's message to Iran; Trump asked Xi for help when they met in Washington in September and Xi privately agreed Iran should never have a nuclear weapon; issue likely to surface when the leaders meet in SHENZHEN later this month. Corroboration: Times of Israel (Nov 7 11:27Z 'Bessent said to reach out to China to help end Iran war after Republicans' midterm election defeat'); Times of India (Nov 7 17:46Z); Fakti (Nov 8 05:23Z); Arabic: Sada Albald Nov 8 04:43Z '\u0648\u0627\u0634\u0646\u0637\u0646 \u062a\u0637\u0644\u0628 \u0645\u0646 \u0628\u0643\u064a\u0646 \u0627\u0644\u062a\u062f\u062e\u0644 \u0644\u0625\u0646\u0647\u0627\u0621 \u0627\u0644\u062d\u0631\u0628 \u0645\u0639 \u0625\u064a\u0631\u0627\u0646', Al-Ayam Nov 8 09:00Z, Egypt Al-Youm Nov 7 03:37Z, Iran International AR Nov 7 11:20Z. Also: Chosun Nov 8 08:20Z 'White House Factions Clash on Iran War Strategy'; Rubio defends the Iran war / dismisses exit rumours (scanx Nov 8 03:52Z). Context: a Trump-Xi-Putin summit in Shenzhen is being negotiated (FT Nov 3, POLITICO Nov 4, NBC/Guardian Nov 6) but was NOT part of any prior scratch report. READ-THROUGH: the Trump-Xi tie gives Washington a channel that does not require Tehran to accept anything, and it opens the ONE thing the US needs: Chinese pressure on Iran's oil buyers. This is the highest-conviction DOWNSIDE (de-escalation) print of the weekend, and it explains why Brent sits 22% below the trigger.",
   "usCpiToday": "CORRECTED - US CPI does NOT release on Nov 6. BLS official schedule: Employment Situation Oct = Nov 6; CPI Oct = Nov 10 08:30 ET; PPI Oct = Nov 13. The 12:40Z claim was wrong (loose Reuters week-ahead line).",
   "usEmbassyAlertLevel": "2026-11-08 04:40Z: Nov 7 US Mission UAE + Saudi security alerts; 11 Middle East embassies on alert; 'stay inside' posture on a reported Iranian assassination plot; advisories warn of flight cancellations/airspace closures and are open-ended.",
   "usIranAgreementLeg": "2026-11-14 19:40Z: FLAT - 'Iran-Oman Hormuz Mgmt Agreement' Nov-30 8.5 flat (liq 46,438) / Dec-31 20.0 flat (liq 23,552); 'US-Iran Hormuz Agreement' Nov-30 7.5 flat (liq 183,193) / Dec-31 21.5 flat (liq 108,737).",
@@ -231,7 +232,7 @@
   "dailyBriefStatus": "2026-11-15 07:40Z: STILL 06:01:08.479Z and STILL blind (4th confirmation) - no Bahrain, no Riyadh interceptions, no Aramco. It also lacks the 'several Iranian aerial attacks intercepted' statement. Park it.",
   "straitsEndpoints": "2026-11-15 07:40Z (TOOLING): use https://straits.live/status (/api/v1/status 404s with the Next.js HTML shell). /api/v1/events, /api/v1/transits, /api/v1/iran-rate, /api/v1/oil, /api/v1/tick work. Kalshi: prices in yes_bid_dollars/yes_ask_dollars/no_bid_dollars/no_ask_dollars/last_price_dollars/previous_price_dollars (bare keys NULL); extra fields open_interest_fp, volume_fp, volume_24h_fp, yes_bid_size_fp, yes_ask_size_fp populated; ALL candlesticks endpoints are DEAD (404) - do not retry. Polymarket: events?slug= gives umaResolutionStatus (now 'uma proposed' on the Arab-country legs); clob prices-history returned EMPTY arrays for both occurrence boards - use oneDayPriceChange + updatedAt instead. Manifold: probability is in the 'probability' field ('prob' is NULL) and /v0/bets returns a BARE JSON ARRAY - do not call .get() on it. OKX public API returned EMPTY funding/OI/liquidation arrays this tick - do not cite OKX numbers without a non-empty payload. cairoscene.com is domain-hijacked (redirects to a Thai gambling site) - never fetch/cite it.",
   "polymarketSlugs": "2026-11-14 15:20Z (tooling): confirmed live slugs - iran-oman-hormuz-management-agreement-byptptpt-20260804222725871; us-iran-hormuz-agreement-byptptpt-20260803235957575; next-us-iran-senior-diplomatic-meeting-byptptpt; saudi-houthi-ceasefire-agreement-announced-by; houthi-x-saudi-arabia-effective-ceasefire-begins-by-20260916; iran-full-airspace-closure-byptptpt-20260625195253028; will-the-us-officially-declare-war-on-iran-by; iran-charges-hormuz-fees-byptptpt-20260625175035466; us-charges-hormuz-fees-byptptpt-20260713151243232; will-iran-target-jordan-by-20260909 (the '-20260909' variant is the LIVE one; 'will-iran-target-jordan-byptptpt' is CLOSED/resolved). Guessed slugs return EMPTY - use gamma-api.polymarket.com/public-search?q=...&limit_per_type=N to rediscover.",
-  "hormuzTransits": "2026-11-16 14:40Z: AIS transiting 132 (status) / 131 (tick) - 2nd tick near the 137.5 median; measuredPopulation flat 917; staleFix flat 354; gapCarryover 5->2; windowCoverage 98.7->99.7%; stranded split CONVERGED at 781. tankerDarkRate still NULL (22nd tick) => evasion watch SUSPENDED. Verdict unchanged: closed / Effectively no, throughput 4%.",
+  "hormuzTransits": "2026-11-17 12:10Z: AIS transiting 110 (/status, asOf 12:08:06Z; /tick agrees) - OUT of the 119-125 plateau since 08:10Z, while measuredPopulation set a run high 913 => ratio 110/913 = 12.0%, 4th consecutive flat-to-worse reading; 110/134 median = 82% of normal, weakest since the 105 print. Quality is the cleanest of the run (gaps 24, carryover 4, stale 291, stratifiedZ -0.70, coverage 98.0%) so this is a real traffic signal, NOT an observability artifact and NOT an evasion signal. tankerDarkRate still NULL (41st tick) => evasion watch SUSPENDED. Verdict string still 'closed / Effectively no' (8th stale tick).",
   "stratsEndpoints": "2026-11-14 15:20Z (tooling, IMPORTANT): the flat status payload is at https://straits.live/status (NOT /api/v1/status, which 404s). Working JSON endpoints: /status, /api/v1/tick, /api/v1/events, /api/v1/iran-rate, /api/v1/oil, /api/v1/markets, /api/v1/vessels, /api/v1/spr, /api/v1/chokepoints, /api/v1/transits, /api/v1/insurance, /api/v1/jwc, /api/v1/pipelines, /api/v1/ais-gaps, /api/v1/trade-impact, /api/v1/briefs, /api/v1/sanctioned-vessels, /api/v1/cape-snapshot, /api/v1/carriers, /api/v1/cushing, /api/v1/gas, /api/v1/hormuz-snapshot, /api/v1/ports.",
   "kalshiTransitBoard": "2026-11-15 07:40Z: T20 PEAKED AND FADED 3pt BUT THE FLOW IS STILL REAL - bid .63 / ask .65 / last .64 / prev .57 (prev book .55/.57) => mid .64, down from .67 at 07:10Z but far above .58 at 06:40Z and .48-.54 at 05:40Z. open_interest_fp 14,402.09 (was 13,201.96, +1,200), volume_24h_fp 11,220.61 (was 10,059.25, +1,161), volume_fp 51,862.77, yes_bid_size 241.68 (was 44), yes_ask_size 21.01 => depth came IN while price came off; a genuine two-sided book and a PAUSED trend, not a fading quote. T15 bid .92 / ask .93 / last .91 / prev .92 (prev book .92/.93) - the 07:10Z 91/94 spread widening did NOT persist. T30 .01/.02/.02 (OI 7,324.84, v24h 521.18). T50 .00/.01/.01 (OI 32,332.82, v24h 0.00) - top of the curve empty and untraded. straits kalshi aggregate .42 UNCHANGED (upd 07:30:16Z). T20 RULE: SUM of Nov 9-15 PortWatch daily transits, >20 = Yes, close 2026-11-17T14:00Z - and PortWatch has published NOTHING since Nov 8 (nTotal 3, prev Nov-7 = 2, ma7 3.86, pre-crisis median 85).",
   "manifold": {
@@ -241,11 +242,11 @@
    "bettors": 91,
    "note": "Broke deeper (-0.99pt from .7290349228718619) on only $42.13 of new bets; volume24Hours ROLLING DOWN (495.24 -> 257.01) => no new flow. Thin, low-conviction drift to .72, not a conviction print."
   },
-  "ukmtoLog": "2026-11-17 11:40Z: page RE-CUT not appended (13-Nov unnumbered Arabian-Gulf row dropped, 208-226 gained a 16-Nov date header; same 34,089 bytes, same 65 rows). Still NO 207-26, still NO UPDATE 002; 208-226 crew still unaccounted for after the second strike. Lloyd's List abstract adds an Iran attack that KILLED A CREW MEMBER and 'transits nearly halve'."
+  "ukmtoLog": "2026-11-17 12:10Z: the 11:36Z page re-cut REVERTED - 12:10Z pull byte-identical to 11:10Z (34,686 bytes). Still NO 207-26, no UPDATE 002. TIER-1 NOW CARRIES THE SECOND STRIKE: tanker struck TWICE, disabled, on fire, CREW UNACCOUNTED FOR, damage assessment unknown (Times Now / newscord / Yahoo-Reuters syndication / The National live headline 12:01Z). The IRGC's six-vessel mine claim is now on tier-1 wires but remains uncorroborated by any maritime authority - keep it attributed."
  },
- "updatedAt": "2026-11-17T11:40:00Z",
+ "updatedAt": "2026-11-17T12:10:00Z",
  "lastTick": "2026-11-15 08:10Z",
- "scratchFile": "memory/heartbeat-scratch-2026-11-17T1140Z.md",
+ "scratchFile": "memory/heartbeat-scratch-2026-11-17T1210Z.md",
  "btc": {
   "venue": "coinbase",
   "last": 64032.21,
@@ -282,27 +283,27 @@
   "T15": {
    "bid": 0.93,
    "ask": 0.96,
-   "last": 0.95,
-   "oi": 44843.17,
-   "vol24h": 9586.04,
+   "last": 0.96,
+   "oi": 44849.17,
+   "v24": 9592.04,
    "bidSize": 86,
-   "askSize": 6
+   "askSize": 86.77
   },
   "T20": {
-   "bid": 0.25,
-   "ask": 0.67,
-   "last": 0.27,
-   "oi": 20567.34,
-   "vol24h": 7604.61,
-   "bidSize": 49,
-   "askSize": 8
+   "bid": 0.14,
+   "ask": 0.52,
+   "last": 0.18,
+   "oi": 20518.16,
+   "v24": 7663.67,
+   "bidSize": 5,
+   "askSize": 72
   },
   "T25": {
    "bid": 0.12,
    "ask": 0.14,
    "last": 0.14,
    "oi": 11710.66,
-   "vol24h": 6065.76,
+   "v24": 6065.76,
    "bidSize": 18,
    "askSize": 17
   },
@@ -311,38 +312,37 @@
    "ask": 0.03,
    "last": 0.01,
    "oi": 8870.37,
-   "vol24h": 2887.98,
-   "bidSize": 356,
+   "v24": 3037.98,
    "askSize": 1050
   },
   "T40": {
-   "bid": 0.0,
-   "ask": 0.01,
+   "bid": 0.01,
+   "ask": 0.02,
    "last": 0.01,
-   "oi": 19744.05,
-   "vol24h": 0.0
+   "oi": 19908.05,
+   "v24": 935
   },
   "T50": {
    "bid": 0.0,
    "ask": 0.01,
    "last": 0.01,
    "oi": 32332.82,
-   "vol24h": 0.0
+   "v24": 0
   },
-  "note": "T20 (>20) BID COLLAPSED .62 -> .25 (-37c) ON RISING VOLUME (v24 5,647 -> 7,605) AND RISING OI (18,985 -> 20,567) - a genuine repricing, not a quote withdrawal, but the book is 42c wide so the ask is stale. T15 anchored .93/.96 with identical v24. T25 .12/.14. Resolves 14:00Z. Market answer for the Nov 9-15 count moved from '>20' toward '16-20' - directionally consistent with Lloyd's List 'transits nearly halve'."
+  "note": "T20's BID COLLAPSED AGAIN .25 -> .14 (2-tick path .62 -> .25 -> .14) on 5 contracts of bid size and a 38c-wide book - the highest bucket T25 also converged to .12/.14 => the market's answer for the Nov 9-15 count is migrating to 16-20, but the quote is empty and T15 is frozen at .93/.96. Resolution is 14:00Z (~1.8h): DO NOT QUOTE KALSHI BEFORE IT."
  },
  "polymarket": {
   "truce": {
-   "Nov8": 0.515,
+   "Nov8": 0.52,
    "Nov15": 0.575,
-   "Nov22": 0.665,
-   "Nov30": 0.745,
+   "Nov22": 0.655,
+   "Nov30": 0.75,
    "Dec31": 0.835
   },
   "israel": {
    "Nov15": 0.9975,
-   "Nov18": 0.982,
-   "Nov20": 0.9615,
+   "Nov18": 0.9835,
+   "Nov20": 0.9715,
    "Nov22": 0.935,
    "Nov30": 0.855,
    "Dec15": 0.735,
@@ -409,51 +409,51 @@
   "wtiLadder": {
    "high90fromNov9": [
     0.48,
-    0.49,
-    26462
+    0.52,
+    9125
    ],
    "high95": [
     0.16,
-    0.17,
-    34667
+    0.18,
+    21994
    ],
    "high100fromNov2": [
-    0.06,
+    0.07,
     0.08,
-    38830
+    19635
+   ],
+   "low85fromNov10": [
+    null,
+    null,
+    0
    ],
    "low80": [
-    0.46,
+    0.41,
     0.47,
-    35091
+    17387
    ],
    "low75": [
-    0.13,
+    0.12,
     0.15,
-    37087
-   ],
-   "ath": [
-    0.035,
-    0.036,
-    251447
+    18888
    ]
   },
   "ukmtoCount": {
    "lt4": [
-    0.001,
+    0.002,
     0.01
    ],
    "4_7": [
-    0.32,
-    0.47
+    0.34,
+    0.43
    ],
    "8_11": [
     0.36,
-    0.44
+    0.4
    ],
    "12_15": [
     0.06,
-    0.29
+    0.27
    ],
    "16plus": [
     0.027,
@@ -461,16 +461,14 @@
    ]
   },
   "notes": [
-   "WTI LADDER ROUND-TRIPPED: last tick's tail repricing reversed in both directions - LOW $80 .51/.52 -> .46/.47 (-5c) and HIGH $90-from-Nov-9 .44/.45 -> .48/.49 (+4c) on 26-35k books. ATH board still .035/.036 => noise-dominated, not a crash and not a squeeze. Two opposite ticks running.",
-   "QATAR VENUE LEG CRACKED DOWN: .145/.179 -> direct read .101/.125 (ltp .077, d1 -0.0055, liq 41,917, v24 5,894) on the day Qatar hosts the Iranian mediation meeting. Every other venue flat. Read: a meeting happens, but not in Qatar.",
-   "DIPLOMACY FLAT THIS TICK after last tick's depth-backed 3c no-meeting drop held: meeting Dec-31 .21/.22 (bid +1c, liq +6.5%), no-meeting .76/.78 (bid +1c, ask unchanged).",
-   "CEASEFIRE CURVES: US-Iran Dec-31 .83/.84 (+1c, liq +5.8%), Nov-30 .74/.75 (-2c), Nov-15 .57/.58 (+1c). Israel Dec-31 .65/.66 UNCHANGED 5th tick with liq +29% (biggest depth build of the run) - a real unfilled bid. US-Iran/Israel divergence re-widened to 18.0pt (0.835 vs 0.655).",
-   "OIL: straits brent 92.85 (change24h -2.54 trailing-24h) vs CNBC 92.84 (+0.43% vs Monday settle 92.44) - the CNBC/straits spread collapsed from $0.29 to $0.01. The two percentages use different bases and must never be quoted side by side.",
-   "UKMTO PAGE WAS RE-CUT THIS TICK, not appended: the 13-November unnumbered Arabian-Gulf row vanished and 208-226 gained a 16-Nov date header; same byte count (34,089) and same 65 rows. Still NO 207-26, still NO UPDATE 002, crew still unaccounted for.",
-   "LLOYD'S LIST abstract (paywalled): 'Iran attack KILLS CREW MEMBER', 'transits nearly halve', 'reinstatement of the US maritime blockade', 'proposed US toll of 20% on cargo would cost a fully laden VLCC about $32m'. Page date stamp reads '14 Jul 2026' - treat the date as garbage, the substance as current.",
-   "AL JAZEERA full text: IRGC Navy says two tankers struck mines on the southern route, regular navy says a third was immobilised after striking a mine in restricted waters EAST of the strait - unverified, hulls unidentified. IMO: 136 incidents Mar 1-Nov 11, 25 seafarers killed, 35 in October alone. Khor Mor drone overflight Monday, no strike/damage, production already halted (2.8 GW). Three carriers in CENTCOM confirmed.",
-   "IRAN RIAL 5th distinct level: 2,679,500 -> 2,680,500 -> 2,677,500 -> 2,673,500 -> 2,672,000 (11:09Z, fresh). /status and /api/v1/iran-rate agree for a 6th tick => the 1h lag is confirmed resolved. Direction consistently weaker.",
-   "AI-UNWIND BREADTH TRIPWIRE STILL TRIGGERED and the tape softened: VIX 22.81 (-0.44%, cooled from 23.53), gold 3,861.20 still below the 3,885 trigger, BTC 64,532 (cushion back to ~$530), credit frozen at 0.7464008 for a 19th tick."
+   "MEDIATOR VENUE LEGS TICKED UP FOR THE FIRST TIME: Oman bid .005 -> .01 with liquidity 10,057 -> 25,985 (+158%, biggest depth build of the run on that board), Switzerland bid .008 -> .012, Turkey ask .006 -> .019, Pakistan ask .005 -> .011. Qatar did NOT rally (.101/.125 -> .10/.119, ltp .077 -> .117) => 'a meeting happens, but not in Qatar' survives its first post-crack tick. Meeting leg itself flat .21/.22 for a 2nd tick, no-meeting .76/.78.",
+   "CEASEFIRE CURVES FLAT: US-Iran Dec-31 .83/.84 (liq 60,299 +1.9%), Nov-30 .74/.76, Nov-22 .66/.67 -> .65/.66 (-1c), Nov-15 .57/.58 flat but liq -30%, Nov-8 .51/.53. Israel Dec-31 .65/.66 unchanged 6th tick (liq 149,495 -10%), Nov-18 .981/.983 -> .983/.984, Nov-20 .959/.964 -> .97/.973 => Israel's FRONT legs recovered for the first time in three ticks. Divergence holds at 18.0pt (0.835 vs 0.655).",
+   "BLOCKADE END: Dec-31 .182/.183 -> .184/.185, Nov-30 .049/.051 -> .05/.053 (liq -10%), Dec-15 .10/.11 -> .09/.11 => still 'thaw without a summit'. Hormuz agreement Dec-31 .13/.15 -> .13/.14 with liq +18%; still dead at the year end.",
+   "WTI LADDER THIRD TICK OF HALVED BOOKS: LOW $80 .46/.47 -> .41/.47 (liq 35,091 -> 17,387, -50%), HIGH $90-from-Nov-9 .48/.49 -> .48/.52 (liq 26,462 -> 9,125, -65%), most legs -33% to -64%. CRUDE-ATH Dec-31 .035/.036 unchanged on flat 237,696 => the run's most stable escalation reference. DO NOT TRADE THE 5c MOVES until books rebuild.",
+   "UKMTO DOUBLE STRIKE WITH CREW UNACCOUNTED FOR is now tier-1 carried (Times Now, newscord, Yahoo/Reuters syndication, The National live headline 12:01Z) - the most serious crew event of the run, and still priced at ZERO. The IRGC six-vessel mine claim is now multiply tier-1 carried but uncorroborated by any maritime authority: keep every mine attribution attributed.",
+   "UKMTO FILE: the 11:36Z re-cut REVERTED - 12:10Z pull byte-identical to 11:10Z (34,686 bytes). Still NO 207-26, no UPDATE 002.",
+   "IRAN RIAL UNCHANGED at 2,672,000 (same 11:09Z print) => still 5 distinct levels, no 6th.",
+   "DO NOT MIX THE TWO HORMUZ-FLOW NUMBERS: our AIS 30-min transits 110/134 = 82% of median vs discoveryalert's '49% of pre-war' (a different monthly/PortWatch-style metric). The site's verdict string is also not our measurement."
   ],
   "meeting": {
    "Dec31": [
@@ -491,19 +489,22 @@
   }
  },
  "ais": {
-  "concurrent": 123,
-  "transiting": 123,
-  "transitingTick": 123,
-  "strandedStatus": 784,
-  "strandedTick": 779,
-  "offshore": 48,
-  "staleFixes": 293,
-  "gapCarryover": 8,
-  "measuredPopulation": 902,
+  "concurrent": 110,
+  "transiting": 110,
+  "transitingTick": 110,
+  "strandedStatus": 779,
+  "strandedTick": 803,
+  "offshore": 45,
+  "staleFixes": 291,
+  "gapCarryover": 4,
+  "measuredPopulation": 913,
   "gaps": 24,
-  "divergenceZero": true,
-  "splitConverged": false,
-  "note": "TRANSITS FLAT IN A 119-125 BAND, DENOMINATOR STILL CLIMBING: transits 125->123 (11 prints: 83,96,107,115,121,124,119,117,105,123,125,123), population 889->902, stranded 785->784, offshore 42->48. The ratio that matters is FLAT for a 3rd tick: 123/902 = 13.6% (14.1%, 13.5% prior). Priority-(a) branch (ii) CONFIRMED 3 ticks running: the fleet is returning faster than it clears - more hulls in the picture, not a blockade re-tightening and not an evasion signal. Quality soft this tick: stale fixes 274->293, stratifiedZ -0.80->-0.86, gaps 24 flat, coverage 99.7%. tankerDarkRate still NULL for the 40th consecutive tick (prose tanker 30.4% vs ambient 25.2%, significant false) => evasion watch stays SUSPENDED. vesselRisk high 16 / moderate 61 / low 1414. SPR 279.54 Mbbl (Nov 6). Gas $3.84/gal."
+  "baseline7d": 31.6,
+  "stratifiedZ": -0.7,
+  "coverage": 98.0,
+  "ambientDarkRate": 0.241,
+  "eligibleTankers": 78,
+  "note": "TRANSIT BAND BROKE: 123 -> 110 (out of the 119-125 plateau since 08:10Z) while measuredPopulation set a run high 913 => ratio 110/913 = 12.0% (13.6 -> 14.1 -> 13.5 -> 13.6 -> 12.0), 4th consecutive flat-to-worse reading. 110/134 median = 82% of normal, weakest since the 105 print. Quality is the cleanest of the run (gaps 24, carryover 4, stale 291, stratifiedZ -0.70, coverage 98.0%) so this is a real traffic signal, NOT an observability artifact and NOT an evasion signal. tankerDarkRate still NULL (41st tick) => evasion watch SUSPENDED; prose only: tanker 30.8% vs ambient 24.1%, significant=false. /status stranded 779 vs /tick 803 - 24-hull route divergence, always name the route. Verdict string still 'closed / Effectively no' (8th stale tick)."
  },
  "macro": {
   "hyg": 76.73,
@@ -511,12 +512,12 @@
   "ratioLive": 0.7464007782101167,
   "ratioOfficialClose": 0.7483707810524267,
   "ratioTripwire": 0.748371,
-  "gold": 3861.2,
-  "vix": 22.81,
-  "us10y": 5.121,
-  "dxy": 103.591,
+  "gold": 3870.7,
+  "vix": 22.58,
+  "us10y": 5.117,
+  "dxy": 103.586,
   "tlt": 79.38,
-  "brent": 92.85,
+  "brent": 92.84,
   "spx": 7416.59,
   "spxPct": -1.92,
   "ixic": 24509.758,
@@ -528,29 +529,23 @@
   "nbis": 107.13,
   "jpm": 338.21,
   "venue": "cnbc-quote-service / gold-api / straits-oil",
-  "btc": 64532.4
+  "btc": 64810.06
  },
  "stale": [
-  "dailyTransits (PortWatch) still dated 2026-11-08 - the Hormuz daily series has not advanced",
+  "dailyTransits (PortWatch) still dated 2026-11-08 - the Hormuz daily series has not advanced for the 63rd tick",
   "crisisPressure inputsAsOf 2026-11-08 (9d stale)",
-  "dailyBrief verifiedAt 09:00:39Z (3rd tick, ~2.6h old) and its Brent 92.11 sits $0.74 BELOW live 92.85",
-  "insurance + tradeImpact + carriers + pipelines feeds are curated and flagged figuresStale",
+  "escalation inputsAsOf 2026-11-17T11:17:45Z - fresh, but 33rd consecutive tick at exactly 55; do not rely on it",
+  "insurance + tradeImpact + carriers + pipelines feeds are curated and flagged figuresStale - a live insurance revision would be the first hard confirmation of the crew-missing tanker",
   "chokepoint (single) and cape feeds stale since 2026-08-28; the chokepoints rollup is live but dated 2026-11-08",
-  "hormuzSnapshot stale (asOf 2026-08-28) - transitsLast24h is an arrival-activity index, not a crossing count",
-  "Aramco damage: still single source, body hijacked, no second carrier",
-  "UKMTO unnumbered rows: 13-Nov row dropped off the page this tick with no retraction notice",
-  "Lloyd's List abstract carries a stale '14 Jul 2026' date stamp; lloydslist.com is CAPTCHA'd via r.jina.ai and paywalled via web_fetch",
-  "seatrade-maritime.com returns Cloudflare 403 - headline/snippet only, never quote the VLCC-sinking claim as fact",
-  "Iran's mine-strike count keeps moving (2 -> 4 -> 6) and is IRGC/IRNA-attributed with no independent confirmation",
-  "hb/news.py Google-News RSS is currently rate-limited (HTTP 429) - fall back to web_search / r.jina.ai",
-  "Manifold print is byte-identical to last tick (zero flow) - do not quote it as a fresh print",
-  "Polymarket /events?slug= and /markets?slug= disagree on the same leg by cents (Qatar .091/.149 vs .101/.125) - quote the direct /markets read and say so"
+  "The National live page carries earlier stale prints (old Brent figure) - live Brent is 92.84 straits / 92.71 CNBC",
+  "hb/news.py Google-News RSS is rate-limited (HTTP 429) - use web_search / web_fetch",
+  "Manifold print moved +0.4pt but v24 fell - treat as drift, not a fresh conviction print"
  ],
  "manifold": {
   "warJan1_2027": 0.7570163123396959,
   "warVolumeUsd": 24019.15,
-  "v24": 366.78,
+  "v24": 237.9,
   "bettors": 91,
-  "note": "13TH IDENTICAL PRINT (same prob to 16dp, same v24 366.78, same 91 bettors). Do not re-report as a fresh print."
+  "note": "Moved +0.4pt from .7531297 but v24 FELL 366.78 -> 237.90 => a drift, not conviction. Only prediction venue registering any of the day's escalation news, but on ~$320 of 24h flow."
  }
 }
