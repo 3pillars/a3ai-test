@@ -1,0 +1,70 @@
+### Hormuz when:1h
+   17 Nov 2026 | Al-Monitor | Iraq and Turkey resume oil flows via pipeline damaged by ISIS: What to know - Al-Monitor
+   17 Nov 2026 | アラブニュース | US attacks Iran’s Qeshm island in Strait of Hormuz: official - アラブニュース
+   17 Nov 2026 | Inquirer.net | US strikes Iranian island in Hormuz after Guards target Bahrain - Inquirer.net
+   17 Nov 2026 | BigGo Finance | Brent Settles at $93.14 as Hormuz Tanker Attacks Offset Surplus Fears - BigGo Finance
+   17 Nov 2026 | X | 🚨🇮🇷 HORMUZ UPDATE: Sirens in Bahrain, tanker on FIRE, and Iran issues new threats Tensions are mounting around the Strait of Hormu
+   17 Nov 2026 | Qazinform | Strait of Hormuz sees 4th tanker fire in 24 hours - Qazinform
+   17 Nov 2026 | TheWire.in | Indian Missing After Repeated Attacks on Oil Tanker in Strait of Hormuz - TheWire.in
+   17 Nov 2026 | Il Sole 24 ORE | Latest news on the war in the Middle East. Israel: the Knesset elects Eisenkot’s staunchest ally as president - Il Sole 24 ORE
+   17 Nov 2026 | Vietnam.vn | Oil prices today, November 18th: Slight recovery due to supply concerns. - Vietnam.vn
+   17 Nov 2026 | The Daily Beast | Trump Launches Fresh Attack Amid Doomsday Fears - The Daily Beast
+   17 Nov 2026 | Arab News | Iraq resumes oil exports through Turkish pipeline after 12-year break - Arab News
+   17 Nov 2026 | Bangkok Post | The global economy after Iran - Bangkok Post
+### Iran oil when:1h
+   17 Nov 2026 | WSJ | Oil Prices Extend Decline After Trump Signals Restraint on Iran - WSJ
+   17 Nov 2026 | NPR | Many Alaska residents rely on oil for heat. This winter is set to be financially hard - NPR
+   17 Nov 2026 | The Washington Post | Iran-backed group warns Iraqi forces against entering its stronghold near Baghdad - The Washington Post
+   17 Nov 2026 | MyNewsLA.com | LA, Orange County Gas Prices at Lowest Amounts Since July - MyNewsLA.com
+   17 Nov 2026 | Nonstop Local News | A 2-month lull ends with Iran’s third strike on US targets in Bahrain, and US retaliation - Nonstop Local News
+   17 Nov 2026 | Hart Energy | US Shale Producers Take a Chance on Going Without Hedges - Hart Energy
+### site:reuters.com Hormuz when:2h
+   17 Nov 2026 | Reuters | At hearing, US Navy chief blasted over Iran war and its toll on sailors - Reuters
+   17 Nov 2026 | Reuters | Eisenkot-led bloc replaces Netanyahu ally as Knesset speaker - Reuters
+   17 Nov 2026 | Reuters | Energean, BP Egypt asset talks stall without government backing, sources say - Reuters
+   17 Nov 2026 | Reuters | US offers conditional up to $2.8 billion loan to Wyoming grid project - Reuters
+### site:wsj.com Iran when:2h
+   17 Nov 2026 | WSJ | Energy &amp; Utilities Roundup: Market Talk - WSJ
+   17 Nov 2026 | WSJ | Russian-Diesel Plan Founders as U.S.-Bound Tankers Change Course - WSJ
+   17 Nov 2026 | WSJ | Top Takeaways From Joe Biden’s New Memoir - WSJ
+   17 Nov 2026 | WSJ | Bessent Urges Nvidia to Pick Outsider as Next CEO - WSJ
+   17 Nov 2026 | WSJ | Opinion | How to End the Male Reading Crisis - WSJ
+   17 Nov 2026 | WSJ | European Defense Chief Snaps at Pentagon Official Over Ukraine Criticism - WSJ
+   17 Nov 2026 | WSJ | U.S. Stocks Fall as AI Doubts Fester - WSJ
+   17 Nov 2026 | WSJ | Nvidia Beats Estimates, Raises Guidance in First Earnings Report After Huang’s Ouster - WSJ
+   17 Nov 2026 | WSJ | Slower Retail Sales Drag on Market - WSJ
+   17 Nov 2026 | WSJ | What Jensen Huang’s Downfall Means for Big Tech - WSJ
+   17 Nov 2026 | WSJ | Nvidia Needs Three CEOs in One - WSJ
+   17 Nov 2026 | WSJ | Opinion | Ukraine’s New Defense Against Russian Drones - WSJ
+### site:apnews.com Iran when:2h
+   17 Nov 2026 | AP News | Nvidia chairman says board does not intend to reinstate Jensen Huang as CEO - AP News
+   17 Nov 2026 | AP News | Israeli parliament elects new Knesset speaker backed by Netanyahu’s opponents - AP News
+   17 Nov 2026 | AP News | Measles is no longer considered eliminated in the US and Mexico - AP News
+   17 Nov 2026 | AP News | Apple joins a parade of technology hiccups in recent days - AP News
+   17 Nov 2026 | AP News | US loses its measles-free status. Here’s how the Trump administration has responded to outbreaks - AP News
+   17 Nov 2026 | AP News | Claims by Netanyahu’s party of a ‘stolen’ Israeli election unravel - AP News
+   17 Nov 2026 | AP News | Do school phone bans help students learn? So far, gains are ‘modest’ - AP News
+   17 Nov 2026 | AP News | 2026 Maryland Midterm Election Results - AP News
+   17 Nov 2026 | AP News | Man gets more than 27 years in US prison for assassination plot that he said was steered from Iran - AP News
+   17 Nov 2026 | AP News | Jensen Huang - AP News
+   17 Nov 2026 | AP News | Caleb Williams is ready to resume the season as the Chicago Bears return from their bye week - AP News
+   17 Nov 2026 | AP News | Aidan Hutchinson’s ACL tear sparks a celebration debate Dan Campbell won’t escalate - AP News
+### Houthi Saudi when:2h
+   17 Nov 2026 | Middle East Eye | Houthis are 'occupying' part of Saudi Arabia, Tucker Carlson says - Middle East Eye
+   17 Nov 2026 | Boston Herald | Saudi-backed forces in Yemen bolster defenses near Aden to deter Houthis, and other Mideast news - Boston Herald
+   17 Nov 2026 | Al-Monitor | Saudi king replaces Yemen commander after setbacks - Al-Monitor
+   17 Nov 2026 | thenationalnews.com | Middle East latest: 21 Indians evacuated following strikes on tanker - thenationalnews.com
+   17 Nov 2026 | Jewish Post and News | Geopolitical Impasse: Saudi Arabia Pushes EU to Designate Houthi Movement as Terrorist Group - Jewish Post and News
+   17 Nov 2026 | San Mateo Daily Journal | IRAN-CRISIS/SAUDI-YEMEN - San Mateo Daily Journal
+   17 Nov 2026 | https://houseofsaud.com/ | Coalition Says 3 Drones Destroyed Over Makkah and Riyadh as Houthis Near Aden - https://houseofsaud.com/
+   17 Nov 2026 | ASHARQ AL-AWSAT English | Coalition Destroys Houthi Drone in Riyadh Region - ASHARQ AL-AWSAT English
+### oil price Brent when:1h
+   17 Nov 2026 | Crude Oil Prices Today | OilPrice.com | Cuba's Energy Crisis Turns Into a Goldmine for U.S. Fuel Exporters - Crude Oil Prices Today | OilPrice.com
+   17 Nov 2026 | FXEmpire | WTI Price Forecast: Bearish Signals Point to Deeper Correction - FXEmpire
+   17 Nov 2026 | The Business Journal | AI stocks lead Wall Street sell-off - The Business Journal
+   17 Nov 2026 | Vietnam.vn | Today's fuel prices (November 18): World oil prices rise slightly. - Vietnam.vn
+   17 Nov 2026 | FXEmpire | Gold (XAU/USD) Price Forecast: Bearish Pressure Builds Below Key Resistance - FXEmpire
+   17 Nov 2026 | FXEmpire | Gold Weekly Forecast: Strong Dollar and Rate Hike Bets Add Pressure - FXEmpire
+   17 Nov 2026 | FXEmpire | Gold (XAUUSD), Silver, Platinum Forecasts – Gold Attempts To Rebound As Dollar Pulls Back - FXEmpire
+   17 Nov 2026 | UrduPoint | U.S. stock indices close sharply lower - UrduPoint
+### UKMTO when:2h

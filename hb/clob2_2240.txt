@@ -1,0 +1,37 @@
+### houthi-x-saudi-arabia-effective-ceasefire-begins-by-20260916
+Q: Houthi x Saudi Arabia effective ceasefire by November 30?
+   bid [(0.05, 279.4), (0.04, 931.71), (0.03, 183.01), (0.02, 2154.84)]
+   ask [(0.06, 291.69), (0.07, 5.69), (0.08, 42.0), (0.1, 27.77)]
+Q: Houthi x Saudi Arabia effective ceasefire by December 31?
+   bid [(0.07, 101.0), (0.06, 100.0), (0.05, 196.2), (0.04, 515.71)]
+   ask [(0.09, 41.99), (0.16, 19.99), (0.25, 40.0), (0.26, 40.0)]
+Q: Houthi x Saudi Arabia effective ceasefire by November 15?
+   bid [(0.01, 1617.26), (0.009, 286.18), (0.001, 80.0)]
+   ask [(0.02, 27.28), (0.021, 26.7), (0.025, 20.0), (0.026, 5.0)]
+### bab-el-mandeb-strait-effectively-closed-by
+Q: Bab el-Mandeb Strait effectively closed by December 31?
+   bid [(0.06, 30470.77), (0.05, 27770.32), (0.04, 4289.12), (0.03, 9294.31)]
+   ask [(0.07, 2919.07), (0.08, 3966.8), (0.09, 644.78), (0.1, 34273.99)]
+Q: Bab el-Mandeb Strait effectively closed by November 30?
+   bid [(0.021, 533.25), (0.02, 1321.15), (0.019, 105.43), (0.016, 281.25)]
+   ask [(0.022, 11483.0), (0.023, 1005.06), (0.024, 207.39), (0.025, 602.56)]
+### us-announces-end-of-iranian-blockade-byptptpt-20260713152715080
+Q: US announces end of Iranian blockade by December 31, 2026?
+   bid [(0.169, 37.96), (0.168, 200.0), (0.167, 1112.25), (0.166, 5367.46)]
+   ask [(0.17, 219.23), (0.171, 200.0), (0.172, 200.0), (0.173, 637.18)]
+Q: US announces end of Iranian blockade by March 31, 2027?
+   bid [(0.53, 24.15), (0.52, 5442.29), (0.51, 4667.56), (0.5, 4169.31)]
+   ask [(0.54, 14186.77), (0.55, 35464.9), (0.56, 11086.87), (0.57, 267.01)]
+Q: US announces end of Iranian blockade by November 30, 2026?
+   bid [(0.049, 3939.48), (0.048, 942.0), (0.047, 22.31), (0.046, 1410.38)]
+   ask [(0.05, 2199.4), (0.051, 1291.82), (0.052, 386.6), (0.053, 398.48)]
+Q: US announces end of Iranian blockade by December 15, 2026?
+   bid [(0.09, 477.04), (0.08, 7865.85), (0.07, 16273.2), (0.06, 4295.3)]
+   ask [(0.1, 1273.01), (0.11, 714.0), (0.12, 1048.64), (0.13, 801.95)]
+### us-iran-hormuz-agreement-byptptpt-20260803235957575
+Q: US-Iran Hormuz Agreement by November 30?
+   bid [(0.046, 276.01), (0.044, 516.6), (0.043, 408.65), (0.042, 1414.99)]
+   ask [(0.047, 324.87), (0.048, 21.59), (0.049, 221.17), (0.05, 793.25)]
+Q: US-Iran Hormuz Agreement by December 31?
+   bid [(0.13, 3816.88), (0.12, 10107.15), (0.11, 56092.49), (0.1, 689304.84)]
+   ask [(0.14, 2484.79), (0.15, 3065.3), (0.16, 13024.94), (0.17, 5488.96)]

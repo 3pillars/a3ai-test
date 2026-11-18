@@ -1,0 +1,5 @@
+== strait-of-hormuz-traffic-returns-to-normal-by-december-31
+   0.04 / 0.05 liq 273973.7158 ltp 0.05 | Strait of Hormuz traffic returns to normal by December 31? | strait-of-hormuz-traffic-returns-to-normal-by-december-31
+   0 / 1 liq 0 ltp 0 | Strait of Hormuz traffic returns to normal by December 15? | strait-of-hormuz-traffic-returns-to-normal-by-december-15-20260721191746747
+== strait-of-hormuz-traffic-returns-to-normal-by-november-30-20260810151158765
+   0.011 / 0.013 liq 193719.88647 ltp 0.013 | Strait of Hormuz traffic returns to normal by November 30? | strait-of-hormuz-traffic-returns-to-normal-by-november-30-20260810151158765

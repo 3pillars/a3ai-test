@@ -1,0 +1,35 @@
+### site:bloomberg.com oil Iran when:2h
+   17 Nov 2026 | Bloomberg.com | Oil Extends Fall on Signs of Revived Supplies and Vance Outlook - Bloomberg.com
+   17 Nov 2026 | Bloomberg.com | US 10-Year Yield Set for Historic Run Above 5% on Fed Rate Cycle - Bloomberg.com
+### Iran ceasefire Hormuz plan when:1h
+   17 Nov 2026 | Il Sole 24 ORE | Latest news on the war in the Middle East. Israel: the Knesset elects Eisenkot’s staunchest ally as president - Il Sole 24 ORE
+### site:cnn.com Iran when:2h
+   17 Nov 2026 | CNN | California DMV bans driverless Waymo vehicles from operating on state freeways - CNN
+   17 Nov 2026 | CNN | US carries out ‘self-defense’ strikes on Iranian missile launch site - CNN
+   17 Nov 2026 | CNN | From #1 to #105: New congress members react to office lottery assignments - CNN
+   17 Nov 2026 | CNN | Mullin’s flight mid-outage - CNN
+   17 Nov 2026 | CNN | Nvidia seeks to reassure investors in first earnings report since Jensen Huang scandal - CNN
+   17 Nov 2026 | CNN | Israel’s parliament elects new Knesset speaker, weakening Netanyahu’s grip on power - CNN
+   17 Nov 2026 | CNN | Paranoid about all of the tech outages? Read this - CNN
+   17 Nov 2026 | CNN | Have you been able to find a seasonal job? - CNN
+   17 Nov 2026 | CNN | Not your parents’ El Niño: What this standout cycle means for you - CNN
+   17 Nov 2026 | CNN | Russian military transport aircraft crashes in Siberia, killing 19, defense ministry says - CNN
+### Saudi Arabia Iran strike when:1h
+Traceback (most recent call last):
+  File "/Users/changjieyang/.openclaw/workspace/hb/news2.py", line 14, in <module>
+    for t,s,p in rss(q)[:10]: print('  ',p[5:16],'|',s,'|',t[:130])
+  File "/Users/changjieyang/.openclaw/workspace/hb/news2.py", line 5, in rss
+    x=urllib.request.urlopen(urllib.request.Request(u,headers=UA),timeout=60).read().decode()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 523, in open
+    response = meth(req, response)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 632, in http_response
+    response = self.parent.error(
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 561, in error
+    return self._call_chain(*args)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 494, in _call_chain
+    result = func(*args)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 641, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 429: Too Many Requests

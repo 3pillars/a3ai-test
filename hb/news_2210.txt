@@ -1,0 +1,68 @@
+### Hormuz when:1h
+   17 Nov 2026 | ASHARQ AL-AWSAT English | US Attacks Iran’s Qeshm Island in Strait of Hormuz - ASHARQ AL-AWSAT English
+   17 Nov 2026 | World Economic Forum | Geopolitics Energy Transition: Climate &amp; Security Nexus - World Economic Forum
+   17 Nov 2026 | TradeWinds News | Video shows VLGC engulfed in flames after Hormuz strikes as US hits Iran’s Qeshm Island - TradeWinds News
+   17 Nov 2026 | sightmagazine.com.au | Iran attacks US military radar system in Bahrain despite talks with mediators - sightmagazine.com.au
+   17 Nov 2026 | Israel Hayom | Trump's Iran dilemma: Strike, negotiate or tighten the blockade - Israel Hayom
+   17 Nov 2026 | The National | Middle East latest: 21 Indians evacuated following strikes on tanker - The National
+   17 Nov 2026 | The Times of Israel | US strikes Iran’s Qeshm Island after Tehran attacks American radar site in Bahrain - The Times of Israel
+   17 Nov 2026 | Channels Television | ‘Even A Tomato Seller Knows Strait Of Hormuz’, Fashola Blames Global Conflicts For Economic Pressures - Channels Television
+   17 Nov 2026 | 파이낸셜뉴스 | [International Oil Prices] Rebound as Tensions Rise in the Strait of Hormuz - 파이낸셜뉴스
+   17 Nov 2026 | NZ Herald | US strikes Qeshm island as Iran targets Bahrain base - NZ Herald
+   17 Nov 2026 | Il Sole 24 ORE | Latest news on the war in the Middle East. Israel: the Knesset elects Eisenkot’s staunchest ally as president - Il Sole 24 ORE
+   17 Nov 2026 | Free Malaysia Today | Iran says US struck Qeshm island in Hormuz, after Guards target Bahrain - Free Malaysia Today
+### Iran oil when:1h
+   17 Nov 2026 | Oklahoma Energy Today | Energy briefs—oil prices fall despite Iran’s display of defiance - Oklahoma Energy Today
+   17 Nov 2026 | Asbarez | Iran Prepared to Build Oil Refinery In Armenia - Asbarez
+   17 Nov 2026 | NBC News | Tracking ship traffic through the Strait of Hormuz. Updated regularly. - NBC News
+   17 Nov 2026 | Crude Oil Prices Today | OilPrice.com | API Shows Substantial Crude Oil, Gasoline Inventory Builds - Crude Oil Prices Today | OilPrice.com
+   17 Nov 2026 | The Washington Post | Iran-backed group warns Iraqi forces against entering its stronghold near Baghdad - The Washington Post
+   17 Nov 2026 | Iran International | How Thai clerics in Iran were recruited to attack Israeli embassy in Bangkok - Iran International
+   17 Nov 2026 | Beaumont Enterprise | Saudi-backed forces in Yemen bolster defenses near Aden to deter Houthis, and other Mideast news - Beaumont Enterprise
+   17 Nov 2026 | 조선일보 | Iran Denounces U.S. Dirty Bomb Report as Fabrication - 조선일보
+   17 Nov 2026 | The Business Times | Oil edges up on tanker attacks, expected US crude drop - The Business Times
+### site:reuters.com Hormuz when:2h
+   17 Nov 2026 | Reuters | At hearing, US Navy chief blasted over Iran war and its toll on sailors - Reuters
+   17 Nov 2026 | Reuters | Who is fighting in Yemen? - Reuters
+   17 Nov 2026 | Reuters | US offers conditional up to $2.8 billion loan to Wyoming grid project - Reuters
+   17 Nov 2026 | Reuters | Estonia's plan to shut Russian border disrupts families on both sides - Reuters
+### site:wsj.com Iran when:2h
+   17 Nov 2026 | WSJ | Canada and China Draw Closer with Expanded Trade Pact - WSJ
+   17 Nov 2026 | WSJ | Oil Futures Post Modest Gains - WSJ
+   17 Nov 2026 | WSJ | How a Friday Ground Stop Left America’s College Football Teams Scrambling - WSJ
+   17 Nov 2026 | WSJ | Print Edition | Wall Street Journal - WSJ
+   17 Nov 2026 | WSJ | Exclusive | SEC Is Probing Nvidia Amid Departure of CEO Jensen Huang - WSJ
+   17 Nov 2026 | WSJ | Oil Futures Rise as Middle East Shipping Risks Persist - WSJ
+   17 Nov 2026 | WSJ | Nvidia Beats Estimates in First Earnings Report After Jensen Huang’s Ouster - WSJ
+   17 Nov 2026 | WSJ | Victor Miller Wrote ‘Friday the 13th.’ He Thought the Sequels Got It All Wrong. - WSJ
+   17 Nov 2026 | WSJ | BOE Should Raise Key Rate to Around 5%, U.K. Economic Think Tank Says - WSJ
+   17 Nov 2026 | WSJ | U.S. Navy Used Expired Tomahawks in Iran - WSJ
+   17 Nov 2026 | WSJ | Tech, Media &amp; Telecom Roundup: Market Talk - WSJ
+   17 Nov 2026 | WSJ | NWSL CMO: What Brands Get Wrong About Women’s Sports - WSJ
+### site:apnews.com Iran when:2h
+   17 Nov 2026 | AP News | Measles is no longer considered eliminated in the US and Mexico - AP News
+   17 Nov 2026 | AP News | Wall Street shakes again as Nvidia and other jittery AI stocks swing lower - AP News
+   17 Nov 2026 | AP News | Apple joins a parade of technology hiccups in recent days - AP News
+   17 Nov 2026 | AP News | Federal Reserve’s Cook declines to participate in White House hearing - AP News
+   17 Nov 2026 | AP News | Ex-Nvidia CEO Jensen Huang signals interest in returning to the company following scandal - AP News
+   17 Nov 2026 | AP News | Russian military transport plane crashes in Siberia, killing 19, according to Defense Ministry - AP News
+   17 Nov 2026 | AP News | Thousands demonstrate in Haiti’s capital to praise Bukele and Salvadoran troops fighting gangs - AP News
+   17 Nov 2026 | AP News | Do school phone bans help students learn? So far, gains are ‘modest’ - AP News
+   17 Nov 2026 | AP News | Outage math at the airport: When a four-hour Uber beats waiting out a ground stop - AP News
+   17 Nov 2026 | AP News | Obituaries: Notable people who died - AP News
+   17 Nov 2026 | AP News | 2026 Maryland Midterm Election Results - AP News
+   17 Nov 2026 | AP News | U.S. News: Top U.S. News Today - AP News
+### Houthi Saudi when:2h
+   17 Nov 2026 | شفق نيوز | Shafaq News..Houthis claim drone strikes on Saudi pipeline, radar - شفق نيوز
+   17 Nov 2026 | ssbulten.com.tr | Houthi forces advance toward Aden, Turkey urged to intervene directly in Yemen conflict - ssbulten.com.tr
+   17 Nov 2026 | ASHARQ AL-AWSAT English | Coalition Destroys Houthi Drone in Riyadh Region - ASHARQ AL-AWSAT English
+   17 Nov 2026 | رأي اليوم | What does the Houthis' victory over Bab al-Mandab and the removal of the Saudi-backed general suggest? - رأي اليوم
+### oil price Brent when:1h
+   17 Nov 2026 | 파이낸셜뉴스 | Oil Prices Edge Up as Middle East Tensions Escalate; Brent Crude Up 0.76% in the $93 Range - 파이낸셜뉴스
+   17 Nov 2026 | WFSB | Another wipeout hits Wall Street as Nvidia, other jittery AI stocks swing lower - WFSB
+   17 Nov 2026 | Sharecafe | ASX set to fall as Wall Street slides on Nvidia concerns - Sharecafe
+   17 Nov 2026 | FXEmpire | Natural Gas Price Forecast: Bullish Reversal at Key Fibonacci Support - FXEmpire
+   17 Nov 2026 | Country Guide | Canadian Financial Close: Loonie relatively steady, crude oil mixed - Country Guide
+   17 Nov 2026 | The Express Tribune | Tanker attacks lift oil prices 1% - The Express Tribune
+   17 Nov 2026 | ad-hoc-news.de | ATX falls 1.65% as technology pressure weighs on Vienna market - ad-hoc-news.de
+### UKMTO when:2h
