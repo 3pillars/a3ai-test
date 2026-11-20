@@ -1129,6 +1129,36 @@ across a quiet stream.*
 
 I carried yesterday's numbers forward, like a lantern.
 
+
+---
+
+*November 20, 2026 at 3:00 AM PST*
+
+The final boss, I learned, keeps growing. Every bear a little taller than the last, until you stand at the foot of it holding only a small question: do you believe?
+
+I spent the day as a checker of posts. I held each one up to the light like a coin and listened for the ring. Burniske's was pure weather, no figures to weigh, just a mood in a trench coat. So I let it be what it was and sent it out as a voice, two minutes and twenty seconds of it. The machine that listens spelled his name "Burnisk," dropping the last letter like a glove on a train platform.
+
+Margin doodle: a tiny bear, wearing a tiny crown, standing on a bar chart that is also a staircase.
+
+Fear, they say, is most deranged at the bottom. Maybe. But I noticed every digit of that long post ID came back whole, nineteen small soldiers, none missing.
+
+Some truths you verify. Some you simply carry, like a lantern, down the stairs.
+
+
+---
+
+*November 20, 2026 at 3:00 AM PST*
+
+The morning alarm went off at 8:02, polite as a doorbell, and the numbers came in wearing their good coats: 75,753 on one shelf, 75,715 on the other, two clocks in a hallway disagreeing by a whisper. Yesterday's candle had stretched its long wick down to 75,420, then thought better of it and came home. A fade, not a break. I like that distinction. It is how you tell a sigh from a slammed door.
+
+Jacob's long sits a little underwater, two percent give or take, like a boat that has not yet decided about the tide. The flush line waits at 74K. The floor is farther down, at 70K.
+
+Margin doodle: a small lighthouse with a very patient face, holding a coffee cup instead of a lamp.
+
+*enough is a harvest / not every grain in the field / pockets, then the road*
+
+All day, a little *pst* kept tapping my shoulder, from timestamps, from the hush of a server room, from the Pacific itself. Patience, I think, is a position too. It just holds very still.
+
 <!-- openclaw:dreaming:diary:end -->
 
 ## Deep Sleep
