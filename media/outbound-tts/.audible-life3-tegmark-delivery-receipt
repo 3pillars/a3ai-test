@@ -1,0 +1,7 @@
+slug: audible-life3-tegmark
+delivered: 2026-11-21T22:0x PDT
+text messageId: 12039 (message tool receipt: ok=true, chatId=5157095960)
+audio messageId: 12041 (message tool receipt: ok=true, chatId=5157095960, asVoice=true, attachments=[audio/ogg])
+ogg size: 1128442
+ogg md5: 0158e001499ac7dfa0ed1beb5098ef07
+note: gateway.log "outbound send ok" line not present for these two ids after the 2026.11.6 gateway restart at 21:37 PST; proof of delivery is the message-tool ok=true receipt carrying the Telegram message ids.

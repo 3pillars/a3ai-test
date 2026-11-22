@@ -1,0 +1,2 @@
+2026-11-21T21:06:00-08:00 DELIVERED messageId=12031
+2026-11-21T21:06:00-08:00 [telegram] outbound send ok accountId=default chatId=5157095960 messageId=12031 operation=sendVoice deliveryKind=voice

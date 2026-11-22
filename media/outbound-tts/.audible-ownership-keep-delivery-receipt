@@ -1,0 +1,4 @@
+2026-11-21T22:39-08:00 DELIVERED messageId=12044 chatId=5157095960 asVoice=true attachments=[audio/ogg]
+text messageId=12043 (written ownership answer, same content)
+ogg size=859722 md5=40e4d573378aca9e274240abb9750227 duration=180.006500s
+whisper large-v3-turbo verified; full-pass dropped 2 segments, slice 62-104s confirmed them present in audio

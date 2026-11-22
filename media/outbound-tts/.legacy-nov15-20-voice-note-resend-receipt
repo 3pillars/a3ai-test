@@ -1,0 +1,47 @@
+2026-11-21T22:53-08:00 LEGACY NOV 15-20 VOICE NOTE RESEND — ALL 13 DELIVERED
+proof: message-tool receipt ok=true + Telegram messageId, chatId=5157095960 (gateway.log records no
+outbound sends after the 21:37 restart, so the message-tool receipt is the receipt on this build)
+
+ 12045 definvestor-watchlist.ogg              1103928 B  md5 42d935e8d1c4a67246d1150939e45d9b
+ 12046 trending-chip-remote-access.ogg        1004861 B  md5 60ded8a565e50ea2325a433cdd58b5f4
+ 12047 balaji-jensen-return.ogg                862131 B  md5 cd7b1bcc3c8b67f3f8a8ce5cfc38b72e
+ 12048 ahluwalia-13f.ogg                       887742 B  md5 f0228d6995ab91b8014638321a9c7fb9
+ 12049 dancho-markitdown.ogg                   940257 B  md5 e58edad82fa8516741a277b4f751e71a
+ 12050 burniske-bear.ogg                       649290 B  md5 6006b1dc5a4b6d31d114fe84e2250826
+ 12051 tegmark-misanthropic.ogg               1170276 B  md5 03f6afcdc5c808be20eb647bac17daee
+ 12052 gromen-ai-debt.ogg                      957084 B  md5 8f778b52440695411f02f26e90461df2
+ 12053 zerohedge-anthropic-letter.ogg          955182 B  md5 d93a2b4c1ba180ed156d3a58f1d785f0
+ 12054 dixon-ftx-anthropic.ogg                 893327 B  md5 ec63a2495a947dc52f33e21402e31fe2
+ 12055 hooeem-botfather.ogg                     841064 B  md5 4f7e7f0a0b03b5d60aec6e895717c6c3
+ 12056 zerohedge-alice-huang-deepseek.ogg      892114 B  md5 35244f394c39080dd22b6aef70cbf52e
+ 12057 persianmacro-nvda-without-jensen.ogg    902483 B  md5 58797cd50ad0da2f3615524e689574e0
+
+asVoice=true, attachments=[audio/ogg], one Telegram voice note per file, no MEDIA: line in any body.
+Audio reused as-is: each .txt was Whisper-verified on its creation day and is unmodified since.
+Not resent (already delivered Nov 17): loukas-stocks-cycle.ogg, messageId 11756, operation=sendAudio.
+
+
+=== VERIFIED 23:05 PST 2026-11-21: attachment args + result pairing ===
+Proof source: agent DB (openclaw-agent.sqlite) copied to /tmp/livechk with WAL applied.
+  trajectory_runtime_events rows = the message-tool CALL arguments
+  transcript_events rows         = the message-tool RESULT payload
+Each of the 13 calls carried: attachments=[{media: outbound-tts/<slug>.ogg,
+mimeType:"audio/ogg", type:"audio"}] + asVoice=true  (0 calls missing any of these)
+Each of the 13 results carried: {"ok":true,"messageId":"<id>","chatId":"5157095960"}
+Chronological pairing (call args -> ok=true result):
+  22:50:05 definvestor-watchlist          -> 12045 ok @22:50:08
+  22:50:20 trending-chip-remote-access    -> 12046 ok @22:50:24
+  22:50:20 balaji-jensen-return           -> 12047 ok @22:50:24
+  22:50:20 ahluwalia-13f                  -> 12048 ok @22:50:24
+  22:50:20 dancho-markitdown              -> 12049 ok @22:50:24
+  22:50:31 burniske-bear                  -> 12050 ok @22:50:35
+  22:50:31 tegmark-misanthropic           -> 12051 ok @22:50:35
+  22:50:31 gromen-ai-debt                 -> 12052 ok @22:50:35
+  22:50:31 zerohedge-anthropic-letter     -> 12053 ok @22:50:35
+  22:50:41 dixon-ftx-anthropic            -> 12054 ok @22:50:45
+  22:50:41 hooeem-botfather               -> 12055 ok @22:50:45
+  22:50:41 zerohedge-alice-huang-deepseek -> 12056 ok @22:50:45
+  22:50:41 persianmacro-nvda-without-jensen -> 12057 ok @22:50:45
+
+NOTE: gateway.log has NO outbound-send receipts after the 21:37 restart (last one is
+messageId=12033 at 21:21). That is a logging gap on this build, NOT a delivery failure.
