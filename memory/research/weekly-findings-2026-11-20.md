@@ -1,3 +1,11 @@
+> ⚠️ **STALE DUPLICATE — SUPERSEDED.** The 2026-11-20 scheduled run wrote a fresh-dated
+> copy of the *prior* week's content (byte-identical to `weekly-findings-2026-11-13.md`,
+> md5 `3890b5088336712ce6247fffe5b9de01`); it never covered Nov 14 → Nov 20.
+> The period it claims to cover (Nov 6 → Nov 13) is actually archived in
+> `weekly-findings-2026-11-13.md`. The corrected edition covering **Nov 14 → Nov 21** is
+> `weekly-findings-2026-11-21.md` (md5 `30174372631bba58ce15917a94df3c03`), written after
+> the 2026-11-21 23:03 repair of the `weekly-research-scan` automation.
+
 # Weekly Research Findings — November 13, 2026
 
 *Coverage window: Nov 6 → Nov 13, 2026. Previous edition: `weekly-findings-2026-11-06.md`.*
