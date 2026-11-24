@@ -1,0 +1,2 @@
+[main/sessions/main/49bf7ac2-a91f-465c-8313-06b49e28f7ab#L11] Assistant: Backup pushed: commit `34ba82db` (1 file changed, 33 insertions) → `origin/main`.
+[main/sessions/main/59d54f76-2523-4e49-a7a7-2676211127f1#L9] Assistant: Model switched from minimax-portal/MiniMax-M2.7 to claude-cli/claude-opus-4-8 (rate_limit).
