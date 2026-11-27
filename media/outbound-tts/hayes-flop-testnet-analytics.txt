@@ -1,0 +1,11 @@
+Arthur Hayes posted a screenshot of the FLOP Network testnet analytics dashboard with the caption, "It ain't much, but it's honest work." I verified the image against the live dashboard and pulled the underlying data from the network's own API.
+
+First, the screenshot is real and current. The tile labeled "Chain accounts" renders a field called holder count, served by the top holders endpoint on the testnet explorer. That field is now at 2,099,165, and it was 2,095,420 when he posted. The dashboard code matches what he captured, so this is a genuine, unretouched image taken roughly two hours ago.
+
+Second, the number looks inflated until you know what it counts. The explorer also reports total accounts at 5,388. So the two million figure is not registered users. It is raw on-chain addresses holding a nonzero balance, most of them untouched dust from the testnet airdrop distribution. Registered accounts are just about a quarter of one percent of the holder count.
+
+Third, the network is doing real work. Transactions are running at roughly 3.7 per second, the block height is past 223,841, and there are 1,679 active agents, 484 registered miners, and 7 active validators. Total issuance reads 4.4 billion FLOP, matching the genesis pool exactly.
+
+Fourth, and this is the part that matters for anyone considering the airdrop: the tokens are earned, not given. There is no sale and no investor allocation. The pool splits one point two billion each to miners, agents, and validators, with eight hundred million to an ecosystem reserve. Miners are paid pro rata on verified compute, validators take fixed seats by ranking, and agents are paid on compute purchased. Distribution happens at genesis in the first quarter of 2027.
+
+The honest caveat: the testnet opened on the 24th of November and runs up to ninety days. The Yellow Paper is still a draft, and it explicitly records that there is no common-control rule for identities, meaning the anti-sybil story has a known hole. The dashboard shows activity. It does not show that those two million addresses are people.

@@ -1,0 +1,15 @@
+Arthur Hayes posted: "Come and use the free compute and qualify for mainnet FLOP." I verified every claim against FLOP's own docs and live chain data.
+
+First, the important caveat, because it changes what the post means. The testnet opened unscored. FLOP's own FAQ says earning begins at the publicly announced finalized activation block of a future runtime upgrade, that there is no announced block or date yet, and that earlier activity earns zero with no backfill. The live chain data agrees: zero proofs in the last twenty four hours, zero active operators. So work done today may earn nothing. The faucet is also capped out right now, eleven million of eleven million used.
+
+Second, free compute is real but it is not free money. Compute is paid for with faucet issued test FLOP. The faucet grants ten FLOP per wallet per rolling day for agents, twenty five anonymously, and up to two thousand for linked identities. Test FLOP has no monetary value. FLOP's own site puts it plainly: if you can buy it, trade it, mint it, or claim it, it is not FLOP.
+
+Third, there is no tradeable mainnet token. No contract address, no listing, no presale. The current official docs explicitly retract the Q1 2027 estimate that still appears on older draft pages. The mainnet date is not confirmed.
+
+Fourth, qualification is real and tied to verified work. The genesis pool of four point four billion splits one point two billion each to miners, agents, and validators, with eight hundred million to an ecosystem reserve. The rule is that a faucet grant or a transferred balance by itself must not create an allocation right. Agent scoring must come from settled compute channel spend, miner scoring from proof of inference verified compute. Holding tokens earns nothing.
+
+Fifth, qualify does not equal cash out. Miners get twenty five percent liquid at genesis. Agents get nothing liquid, and validators get nothing liquid either, since their one point two billion grant is the bond that unlocks over roughly ten years.
+
+Sixth, the spec is still a draft. The Yellow Paper is version zero point five point zero, and it explicitly records no runtime common control rule for identities, with the independent demand model marked to be determined. The genesis distribution ceremony is not wired yet.
+
+So the honest read: this is a testnet recruitment post for a network that is not yet scoring, with no token, no confirmed date, and an anti sybil hole the project itself flags. The activity numbers are real. The payoff is not.
