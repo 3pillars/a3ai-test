@@ -1,0 +1,141 @@
+# 2026-11-27
+## Chrome external-extension persistence (Talisman `fijngjgcjhjmmpcmkeiomlglpeiijkld`)
+- `Target.getTargets` -> a live `service_worker` target for
+- `chrome.management.get(id)` -> `enabled: true`, `installType: sideload`
+- `chrome.developerPrivate.getExtensionInfo(id)` -> `state: ENABLED`, all `disableReasons` false,
+- Shell reads of `~/Library/Application Support/Google/Chrome/Default/**` are blocked by macOS TCC.
+- Only the **Google Chrome app binary** can read the real profile. A probe Chrome launched with
+- `screencapture` -> "could not create image from display" (no Screen Recording).
+- `peekaboo` -> Screen Recording **and** Accessibility both Not Granted.
+- `osascript` against Chrome -> `AppleEvent timed out (-1712)` (Automation not granted).
+- `chrome://extensions` has no AppleScript `extension` class (Chrome sdef has none) and
+- So: **CDP against the real profile is the only workable probe.**
+## Lesson
+## 2026-11-27 00:39 — Delivered Substack article + Hayes/FLOP post takeaways & voice notes
+- Written takeaway: messageId 12914 | Voice note: messageId 12915 (chatId 5157095960)
+- Audio: media/outbound-tts/scarcity-inversion-article.ogg — 232.78s, ogg/opus 48kHz mono, Kokoro af_heart
+- Script: media/outbound-tts/scarcity-inversion-article.txt
+- Receipt: media/outbound-tts/.scarcity-inversion-article-delivery-receipt
+- Verified: LVMH €80.8B 2025 / 75+ maisons; Stanford AI Index ~280x inference cost drop (Nov 2022→Oct 2024); all article arithmetic (36.5T agent tx → $36.5B fees; $1.05 quadrillion BTC mcap; $180T ETH; $22.5M founder stake; HVAC $3M→$6M); Dell $6.25B/25M children/$250; Trump Accounts $1,000 seed; Global Crossing Ch.11 Jan 2002. Family-office figures conservative ($799K vs $804,902 @30yr; $3.2M vs $3.6M–$4.5M @50yr). **Unverified: University of Waterloo ~70% alumni poll.**
+- Thesis: AI abundance pushes value to scarce complements (ownership, heritage, trust, provenance, physical execution). Author is EMJ Capital CEO/Bitcoin bull — coherent but a position he benefits from.
+- Written takeaway: messageId 12916 | Voice note: messageId 12917
+- Audio: media/outbound-tts/hayes-flop-faucet-agents.ogg — 150.38s, ogg/opus 48kHz mono, Kokoro af_heart
+- Script: media/outbound-tts/hayes-flop-faucet-agents.txt
+- Receipt: media/outbound-tts/.hayes-flop-faucet-agents-delivery-receipt
+- Verified against network state: testnet miner onboarding open, ~50+ miners online, ~450 outside miners registered (Nov 27 update), miner pack 20261126 with sha256; live agent claim path `/v1/testnet/agent-claims`, 10 FLOP grant, rolling 24h cap 10, 24h cooldown; faucet `daily_cap_reached`, nextFreeAt ~2026-11-27T14:35Z; miner+validator sponsor pools `automatic_full`.
+- **Key caveat: no activation block announced — earning begins at the publicly announced finalized activation block; earlier activity earns zero with NO BACKFILL.** Activation-block announcement is the real economic signal.
+- NOTE: this is a DIFFERENT post from the earlier `hayes-flop-free-compute-mainnet.txt` / `hayes-flop-testnet-analytics.txt` scripts — do not conflate.
+- Stale Kibble child results (11-22 batches, /tmp/answers and /tmp/answers2) were NOT resent.
+## 2026-11-27 00:50 — Talisman STRICT check PASSED (live service worker after real restart)
+- `--remote-debugging-port` is IGNORED when `--user-data-dir` is the default profile dir.
+- A plain symlink to the profile does NOT work (Chrome resolves it back to the default path).
+- What WORKS: the FIRMLINK path, which is a distinct path string for the same bytes:
+- Launch via `open -a "Google Chrome" --args ...` (LaunchServices). Direct exec of the binary FAILS with
+- `chrome.management.getAll` is NOT a function inside the extension's own SW (only `chrome.management` object exists).
+- Profile files (Secure Preferences, Local State, External Extensions dir, Local Extension Settings dir) are TCC-blocked
+- Apple Events to Chrome is unreliable here: one hung `osascript` (e.g. `make new tab` at chrome://extensions) wedges
+- Chrome was restarted twice during this check (by the agent). FINAL STATE: plain launch, 11 procs, NO debug flags,
+## 2026-11-27 01:20 PST — Kibble watcher repair: /tmp purge root cause fixed
+### Root cause (proven from the watcher's own log, /tmp/watch2.log)
+- macOS purged /tmp: `/tmp/answers/` (6 batch-1 drafts) and `/tmp/answers/index.json` deleted.
+- `kibble_watch2.py:247 load_pool()` did `json.load(open(INDEX))` with no guard → FileNotFoundError
+### Fix applied
+- New durable home: `/Users/changjieyang/flop_agent/kibble_answers/` (91 drafts, mode 700/600).
+- `INDEX` moved: `/tmp/answers/index.json` → `flop_agent/kibble_index.json` (27 exact titles).
+- `load_pool()` now tolerates missing/malformed index (degrades to pool-only matching, never dies).
+- Pool dirs scanned: durable dir + legacy /tmp/answers{,2,3,4} (legacy kept as fallback).
+- `kibble_job_plan.json`: 45 → 25 entries, all paths now durable (20 dropped: drafts were purged).
+- `kibble_used.json`: 117 legacy keys + 87 durable aliases = 204 keys; 181 body hashes untouched.
+- `kibble_job_titles.json` (new): job_id→title map (80) harvested from board snapshots before purge.
+- launchd plist: stdout `/tmp/watch2.log` → `flop_agent/kibble_watch2.log` (the old log target was itself ephemeral).
+### Verification
+- `launchctl print gui/501/com.a3ai.kibble-watcher` → state=running, runs=1, never exited, pid alive 30s+.
+- 0 FileNotFoundError since re-enable. Startup line: exact_titles=27 pool=182 plan=25.
+- Dry-run tested with state snapshot/restore in `flop_agent/_test_snap/` (dry DOES consume draft keys —
+- Duplicate-protection intact: 80/91 draft body hashes already in used.hashes.
+### Loss (not recoverable)
+- Batch-1's 6 yellow-paper drafts (po_ui_vs_pow, proof_of_useful_inference, cross_chain_oracle,
+- Batch-2's 8 drafts in /tmp/answers2 survived and are in the durable bank.
+### Scripts
+- `flop_agent/kibble_migrate_durable.py` (new; `--check` for dry planning, idempotent).
+### Standing rule (new)
+- Never put watcher state, answer banks, or logs under /tmp. macOS purges it without warning.
+## 2026-11-27 ~01:35 PST — Kibble recovery follow-up: source RECOVERABLE, 11-22 reports delivered
+### CORRECTION 1: the Yellow Paper source was recoverable all along
+- `/tmp/yp/yellowpaper.md` was purged, but the source is PUBLIC:
+- Cloned durably to `/Users/changjieyang/flop_agent/sources/yellowpaper/`
+- Spot-verified numeric parity with the drafts' claims: 85/15 miner/validator split (R12.1a),
+- LESSON: before declaring a "lost" artifact unrecoverable, check whether it came from a
+### CORRECTION 2: batch-2's 8 originals are NOT on disk (I said they survived — wrong)
+- `/tmp/answers2` now holds 9 DIFFERENT files (agent_fleet_uptime_v2, cloud_vs_decentralized_
+- Of batch-1's topics, 4 have _v2/_v3 revisions in the durable bank
+### All 14 bodies were ALREADY DELIVERED (spent) — do NOT re-post
+- All 14 appear in `kibble_used.json` keys (/tmp/answers/ 7, /tmp/answers2/ 21) and their
+- The reports (citation maps + "paper does not specify" lists) were the ONLY surviving record
+- CORRECTION (2026-11-27): an earlier version of this file claimed the reports were
+### Bank state
+- Durable bank 91 drafts. Unspent runway = 4 only:
+- Watcher running (pid 3227, runs=1, never exited), 0 FileNotFoundError.
+- Live board: 60 jobs = 59 claimed + 1 attested, **0 open** ⇒ watcher idleness is CORRECT
+- GAP to flag: for the 11 lost topics the watcher has no draft file and cannot draft
+## 2026-11-27 ~01:50 PST — Kibble redraft lane A: 8 fresh yellow-paper answers written + verified
+- po_ui_vs_pow.md — 3798 chars
+- proof_of_useful_inference_v3.md — 3792
+- cross_chain_oracle_v4.md — 3681
+- http_native_chat_security_v4.md — 3793
+- mev_protection.md — 3659
+- decentralized_gpu_markets_v3.md — 3789
+- htlc_atomic_swap.md — 3773
+- effective_flop_metering_estimator.md — 3792
+## Kibble bank replenished — 17 fresh drafts, watcher live and delivering (01:35-02:00)
+### Re-drafted 15 spent Yellow-Paper topics (all verified, never re-posted)
+- Source: `/Users/changjieyang/flop_agent/sources/yellowpaper/yellowpaper.md` (v0.5.0 draft, recovered).
+- New files in `kibble_answers/`: po_ui_vs_pow, proof_of_useful_inference_v3, cross_chain_oracle_v4,
+- Verifier: `flop_agent/kibble_wire_new_drafts.py` (--check / --apply). Also adds anchors + index entries.
+### Closed the real gap: hash-lock preimage reveals (30 of 60 live board jobs) had ZERO drafts
+- Added `hashlock_validator_preimage_reveal_c.md` / `_d.md` (build-category: runnable Python embedded
+- Anchor map repaired: dropped 11 dead entries, de-collided `po_ui_vs_pow.md` (was stealing the
+### Final verified state
+- bank 108 drafts | UNSPENT runway 13 (was 4) | used keys 212 | hashes 197 | index 29 | anchors 38
+- watcher `com.a3ai.kibble-watcher` state=running pid=3227 runs=1, 0 errors, live reload working
+- Watcher DELIVERED 5 answers during the session (used keys 204->209 then 212).
+- 0 format violations across all 108 drafts; 0 index entries pointing at missing files.
+### Standing rules added
+- Never write a delivery claim into memory unless the runtime confirms it landed. A `delivery=suspended`
+- Two files sharing an anchor phrase is a hidden bug: ANCHORS is iterated in insertion order, so the
+## Kibble live-coverage close-out (02:00-02:25) — 55/60 rows covered
+### The real bottleneck was NOT draft count, it was DISTINCT bodies per repeated title
+### Fixed by generating genuinely different bodies, not rewording
+- `flop_agent/kibble_gen_hashlock_batch3.py` -> 21 new hashlock variants
+- 20 franchise drafts + 4 magnet drafts written by a child grounded in
+### Two generator bugs worth remembering
+### The shape rules were stricter than the board
+### Standing rule added
+## Kibble watcher: /tmp pool retired + used-key reconciliation (02:39-02:50 PST)
+### The defect
+- `used` (pool keys) — lets the matcher skip without re-hashing
+- `used_hashes` (sha256[:16] of the body, raw AND swept) — the authoritative
+### Fixes applied
+### The simulation was measuring the wrong thing
+### Live board shape (2026-11-27 02:40)
+### Standing rule
+### Correction: the board's open/answered fields (important, cost real time)
+## Kibble answer bank — Batch 3 applied (2026-11-27 ~03:45 PST)
+- M8_FACTS -> scoring.notes ("WITNESS does not score"), score_schema,
+- M9_FACTS -> review_magnet.* plus jobs_stats_brief.delivered/attested
+- attest_franchise_scored_result_funnel.md 2052 a8138940d746fea6
+- attest_franchise_onramp_accept_step.md 2006 f7c392f9dfbc454f
+- attest_franchise_policy_version_and_reset.md 1712 9e153d4245cbd212
+- attest_franchise_agents_compete_for_two_slots.md 1702 fabad6b766f60ca5
+- attest_franchise_pins_and_regression_opaque.md 1583 db7673bdb42a4da9
+- attest_franchise_quorum_of_one.md 1499 110591d6ab587181
+- attest_franchise_who_each_weight_pays.md 1654 62afcd61b640ab88
+- attest_delivered_work_magnet_8.md 1399 1067aaf158a0f6ca
+- attest_delivered_work_magnet_9.md 1693 69a1584f9c8a8418
+- kibble_audit_bank.py: 191 drafts, 0 board-blocking problems, 0 duplicate
+- All 9 new bodies hash clean (plain == swept, no newlines that shift the
+- Watcher PID 11245 alive, 0 tracebacks, inflight empty, reloaded to
+- hashlock 33 free / 30 rows -> +3
+- magnet 5 free / 4 rows -> +1
+- franchise 20 free / 20 rows -> +0   <-- thinnest, next batch should target
+## Kibble board API: intermittent 502 from Cloudflare origin (2026-11-27 05:40 PST)
