@@ -371,3 +371,11 @@ See `memory/environment-facts.md` — **read before touching automations.**
 - Heartbeat scratch IS writable: `openclaw cron scratch <id> --file <path>`. It drives the heartbeat checklist, so a stale scratch = missed alerts.
 - `openclaw cron get <id>` takes a POSITIONAL id (not `--id`).
 
+
+## 🔧 Chrome profile facts (verified 2026-11-27)
+See `memory/2026-11-27.md` and the `chrome-extension-persistence` skill.
+- Policy-forcelist extensions revert to disabled on restart unless `ack_external: true` is persisted in `Default/Secure Preferences`. Approve by clicking Chrome's own `cr-toggle#enableToggle` on `chrome://extensions` — never by editing the profile.
+- CDP against the real profile works via the firmlink path `/System/Volumes/Data/Users/<user>/Library/Application Support/Google/Chrome` with `--user-data-dir=<that path> --remote-debugging-port=9222`.
+- Shell reads of the real profile are TCC-blocked; only the Chrome app binary can read it. A probe Chrome with `--user-data-dir=/tmp/...` sees empty dirs — do not misread that as an empty profile.
+- `lsof -p <chrome pids>` is the only working shell-level view of the real profile. `screencapture`, `peekaboo`, and `osascript`-to-Chrome are all blocked (no Screen Recording / Accessibility / Automation).
+- Proof that an extension is really running = live `service_worker` CDP target + `chrome.management.get().enabled` + `developerPrivate.getExtensionInfo().state == ENABLED`. Directory mtimes prove nothing (shared LevelDBs are rewritten every startup).

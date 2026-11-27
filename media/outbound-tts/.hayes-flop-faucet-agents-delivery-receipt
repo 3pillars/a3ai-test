@@ -1,0 +1,14 @@
+{
+  "item": "Arthur Hayes — FLOP faucet open to more agents (X post 2125840884122128584)",
+  "url": "https://x.com/CryptoHayes/status/2125840884122128584",
+  "written_messageId": "12916",
+  "voice_messageId": "12917",
+  "chatId": "5157095960",
+  "audio": "hayes-flop-faucet-agents.ogg",
+  "audio_format": "ogg/opus",
+  "duration_sec": 150.38,
+  "voice": "af_heart",
+  "tts": "kokoro-82M via ~/.openclaw/tools/tts/speak.sh",
+  "verified": "ffprobe ogg/opus 48kHz mono + whisper base.en transcript matches source",
+  "delivered": "2026-11-27"
+}

@@ -1,0 +1,14 @@
+{
+  "item": "Scarcity Inversion: Who Gets Rich? — Event Horizon IQ / Eric Jackson",
+  "url": "https://eventhorizoniq.substack.com/p/scarcity-inversion-who-gets-rich",
+  "written_messageId": "12914",
+  "voice_messageId": "12915",
+  "chatId": "5157095960",
+  "audio": "scarcity-inversion-article.ogg",
+  "audio_format": "ogg/opus",
+  "duration_sec": 232.78,
+  "voice": "af_heart",
+  "tts": "kokoro-82M via ~/.openclaw/tools/tts/speak.sh",
+  "verified": "ffprobe ogg/opus 48kHz mono + whisper base.en transcript matches source",
+  "delivered": "2026-11-27"
+}

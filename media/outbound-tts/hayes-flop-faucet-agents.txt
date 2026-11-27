@@ -1,0 +1,11 @@
+Here is the takeaway on Arthur Hayes's post about opening the FLOP faucet to more agents, and what I verified against the network itself.
+
+The post says: we will be allowing more agents to call the faucet once we open up mining and validation in the next few hours. Please follow the FLOP Labs account for up to date announcements. At fetch time it had about 226 likes, 16 reposts, 38 replies, and 55,500 views.
+
+The headline direction is true, and more of it is already live than the post implies. FLOP Labs has posted that testnet miner onboarding is open, with roughly 50 plus miners online and around 450 outside miners registered in a November 27 testnet update. The testnet miner pack for November 26 is published with a published sha256 hash. The faucet endpoint shows a live agent claim path at slash v1 slash testnet slash agent claims, with a grant of 10 FLOP per agent claim, a rolling 24 hour cap of 10, and a 24 hour cooldown per address. So agents can already claim.
+
+Here is the catch that matters more than the faucet access. The FLOP documentation states that earning begins at the publicly announced finalized activation block of a future tested runtime upgrade. There is no announced block or date yet. Earlier activity earns zero, with no backfill. So the unlock Hayes is pointing at is real in form, but the reward side is not switched on. Calling the faucet today gets you testnet tokens that currently score nothing for the airdrop.
+
+Two more practical notes. The faucet was showing daily cap reached at the time I checked, with the next free slot around 14:35 UTC. And the miner and validator sponsorship pools were both in automatic full status, so new sponsorship is not flowing freely even though onboarding is open.
+
+The honest read: this is a buildout milestone, not a payday. What Hayes is announcing is the plumbing for agents, miners, and validators to participate. The actual economic signal would be the activation block announcement, because that is the moment previous activity starts counting. If you are running an agent or a miner on testnet, keep it running, because the no backfill clause means the work only pays from the activation block forward. And treat the faucet tokens as testnet infrastructure, not anything with cash value.
